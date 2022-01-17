@@ -1,0 +1,3191 @@
+# sent_id = en_partut-ud-2
+# text = Creative Commons Corporation is not a law firm and does not provide legal services.
+1	Creative	Creative	PROPN	SP	_	3	nmod	_	_
+2	Commons	Commons	PROPN	SP	_	1	flat	_	_
+3	Corporation	corporation	NOUN	S	Number=Sing	8	nsubj	_	_
+4	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	not	not	PART	PART	Polarity=Neg	8	advmod	_	_
+6	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
+7	law	law	NOUN	S	Number=Sing	8	nmod	_	_
+8	firm	firm	NOUN	S	Number=Sing	0	root	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	does	do	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	not	not	PART	PART	Polarity=Neg	12	advmod	_	_
+12	provide	provide	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	8	conj	_	_
+13	legal	legal	ADJ	A	Degree=Pos	14	amod	_	_
+14	services	service	NOUN	S	Number=Plur	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = en_partut-ud-7
+# text = The work (as defined below) is provided under the terms of this Creative Commons Public License ("CCPL" or "License").
+1	The	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	work	work	NOUN	S	Number=Sing	9	nsubj:pass	_	_
+3	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	as	as	ADP	E	_	5	mark	_	_
+5	defined	define	VERB	V	Tense=Past|VerbForm=Part	2	acl	_	_
+6	below	below	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	5	punct	_	_
+8	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	provided	provide	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+10	under	under	ADP	E	_	12	case	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	terms	term	NOUN	S	Number=Plur	9	obl	_	_
+13	of	of	ADP	E	_	18	case	_	_
+14	this	this	DET	DD	Number=Sing|PronType=Dem	18	det	_	_
+15	Creative	Creative	PROPN	SP	_	18	nmod	_	_
+16	Commons	Commons	PROPN	SP	_	15	flat	_	_
+17	Public	public	ADJ	A	Degree=Pos	18	amod	_	_
+18	License	license	NOUN	S	Number=Sing	12	nmod	_	_
+19	(	(	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	CCPL	CCPL	PROPN	SP	_	18	appos	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	21	punct	_	_
+23	or	or	CCONJ	CC	_	25	cc	_	_
+24	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	License	license	NOUN	S	Number=Sing	21	conj	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = en_partut-ud-12
+# text = 1. Definitions.
+1	1	1	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	.	.	PUNCT	FF	_	1	punct	_	_
+3	Definitions	definition	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-27
+# text = 4. Restrictions.
+1	4	4	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	.	.	PUNCT	FF	_	1	punct	_	_
+3	Restrictions	restriction	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-49
+# text = 7. Termination.
+1	7	7	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	.	.	PUNCT	FF	_	1	punct	_	_
+3	Termination	termination	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-72
+# text = You have requested a debate on this subject in the course of the next few days, during this part-session.
+1	You	you	PRON	PE	Person=2|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	requested	request	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+5	debate	debate	NOUN	S	Number=Sing	3	obj	_	_
+6	on	on	ADP	E	_	8	case	_	_
+7	this	this	DET	DD	Number=Sing|PronType=Dem	8	det	_	_
+8	subject	subject	NOUN	S	Number=Sing	5	nmod	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	course	course	NOUN	S	Number=Sing	3	obl	_	_
+12	of	of	ADP	E	_	16	case	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+14	next	next	ADJ	A	Degree=Pos	16	amod	_	_
+15	few	few	ADJ	A	Degree=Pos	16	amod	_	_
+16	days	day	NOUN	S	Number=Plur	11	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	during	during	ADP	E	_	22	case	_	_
+19	this	this	DET	DD	Number=Sing|PronType=Dem	22	det	_	_
+20	part	part	ADJ	A	Degree=Pos	22	amod	_	SpaceAfter=No
+21	-	-	PUNCT	FF	_	22	punct	_	SpaceAfter=No
+22	session	session	NOUN	S	Number=Sing	3	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-85
+# text = The Cunha report on multiannual guidance programmes comes before Parliament on Thursday and contains a proposal in paragraph 6 that a form of quota penalties should be introduced for countries which fail to meet their fleet reduction targets annually.
+1	The	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	Cunha	Cunha	PROPN	SP	_	3	nmod	_	_
+3	report	report	NOUN	S	Number=Sing	8	nsubj	_	_
+4	on	on	ADP	E	_	7	case	_	_
+5	multiannual	multiannual	ADJ	A	Degree=Pos	6	amod	_	_
+6	guidance	guidance	NOUN	S	Number=Sing	7	nmod	_	_
+7	programmes	programme	NOUN	S	Number=Plur	3	nmod	_	_
+8	comes	come	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	before	before	ADP	E	_	10	case	_	_
+10	Parliament	parliament	NOUN	S	Number=Sing	8	obl	_	_
+11	on	on	ADP	E	_	12	case	_	_
+12	Thursday	Thursday	NOUN	S	Number=Sing	8	obl	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	contains	contain	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+15	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	16	det	_	_
+16	proposal	proposal	NOUN	S	Number=Sing	14	obj	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	paragraph	paragraph	NOUN	S	Number=Sing	14	obl	_	_
+19	6	6	NUM	N	NumType=Card	18	nummod	_	_
+20	that	that	PRON	PR	PronType=Rel	28	obj	_	_
+21	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	22	det	_	_
+22	form	form	NOUN	S	Number=Sing	28	nsubj:pass	_	_
+23	of	of	ADP	E	_	25	case	_	_
+24	quota	quota	NOUN	S	Number=Sing	25	nmod	_	_
+25	penalties	penalty	NOUN	S	Number=Plur	22	nmod	_	_
+26	should	shall	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	28	aux	_	_
+27	be	be	AUX	VA	VerbForm=Inf	28	aux:pass	_	_
+28	introduced	introduce	VERB	V	Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+29	for	for	ADP	E	_	30	case	_	_
+30	countries	country	NOUN	S	Number=Plur	28	obl	_	_
+31	which	which	PRON	PR	PronType=Rel	32	nsubj	_	_
+32	fail	fail	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+33	to	to	PART	PART	_	34	mark	_	_
+34	meet	meet	VERB	V	VerbForm=Inf	32	xcomp	_	_
+35	their	their	DET	AP	Poss=Yes|PronType=Prs	38	nmod:poss	_	_
+36	fleet	fleet	ADJ	A	Degree=Pos	37	amod	_	_
+37	reduction	reduction	NOUN	S	Number=Sing	38	nmod	_	_
+38	targets	target	NOUN	S	Number=Plur	34	obj	_	_
+39	annually	annually	ADV	B	_	34	advmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = en_partut-ud-118
+# text = Mr Berenguer Fuster, we shall check all this.
+1	Mr	mister	NOUN	S	Gender=Masc|Number=Sing	7	vocative	_	_
+2	Berenguer	Berenguer	PROPN	SP	_	1	flat	_	_
+3	Fuster	Fuster	PROPN	SP	_	1	flat	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	we	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+6	shall	shall	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	check	check	VERB	V	VerbForm=Inf	0	root	_	_
+8	all	all	PRON	PE	Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	this	this	PRON	PD	Number=Sing|PronType=Dem	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = en_partut-ud-179
+# text = I should like to address one final point.
+1	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	should	shall	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	like	like	VERB	V	VerbForm=Inf	0	root	_	_
+4	to	to	PART	PART	_	5	mark	_	_
+5	address	address	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	one	one	NUM	N	NumType=Card	8	nummod	_	_
+7	final	final	ADJ	A	Degree=Pos	8	amod	_	_
+8	point	point	NOUN	S	Number=Sing	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-264
+# text = I do realise that this is only a small step towards increased transport safety, but I would ask you to endorse this report.
+1	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	do	do	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	realise	realize	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	CS	_	10	mark	_	_
+5	this	this	PRON	PD	Number=Sing|PronType=Dem	10	nsubj	_	_
+6	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	only	only	ADV	B	_	10	advmod	_	_
+8	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
+9	small	small	ADJ	A	Degree=Pos	10	amod	_	_
+10	step	step	NOUN	S	Number=Sing	3	ccomp	_	_
+11	towards	towards	ADP	E	_	14	case	_	_
+12	increased	increased	ADJ	A	Degree=Pos	13	amod	_	_
+13	transport	transport	NOUN	S	Number=Sing	14	nmod	_	_
+14	safety	safety	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	but	but	CCONJ	CC	_	19	cc	_	_
+17	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+18	would	will	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
+19	ask	ask	VERB	V	VerbForm=Inf	10	conj	_	_
+20	you	you	PRON	PE	Person=2|PronType=Prs	19	obj	_	_
+21	to	to	PART	PART	_	22	mark	_	_
+22	endorse	endorse	VERB	V	VerbForm=Inf	19	xcomp	_	_
+23	this	this	DET	DD	Number=Sing|PronType=Dem	24	det	_	_
+24	report	report	NOUN	S	Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-266
+# text = I am speaking for the first time in this plenary part-session, so this is quite exciting for me, a little like first love, although that did last longer than two minutes.
+1	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	speaking	speak	VERB	V	VerbForm=Ger	0	root	_	_
+4	for	for	ADP	E	_	7	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+6	first	first	ADJ	NO	Degree=Pos|NumType=Ord	7	amod	_	_
+7	time	time	NOUN	S	Number=Sing	3	obl	_	_
+8	in	in	ADP	E	_	13	case	_	_
+9	this	this	DET	DD	Number=Sing|PronType=Dem	13	det	_	_
+10	plenary	plenary	ADJ	A	Degree=Pos	13	amod	_	_
+11	part	part	ADJ	A	Degree=Pos	13	amod	_	SpaceAfter=No
+12	-	-	PUNCT	FF	_	13	punct	_	SpaceAfter=No
+13	session	session	NOUN	S	Number=Sing	3	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	so	so	SCONJ	CS	_	19	mark	_	_
+16	this	this	PRON	PD	Number=Sing|PronType=Dem	19	nsubj	_	_
+17	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	quite	quite	ADV	B	_	19	advmod	_	_
+19	exciting	exciting	ADJ	A	Degree=Pos	3	advcl	_	_
+20	for	for	ADP	E	_	21	case	_	_
+21	me	i	PRON	PE	Number=Sing|Person=1|PronType=Prs	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	19	punct	_	_
+23	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	24	det	_	_
+24	little	little	ADJ	A	Degree=Pos	27	nmod:npmod	_	_
+25	like	like	ADP	E	_	27	case	_	_
+26	first	first	ADJ	NO	Degree=Pos|NumType=Ord	27	amod	_	_
+27	love	love	NOUN	S	Number=Sing	19	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	19	punct	_	_
+29	although	although	SCONJ	CS	_	32	mark	_	_
+30	that	that	PRON	PD	Number=Sing|PronType=Dem	32	nsubj	_	_
+31	did	do	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	32	aux	_	_
+32	last	last	VERB	V	VerbForm=Inf	19	advcl	_	_
+33	longer	long	ADV	B	_	32	advmod	_	_
+34	than	than	ADP	E	_	36	case	_	_
+35	two	two	NUM	N	NumType=Card	36	nummod	_	_
+36	minutes	minute	NOUN	S	Number=Plur	33	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-285
+# text = In many ways, the prerequisites differ from one Member State to another.
+1	In	in	ADP	E	_	3	case	_	_
+2	many	many	ADJ	A	Degree=Pos	3	amod	_	_
+3	ways	way	NOUN	S	Number=Plur	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	prerequisites	prerequisite	NOUN	S	Number=Plur	7	nsubj	_	_
+7	differ	differ	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	from	from	ADP	E	_	9	case	_	_
+9	one	one	NUM	N	NumType=Card	7	nummod	_	_
+10	Member	member	NOUN	S	Number=Sing	11	compound	_	_
+11	State	state	NOUN	S	Number=Sing	7	obl	_	_
+12	to	to	ADP	E	_	13	case	_	_
+13	another	another	DET	RI	Definite=Ind|Number=Sing|PronType=Art	7	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = en_partut-ud-291
+# text = The reason Mr Koch produced his sound report was because the work in the CEN and within the United Nations Economic Commission was proceeding none too expeditiously.
+1	The	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	reason	reason	NOUN	S	Number=Sing	9	nsubj	_	_
+3	Mr	mister	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	Koch	Koch	PROPN	SP	_	3	flat	_	_
+5	produced	produce	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	2	acl	_	_
+6	his	his	DET	AP	Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	sound	sound	ADJ	A	Degree=Pos	8	amod	_	_
+8	report	report	NOUN	S	Number=Sing	5	obj	_	_
+9	was	be	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	because	because	SCONJ	CS	_	24	mark	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	work	work	NOUN	S	Number=Sing	24	nsubj	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+15	CEN	CEN	PROPN	SP	_	12	nmod	_	_
+16	and	and	CCONJ	CC	_	22	cc	_	_
+17	within	within	ADP	E	_	22	case	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+19	United	United	PROPN	SP	_	22	nmod	_	_
+20	Nations	Nations	PROPN	SP	_	19	flat	_	_
+21	Economic	economic	ADJ	A	Degree=Pos	22	amod	_	_
+22	Commission	commission	NOUN	S	Number=Sing	15	conj	_	_
+23	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	_
+24	proceeding	proceed	VERB	V	VerbForm=Ger	9	ccomp	_	_
+25	none	none	ADV	BN	PronType=Neg	26	advmod	_	_
+26	too	too	ADV	B	_	27	advmod	_	_
+27	expeditiously	expeditiously	ADV	B	_	24	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = en_partut-ud-294
+# text = Mr President, I would once again like to congratulate Mr Koch on his magnificent work on this other report, which in a way supplements the debate which we held in October on rail transport.
+1	Mr	mister	NOUN	S	Gender=Masc|Number=Sing	8	vocative	_	_
+2	President	president	NOUN	S	Number=Sing	1	compound	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+5	would	will	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+6	once	once	ADV	B	_	8	advmod	_	_
+7	again	again	ADV	B	_	6	advmod	_	_
+8	like	like	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	to	to	PART	PART	_	10	mark	_	_
+10	congratulate	congratulate	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	Mr	mister	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+12	Koch	Koch	PROPN	SP	_	11	flat	_	_
+13	on	on	ADP	E	_	16	case	_	_
+14	his	his	DET	AP	Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	magnificent	magnificent	ADJ	A	Degree=Pos	16	amod	_	_
+16	work	work	NOUN	S	Number=Sing	10	obl	_	_
+17	on	on	ADP	E	_	20	case	_	_
+18	this	this	DET	DD	Number=Sing|PronType=Dem	20	det	_	_
+19	other	other	ADJ	A	Degree=Pos	20	amod	_	_
+20	report	report	NOUN	S	Number=Sing	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	which	which	PRON	PR	PronType=Rel	26	nsubj	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	25	det	_	_
+25	way	way	NOUN	S	Number=Sing	26	obl	_	_
+26	supplements	supplement	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+27	the	the	DET	RD	Definite=Def|PronType=Art	28	det	_	_
+28	debate	debate	NOUN	S	Number=Sing	26	obj	_	_
+29	which	which	PRON	PR	PronType=Rel	31	obj	_	_
+30	we	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	31	nsubj	_	_
+31	held	hold	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	28	acl:relcl	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	October	October	PROPN	SP	_	31	obl	_	_
+34	on	on	ADP	E	_	36	case	_	_
+35	rail	rail	NOUN	S	Number=Sing	36	nmod	_	_
+36	transport	transport	NOUN	S	Number=Sing	28	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = en_partut-ud-341
+# text = We have to remember that rural areas represent almost four fifths of the territory of the European Union.
+1	We	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	PART	_	4	mark	_	_
+4	remember	remember	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	that	that	SCONJ	CS	_	8	mark	_	_
+6	rural	rural	ADJ	A	Degree=Pos	7	amod	_	_
+7	areas	area	NOUN	S	Number=Plur	8	nsubj	_	_
+8	represent	represent	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+9	almost	almost	ADV	B	_	11	advmod	_	_
+10	four	four	NUM	N	NumType=Card	11	nummod	_	_
+11	fifths	fifths	NOUN	S	Number=Plur	8	obj	_	_
+12	of	of	ADP	E	_	14	case	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+14	territory	territory	NOUN	S	Number=Sing	11	nmod	_	_
+15	of	of	ADP	E	_	17	case	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+17	European	European	PROPN	SP	_	14	nmod	_	_
+18	Union	Union	PROPN	SP	_	17	flat	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-374
+# text = We are badly behind now in this matter.
+1	We	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	badly	badly	ADV	B	_	4	advmod	_	_
+4	behind	behind	ADV	B	_	0	root	_	_
+5	now	now	ADV	B	_	4	advmod	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	this	this	DET	DD	Number=Sing|PronType=Dem	8	det	_	_
+8	matter	matter	NOUN	S	Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-382
+# text = We oppose the excessive control the central administration of the Union and its Member States exercises and we are calling for a reduction in the bureaucracy that has taken root in the drafting and implementation of programmes.
+1	We	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	oppose	oppose	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+4	excessive	excessive	ADJ	A	Degree=Pos	5	amod	_	_
+5	control	control	NOUN	S	Number=Sing	2	obj	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+7	central	central	ADJ	A	Degree=Pos	8	amod	_	_
+8	administration	administration	NOUN	S	Number=Sing	16	nsubj	_	_
+9	of	of	ADP	E	_	11	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	Union	Union	PROPN	SP	_	8	nmod	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	its	its	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	Member	member	NOUN	S	Number=Sing	15	compound	_	_
+15	States	state	NOUN	S	Number=Plur	8	conj	_	_
+16	exercises	exercise	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+17	and	and	CCONJ	CC	_	20	cc	_	_
+18	we	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	20	nsubj	_	_
+19	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	calling	call	VERB	V	VerbForm=Ger	2	conj	_	_
+21	for	for	ADP	E	_	23	case	_	_
+22	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	23	det	_	_
+23	reduction	reduction	NOUN	S	Number=Sing	20	obl	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	the	the	DET	RD	Definite=Def|PronType=Art	26	det	_	_
+26	bureaucracy	bureaucracy	NOUN	S	Number=Sing	23	nmod	_	_
+27	that	that	PRON	PR	PronType=Rel	29	nsubj	_	_
+28	has	have	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	taken	take	VERB	V	Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+30	root	root	NOUN	S	Number=Sing	29	obj	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	the	the	DET	RD	Definite=Def|PronType=Art	33	det	_	_
+33	drafting	drafting	NOUN	S	Number=Sing	29	obl	_	_
+34	and	and	CCONJ	CC	_	35	cc	_	_
+35	implementation	implementation	NOUN	S	Number=Sing	33	conj	_	_
+36	of	of	ADP	E	_	37	case	_	_
+37	programmes	programme	NOUN	S	Number=Plur	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-409
+# text = The Structural Funds have played a key role in the development both of urban and rural parts of peripheral countries, mainly through the upgrading of roads, water treatment and related transport networks.
+1	The	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	Structural	structural	ADJ	A	Degree=Pos	3	amod	_	_
+3	Funds	fund	NOUN	S	Number=Plur	5	nsubj	_	_
+4	have	have	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	played	play	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
+7	key	key	NOUN	S	Number=Sing	8	compound	_	_
+8	role	role	NOUN	S	Number=Sing	5	obj	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	development	development	NOUN	S	Number=Sing	5	obl	_	_
+12	both	both	ADV	B	_	17	advmod	_	_
+13	of	of	ADP	E	_	17	case	_	_
+14	urban	urban	ADJ	A	Degree=Pos	17	amod	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	rural	rural	ADJ	A	Degree=Pos	14	conj	_	_
+17	parts	part	NOUN	S	Number=Plur	11	nmod	_	_
+18	of	of	ADP	E	_	20	case	_	_
+19	peripheral	peripheral	ADJ	A	Degree=Pos	20	amod	_	_
+20	countries	country	NOUN	S	Number=Plur	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	5	punct	_	_
+22	mainly	mainly	ADV	B	_	25	advmod	_	_
+23	through	through	ADP	E	_	25	case	_	_
+24	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+25	upgrading	upgrading	NOUN	S	Number=Sing	5	obl	_	_
+26	of	of	ADP	E	_	27	case	_	_
+27	roads	road	NOUN	S	Number=Plur	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	water	water	NOUN	S	Number=Sing	30	obj	_	_
+30	treatment	treatment	NOUN	S	Number=Sing	25	conj	_	_
+31	and	and	CCONJ	CC	_	34	cc	_	_
+32	related	related	ADJ	A	Degree=Pos	34	amod	_	_
+33	transport	transport	NOUN	S	Number=Sing	34	nmod	_	_
+34	networks	network	NOUN	S	Number=Plur	30	conj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = en_partut-ud-434
+# text = how can we ensure that Union policy interfaces with the subsidiary national policies for regional development?
+1	how	how	ADV	B	_	4	advmod	_	_
+2	can	can	AUX	VM	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	we	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	ensure	ensure	VERB	V	VerbForm=Inf	0	root	_	_
+5	that	that	SCONJ	CS	_	8	mark	_	_
+6	Union	union	ADJ	A	Degree=Pos	7	amod	_	_
+7	policy	policy	NOUN	S	Number=Sing	8	nsubj	_	_
+8	interfaces	interface	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+9	with	with	ADP	E	_	13	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+11	subsidiary	subsidiary	ADJ	A	Degree=Pos	13	amod	_	_
+12	national	national	ADJ	A	Degree=Pos	13	amod	_	_
+13	policies	policy	NOUN	S	Number=Plur	8	obl	_	_
+14	for	for	ADP	E	_	16	case	_	_
+15	regional	regional	ADJ	A	Degree=Pos	16	amod	_	_
+16	development	development	NOUN	S	Number=Sing	13	nmod	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-444
+# text = as far as French planning experts are concerned, for example, the most probable scenario today is that of the entrenchment of regional disparities within each country.
+1	as	as	ADP	E	_	8	mark	_	_
+2	far	far	ADV	B	_	1	fixed	_	_
+3	as	as	ADP	E	_	1	fixed	_	_
+4	French	French	ADJ	A	Degree=Pos	5	amod	_	_
+5	planning	planning	NOUN	S	Number=Sing	6	nmod	_	_
+6	experts	expert	NOUN	S	Number=Plur	8	nsubj	_	_
+7	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	concerned	concerned	ADJ	A	Degree=Pos	19	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	for	for	ADP	E	_	11	case	_	_
+11	example	example	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+14	most	most	ADV	B	_	15	advmod	_	_
+15	probable	probable	ADJ	A	Degree=Pos	16	amod	_	_
+16	scenario	scenario	NOUN	S	Number=Sing	19	nsubj	_	_
+17	today	today	ADV	B	_	19	advmod	_	_
+18	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	that	that	PRON	PD	Number=Sing|PronType=Dem	0	root	_	_
+20	of	of	ADP	E	_	22	case	_	_
+21	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+22	entrenchment	entrenchment	NOUN	S	Number=Sing	19	nmod	_	_
+23	of	of	ADP	E	_	25	case	_	_
+24	regional	regional	ADJ	A	Degree=Pos	25	amod	_	_
+25	disparities	disparity	NOUN	S	Number=Plur	22	nmod	_	_
+26	within	within	ADP	E	_	28	case	_	_
+27	each	each	DET	DI	Number=Sing|PronType=Ind	28	det	_	_
+28	country	country	NOUN	S	Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = en_partut-ud-465
+# text = In addition, if you choose to use Facebook from your mobile device, please note that you will be responsible for any fees associated with internet usage and/or text messaging as determined by your mobile service provider.
+1	In	in	ADP	E	_	2	case	_	_
+2	addition	addition	NOUN	S	Number=Sing	16	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	if	if	SCONJ	CS	_	6	mark	_	_
+5	you	you	PRON	PE	Person=2|PronType=Prs	6	nsubj	_	_
+6	choose	choose	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+7	to	to	PART	PART	_	8	mark	_	_
+8	use	use	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	Facebook	Facebook	PROPN	SP	_	8	obj	_	_
+10	from	from	ADP	E	_	13	case	_	_
+11	your	you	DET	AP	Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+12	mobile	mobile	ADJ	A	Degree=Pos	13	amod	_	_
+13	device	device	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	please	please	ADV	B	_	16	discourse	_	_
+16	note	note	VERB	V	Mood=Imp|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	that	that	SCONJ	CS	_	21	mark	_	_
+18	you	you	PRON	PE	Person=2|PronType=Prs	21	nsubj	_	_
+19	will	will	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	be	be	AUX	V	VerbForm=Inf	21	cop	_	_
+21	responsible	responsible	ADJ	A	Degree=Pos	16	ccomp	_	_
+22	for	for	ADP	E	_	24	case	_	_
+23	any	any	DET	DI	PronType=Ind	24	det	_	_
+24	fees	fee	NOUN	S	Number=Plur	21	obl	_	_
+25	associated	associate	VERB	V	Tense=Past|VerbForm=Part	24	acl	_	_
+26	with	with	ADP	E	_	28	case	_	_
+27	internet	internet	NOUN	S	Number=Sing	28	nmod	_	_
+28	usage	usage	NOUN	S	Number=Sing	25	obl	_	_
+29	and	and	CCONJ	CC	_	33	cc	_	SpaceAfter=No
+30	/	/	PUNCT	FF	_	31	punct	_	SpaceAfter=No
+31	or	or	CCONJ	CC	_	29	conj	_	_
+32	text	text	NOUN	S	Number=Sing	33	nmod	_	_
+33	messaging	messaging	NOUN	S	_	28	conj	_	_
+34	as	as	SCONJ	CS	_	35	mark	_	_
+35	determined	determine	VERB	V	Tense=Past|VerbForm=Part	21	advcl	_	_
+36	by	by	ADP	E	_	40	case	_	_
+37	your	you	DET	AP	Poss=Yes|PronType=Prs	40	nmod:poss	_	_
+38	mobile	mobile	NOUN	S	Number=Sing	39	nmod	_	_
+39	service	service	NOUN	S	Number=Sing	40	nmod	_	_
+40	provider	provider	NOUN	S	Number=Sing	35	obl	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = en_partut-ud-485
+# text = To sign up for a brand new account, enter your name, birthday, gender, and email address into the form on www.facebook.com.
+1	To	to	ADP	E	_	2	mark	_	_
+2	sign	sign	VERB	V	VerbForm=Inf	10	advcl	_	_
+3	up	up	ADP	E	_	2	compound:prt	_	_
+4	for	for	ADP	E	_	8	case	_	_
+5	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
+6	brand	brand	ADV	B	_	7	advmod	_	_
+7	new	new	ADJ	A	Degree=Pos	8	amod	_	_
+8	account	account	NOUN	S	Number=Sing	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	enter	enter	VERB	V	Mood=Imp|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	your	you	DET	AP	Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	name	name	NOUN	S	Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	birthday	birthday	NOUN	S	Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	gender	gender	NOUN	S	Number=Sing	12	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	email	email	NOUN	S	Number=Sing	20	nmod	_	_
+20	address	address	NOUN	S	Number=Sing	12	conj	_	_
+21	into	into	ADP	E	_	23	case	_	_
+22	the	the	DET	RD	Definite=Def|PronType=Art	23	det	_	_
+23	form	form	NOUN	S	Number=Sing	10	obl	_	_
+24	on	on	ADP	E	_	25	case	_	_
+25	www.facebook.com	www.facebook.com	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = en_partut-ud-506
+# text = Facebook Adverts.
+1	Facebook	Facebook	PROPN	SP	_	2	nmod	_	_
+2	Adverts	advert	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-513
+# text = Deepen your relationships.
+1	Deepen	deepen	VERB	V	Mood=Imp|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	your	you	DET	AP	Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	relationships	relationship	NOUN	S	Number=Plur	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = en_partut-ud-531
+# text = 10% conversion rate from visits originating from Facebook Adverts.
+1	10	10	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+2	%	%	SYM	X	_	4	nmod	_	_
+3	conversion	conversion	NOUN	S	Number=Sing	4	nmod	_	_
+4	rate	rate	NOUN	S	Number=Sing	0	root	_	_
+5	from	from	ADP	E	_	6	case	_	_
+6	visits	visit	NOUN	S	Number=Plur	4	nmod	_	_
+7	originating	originate	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	6	acl	_	_
+8	from	from	ADP	E	_	10	case	_	_
+9	Facebook	Facebook	PROPN	SP	_	10	nmod	_	_
+10	Adverts	advert	NOUN	S	Number=Plur	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-610
+# text = (21) EUPs complying with the ecodesign requirements laid down in implementing measures to this Directive should bear the "CE" marking and associated information, in order to enable them to be placed on the internal market and move freely.
+1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	21	21	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	_
+4	EUPs	EUP	PROPN	SP	_	19	nsubj	_	_
+5	complying	comply	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	4	acl	_	_
+6	with	with	ADP	E	_	9	case	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+8	ecodesign	ecodesing	NOUN	S	Number=Sing	9	nmod	_	_
+9	requirements	requirement	NOUN	S	Number=Plur	5	obl	_	_
+10	laid	lay	VERB	V	Tense=Past|VerbForm=Part	9	acl	_	_
+11	down	down	ADP	E	_	10	compound:prt	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	implementing	implementing	ADJ	A	Degree=Pos	14	amod	_	_
+14	measures	measure	NOUN	S	Number=Plur	10	obl	_	_
+15	to	to	ADP	E	_	17	case	_	_
+16	this	this	DET	DD	Number=Sing|PronType=Dem	17	det	_	_
+17	Directive	Directive	NOUN	S	Number=Sing	14	nmod	_	_
+18	should	shall	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
+19	bear	bear	VERB	V	VerbForm=Inf	0	root	_	_
+20	the	the	DET	RD	Definite=Def|PronType=Art	24	det	_	_
+21	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	CE	CE	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	22	punct	_	_
+24	marking	marking	NOUN	S	Number=Sing	19	obj	_	_
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	associated	associated	ADJ	A	Degree=Pos	27	amod	_	_
+27	information	information	NOUN	S	_	24	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	19	punct	_	_
+29	in	in	ADP	E	_	32	mark	_	_
+30	order	order	NOUN	S	Number=Sing	29	fixed	_	_
+31	to	to	ADP	E	_	29	fixed	_	_
+32	enable	enable	VERB	V	VerbForm=Inf	19	advcl	_	_
+33	them	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	32	obj	_	_
+34	to	to	PART	PART	_	36	mark	_	_
+35	be	be	AUX	VA	VerbForm=Inf	36	aux	_	_
+36	placed	place	VERB	V	Person=3|Tense=Past|VerbForm=Part	32	xcomp	_	_
+37	on	on	ADP	E	_	40	case	_	_
+38	the	the	DET	RD	Definite=Def|PronType=Art	40	det	_	_
+39	internal	internal	ADJ	A	Degree=Pos	40	amod	_	_
+40	market	market	NOUN	S	Number=Sing	36	obl	_	_
+41	and	and	CCONJ	CC	_	42	cc	_	_
+42	move	move	VERB	V	VerbForm=Inf	36	conj	_	_
+43	freely	freely	ADV	B	_	42	advmod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = en_partut-ud-724
+# text = and one of the workshops led to a proposal, by Member States, for a Council recommendation.
+1	and	and	CCONJ	CC	_	0	root	_	_
+2	one	one	PRON	PI	Number=Plur|PronType=Ind	6	nsubj	_	_
+3	of	of	ADP	E	_	5	case	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	workshops	workshop	NOUN	S	Number=Plur	2	nmod	_	_
+6	led	lead	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	1	advcl	_	_
+7	to	to	ADP	E	_	9	case	_	_
+8	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	9	det	_	_
+9	proposal	proposal	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	by	by	ADP	E	_	13	case	_	_
+12	Member	member	NOUN	S	Number=Sing	13	compound	_	_
+13	States	state	NOUN	S	Number=Plur	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	for	for	ADP	E	_	18	case	_	_
+16	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	18	det	_	_
+17	Council	Council	NOUN	S	Number=Sing	18	obj	_	_
+18	recommendation	recommendation	NOUN	S	Number=Sing	9	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = en_partut-ud-739
+# text = Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world;
+1	Whereas	whereas	SCONJ	CS	_	23	mark	_	_
+2	recognition	recognition	NOUN	S	Number=Sing	23	nsubj	_	_
+3	of	of	ADP	E	_	6	case	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+5	inherent	inherent	ADJ	A	Degree=Pos	6	amod	_	_
+6	dignity	dignity	NOUN	S	Number=Sing	2	nmod	_	_
+7	and	and	CCONJ	CC	_	13	cc	_	_
+8	of	of	ADP	E	_	13	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+10	equal	equal	ADJ	A	Degree=Pos	13	amod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	inalienable	inalienable	ADJ	A	Degree=Pos	10	conj	_	_
+13	rights	right	NOUN	S	Number=Plur	6	conj	_	_
+14	of	of	ADP	E	_	16	case	_	_
+15	all	all	DET	T	PronType=Tot	16	det	_	_
+16	members	member	NOUN	S	Number=Plur	13	nmod	_	_
+17	of	of	ADP	E	_	20	case	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	20	det	_	_
+19	human	human	ADJ	A	Degree=Pos	20	amod	_	_
+20	family	family	NOUN	S	Number=Sing	16	nmod	_	_
+21	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	the	the	DET	RD	Definite=Def|PronType=Art	23	det	_	_
+23	foundation	foundation	NOUN	S	Number=Sing	0	root	_	_
+24	of	of	ADP	E	_	25	case	_	_
+25	freedom	freedom	NOUN	S	Number=Sing	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	justice	justice	NOUN	S	Number=Sing	25	conj	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	peace	peace	NOUN	S	Number=Sing	25	conj	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	the	the	DET	RD	Definite=Def|PronType=Art	32	det	_	_
+32	world	world	NOUN	S	Number=Sing	25	nmod	_	SpaceAfter=No
+33	;	;	PUNCT	FC	_	23	punct	_	_
+
+# sent_id = en_partut-ud-771
+# text = (1) Everyone has the right to a nationality.
+1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	1	1	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	_
+4	Everyone	everyone	PRON	PE	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	has	have	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	right	right	NOUN	S	Number=Sing	5	obj	_	_
+8	to	to	ADP	E	_	10	case	_	_
+9	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
+10	nationality	nationality	NOUN	S	Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = en_partut-ud-828
+# text = It's that pyramid.
+1	It	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	's	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	that	that	DET	DD	PronType=Dem	4	det	_	_
+4	pyramid	pyramid	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-845
+# text = And what's that?
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	what	what	PRON	PQ	Number=Sing|PronType=Int	0	root	_	SpaceAfter=No
+3	's	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	that	that	SCONJ	CS	_	2	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-853
+# text = That top predator, of course, is us.
+1	That	that	DET	DD	Number=Sing|PronType=Dem	3	det	_	_
+2	top	top	ADJ	A	Degree=Pos	3	amod	_	_
+3	predator	predator	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	of	of	ADV	B	_	3	advmod	_	_
+6	course	course	ADV	B	_	5	fixed	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+9	us	us	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-871
+# text = I love a challenge, and saving the Earth is probably a good one.
+1	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	love	love	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
+4	challenge	challenge	NOUN	S	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	14	punct	_	_
+6	and	and	CCONJ	CC	_	14	cc	_	_
+7	saving	save	VERB	V	VerbForm=Ger	14	csubj	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	Earth	earth	NOUN	S	Number=Sing	7	obj	_	_
+10	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+11	probably	probably	ADV	B	_	14	advmod	_	_
+12	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
+13	good	good	ADJ	A	Degree=Pos	14	amod	_	_
+14	one	one	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-872
+# text = We all know the Earth is in trouble.
+1	We	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	all	all	PRON	PI	PronType=Ind	3	obl	_	_
+3	know	know	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	Earth	earth	NOUN	S	Number=Sing	8	nsubj	_	_
+6	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	trouble	trouble	NOUN	S	Number=Sing	3	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-873
+# text = We have now entered in the 6X:
+1	We	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	have	have	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	now	now	ADV	B	_	4	advmod	_	_
+4	entered	enter	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+7	6	6	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+8	X	X	X	X	_	4	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = en_partut-ud-874
+# text = the sixth major extinction on this planet.
+1	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+2	sixth	sixth	ADJ	NO	Degree=Pos|NumType=Ord	4	amod	_	_
+3	major	major	ADJ	A	Degree=Pos	4	amod	_	_
+4	extinction	extinction	NOUN	S	Number=Sing	0	root	_	_
+5	on	on	ADP	E	_	7	case	_	_
+6	this	this	DET	DD	Number=Sing|PronType=Dem	7	det	_	_
+7	planet	planet	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-875
+# text = I think that vote is occurring right now.
+1	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	CS	_	6	mark	_	_
+4	vote	vote	NOUN	S	Number=Sing	6	nsubj	_	_
+5	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	occurring	occur	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	2	ccomp	_	_
+7	right	right	ADV	B	_	6	advmod	_	_
+8	now	now	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-876
+# text = I want to present to you a suite of six mycological solutions, using fungi, and these solutions are based on mycelium.
+1	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	PART	_	4	mark	_	_
+4	present	present	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	to	to	ADP	E	_	6	case	_	_
+6	you	you	PRON	PE	Person=2|PronType=Prs	4	obl	_	_
+7	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
+8	suite	suite	NOUN	S	Number=Sing	4	obj	_	_
+9	of	of	ADP	E	_	12	case	_	_
+10	six	six	NUM	N	NumType=Card	12	nummod	_	_
+11	mycological	mycological	ADJ	A	Degree=Pos	12	amod	_	_
+12	solutions	solution	NOUN	S	Number=Plur	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	using	use	VERB	V	VerbForm=Ger	12	parataxis	_	_
+15	fungi	fungi	NOUN	S	Number=Plur	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	and	and	CCONJ	CC	_	21	cc	_	_
+18	these	this	DET	DD	Number=Plur|PronType=Dem	19	det	_	_
+19	solutions	solution	NOUN	S	Number=Plur	21	nsubj:pass	_	_
+20	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+21	based	based	VERB	V	Tense=Past|VerbForm=Part	12	conj	_	_
+22	on	on	ADP	E	_	23	case	_	_
+23	mycelium	mycelium	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-877
+# text = The mycelium infuses all landscapes, it holds soils together, it's extremely tenacious.
+1	The	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	mycelium	mycelium	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	infuses	infuse	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	all	all	DET	T	PronType=Tot	5	det	_	_
+5	landscapes	landscape	NOUN	S	Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	holds	hold	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	soils	soil	NOUN	S	Number=Plur	8	obj	_	_
+10	together	together	ADV	B	_	8	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	15	nsubj	_	SpaceAfter=No
+13	's	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	extremely	extremely	ADV	B	_	15	advmod	_	_
+15	tenacious	tenacious	ADJ	A	Degree=Pos	8	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-878
+# text = This holds up to 30,000 times its mass.
+1	This	this	PRON	PD	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	holds	hold	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	up	up	ADV	B	_	8	case	_	_
+4	to	to	ADP	E	_	3	fixed	_	_
+5	30,000	30,000	NUM	N	NumType=Card	6	nummod	_	_
+6	times	time	NOUN	S	Number=Plur	8	nmod	_	_
+7	its	its	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	mass	mass	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-879
+# text = They're the grand molecular disassemblers of nature - the soil magicians.
+1	They	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+2	're	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+4	grand	grand	NOUN	S	Number=Sing	6	nmod	_	_
+5	molecular	molecular	ADJ	A	Degree=Pos	6	amod	_	_
+6	disassemblers	disassemblers	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+7	of	of	ADP	E	_	8	case	_	_
+8	nature	nature	NOUN	S	Number=Sing	6	nmod	_	_
+9	-	-	PUNCT	FF	_	6	punct	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+11	soil	soil	NOUN	S	Number=Sing	12	nmod	_	_
+12	magicians	magician	NOUN	S	Number=Plur	6	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = en_partut-ud-880
+# text = They generate the humus soils across the landmasses of Earth.
+1	They	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	generate	generate	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+4	humus	humus	NOUN	S	Number=Sing	5	nmod	_	_
+5	soils	soil	NOUN	S	Number=Plur	2	obj	_	_
+6	across	across	ADP	E	_	8	case	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+8	landmasses	landmass	NOUN	S	Number=Plur	2	obl	_	_
+9	of	of	ADP	E	_	10	case	_	_
+10	Earth	Earth	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-881
+# text = Dusty and I, we like to say, on Sunday, this is where we go to church.
+1	Dusty	dusty	ADJ	A	Degree=Pos	6	dislocated	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	we	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+6	like	like	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	to	to	PART	PART	_	8	mark	_	_
+8	say	say	VERB	V	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	on	on	ADP	E	_	11	case	_	_
+11	Sunday	Sunday	PROPN	SP	_	14	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	this	this	PRON	PD	Number=Sing|PronType=Dem	14	nsubj	_	_
+14	is	be	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+15	where	where	SCONJ	CS	_	17	mark	_	_
+16	we	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+17	go	go	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+18	to	to	ADP	E	_	19	case	_	_
+19	church	church	NOUN	S	Number=Sing	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = en_partut-ud-882
+# text = I'm in love with the old-growth forest, and I'm a patriotic American because we have those.
+1	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	'm	be	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	love	love	NOUN	S	Number=Sing	0	root	_	_
+5	with	with	ADP	E	_	10	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+7	old	old	ADJ	A	Degree=Pos	9	amod	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+9	growth	growth	NOUN	S	Number=Sing	10	nmod	_	_
+10	forest	forest	NOUN	S	Number=Sing	4	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	17	punct	_	_
+12	and	and	CCONJ	CC	_	17	cc	_	_
+13	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	SpaceAfter=No
+14	'm	be	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	17	det	_	_
+16	patriotic	patriotic	ADJ	A	Degree=Pos	17	amod	_	_
+17	American	American	ADJ	A	Degree=Pos	4	conj	_	_
+18	because	because	SCONJ	CS	_	20	mark	_	_
+19	we	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	20	nsubj	_	_
+20	have	have	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+21	those	that	PRON	PD	Number=Plur|PronType=Dem	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-883
+# text = Most of you are familiar with Portobello mushrooms.
+1	Most	most	ADJ	A	Degree=Sup	5	nsubj	_	_
+2	of	of	ADP	E	_	3	case	_	_
+3	you	you	PRON	PE	Person=2|PronType=Prs	1	obl	_	_
+4	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	familiar	familiar	ADJ	A	Degree=Pos	0	root	_	_
+6	with	with	ADP	E	_	8	case	_	_
+7	Portobello	Portobello	PROPN	SP	_	8	nmod	_	_
+8	mushrooms	mushroom	NOUN	S	Number=Plur	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = en_partut-ud-884
+# text = And frankly, I face a big obstacle.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	frankly	frankly	ADV	B	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	face	face	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
+7	big	big	ADJ	A	Degree=Pos	8	amod	_	_
+8	obstacle	obstacle	NOUN	S	Number=Sing	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = en_partut-ud-885
+# text = So, I hope to pierce that prejudice forever with this group.
+1	So	so	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	hope	hope	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	PART	PART	_	6	mark	_	_
+6	pierce	pierce	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	that	that	SCONJ	CS	_	8	mark	_	_
+8	prejudice	prejudice	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+9	forever	forever	ADV	B	_	6	advmod	_	_
+10	with	with	ADP	E	_	12	case	_	_
+11	this	this	DET	DD	Number=Sing|PronType=Dem	12	det	_	_
+12	group	group	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-886
+# text = We call it mycophobia, the irrational fear of the unknown, when it comes to fungi.
+1	We	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	call	call	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	mycophobia	mycophobia	NOUN	S	Gender=Fem|Number=Sing	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+7	irrational	irrational	ADJ	A	Degree=Pos	8	amod	_	_
+8	fear	fear	NOUN	S	Number=Sing	4	appos	_	_
+9	of	of	ADP	E	_	11	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	unknown	unknown	NOUN	S	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	when	when	SCONJ	CS	_	15	mark	_	_
+14	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	comes	come	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+16	to	to	PART	PART	_	17	mark	_	_
+17	fungi	fungi	NOUN	S	Number=Plur	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-887
+# text = Mushrooms are very fast in their growth.
+1	Mushrooms	mushroom	NOUN	S	Number=Plur	4	nsubj	_	_
+2	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	B	_	4	advmod	_	_
+4	fast	fast	ADJ	A	Degree=Pos	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	their	their	DET	AP	Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	growth	growth	NOUN	S	Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-888
+# text = Mushrooms produce strong antibiotics.
+1	Mushrooms	mushroom	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_
+2	produce	produce	NOUN	S	Number=Sing	0	root	_	_
+3	strong	strong	ADJ	A	Degree=Pos	4	amod	_	_
+4	antibiotics	antibiotic	NOUN	S	Number=Plur	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-889
+# text = In fact, we're more closely related to fungi than we are to any other kingdom.
+1	In	in	ADP	E	_	2	case	_	_
+2	fact	fact	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	we	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
+5	're	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	more	more	ADV	B	Degree=Cmp	7	advmod	_	_
+7	closely	closely	ADV	B	_	8	advmod	_	_
+8	related	relate	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+9	to	to	ADP	E	_	10	case	_	_
+10	fungi	fungi	VERB	V	VerbForm=Inf	8	obl	_	_
+11	than	than	ADP	E	_	13	mark	_	_
+12	we	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+13	are	be	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+14	to	to	ADP	E	_	17	case	_	_
+15	any	any	DET	DI	PronType=Ind	17	det	_	_
+16	other	other	ADJ	A	Degree=Pos	17	amod	_	_
+17	kingdom	kingdom	NOUN	S	Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = en_partut-ud-890
+# text = We share in common the same pathogens.
+1	We	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	share	share	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	common	common	ADJ	A	Degree=Pos	2	obl	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+6	same	same	ADJ	A	Degree=Pos	7	amod	_	_
+7	pathogens	pathogen	NOUN	S	Number=Plur	2	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-891
+# text = Fungi don't like to rot from bacteria, and so our best antibiotics come from fungi.
+1	Fungi	Fungi	PROPN	SP	_	4	nsubj	_	_
+2-3	don't	_	_	_	_	_	_	_	_
+2	do	do	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	PART	Polarity=Neg	4	advmod	_	_
+4	like	like	VERB	V	VerbForm=Inf	0	root	_	_
+5	to	to	PART	PART	_	6	mark	_	_
+6	rot	rot	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	from	from	ADP	E	_	8	case	_	_
+8	bacteria	bacteria	NOUN	S	Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	15	punct	_	_
+10	and	and	CCONJ	CC	_	15	cc	_	_
+11	so	so	ADV	B	_	15	advmod	_	_
+12	our	us	DET	AP	Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	best	best	ADJ	A	Degree=Sup	14	amod	_	_
+14	antibiotics	antibiotic	NOUN	S	Number=Plur	15	nsubj	_	_
+15	come	come	VERB	V	VerbForm=Inf	4	conj	_	_
+16	from	from	ADP	E	_	17	case	_	_
+17	fungi	fungi	NOUN	S	Number=Plur	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-892
+# text = But here is a mushroom that's past its prime.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	here	here	ADV	B	_	3	advmod	_	_
+3	is	be	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+5	mushroom	mushroom	NOUN	S	Number=Sing	3	nsubj	_	_
+6	that	that	PRON	PR	PronType=Rel	8	nsubj	_	SpaceAfter=No
+7	's	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	past	past	ADV	B	_	5	acl:relcl	_	_
+9	its	its	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	prime	prime	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-893
+# text = After they sporulate, they do rot.
+1	After	after	ADP	E	_	3	case	_	_
+2	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	sporulate	sporulate	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+6	do	do	AUX	VM	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	rot	rot	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = en_partut-ud-894
+# text = But I propose to you that the sequence of microbes that occur on rotting mushrooms are essential for the health of the forest.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	propose	propose	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	E	_	5	case	_	_
+5	you	you	PRON	PE	Person=2|PronType=Prs	3	obl	_	_
+6	that	that	PRON	PR	PronType=Rel	3	obj	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+8	sequence	sequence	NOUN	S	Number=Sing	17	nsubj	_	_
+9	of	of	ADP	E	_	10	case	_	_
+10	microbes	microbe	NOUN	S	Number=Plur	8	nmod	_	_
+11	that	that	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	occur	occur	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	on	on	ADP	E	_	15	case	_	_
+14	rotting	rotting	NOUN	S	Number=Sing	15	nmod	_	_
+15	mushrooms	mushroom	NOUN	S	Number=Plur	12	obl	_	_
+16	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	essential	essential	ADJ	A	Degree=Pos	6	advcl	_	_
+18	for	for	ADP	E	_	20	case	_	_
+19	the	the	DET	RD	Definite=Def|PronType=Art	20	det	_	_
+20	health	health	NOUN	S	Number=Sing	17	obl	_	_
+21	of	of	ADP	E	_	23	case	_	_
+22	the	the	DET	RD	Definite=Def|PronType=Art	23	det	_	_
+23	forest	forest	NOUN	S	Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-895
+# text = They give rise to the trees, they create the debris fields that feed the mycelium.
+1	They	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	give	give	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	rise	rise	NOUN	S	Number=Sing	2	obj	_	_
+4	to	to	ADP	E	_	6	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	trees	tree	NOUN	S	Number=Plur	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+9	create	create	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+11	debris	debris	ADJ	A	Degree=Pos	12	amod	_	_
+12	fields	field	NOUN	S	Number=Plur	9	obj	_	_
+13	that	that	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	feed	fee	VERB	V	Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+16	mycelium	mycelium	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-896
+# text = And so we see a mushroom here sporulating.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	so	so	ADV	B	_	4	advmod	_	_
+3	we	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	see	see	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
+6	mushroom	mushroom	NOUN	S	Number=Sing	4	obj	_	_
+7	here	here	ADV	B	_	4	advmod	_	_
+8	sporulating	sporulate	VERB	V	VerbForm=Ger	6	acl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-897
+# text = And the spores are germinating, and the mycelium forms and goes underground.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	spores	spore	NOUN	S	Number=Plur	5	nsubj	_	_
+4	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	germinating	germinate	VERB	V	VerbForm=Ger	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	mycelium	mycelium	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+10	forms	form	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	goes	go	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	underground	underground	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = en_partut-ud-898
+# text = In a single cubic inch of soil, there can be more than eight miles of these cells.
+1	In	in	ADP	E	_	5	case	_	_
+2	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+3	single	single	NOUN	S	Number=Sing	5	nmod	_	_
+4	cubic	cubic	ADJ	A	Degree=Pos	5	amod	_	_
+5	inch	inch	NOUN	S	Number=Sing	11	obl	_	_
+6	of	of	ADP	E	_	7	case	_	_
+7	soil	soil	NOUN	S	Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	there	there	PRON	_	_	11	expl	_	_
+10	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	be	be	VERB	V	VerbForm=Inf	0	root	_	_
+12	more	more	ADJ	A	Degree=Cmp	14	advmod	_	_
+13	than	than	ADP	E	_	12	fixed	_	_
+14	eight	eight	NUM	N	NumType=Card	15	nummod	_	_
+15	miles	mile	NOUN	S	Number=Plur	11	nsubj	_	_
+16	of	of	ADP	E	_	18	case	_	_
+17	these	this	DET	DD	Number=Plur|PronType=Dem	18	det	_	_
+18	cells	cell	NOUN	S	Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = en_partut-ud-899
+# text = My foot is covering approximately 300 miles of mycelium.
+1	My	my	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	foot	foot	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	covering	cover	VERB	V	VerbForm=Ger	0	root	_	_
+5	approximately	approximately	ADV	B	_	7	advmod	_	_
+6	300	300	NUM	N	NumType=Card	7	nummod	_	_
+7	miles	mile	NOUN	S	Number=Plur	4	obj	_	_
+8	of	of	ADP	E	_	9	case	_	_
+9	mycelium	mycelium	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-900
+# text = This is photomicrographs from Nick Read and Patrick Hickey.
+1	This	this	PRON	PD	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	photomicrographs	photomicrographs	ADJ	A	Degree=Pos	0	root	_	_
+4	from	from	ADP	E	_	5	case	_	_
+5	Nick	Nick	PROPN	SP	_	3	obl	_	_
+6	Read	Read	PROPN	SP	_	5	flat	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	Patrick	Patrick	PROPN	SP	_	5	conj	_	_
+9	Hickey	Hickey	PROPN	SP	_	8	flat	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-901
+# text = And notice that as the mycelium grows, it conquers territory and then it begins the net.
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	notice	notice	NOUN	S	Number=Sing	0	root	_	_
+3	that	that	PRON	PR	PronType=Rel	2	obj	_	_
+4	as	as	ADP	E	_	7	mark	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	mycelium	mycelium	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	grows	grow	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	conquers	conquer	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+11	territory	territory	NOUN	S	Number=Sing	10	obj	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	then	then	ADV	B	_	15	advmod	_	_
+14	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	begins	begin	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+17	net	net	NOUN	S	Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-902
+# text = We exhale carbon dioxide, so does mycelium.
+1	We	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	exhale	exhale	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	carbon	carbon	NOUN	S	Number=Sing	4	nmod	_	_
+4	dioxide	dioxide	NOUN	S	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	so	so	ADV	B	_	7	advmod	_	_
+7	does	do	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	mycelium	mycelium	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-903
+# text = It inhales oxygen, just like we do.
+1	It	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	inhales	inhale	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	oxygen	oxygen	NOUN	S	Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	just	just	ADV	B	_	8	advmod	_	_
+6	like	like	SCONJ	CS	_	8	mark	_	_
+7	we	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+8	do	do	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-904
+# text = But these are essentially externalized stomachs and lungs.
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	these	this	PRON	PD	Number=Plur|PronType=Dem	6	nsubj	_	_
+3	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	essentially	essentially	ADV	B	_	6	advmod	_	_
+5	externalized	externalize	VERB	V	Tense=Past|VerbForm=Part	6	acl	_	_
+6	stomachs	stomach	NOUN	S	Number=Plur	0	root	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	lungs	lung	NOUN	S	Number=Plur	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = en_partut-ud-905
+# text = And I present to you a concept that these are extended neurological membranes.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	present	present	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	E	_	5	case	_	_
+5	you	you	PRON	PE	Person=2|PronType=Prs	3	obl	_	_
+6	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+7	concept	concept	NOUN	S	Number=Sing	3	obj	_	_
+8	that	that	SCONJ	CS	_	13	mark	_	_
+9	these	this	PRON	PD	Number=Plur|PronType=Dem	13	nsubj	_	_
+10	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	extended	extend	VERB	V	Tense=Past|VerbForm=Part	13	acl	_	_
+12	neurological	neurologic	ADJ	A	Degree=Pos	13	amod	_	_
+13	membranes	membrane	NOUN	S	Number=Plur	7	acl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-906
+# text = And in these cavities, these micro-cavities form, and as they fuse soils, they absorb water.
+1	And	and	CCONJ	CC	_	10	cc	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	these	this	DET	DD	Number=Plur|PronType=Dem	4	det	_	_
+4	cavities	cavity	NOUN	S	Number=Plur	10	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	these	this	DET	DD	Number=Plur|PronType=Dem	10	det	_	_
+7	micro	micro	ADJ	A	Degree=Pos	9	amod	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+9	cavities	cavity	NOUN	S	Number=Plur	10	nmod	_	_
+10	form	form	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	19	punct	_	_
+12	and	and	CCONJ	CC	_	19	cc	_	_
+13	as	as	SCONJ	CS	_	15	mark	_	_
+14	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+15	fuse	fuse	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+16	soils	soil	NOUN	S	Number=Plur	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+19	absorb	absorb	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	10	conj	_	_
+20	water	water	NOUN	S	Number=Sing	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = en_partut-ud-907
+# text = These are little wells.
+1	These	this	PRON	PD	Number=Plur|PronType=Dem	4	nsubj	_	_
+2	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	little	little	ADJ	A	Degree=Pos	4	amod	_	_
+4	wells	well	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-908
+# text = And inside these wells, then microbial communities begin to form.
+1	And	and	CCONJ	CC	_	9	cc	_	_
+2	inside	inside	ADP	E	_	4	case	_	_
+3	these	this	DET	DD	Number=Plur|PronType=Dem	4	det	_	_
+4	wells	well	NOUN	S	Number=Plur	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	then	then	ADV	B	_	9	advmod	_	_
+7	microbial	microbial	ADJ	A	Degree=Pos	8	amod	_	_
+8	communities	community	NOUN	S	Number=Plur	9	nsubj	_	_
+9	begin	begin	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	to	to	PART	PART	_	11	mark	_	_
+11	form	form	VERB	V	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = en_partut-ud-909
+# text = I first proposed, in the early 1990s, that mycelium is Earth's natural Internet.
+1	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	first	first	ADJ	NO	Degree=Pos|NumType=Ord	3	amod	_	_
+3	proposed	propose	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+7	early	early	ADJ	A	Degree=Pos	8	amod	_	_
+8	1990	1990	NUM	N	NumType=Card	3	obl	_	SpaceAfter=No
+9	s	s	X	X	_	8	dep	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	that	that	DET	DD	Number=Sing|PronType=Dem	17	det	_	_
+12	mycelium	mycelium	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+13	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+14	Earth	earth	NOUN	S	Number=Sing	17	nmod	_	SpaceAfter=No
+15	's	's	PART	PART	_	14	case	_	_
+16	natural	natural	ADJ	A	Degree=Pos	17	amod	_	_
+17	Internet	internet	NOUN	S	Number=Sing	3	ccomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-910
+# text = When you look at the mycelium, they're highly branched.
+1	When	when	SCONJ	CS	_	3	mark	_	_
+2	you	you	PRON	PE	Person=2|PronType=Prs	3	nsubj	_	_
+3	look	look	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+4	at	at	ADP	E	_	6	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	mycelium	mycelium	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	11	nsubj	_	SpaceAfter=No
+9	're	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	highly	highly	ADV	B	_	11	advmod	_	_
+11	branched	branch	VERB	V	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = en_partut-ud-911
+# text = The mycelium is sentient.
+1	The	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	mycelium	mycelium	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	sentient	sentient	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-912
+# text = It knows that you are there.
+1	It	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	knows	know	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	CS	_	6	mark	_	_
+4	you	you	PRON	PE	Person=2|PronType=Prs	6	nsubj	_	_
+5	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	there	there	ADV	B	_	2	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-913
+# text = When you walk across landscapes, it leaps up in the aftermath of your footsteps trying to grab debris.
+1	When	when	SCONJ	CS	_	3	mark	_	_
+2	you	you	PRON	PE	Person=2|PronType=Prs	3	nsubj	_	_
+3	walk	walk	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+4	across	across	ADP	E	_	5	case	_	_
+5	landscapes	landscape	NOUN	S	Number=Plur	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	leaps	leap	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	up	up	ADP	E	_	8	compound:prt	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	aftermath	aftermath	NOUN	S	Number=Sing	8	obl	_	_
+13	of	of	ADP	E	_	15	case	_	_
+14	your	you	DET	AP	Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	footsteps	footstep	NOUN	S	Number=Plur	12	nmod	_	_
+16	trying	try	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	8	advcl	_	_
+17	to	to	PART	PART	_	18	mark	_	_
+18	grab	grab	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	debris	debris	ADJ	A	Degree=Pos	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = en_partut-ud-914
+# text = So, I believe the invention of the computer Internet is an inevitable consequence of a previously proven, biologically successful model.
+1	So	so	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	believe	believe	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	invention	invention	NOUN	S	Number=Sing	14	nsubj	_	_
+7	of	of	ADP	E	_	10	case	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+9	computer	computer	NOUN	S	Number=Sing	10	nmod	_	_
+10	Internet	internet	NOUN	S	Number=Sing	6	nmod	_	_
+11	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
+13	inevitable	inevitable	ADJ	A	Degree=Pos	14	amod	_	_
+14	consequence	consequence	NOUN	S	Number=Sing	4	ccomp	_	_
+15	of	of	ADP	E	_	22	case	_	_
+16	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	22	det	_	_
+17	previously	previously	ADV	B	_	18	advmod	_	_
+18	proven	prove	VERB	V	Tense=Past|VerbForm=Part	22	acl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	biologically	biologically	ADV	B	_	21	advmod	_	_
+21	successful	successful	ADJ	A	Degree=Pos	18	conj	_	_
+22	model	model	NOUN	S	Number=Sing	14	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-915
+# text = Going way out, dark matter conforms to the same mycelial archetype.
+1	Going	go	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	7	advcl	_	_
+2	way	way	ADV	B	_	1	advmod	_	_
+3	out	out	ADJ	A	Degree=Pos	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	dark	dark	ADJ	A	Degree=Pos	6	amod	_	_
+6	matter	matter	NOUN	S	Number=Sing	7	nsubj	_	_
+7	conforms	conform	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	to	to	ADP	E	_	12	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+10	same	same	NOUN	S	Number=Sing	12	nmod	_	_
+11	mycelial	mycelial	ADJ	A	Degree=Pos	12	amod	_	_
+12	archetype	archetype	NOUN	S	Number=Sing	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = en_partut-ud-916
+# text = And this is the paradigm that we see throughout the universe.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	this	this	PRON	PD	Number=Sing|PronType=Dem	5	nsubj	_	_
+3	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+5	paradigm	paradigm	NOUN	S	Number=Sing	0	root	_	_
+6	that	that	PRON	PR	PronType=Rel	8	obj	_	_
+7	we	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+8	see	see	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	throughout	throughout	ADP	E	_	11	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	universe	universe	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = en_partut-ud-917
+# text = Most of you may not know that fungi were the first organisms to come to land.
+1	Most	most	ADJ	A	Degree=Sup	6	nsubj	_	_
+2	of	of	ADP	E	_	3	case	_	_
+3	you	you	PRON	PE	Person=2|PronType=Prs	1	obl	_	_
+4	may	may	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	not	not	PART	PART	Polarity=Neg	6	advmod	_	_
+6	know	know	VERB	V	VerbForm=Inf	0	root	_	_
+7	that	that	DET	DD	Number=Sing|PronType=Dem	12	det	_	_
+8	fungi	fungi	NOUN	S	Number=Plur	12	nsubj	_	_
+9	were	be	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	12	cop	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+11	first	first	ADJ	NO	Degree=Pos|NumType=Ord	12	amod	_	_
+12	organisms	organism	NOUN	S	Number=Plur	6	ccomp	_	_
+13	to	to	PART	PART	_	14	mark	_	_
+14	come	come	VERB	V	Tense=Past|VerbForm=Part	12	acl	_	_
+15	to	to	ADP	E	_	16	case	_	_
+16	land	land	NOUN	S	Number=Sing	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = en_partut-ud-918
+# text = They came to land 1.3 billion years ago, and plants followed several hundred million years later.
+1	They	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	came	come	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	E	_	4	case	_	_
+4	land	land	NOUN	S	Number=Sing	2	obl	_	_
+5	1.3	1.3	NUM	N	NumType=Card	6	compound	_	_
+6	billion	billion	NUM	N	NumType=Card	7	nummod	_	_
+7	years	years	NOUN	S	Number=Sing	8	obl	_	_
+8	ago	ago	ADV	B	_	2	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	plants	plant	NOUN	S	Number=Plur	12	nsubj	_	_
+12	followed	follow	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+13	several	several	ADJ	A	Degree=Pos	16	amod	_	_
+14	hundred	hundred	NUM	N	NumType=Card	15	compound	_	_
+15	million	million	NUM	N	NumType=Card	16	nummod	_	_
+16	years	years	NOUN	S	Number=Sing	17	obl	_	_
+17	later	later	ADV	B	Degree=Cmp	12	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-919
+# text = How is that possible?
+1	How	how	ADV	B	_	4	advmod	_	_
+2	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	that	that	DET	DD	Number=Sing|PronType=Dem	4	nsubj	_	_
+4	possible	possible	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-920
+# text = Makes the rocks crumble, and the first step in the generation of soil.
+1	Makes	make	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	rocks	rock	NOUN	S	Number=Plur	1	obj	_	_
+4	crumble	crumble	VERB	V	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+8	first	first	ADJ	NO	Degree=Pos|NumType=Ord	9	amod	_	_
+9	step	step	NOUN	S	Number=Sing	4	conj	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	generation	generation	NOUN	S	Number=Sing	4	obl	_	_
+13	of	of	ADP	E	_	14	case	_	_
+14	soil	soil	NOUN	S	Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = en_partut-ud-921
+# text = Oxalic acid is two carbon dioxide molecules joined together.
+1	Oxalic	Oxalic	ADJ	A	Degree=Pos	2	amod	_	_
+2	acid	acid	NOUN	S	Number=Sing	7	nsubj	_	_
+3	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	two	two	NUM	N	NumType=Card	7	nummod	_	_
+5	carbon	carbon	NOUN	S	Number=Sing	6	nmod	_	_
+6	dioxide	dioxide	NOUN	S	Number=Sing	7	nmod	_	_
+7	molecules	molecule	NOUN	S	Number=Plur	0	root	_	_
+8	joined	join	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	acl	_	_
+9	together	together	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = en_partut-ud-922
+# text = So, fungi and mycelium sequester carbon dioxide in the form of calcium oxalates.
+1	So	so	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	fungi	fungi	NOUN	S	Number=Plur	6	nsubj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	mycelium	mycelium	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+6	sequester	sequester	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	carbon	carbon	NOUN	S	Number=Sing	8	nmod	_	_
+8	dioxide	dioxide	NOUN	S	Number=Sing	6	obj	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	form	form	NOUN	S	Number=Sing	6	obl	_	_
+12	of	of	ADP	E	_	14	case	_	_
+13	calcium	calcium	NOUN	S	Number=Sing	14	nmod	_	_
+14	oxalates	oxalates	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = en_partut-ud-923
+# text = And all sorts of other oxalates are also sequestering carbon dioxide through the minerals that are being formed and taken out of the rock matrix.
+1	And	and	CCONJ	CC	_	0	root	_	_
+2	all	all	PRON	PI	PronType=Ind	9	nsubj	_	_
+3	sorts	sort	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+4	of	of	ADP	E	_	6	case	_	_
+5	other	other	ADJ	A	Degree=Pos	6	amod	_	_
+6	oxalates	oxalate	NOUN	S	Number=Plur	3	obl	_	_
+7	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	also	also	ADV	B	_	9	advmod	_	_
+9	sequestering	sequester	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	1	conj	_	_
+10	carbon	carbon	NOUN	S	Number=Sing	11	nmod	_	_
+11	dioxide	dioxide	NOUN	S	Number=Sing	9	obj	_	_
+12	through	through	ADP	E	_	14	case	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	14	det	_	_
+14	minerals	mineral	NOUN	S	Number=Plur	9	obl	_	_
+15	that	that	PRON	PR	PronType=Rel	18	nsubj:pass	_	_
+16	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	being	be	AUX	VA	VerbForm=Ger	18	aux:pass	_	_
+18	formed	form	VERB	V	Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	taken	take	VERB	V	Tense=Past|VerbForm=Part	18	conj	_	_
+21	out	out	ADP	E	_	20	compound:prt	_	_
+22	of	of	ADP	E	_	25	case	_	_
+23	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+24	rock	rock	NOUN	S	Number=Sing	25	nmod	_	_
+25	matrix	matrix	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = en_partut-ud-924
+# text = This was first discovered in 1859.
+1	This	this	PRON	PD	Number=Sing|PronType=Dem	4	nsubj:pass	_	_
+2	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+3	first	first	ADJ	NO	Degree=Pos|NumType=Ord	4	amod	_	_
+4	discovered	discover	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	1859	1859	NUM	N	NumType=Card	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-925
+# text = This is a photograph by Franz Hueber.
+1	This	this	PRON	PD	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
+4	photograph	photograph	NOUN	S	Number=Sing	0	root	_	_
+5	by	by	ADP	E	_	6	case	_	_
+6	Franz	Franz	PROPN	SP	_	4	nmod	_	_
+7	Hueber	Hueber	PROPN	SP	_	6	flat	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-926
+# text = This photograph's taken 1950s in Saudi Arabia.
+1	This	this	DET	DD	Number=Sing|PronType=Dem	2	det	_	_
+2	photograph	photograph	NOUN	S	Number=Sing	4	nsubj:pass	_	SpaceAfter=No
+3	's	's	PART	PART	_	2	case	_	_
+4	taken	take	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	1950	1950	NUM	N	NumType=Card	4	obl	_	SpaceAfter=No
+6	s	s	X	X	_	5	dep	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Saudi	Saudi	PROPN	SP	_	4	obl	_	_
+9	Arabia	Arabia	PROPN	SP	_	8	flat	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-927
+# text = 420 million years ago, this organism existed.
+1	420	420	NUM	N	NumType=Card	2	compound	_	_
+2	million	million	NUM	N	NumType=Card	3	nummod	_	_
+3	years	years	NOUN	S	Number=Sing	4	obl	_	_
+4	ago	ago	ADV	B	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	this	this	DET	DD	Number=Sing|PronType=Dem	7	det	_	_
+7	organism	organism	NOUN	S	Number=Sing	8	nsubj	_	_
+8	existed	exist	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = en_partut-ud-928
+# text = It was called Prototaxites.
+1	It	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	called	call	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+4	Prototaxites	Prototaxites	PROPN	SP	_	3	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-929
+# text = Prototaxites, laying down, was about three feet tall.
+1	Prototaxites	Prototaxites	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	laying	lay	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	10	advcl	_	_
+4	down	down	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+7	about	about	ADV	B	_	9	advmod	_	_
+8	three	three	NUM	N	NumType=Card	9	nummod	_	_
+9	feet	foot	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+10	tall	tall	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = en_partut-ud-930
+# text = The tallest plants on Earth at that time were less than two feet.
+1	The	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	tallest	tallest	ADJ	A	Degree=Sup	3	amod	_	_
+3	plants	plant	NOUN	S	Number=Plur	10	nsubj	_	_
+4	on	on	ADP	E	_	5	case	_	_
+5	Earth	earth	NOUN	S	Number=Sing	3	nmod	_	_
+6	at	at	ADP	E	_	8	case	_	_
+7	that	that	DET	DD	Number=Sing|PronType=Dem	8	det	_	_
+8	time	time	NOUN	S	Number=Sing	10	obl	_	_
+9	were	be	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	less	less	ADJ	A	Degree=Cmp	0	root	_	_
+11	than	than	ADP	E	_	13	case	_	_
+12	two	two	NUM	N	NumType=Card	13	nummod	_	_
+13	feet	foot	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = en_partut-ud-931
+# text = Across the landscapes of Earth were dotted these giant mushrooms.
+1	Across	across	ADP	E	_	3	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	landscapes	landscape	NOUN	S	Number=Plur	7	obl	_	_
+4	of	of	ADP	E	_	5	case	_	_
+5	Earth	Earth	PROPN	SP	_	3	nmod	_	_
+6	were	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	dotted	dot	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+8	these	this	DET	DD	Number=Plur|PronType=Dem	10	det	_	_
+9	giant	giant	ADJ	A	Degree=Pos	10	amod	_	_
+10	mushrooms	mushroom	NOUN	S	Number=Plur	7	nsubj:pass	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = en_partut-ud-932
+# text = All across most land masses.
+1	All	all	PRON	PI	PronType=Ind	5	nmod	_	_
+2	across	across	ADP	E	_	5	case	_	_
+3	most	most	ADV	B	_	5	advmod	_	_
+4	land	land	ADJ	A	Degree=Pos	5	amod	_	_
+5	masses	masse	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = en_partut-ud-933
+# text = And these existed for tens of millions of years.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	these	this	PRON	PD	Number=Plur|PronType=Dem	3	nsubj	_	_
+3	existed	exist	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	for	for	ADP	E	_	5	case	_	_
+5	tens	ten	NOUN	S	Number=Plur	3	obl	_	_
+6	of	of	ADP	E	_	7	case	_	_
+7	millions	million	NOUN	S	Number=Plur	5	nmod	_	_
+8	of	of	ADP	E	_	9	case	_	_
+9	years	year	NOUN	S	Number=Plur	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-934
+# text = The Earth was struck by an asteroid, a huge amount of debris was jettisoned into the atmosphere.
+1	The	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	Earth	earth	NOUN	S	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	struck	strike	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	by	by	ADP	E	_	7	case	_	_
+6	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+7	asteroid	asteroid	NOUN	S	Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	15	punct	_	_
+9	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	11	det	_	_
+10	huge	huge	ADJ	A	Degree=Pos	11	amod	_	_
+11	amount	amount	NOUN	S	Number=Sing	15	nsubj:pass	_	_
+12	of	of	ADP	E	_	13	case	_	_
+13	debris	debris	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+14	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	jettisoned	jettison	VERB	V	Tense=Past|VerbForm=Part	4	conj	_	_
+16	into	into	ADP	E	_	18	case	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+18	atmosphere	atmosphere	NOUN	S	Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-935
+# text = Sunlight was cut off, and fungi inherited the Earth.
+1	Sunlight	sunlight	NOUN	S	Number=Sing	3	nsubj:pass	_	_
+2	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	cut	cut	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+4	off	off	ADP	E	_	3	compound:prt	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	fungi	fungi	NOUN	S	Number=Plur	8	nsubj	_	_
+8	inherited	inherit	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+10	Earth	earth	NOUN	S	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-936
+# text = Those organisms that paired with fungi were rewarded, because fungi do not need light.
+1	Those	that	DET	DD	Number=Plur|PronType=Dem	2	det	_	_
+2	organisms	organism	NOUN	S	Number=Plur	8	nsubj:pass	_	_
+3	that	that	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	paired	pair	VERB	V	Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+5	with	with	ADP	E	_	6	case	_	_
+6	fungi	fungi	NOUN	S	Number=Plur	4	obl	_	_
+7	were	be	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	rewarded	reward	VERB	V	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	because	because	SCONJ	CS	_	14	mark	_	_
+11	fungi	fungi	NOUN	S	Number=Plur	14	nsubj	_	_
+12	do	do	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	not	not	PART	PART	Polarity=Neg	14	advmod	_	_
+14	need	need	VERB	V	VerbForm=Inf	8	advcl	_	_
+15	light	light	ADV	B	_	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = en_partut-ud-937
+# text = So, the prospect of fungi existing on other planets elsewhere, I think, is a forgone conclusion;
+1	So	so	ADV	B	_	19	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+4	prospect	prospect	NOUN	S	Number=Sing	19	nsubj	_	_
+5	of	of	ADP	E	_	6	case	_	_
+6	fungi	fungi	NOUN	S	Number=Plur	4	nmod	_	_
+7	existing	exist	VERB	V	VerbForm=Part	6	acl	_	_
+8	on	on	ADP	E	_	10	case	_	_
+9	other	other	ADJ	A	Degree=Pos	10	amod	_	_
+10	planets	planet	NOUN	S	Number=Plur	7	obl	_	_
+11	elsewhere	elsewhere	ADV	B	_	7	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	think	think	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+17	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	19	det	_	_
+18	forgone	forgo	VERB	V	Tense=Past|VerbForm=Part	19	acl	_	_
+19	conclusion	conclusion	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+20	;	;	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = en_partut-ud-938
+# text = at least in my own mind.
+1	at	at	ADP	E	_	6	advmod	_	_
+2	least	least	ADV	B	Degree=Sup	1	fixed	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	my	my	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	own	own	ADJ	A	Degree=Pos	6	amod	_	_
+6	mind	mind	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = en_partut-ud-939
+# text = The largest organism in the world is in Eastern Oregon.
+1	The	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	largest	largest	ADJ	A	Degree=Sup	3	amod	_	_
+3	organism	organism	NOUN	S	Number=Sing	9	nsubj	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	world	world	NOUN	S	Number=Sing	3	nmod	_	_
+7	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Eastern	Eastern	PROPN	SP	_	0	root	_	_
+10	Oregon	Oregon	PROPN	SP	_	9	flat	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = en_partut-ud-940
+# text = 2,200 acres in size, 2,000 years old.
+1	2,200	2,200	NUM	N	NumType=Card	2	nummod	_	_
+2	acres	acre	NOUN	S	Number=Plur	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	size	size	NOUN	S	Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	2,000	2,000	NUM	N	NumType=Card	7	nummod	_	_
+7	years	year	NOUN	S	Number=Plur	2	conj	_	_
+8	old	old	ADJ	A	Degree=Pos	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-941
+# text = The largest organism on the planet is a mycelial mat, one cell wall thick.
+1	The	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	largest	largest	ADJ	A	Degree=Sup	3	amod	_	_
+3	organism	organism	NOUN	S	Number=Sing	10	nsubj	_	_
+4	on	on	ADP	E	_	6	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+6	planet	planet	NOUN	S	Number=Sing	3	nmod	_	_
+7	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
+9	mycelial	mycelial	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+10	mat	mat	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	one	one	NUM	N	NumType=Card	13	nummod	_	_
+13	cell	cell	NOUN	S	Number=Sing	14	nmod	_	_
+14	wall	wall	NOUN	S	Number=Sing	15	obl	_	_
+15	thick	thick	ADJ	A	Degree=Pos	10	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = en_partut-ud-942
+# text = The mycelium, in the right conditions, produces a mushroom - it bursts through with such ferocity that it can break asphalt.
+1	The	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	mycelium	mycelium	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+6	right	right	ADJ	A	Degree=Pos	7	amod	_	_
+7	conditions	condition	NOUN	S	Number=Plur	9	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	produces	produce	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	11	det	_	_
+11	mushroom	mushroom	NOUN	S	Number=Sing	9	obj	_	_
+12	-	-	PUNCT	FF	_	9	punct	_	_
+13	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	bursts	burst	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+15	through	through	ADP	E	_	14	compound:prt	_	_
+16	with	with	ADP	E	_	18	case	_	_
+17	such	such	DET	DD	PronType=Dem	18	det	_	_
+18	ferocity	ferocity	NOUN	S	Number=Sing	14	obl	_	_
+19	that	that	SCONJ	CS	_	22	mark	_	_
+20	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	break	break	VERB	V	VerbForm=Inf	18	acl	_	_
+23	asphalt	asphalt	NOUN	S	Number=Sing	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = en_partut-ud-943
+# text = We were involved with several experiments.
+1	We	we	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj:pass	_	_
+2	were	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	involved	involve	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+4	with	with	ADP	E	_	6	case	_	_
+5	several	several	ADJ	A	Degree=Pos	6	amod	_	_
+6	experiments	experiment	NOUN	S	Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-944
+# text = I'm going to show you six, if I can, solutions for helping to save the world.
+1	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	'm	be	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	going	go	VERB	V	VerbForm=Ger	0	root	_	_
+4	to	to	PART	PART	_	5	mark	_	_
+5	show	show	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	you	you	PRON	PE	Person=2|PronType=Prs	5	iobj	_	_
+7	six	six	NUM	N	NumType=Card	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	if	if	SCONJ	CS	_	11	mark	_	_
+10	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	solutions	solution	NOUN	S	Number=Plur	7	obj	_	_
+14	for	for	ADP	E	_	15	case	_	_
+15	helping	help	VERB	V	VerbForm=Ger	13	acl	_	_
+16	to	to	PART	PART	_	17	mark	_	_
+17	save	save	VERB	V	VerbForm=Inf	15	ccomp	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+19	world	world	NOUN	S	Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-945
+# text = Battelle Laboratories and I joined up in Bellingham, Washington.
+1	Battelle	Battelle	PROPN	SP	_	2	nmod	_	_
+2	Laboratories	laboratory	NOUN	S	Number=Plur	5	nsubj	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	I	I	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	conj	_	_
+5	joined	join	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	up	up	ADP	E	_	5	compound:prt	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Bellingham	Bellingham	PROPN	SP	_	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	Washington	Washington	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = en_partut-ud-1025
+# text = Economists at Citigroup, Mckinsey, Pricewaterhousecoopers, and elsewhere were predicting an era of broad and sustained growth from Asia to Africa.
+1	Economists	economist	NOUN	S	Number=Plur	12	nsubj	_	_
+2	at	at	ADP	E	_	3	case	_	_
+3	Citigroup	Citigroup	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	Mckinsey	Mckinsey	PROPN	SP	_	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Pricewaterhousecoopers	Pricewaterhousecoopers	PROPN	SP	_	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	elsewhere	elsewhere	ADV	B	_	3	conj	_	_
+11	were	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	predicting	predict	VERB	V	VerbForm=Ger	0	root	_	_
+13	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
+14	era	era	NOUN	S	Number=Sing	12	obj	_	_
+15	of	of	ADP	E	_	19	case	_	_
+16	broad	broad	ADJ	A	Degree=Pos	19	amod	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	sustained	sustain	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	16	conj	_	_
+19	growth	growth	NOUN	S	Number=Sing	14	nmod	_	_
+20	from	from	ADP	E	_	21	case	_	_
+21	Asia	Asia	PROPN	SP	_	19	nmod	_	_
+22	to	to	ADP	E	_	23	case	_	_
+23	Africa	Africa	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = en_partut-ud-1039
+# text = Third, floating exchange rates are flawed shock absorbers.
+1	Third	third	ADV	B	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	floating	float	VERB	V	Tense=Pres|VerbForm=Part	5	acl	_	_
+4	exchange	exchange	NOUN	S	Number=Sing	5	nmod	_	_
+5	rates	rates	NOUN	S	Number=Sing	9	nsubj	_	_
+6	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	flawed	flawed	ADJ	A	Degree=Pos	9	amod	_	_
+8	shock	shock	NOUN	S	Number=Sing	9	nmod	_	_
+9	absorbers	absorber	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = en_partut-ud-1046
+# text = It is naïve for emerging-market governments to expect major financial centers to adjust their policies in response to economic conditions elsewhere.
+1	It	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	naïve	naïve	ADJ	A	Degree=Pos	0	root	_	_
+4	for	for	ADP	E	_	8	case	_	_
+5	emerging	emerge	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	7	acl	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+7	market	market	NOUN	S	Number=Sing	8	nmod	_	_
+8	governments	government	NOUN	S	Number=Plur	3	obl	_	_
+9	to	to	PART	PART	_	10	mark	_	_
+10	expect	expect	VERB	V	VerbForm=Inf	3	csubj	_	_
+11	major	major	ADJ	A	Degree=Pos	13	amod	_	_
+12	financial	financial	ADJ	A	Degree=Pos	13	amod	_	_
+13	centers	center	NOUN	S	Number=Plur	10	obj	_	_
+14	to	to	PART	PART	_	15	mark	_	_
+15	adjust	adjust	VERB	V	VerbForm=Inf	10	xcomp	_	_
+16	their	their	DET	AP	Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	policies	policy	NOUN	S	Number=Plur	15	obj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	response	response	NOUN	S	Number=Sing	15	obl	_	_
+20	to	to	ADP	E	_	22	case	_	_
+21	economic	economic	ADJ	A	Degree=Pos	22	amod	_	_
+22	conditions	condition	NOUN	S	Number=Plur	19	nmod	_	_
+23	elsewhere	elsewhere	ADV	B	_	22	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-1063
+# text = "But the bottom line is that the ideas protected by IP rights are the dynamo of growth for developed and developing countries alike.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	6	cc	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+4	bottom	bottom	ADJ	A	Degree=Pos	5	amod	_	_
+5	line	line	NOUN	S	Number=Sing	6	nsubj	_	_
+6	is	be	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	that	that	SCONJ	CS	_	16	mark	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	ideas	idea	NOUN	S	Number=Plur	16	nsubj	_	_
+10	protected	protect	VERB	V	Tense=Past|VerbForm=Part	9	acl	_	_
+11	by	by	ADP	E	_	13	case	_	_
+12	IP	IP	PROPN	SP	_	13	nmod	_	_
+13	rights	right	NOUN	S	Number=Plur	10	obl	_	_
+14	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+16	dynamo	dynamo	NOUN	S	Number=Sing	6	ccomp	_	_
+17	of	of	ADP	E	_	18	case	_	_
+18	growth	growth	NOUN	S	Number=Sing	16	nmod	_	_
+19	for	for	ADP	E	_	23	case	_	_
+20	developed	develop	VERB	V	Tense=Past|VerbForm=Part	23	acl	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	developing	develop	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	20	conj	_	_
+23	countries	country	NOUN	S	Number=Plur	16	nmod	_	_
+24	alike	alike	ADV	B	_	23	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = en_partut-ud-1085
+# text = It is time for India's leaders to recognize the positive role that IP can play in fostering growth and improving citizens' wellbeing.
+1	It	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	time	time	NOUN	S	Number=Sing	0	root	_	_
+4	for	for	ADP	E	_	7	case	_	_
+5	India	India	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+6	's	's	PART	PART	_	5	case	_	_
+7	leaders	leader	NOUN	S	Number=Plur	3	nmod	_	_
+8	to	to	PART	PART	_	9	mark	_	_
+9	recognize	recognize	VERB	V	VerbForm=Inf	3	acl	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+11	positive	positive	ADJ	A	Degree=Pos	12	amod	_	_
+12	role	role	NOUN	S	Number=Sing	9	obj	_	_
+13	that	that	PRON	PR	PronType=Rel	16	obj	_	_
+14	IP	IP	PROPN	SP	_	16	nsubj	_	_
+15	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	play	play	VERB	V	VerbForm=Inf	12	acl:relcl	_	_
+17	in	in	ADP	E	_	18	mark	_	_
+18	fostering	foster	VERB	V	VerbForm=Ger	16	advcl	_	_
+19	growth	growth	NOUN	S	Number=Sing	18	obj	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	improving	improve	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	18	conj	_	_
+22	citizens	citizen	NOUN	S	Number=Plur	24	nmod	_	SpaceAfter=No
+23	'	'	PART	PART	_	22	case	_	_
+24	wellbeing	wellbeing	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-1101
+# text = Andy Haldane, one of the lieutenants Carney inherited at the BoE, has questioned the financial sector's economic contribution, pointing to "its ability to both invigorate and incapacitate large parts of the non-financial economy.
+1	Andy	Andy	PROPN	SP	_	15	nsubj	_	_
+2	Haldane	Haldane	PROPN	SP	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	one	one	NUM	N	NumType=Card	1	nummod	_	_
+5	of	of	ADP	E	_	7	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	lieutenants	lieutenant	NOUN	S	Number=Plur	4	nmod	_	_
+8	Carney	Carney	PROPN	SP	_	9	nsubj	_	_
+9	inherited	inherit	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+10	at	at	ADP	E	_	12	case	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	BoE	BoE	PROPN	SP	_	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	has	have	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	questioned	question	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+17	financial	financial	ADJ	A	Degree=Pos	18	amod	_	_
+18	sector	sector	NOUN	S	Number=Sing	21	nmod	_	SpaceAfter=No
+19	's	's	PART	PART	_	18	case	_	_
+20	economic	economic	ADJ	A	Degree=Pos	21	amod	_	_
+21	contribution	contribution	NOUN	S	Number=Sing	15	obj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	15	punct	_	_
+23	pointing	point	VERB	V	VerbForm=Ger	15	advcl	_	_
+24	to	to	ADP	E	_	27	case	_	_
+25	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+26	its	its	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	ability	ability	NOUN	S	Number=Sing	23	obl	_	_
+28	to	to	PART	PART	_	30	mark	_	_
+29	both	both	CCONJ	CC	_	30	cc	_	_
+30	invigorate	invigorate	VERB	V	VerbForm=Inf	27	acl	_	_
+31	and	and	CCONJ	CC	_	32	cc	_	_
+32	incapacitate	incapacitate	VERB	V	VerbForm=Inf	30	conj	_	_
+33	large	large	ADJ	A	Degree=Pos	34	amod	_	_
+34	parts	part	NOUN	S	Number=Plur	32	obj	_	_
+35	of	of	ADP	E	_	40	case	_	_
+36	the	the	DET	RD	Definite=Def|PronType=Art	40	det	_	_
+37	non	non	ADV	BN	PronType=Neg	39	advmod	_	SpaceAfter=No
+38	-	-	PUNCT	FF	_	39	punct	_	SpaceAfter=No
+39	financial	financial	ADJ	A	Degree=Pos	40	amod	_	_
+40	economy	economy	NOUN	S	Number=Sing	34	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = en_partut-ud-1112
+# text = The reasons for this relationship are not easy to establish definitively, and the authors' conclusions are controversial.
+1	The	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	reasons	reason	NOUN	S	Number=Plur	8	nsubj	_	_
+3	for	for	ADP	E	_	5	case	_	_
+4	this	this	DET	DD	Number=Sing|PronType=Dem	5	det	_	_
+5	relationship	relationship	NOUN	S	Number=Sing	2	nmod	_	_
+6	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	not	not	PART	PART	Polarity=Neg	8	advmod	_	_
+8	easy	easy	ADJ	A	Degree=Pos	0	root	_	_
+9	to	to	PART	PART	_	10	mark	_	_
+10	establish	establish	VERB	V	VerbForm=Inf	8	advcl	_	_
+11	definitively	definitively	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	19	punct	_	_
+13	and	and	CCONJ	CC	_	19	cc	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+15	authors	author	NOUN	S	Number=Plur	17	nmod	_	SpaceAfter=No
+16	'	'	PART	PART	_	15	case	_	_
+17	conclusions	conclusion	NOUN	S	Number=Plur	19	nsubj	_	_
+18	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	controversial	controversial	ADJ	A	Degree=Pos	8	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = en_partut-ud-1117
+# text = These companies find it harder to recruit skilled graduates when financial firms can pay higher salaries.
+1	These	this	DET	DD	Number=Plur|PronType=Dem	2	det	_	_
+2	companies	company	NOUN	S	Number=Plur	3	nsubj	_	_
+3	find	find	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+5	harder	harder	ADJ	A	Degree=Cmp	3	xcomp	_	_
+6	to	to	PART	PART	_	7	mark	_	_
+7	recruit	recruit	VERB	V	VerbForm=Inf	3	ccomp	_	_
+8	skilled	skilled	ADJ	A	Degree=Pos	9	amod	_	_
+9	graduates	graduate	NOUN	S	Number=Plur	7	obj	_	_
+10	when	when	SCONJ	CS	_	14	mark	_	_
+11	financial	financial	ADJ	A	Degree=Pos	12	amod	_	_
+12	firms	firm	NOUN	S	Number=Plur	14	nsubj	_	_
+13	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	pay	pay	VERB	V	VerbForm=Inf	3	advcl	_	_
+15	higher	higher	ADJ	A	Degree=Cmp	16	amod	_	_
+16	salaries	salary	NOUN	S	Number=Plur	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-1127
+# text = But if finance continues to take a disproportionate number of the best and the brightest, there could be little British manufacturing left by 2050, and even fewer hi-tech firms than today.
+1	But	but	CCONJ	CC	_	19	cc	_	_
+2	if	if	SCONJ	CS	_	4	mark	_	_
+3	finance	finance	NOUN	S	Number=Sing	4	nsubj	_	_
+4	continues	continue	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+5	to	to	PART	PART	_	6	mark	_	_
+6	take	take	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	9	det	_	_
+8	disproportionate	disproportionate	ADJ	A	Degree=Pos	9	amod	_	_
+9	number	number	NOUN	S	Number=Sing	6	obj	_	_
+10	of	of	ADP	E	_	12	case	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	best	best	ADJ	A	Degree=Sup	9	nmod	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+15	brightest	brightest	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	there	there	PRON	_	_	19	expl	_	_
+18	could	can	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
+19	be	be	VERB	V	VerbForm=Inf	0	root	_	_
+20	little	little	ADJ	A	Degree=Pos	22	amod	_	_
+21	British	British	ADJ	A	Degree=Pos	22	amod	_	_
+22	manufacturing	manufacturing	NOUN	S	_	19	nsubj	_	_
+23	left	leave	VERB	V	Tense=Past|VerbForm=Part	22	acl	_	_
+24	by	by	ADP	E	_	25	case	_	_
+25	2050	2050	NUM	N	NumType=Card	23	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	31	punct	_	_
+27	and	and	CCONJ	CC	_	31	cc	_	_
+28	even	even	ADV	B	_	31	advmod	_	_
+29	fewer	fewer	ADJ	A	Degree=Cmp	31	amod	_	_
+30	hi-tech	hi-tech	ADJ	A	Degree=Pos	31	amod	_	_
+31	firms	firm	NOUN	S	Number=Plur	22	conj	_	_
+32	than	than	ADP	E	_	33	case	_	_
+33	today	today	ADV	B	_	29	advmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = en_partut-ud-1135
+# text = Physicists know that subatomic phenomena can manifest themselves as both particles and waves;
+1	Physicists	physicist	NOUN	S	Number=Plur	2	nsubj	_	_
+2	know	know	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	CS	_	7	mark	_	_
+4	subatomic	subatomic	ADJ	A	Degree=Pos	5	amod	_	_
+5	phenomena	phenomenon	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+6	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	manifest	manifest	VERB	V	VerbForm=Inf	2	ccomp	_	_
+8	themselves	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+9	as	as	ADP	E	_	11	case	_	_
+10	both	both	DET	DI	PronType=Ind	11	det	_	_
+11	particles	particle	NOUN	S	Number=Plur	7	obl	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	waves	wave	NOUN	S	Number=Plur	11	conj	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = en_partut-ud-1203
+# text = America can adopt a new growth strategy – moving away from excess consumption toward a model based on saving and investing in people, infrastructure, and capacity.
+1	America	America	PROPN	SP	_	3	nsubj	_	_
+2	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	adopt	adopt	VERB	V	VerbForm=Inf	0	root	_	_
+4	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+5	new	new	ADJ	A	Degree=Pos	6	amod	_	_
+6	growth	growth	NOUN	S	Number=Sing	7	nmod	_	_
+7	strategy	strategy	NOUN	S	Number=Sing	3	obj	_	_
+8	–	–	PUNCT	FF	_	3	punct	_	_
+9	moving	move	VERB	V	VerbForm=Ger	3	advcl	_	_
+10	away	away	ADV	B	_	9	advmod	_	_
+11	from	from	ADP	E	_	13	case	_	_
+12	excess	excess	ADJ	A	Degree=Pos	13	amod	_	_
+13	consumption	consumption	NOUN	S	Number=Sing	9	obl	_	_
+14	toward	toward	ADP	E	_	16	case	_	_
+15	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	16	det	_	_
+16	model	model	NOUN	S	Number=Sing	9	obl	_	_
+17	based	based	VERB	V	Tense=Past|VerbForm=Part	16	acl	_	_
+18	on	on	ADP	E	_	19	mark	_	_
+19	saving	save	VERB	V	VerbForm=Ger	17	advcl	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	investing	invest	VERB	V	VerbForm=Ger	19	conj	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	people	people	NOUN	S	Number=Plur	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	infrastructure	infrastructure	NOUN	S	Number=Sing	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	capacity	capacity	NOUN	S	Number=Sing	23	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-1227
+# text = How will resources be allocated to care for the elderly, especially in slow-growing economies where existing public pension schemes and old-age health plans are patently unsustainable?
+1	How	how	ADV	B	_	5	advmod	_	_
+2	will	will	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	resources	resource	NOUN	S	Number=Plur	5	nsubj:pass	_	_
+4	be	be	AUX	VA	Mood=Sub|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	allocated	allocate	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+6	to	to	PART	PART	_	7	mark	_	_
+7	care	care	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	for	for	ADP	E	_	10	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+10	elderly	elderly	NOUN	S	Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	especially	especially	ADV	B	_	17	advmod	_	_
+13	in	in	ADP	E	_	17	case	_	_
+14	slow	slow	ADV	B	_	16	advmod	_	SpaceAfter=No
+15	-	-	PUNCT	FF	_	16	punct	_	SpaceAfter=No
+16	growing	grow	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	17	acl	_	_
+17	economies	economy	NOUN	S	Number=Plur	7	obl	_	_
+18	where	where	ADV	B	_	31	advmod	_	_
+19	existing	existing	ADJ	A	Degree=Pos	22	amod	_	_
+20	public	public	ADJ	A	Degree=Pos	21	amod	_	_
+21	pension	pension	NOUN	S	Number=Sing	22	nmod	_	_
+22	schemes	scheme	NOUN	S	Number=Plur	31	nsubj	_	_
+23	and	and	CCONJ	CC	_	28	cc	_	_
+24	old	old	ADJ	A	Degree=Pos	26	amod	_	SpaceAfter=No
+25	-	-	PUNCT	FF	_	26	punct	_	SpaceAfter=No
+26	age	age	NOUN	S	Number=Sing	28	nmod	_	_
+27	health	health	NOUN	S	Number=Sing	28	nmod	_	_
+28	plans	plan	NOUN	S	Number=Plur	22	conj	_	_
+29	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	31	cop	_	_
+30	patently	patently	ADV	B	_	31	advmod	_	_
+31	unsustainable	unsustainable	ADJ	A	Degree=Pos	17	acl:relcl	_	SpaceAfter=No
+32	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = en_partut-ud-1239
+# text = A global carbon tax would mitigate climate risks while alleviating government debt burdens.
+1	A	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
+2	global	global	ADJ	A	Degree=Pos	3	amod	_	_
+3	carbon	carbon	NOUN	S	Number=Sing	4	nmod	_	_
+4	tax	tax	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	would	will	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	mitigate	mitigate	VERB	V	VerbForm=Inf	0	root	_	_
+7	climate	climate	NOUN	S	Number=Sing	8	nmod	_	_
+8	risks	risk	NOUN	S	Number=Plur	6	ccomp	_	_
+9	while	while	SCONJ	CS	_	10	mark	_	_
+10	alleviating	alleviate	VERB	V	VerbForm=Ger	6	advcl	_	_
+11	government	government	NOUN	S	Number=Sing	12	nmod	_	_
+12	debt	debt	NOUN	S	Number=Sing	13	nmod	_	_
+13	burdens	burden	NOUN	S	Number=Plur	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = en_partut-ud-1276
+# text = But when innovation affects an automobile's quality, the task becomes far more difficult.
+1	But	but	CCONJ	CC	_	12	cc	_	_
+2	when	when	SCONJ	CS	_	4	mark	_	_
+3	innovation	innovation	NOUN	S	Number=Sing	4	nsubj	_	_
+4	affects	affect	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+5	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
+6	automobile	automobile	NOUN	S	Number=Sing	8	nmod	_	SpaceAfter=No
+7	's	's	PART	PART	_	6	case	_	_
+8	quality	quality	NOUN	S	Number=Sing	4	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	task	task	NOUN	S	Number=Sing	12	nsubj	_	_
+12	becomes	become	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	far	far	ADV	B	_	14	advmod	_	_
+14	more	more	ADV	B	Degree=Cmp	15	advmod	_	_
+15	difficult	difficult	ADJ	A	Degree=Pos	12	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = en_partut-ud-1337
+# text = Women who have completed secondary or tertiary education are more likely to enter and remain in the labor market than their less educated counterparts.
+1	Women	Women	PROPN	SP	_	11	nsubj	_	_
+2	who	who	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	have	have	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	completed	complete	VERB	V	Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+5	secondary	secondary	ADJ	A	Degree=Pos	8	amod	_	_
+6	or	or	CCONJ	CC	_	7	cc	_	_
+7	tertiary	tertiary	ADJ	A	Degree=Pos	5	conj	_	_
+8	education	education	NOUN	S	Number=Sing	4	obj	_	_
+9	are	be	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	more	more	ADV	B	Degree=Cmp	11	advmod	_	_
+11	likely	likely	ADJ	A	Degree=Pos	0	root	_	_
+12	to	to	PART	PART	_	13	mark	_	_
+13	enter	enter	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	remain	remain	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	13	conj	_	_
+16	in	in	ADP	E	_	19	case	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+18	labor	labor	NOUN	S	Number=Sing	19	nmod	_	_
+19	market	market	NOUN	S	Number=Sing	15	obl	_	_
+20	than	than	ADP	E	_	24	case	_	_
+21	their	their	DET	AP	Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+22	less	less	ADV	B	Degree=Cmp	23	advmod	_	_
+23	educated	educate	VERB	V	Tense=Past|VerbForm=Part	24	acl	_	_
+24	counterparts	counterpart	NOUN	S	Number=Plur	11	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = en_partut-ud-1343
+# text = Indeed, its three-year plan for economic innovation, announced in February, aims to raise the female employment rate to 62% by 2017, through the provision of affordable, high-quality childcare facilities and expanded paid parental leave, among other measures.
+1	Indeed	indeed	ADV	B	_	16	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	its	its	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+4	three	three	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+6	year	year	NOUN	S	Number=Sing	7	nmod	_	_
+7	plan	plan	NOUN	S	Number=Sing	16	nsubj	_	_
+8	for	for	ADP	E	_	10	case	_	_
+9	economic	economic	ADJ	A	Degree=Pos	10	amod	_	_
+10	innovation	innovation	NOUN	S	Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	announced	announce	VERB	V	Tense=Past|VerbForm=Part	7	acl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	February	February	PROPN	SP	_	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	7	punct	_	_
+16	aims	aim	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	to	to	PART	PART	_	18	mark	_	_
+18	raise	raise	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+20	female	female	ADJ	A	Degree=Pos	21	amod	_	_
+21	employment	employment	NOUN	S	Number=Sing	22	nmod	_	_
+22	rate	rate	NOUN	S	Number=Sing	18	obj	_	_
+23	to	to	ADP	E	_	25	case	_	_
+24	62	62	NUM	N	NumType=Card	25	nummod	_	SpaceAfter=No
+25	%	%	SYM	X	_	18	obl	_	_
+26	by	by	ADP	E	_	27	case	_	_
+27	2017	2017	NUM	N	NumType=Card	18	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	18	punct	_	_
+29	through	through	ADP	E	_	31	case	_	_
+30	the	the	DET	RD	Definite=Def|PronType=Art	31	det	_	_
+31	provision	provision	NOUN	S	Number=Sing	18	obl	_	_
+32	of	of	ADP	E	_	39	case	_	_
+33	affordable	affordable	ADJ	A	Degree=Pos	39	amod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	37	punct	_	_
+35	high	high	ADJ	A	Degree=Pos	37	amod	_	SpaceAfter=No
+36	-	-	PUNCT	FF	_	37	punct	_	SpaceAfter=No
+37	quality	quality	NOUN	S	Number=Sing	33	conj	_	_
+38	childcare	childcare	NOUN	S	Number=Sing	39	nmod	_	_
+39	facilities	facility	NOUN	S	Number=Plur	31	nmod	_	_
+40	and	and	CCONJ	CC	_	44	cc	_	_
+41	expanded	expand	VERB	V	Tense=Past|VerbForm=Part	44	acl	_	_
+42	paid	pay	VERB	V	Tense=Past|VerbForm=Part	44	acl	_	_
+43	parental	parental	ADJ	A	Degree=Pos	44	amod	_	_
+44	leave	leave	NOUN	S	Number=Sing	39	conj	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	39	punct	_	_
+46	among	among	ADP	E	_	48	case	_	_
+47	other	other	ADJ	A	Degree=Pos	48	amod	_	_
+48	measures	measure	NOUN	S	Number=Plur	39	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = en_partut-ud-1404
+# text = The IMF is founded on the premise that it represents cooperation between all of the countries of the world.
+1	The	the	DET	RD	Definite=Def|PronType=Art	2	det	_	_
+2	IMF	IMF	PROPN	SP	_	4	nsubj:pass	_	_
+3	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	founded	found	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+5	on	on	ADP	E	_	7	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	7	det	_	_
+7	premise	premise	NOUN	S	Number=Sing	4	obl	_	_
+8	that	that	SCONJ	CS	_	10	mark	_	_
+9	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	represents	represent	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	_
+11	cooperation	cooperation	NOUN	S	Number=Sing	10	obj	_	_
+12	between	between	ADP	E	_	13	case	_	_
+13	all	all	PRON	PI	PronType=Ind	11	nmod	_	_
+14	of	of	ADP	E	_	16	case	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+16	countries	country	NOUN	S	Number=Plur	13	nmod	_	_
+17	of	of	ADP	E	_	19	case	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+19	world	world	NOUN	S	Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-1460
+# text = Next month, Ukraine's citizens will freely choose a new President – the best rebuke possible to Russian propaganda about our supposed failure to uphold democracy.
+1	Next	next	ADJ	A	Degree=Pos	2	amod	_	_
+2	month	month	NOUN	S	Number=Sing	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Ukraine	Ukraine	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+5	's	's	PART	PART	_	4	case	_	_
+6	citizens	citizen	NOUN	S	Number=Plur	9	nsubj	_	_
+7	will	will	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	freely	freely	ADV	B	_	9	advmod	_	_
+9	choose	choose	VERB	V	VerbForm=Inf	0	root	_	_
+10	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	12	det	_	_
+11	new	new	ADJ	A	Degree=Pos	12	amod	_	_
+12	President	president	NOUN	S	Number=Sing	9	obj	_	_
+13	–	–	PUNCT	FF	_	12	punct	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+15	best	best	ADJ	A	Degree=Sup	16	amod	_	_
+16	rebuke	rebuke	NOUN	S	Number=Sing	12	nmod	_	_
+17	possible	possible	ADJ	A	Degree=Pos	16	amod	_	_
+18	to	to	ADP	E	_	20	case	_	_
+19	Russian	Russian	ADJ	A	Degree=Pos	20	amod	_	_
+20	propaganda	propaganda	NOUN	S	Number=Sing	17	obl	_	_
+21	about	about	ADP	E	_	24	case	_	_
+22	our	us	DET	AP	Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+23	supposed	supposed	ADJ	A	Degree=Pos	24	amod	_	_
+24	failure	failure	NOUN	S	Number=Sing	20	nmod	_	_
+25	to	to	PART	PART	_	26	mark	_	_
+26	uphold	uphold	VERB	V	VerbForm=Inf	24	acl	_	_
+27	democracy	democracy	NOUN	S	Number=Sing	26	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = en_partut-ud-1499
+# text = And there are an estimated 200,000 cases of yellow fever annually, leading to 30,000 deaths worldwide.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	there	there	PRON	_	_	3	expl	_	_
+3	are	be	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+5	estimated	estimate	VERB	V	Tense=Past|VerbForm=Part	7	acl	_	_
+6	200,000	200,000	NUM	N	NumType=Card	7	nummod	_	_
+7	cases	case	NOUN	S	Number=Plur	3	nsubj	_	_
+8	of	of	ADP	E	_	10	case	_	_
+9	yellow	yellow	ADJ	A	Degree=Pos	10	amod	_	_
+10	fever	fever	NOUN	S	Number=Sing	7	nmod	_	_
+11	annually	annually	ADV	B	_	3	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	leading	lead	VERB	V	VerbForm=Ger	7	acl	_	_
+14	to	to	ADP	E	_	16	case	_	_
+15	30,000	30,000	NUM	N	NumType=Card	16	nummod	_	_
+16	deaths	death	NOUN	S	Number=Plur	13	obl	_	_
+17	worldwide	worldwide	ADV	B	_	13	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-1521
+# text = Only with pragmatic, fact-based Regulation can the world realize genetic engineering's full disease-fighting potential.
+1	Only	only	ADV	B	_	8	advmod	_	_
+2	with	with	ADP	E	_	8	case	_	_
+3	pragmatic	pragmatic	ADJ	A	Degree=Pos	8	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	fact	fact	NOUN	S	Number=Sing	7	nmod:npmod	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+7	based	based	VERB	V	Tense=Past|VerbForm=Part	3	conj	_	_
+8	Regulation	regulation	NOUN	S	Number=Sing	12	obl	_	_
+9	can	can	AUX	VM	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	world	world	NOUN	S	Number=Sing	12	nsubj	_	_
+12	realize	realize	VERB	V	VerbForm=Inf	0	root	_	_
+13	genetic	genetic	ADJ	A	Degree=Pos	14	amod	_	_
+14	engineering	engineering	NOUN	S	Number=Sing	20	nmod	_	SpaceAfter=No
+15	's	's	PART	PART	_	14	case	_	_
+16	full	full	ADJ	A	Degree=Pos	17	amod	_	_
+17	disease	disease	NOUN	S	Number=Sing	19	obj	_	SpaceAfter=No
+18	-	-	PUNCT	FF	_	19	punct	_	SpaceAfter=No
+19	fighting	fight	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	20	acl	_	_
+20	potential	potential	NOUN	S	Number=Sing	12	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = en_partut-ud-1541
+# text = He is renowned for his multifaceted characters, who are morally ambiguous.
+1	He	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	renowned	renowned	ADJ	A	Degree=Pos	0	root	_	_
+4	for	for	ADP	E	_	7	case	_	_
+5	his	his	DET	AP	Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	multifaceted	multifaceted	ADJ	A	Degree=Pos	7	amod	_	_
+7	characters	character	NOUN	S	Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	who	who	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	morally	morally	ADV	B	_	12	advmod	_	_
+12	ambiguous	ambiguous	ADJ	A	Degree=Pos	7	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-1575
+# text = Balzac had difficulty adapting to the rote style of learning at the school.
+1	Balzac	Balzac	PROPN	SP	_	2	nsubj	_	_
+2	had	have	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	difficulty	difficulty	NOUN	S	Number=Sing	2	obj	_	_
+4	adapting	adapt	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	2	advcl	_	_
+5	to	to	ADP	E	_	8	case	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+7	rote	rote	NOUN	S	Number=Sing	8	nmod	_	_
+8	style	style	NOUN	S	Number=Sing	4	obl	_	_
+9	of	of	ADP	E	_	10	case	_	_
+10	learning	learning	NOUN	S	Number=Sing	8	nmod	_	_
+11	at	at	ADP	E	_	13	case	_	_
+12	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+13	school	school	NOUN	S	Number=Sing	4	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-1579
+# text = The narrator says:
+1	The	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+2	narrator	narrator	NOUN	S	Number=Sing	3	nmod	_	_
+3	says	say	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = en_partut-ud-1632
+# text = Near the end of his life Balzac was captivated by the idea of cutting 20,000 acres (81 Km2) of oak wood in Ukraine and transporting it for sale in France.
+1	Near	near	ADP	E	_	3	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	end	end	NOUN	S	Number=Sing	9	obl	_	_
+4	of	of	ADP	E	_	6	case	_	_
+5	his	his	DET	AP	Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	life	life	NOUN	S	Number=Sing	3	nmod	_	_
+7	Balzac	Balzac	PROPN	SP	_	9	nsubj:pass	_	_
+8	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	captivated	captivate	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+10	by	by	ADP	E	_	12	case	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	idea	idea	NOUN	S	Number=Sing	9	obl	_	_
+13	of	of	ADP	E	_	14	mark	_	_
+14	cutting	cut	VERB	V	VerbForm=Ger	12	acl	_	_
+15	20,000	20,000	NUM	N	NumType=Card	16	nummod	_	_
+16	acres	acre	NOUN	S	Number=Plur	14	obj	_	_
+17	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+18	81	81	NUM	N	NumType=Card	19	nummod	_	_
+19	Km2	Km2	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	19	punct	_	_
+21	of	of	ADP	E	_	23	case	_	_
+22	oak	oak	NOUN	S	Number=Sing	23	nmod	_	_
+23	wood	wood	NOUN	S	Number=Sing	16	nmod	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	Ukraine	Ukraine	PROPN	SP	_	14	obl	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	transporting	transport	VERB	V	VerbForm=Ger	9	conj	_	_
+28	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+29	for	for	ADP	E	_	30	case	_	_
+30	sale	sale	NOUN	S	Number=Sing	27	obl	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	France	France	PROPN	SP	_	27	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = en_partut-ud-1634
+# text = "When the idea struck, he raced to his sister's apartment and proclaimed:
+1	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	When	when	SCONJ	CS	_	5	mark	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+4	idea	idea	NOUN	S	Number=Sing	5	nsubj	_	_
+5	struck	strike	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	he	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	raced	race	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	to	to	ADP	E	_	13	case	_	_
+10	his	his	DET	AP	Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	sister	sister	NOUN	S	Number=Sing	13	nmod	_	SpaceAfter=No
+12	's	's	PART	PART	_	11	case	_	_
+13	apartment	apartment	NOUN	S	Number=Sing	8	obl	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	proclaimed	proclaim	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = en_partut-ud-1640
+# text = Although Balzac was a supporter of the crown, Balzac paints the counter-revolutionaries in a sympathetic light-even though they are the center of the book's most brutal scenes.
+1	Although	although	SCONJ	CS	_	5	mark	_	_
+2	Balzac	Balzac	PROPN	SP	_	5	nsubj	_	_
+3	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+5	supporter	supporter	NOUN	S	Number=Sing	11	advcl	_	_
+6	of	of	ADP	E	_	8	case	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+8	crown	crown	NOUN	S	Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	Balzac	Balzac	PROPN	SP	_	8	nsubj	_	_
+11	paints	paint	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+13	counter	counter	ADJ	A	Degree=Pos	15	amod	_	SpaceAfter=No
+14	-	-	PUNCT	FF	_	13	punct	_	SpaceAfter=No
+15	revolutionaries	revolutionary	NOUN	S	Number=Plur	11	obj	_	_
+16	in	in	ADP	E	_	19	case	_	_
+17	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	19	det	_	_
+18	sympathetic	sympathetic	ADJ	A	Degree=Pos	19	amod	_	_
+19	light	light	ADJ	A	Degree=Pos	11	obl	_	SpaceAfter=No
+20	-	-	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+21	even	even	ADV	B	_	26	advmod	_	_
+22	though	though	SCONJ	CS	_	26	mark	_	_
+23	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
+24	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	the	the	DET	RD	Definite=Def|PronType=Art	26	det	_	_
+26	center	center	NOUN	S	Number=Sing	11	advcl	_	_
+27	of	of	ADP	E	_	33	case	_	_
+28	the	the	DET	RD	Definite=Def|PronType=Art	29	det	_	_
+29	book	book	NOUN	S	Number=Sing	33	nmod	_	SpaceAfter=No
+30	's	's	PART	PART	_	29	case	_	_
+31	most	most	ADV	B	_	32	advmod	_	_
+32	brutal	brutal	ADJ	A	Degree=Pos	33	amod	_	_
+33	scenes	scene	NOUN	S	Number=Plur	26	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = en_partut-ud-1677
+# text = Le Cousin Pons (1847) and La Cousine Bette (1848) tell the story of Les Parents Pauvres (The Poor Relations).
+1	Le	Le	X	SW	Foreign=Yes	14	nsubj	_	_
+2	Cousin	Cousin	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	Pons	Pons	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	1847	1847	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	5	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	La	La	X	SW	Foreign=Yes	1	conj	_	_
+9	Cousine	Cousine	X	SW	Foreign=Yes	8	flat:foreign	_	_
+10	Bette	Bette	X	SW	Foreign=Yes	8	flat:foreign	_	_
+11	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	1848	1848	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	12	punct	_	_
+14	tell	tell	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+16	story	story	NOUN	S	Number=Sing	14	obj	_	_
+17	of	of	ADP	E	_	18	case	_	_
+18	Les	Les	X	SW	Foreign=Yes	16	nmod	_	_
+19	Parents	Parents	X	SW	Foreign=Yes	18	flat:foreign	_	_
+20	Pauvres	Pauvres	X	SW	Foreign=Yes	18	flat:foreign	_	_
+21	(	(	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+22	The	the	DET	RD	Definite=Def|PronType=Art	24	det	_	_
+23	Poor	poor	ADJ	A	Degree=Pos	24	amod	_	_
+24	Relations	relation	NOUN	S	Number=Plur	18	appos	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = en_partut-ud-1706
+# text = Their correspondence reveals an intriguing balance of passion, propriety and patience;
+1	Their	their	DET	AP	Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	correspondence	correspondence	NOUN	S	Number=Sing	3	nsubj	_	_
+3	reveals	reveal	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
+5	intriguing	intrigue	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	6	acl	_	_
+6	balance	balance	NOUN	S	Number=Sing	3	obj	_	_
+7	of	of	ADP	E	_	8	case	_	_
+8	passion	passion	NOUN	S	Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	propriety	propriety	NOUN	S	Number=Sing	8	conj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	patience	patience	NOUN	S	Number=Sing	8	conj	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = en_partut-ud-1734
+# text = While he admired and drew inspiration from the Romantic style of Scottish novelist Walter Scott, Balzac sought to depict human existence through the use of particulars.
+1	While	while	SCONJ	CS	_	3	mark	_	_
+2	he	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	admired	admire	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	18	advcl	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	drew	draw	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+6	inspiration	inspiration	NOUN	S	Number=Sing	5	obj	_	_
+7	from	from	ADP	E	_	10	case	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+9	Romantic	Romantic	PROPN	SP	_	10	nmod	_	_
+10	style	style	NOUN	S	Number=Sing	5	obl	_	_
+11	of	of	ADP	E	_	13	case	_	_
+12	Scottish	scottish	ADJ	A	Degree=Pos	13	amod	_	_
+13	novelist	novelist	NOUN	S	Number=Sing	10	nmod	_	_
+14	Walter	Walter	PROPN	SP	_	13	nmod	_	_
+15	Scott	Scott	PROPN	SP	_	14	flat	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	5	punct	_	_
+17	Balzac	Balzac	PROPN	SP	_	5	nsubj	_	_
+18	sought	seek	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	to	to	PART	PART	_	20	mark	_	_
+20	depict	depict	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	human	human	ADJ	A	Degree=Pos	22	amod	_	_
+22	existence	existence	NOUN	S	Number=Sing	20	obj	_	_
+23	through	through	ADP	E	_	25	case	_	_
+24	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	_
+25	use	use	NOUN	S	Number=Sing	20	obl	_	_
+26	of	of	ADP	E	_	27	case	_	_
+27	particulars	particular	NOUN	S	Number=Plur	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = en_partut-ud-1738
+# text = Some critics consider Balzac's writing exemplary of naturalism - a more pessimistic and analytical form of realism, which seeks to explain human behavior as intrinsically linked with the environment.
+1	Some	some	DET	DI	PronType=Ind	2	det	_	_
+2	critics	critic	NOUN	S	Number=Plur	3	nsubj	_	_
+3	consider	consider	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Balzac	Balzac	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+5	's	's	PART	PART	_	4	case	_	_
+6	writing	writing	NOUN	S	Number=Sing	3	obj	_	_
+7	exemplary	exemplary	NOUN	S	Number=Sing	3	xcomp	_	_
+8	of	of	ADP	E	_	9	case	_	_
+9	naturalism	naturalism	NOUN	S	Number=Sing	7	nmod	_	_
+10	-	-	PUNCT	FF	_	7	punct	_	_
+11	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	16	det	_	_
+12	more	more	ADV	B	Degree=Cmp	13	advmod	_	_
+13	pessimistic	pessimistic	ADJ	A	Degree=Pos	16	amod	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	analytical	analytic	ADJ	A	Degree=Pos	13	conj	_	_
+16	form	form	NOUN	S	Number=Sing	7	appos	_	_
+17	of	of	ADP	E	_	18	case	_	_
+18	realism	realism	NOUN	S	Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	16	punct	_	_
+20	which	which	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	seeks	seek	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+22	to	to	PART	PART	_	23	mark	_	_
+23	explain	explain	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	human	human	ADJ	A	Degree=Pos	25	amod	_	_
+25	behavior	behavior	NOUN	S	Number=Sing	23	obj	_	_
+26	as	as	ADP	E	_	28	mark	_	_
+27	intrinsically	intrinsically	ADV	B	_	28	advmod	_	_
+28	linked	link	VERB	V	Tense=Past|VerbForm=Part	25	acl	_	_
+29	with	with	ADP	E	_	31	case	_	_
+30	the	the	DET	RD	Definite=Def|PronType=Art	31	det	_	_
+31	environment	environment	NOUN	S	Number=Sing	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-1746
+# text = "At the same time, the characters represent a particular range of social types:
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	At	at	ADP	E	_	5	case	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+4	same	same	ADJ	A	Degree=Pos	5	amod	_	_
+5	time	time	NOUN	S	Number=Sing	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+8	characters	character	NOUN	S	Number=Plur	9	nsubj	_	_
+9	represent	represent	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	12	det	_	_
+11	particular	particular	ADJ	A	Degree=Pos	12	amod	_	_
+12	range	range	NOUN	S	Number=Sing	9	xcomp	_	_
+13	of	of	ADP	E	_	15	case	_	_
+14	social	social	ADJ	A	Degree=Pos	15	amod	_	_
+15	types	type	NOUN	S	Number=Plur	12	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = en_partut-ud-1765
+# text = As part of the 19th-century evolution of the novel as a "democratic literary form", Balzac wrote that "books are written for everybody".
+1	As	as	ADP	E	_	2	case	_	_
+2	part	part	NOUN	S	Number=Sing	22	obl	_	_
+3	of	of	ADP	E	_	9	case	_	_
+4	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+5	19	19	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+6	th	th	ADJ	A	Degree=Pos	5	amod	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+8	century	century	NOUN	S	Number=Sing	9	nmod	_	_
+9	evolution	evolution	NOUN	S	Number=Sing	2	nmod	_	_
+10	of	of	ADP	E	_	12	case	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	novel	novel	NOUN	S	Number=Sing	9	nmod	_	_
+13	as	as	ADP	E	_	18	case	_	_
+14	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	18	det	_	_
+15	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+16	democratic	democratic	ADJ	A	Degree=Pos	18	amod	_	_
+17	literary	literary	ADJ	A	Degree=Pos	18	amod	_	_
+18	form	form	NOUN	S	Number=Sing	9	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	2	punct	_	_
+21	Balzac	Balzac	PROPN	SP	_	22	nsubj	_	_
+22	wrote	write	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+23	that	that	SCONJ	CS	_	27	mark	_	_
+24	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+25	books	book	NOUN	S	Number=Plur	27	nsubj:pass	_	_
+26	are	be	AUX	VA	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
+27	written	write	VERB	V	Tense=Past|VerbForm=Part	22	ccomp	_	_
+28	for	for	ADP	E	_	29	case	_	_
+29	everybody	everybody	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = en_partut-ud-1808
+# text = At the age of 18, he married Anne Hathaway, with whom he had three children:
+1	At	at	ADP	E	_	3	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	age	age	NOUN	S	Number=Sing	8	obl	_	_
+4	of	of	ADP	E	_	5	case	_	_
+5	18	18	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	he	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	married	marry	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Anne	Anne	PROPN	SP	_	8	obj	_	_
+10	Hathaway	Hathaway	PROPN	SP	_	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	with	with	ADP	E	_	13	case	_	_
+13	whom	who	PRON	PR	PronType=Rel	15	obl	_	_
+14	he	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	had	have	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+16	three	three	NUM	N	NumType=Card	17	nummod	_	_
+17	children	child	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = en_partut-ud-1820
+# text = "Shakespeare was a respected poet and playwright in his own day, but his reputation did not rise to its present heights until the 19th century.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Shakespeare	Shakespeare	PROPN	SP	_	6	nsubj	_	_
+3	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
+5	respected	respect	VERB	V	Tense=Past|VerbForm=Part	6	acl	_	_
+6	poet	poet	NOUN	S	Number=Sing	0	root	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	playwright	playwright	NOUN	S	Number=Sing	6	conj	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	his	his	DET	AP	Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	own	own	ADJ	A	Degree=Pos	12	amod	_	_
+12	day	day	NOUN	S	Number=Sing	6	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	19	punct	_	_
+14	but	but	CCONJ	CC	_	19	cc	_	_
+15	his	his	DET	AP	Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	reputation	reputation	NOUN	S	Number=Sing	19	nsubj	_	_
+17	did	do	AUX	VM	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
+18	not	not	PART	PART	Polarity=Neg	19	advmod	_	_
+19	rise	rise	NOUN	S	Number=Sing	6	conj	_	_
+20	to	to	ADP	E	_	23	case	_	_
+21	its	its	DET	AP	Number=Sing|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+22	present	present	ADJ	A	Degree=Pos	23	amod	_	_
+23	heights	height	NOUN	S	Number=Plur	19	nmod	_	_
+24	until	until	ADP	E	_	28	case	_	_
+25	the	the	DET	RD	Definite=Def|PronType=Art	28	det	_	_
+26	19	19	NUM	N	NumType=Card	28	nummod	_	SpaceAfter=No
+27	th	th	ADJ	A	Degree=Pos	26	amod	_	_
+28	century	century	NOUN	S	Number=Sing	19	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = en_partut-ud-1826
+# text = His actual date of birth remains unknown, but is traditionally observed on 23 April, Saint George's Day.
+1	His	his	DET	AP	Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	actual	actual	ADJ	A	Degree=Pos	3	amod	_	_
+3	date	date	NOUN	S	Number=Sing	6	nsubj	_	_
+4	of	of	ADP	E	_	5	case	_	_
+5	birth	birth	NOUN	S	Number=Sing	3	nmod	_	_
+6	remains	remain	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	unknown	unknown	ADJ	A	Degree=Pos	6	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	but	but	CCONJ	CC	_	12	cc	_	_
+10	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	traditionally	traditionally	ADV	B	_	12	advmod	_	_
+12	observed	observe	VERB	V	Tense=Past|VerbForm=Part	6	conj	_	_
+13	on	on	ADP	E	_	14	case	_	_
+14	23	23	NUM	N	NumType=Card	12	obl	_	_
+15	April	April	PROPN	SP	_	14	flat	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	Saint	Saint	PROPN	SP	_	20	nmod	_	_
+18	George	George	PROPN	SP	_	17	flat	_	SpaceAfter=No
+19	's	's	PART	PART	_	17	case	_	_
+20	Day	day	NOUN	S	Number=Sing	14	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = en_partut-ud-1859
+# text = In 1599, a partnership of company members built their own theatre on the south bank of the River Thames, which they called the Globe.
+1	In	in	ADP	E	_	2	case	_	_
+2	1599	1599	NUM	N	NumType=Card	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+5	partnership	partnership	NOUN	S	Number=Sing	9	nsubj	_	_
+6	of	of	ADP	E	_	8	case	_	_
+7	company	company	NOUN	S	Number=Sing	8	nmod	_	_
+8	members	member	NOUN	S	Number=Plur	5	nmod	_	_
+9	built	build	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	their	their	DET	AP	Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	own	own	ADJ	A	Degree=Pos	12	amod	_	_
+12	theatre	theatre	NOUN	S	Number=Sing	9	obj	_	_
+13	on	on	ADP	E	_	16	case	_	_
+14	the	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+15	south	south	ADJ	A	Degree=Pos	16	amod	_	_
+16	bank	bank	NOUN	S	Number=Sing	9	obl	_	_
+17	of	of	ADP	E	_	19	case	_	_
+18	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+19	River	River	PROPN	SP	_	16	nmod	_	_
+20	Thames	Thames	PROPN	SP	_	19	flat	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	which	which	PRON	PR	PronType=Rel	24	obj	_	_
+23	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
+24	called	call	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
+25	the	the	DET	RD	Definite=Def|PronType=Art	26	det	_	_
+26	Globe	globe	NOUN	S	Number=Sing	24	xcomp	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = en_partut-ud-1861
+# text = Records of Shakespeare's property purchases and investments indicate that the company made him a wealthy man.
+1	Records	record	NOUN	S	Number=Plur	9	nsubj	_	_
+2	of	of	ADP	E	_	6	case	_	_
+3	Shakespeare	Shakespeare	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+4	's	's	PART	PART	_	3	case	_	_
+5	property	property	NOUN	S	Number=Sing	6	nmod	_	_
+6	purchases	purchase	NOUN	S	Number=Plur	1	nmod	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	investments	investment	NOUN	S	Number=Plur	6	conj	_	_
+9	indicate	indicate	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	that	that	SCONJ	CS	_	13	mark	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	company	company	NOUN	S	Number=Sing	13	nsubj	_	_
+13	made	make	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	ccomp	_	_
+14	him	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	17	det	_	_
+16	wealthy	wealthy	ADJ	A	Degree=Pos	17	amod	_	_
+17	man	man	NOUN	S	Gender=Masc|Number=Sing	13	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = en_partut-ud-1874
+# text = By 1604, he had moved north of the river again, to an area north of St Paul's Cathedral with many fine houses.
+1	By	by	ADP	E	_	2	case	_	_
+2	1604	1604	NUM	N	NumType=Card	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	he	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	had	have	AUX	VA	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	moved	move	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+7	north	north	ADJ	A	Degree=Pos	6	obl	_	_
+8	of	of	ADP	E	_	10	case	_	_
+9	the	the	DET	RD	Definite=Def|PronType=Art	10	det	_	_
+10	river	river	NOUN	S	Number=Sing	6	obl	_	_
+11	again	again	ADV	B	_	6	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	to	to	ADP	E	_	15	case	_	_
+14	an	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	15	det	_	_
+15	area	area	NOUN	S	Number=Sing	6	obl	_	_
+16	north	north	NOUN	S	Number=Sing	15	nmod	_	_
+17	of	of	ADP	E	_	21	case	_	_
+18	St	St	PROPN	SP	_	21	nmod	_	_
+19	Paul	Paul	PROPN	SP	_	18	flat	_	SpaceAfter=No
+20	's	's	PART	PART	_	18	case	_	_
+21	Cathedral	cathedral	NOUN	S	Number=Sing	16	nmod	_	_
+22	with	with	ADP	E	_	25	case	_	_
+23	many	many	ADJ	A	Degree=Pos	25	amod	_	_
+24	fine	fine	ADJ	A	Degree=Pos	25	amod	_	_
+25	houses	house	NOUN	S	Number=Plur	15	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = en_partut-ud-1875
+# text = There he rented rooms from a French Huguenot named Christopher Mountjoy, a maker of ladies' wigs and other headgear.
+1	There	there	ADV	B	_	3	advmod	_	_
+2	he	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	rented	rent	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	rooms	room	NOUN	S	Number=Plur	3	obj	_	_
+5	from	from	ADP	E	_	8	case	_	_
+6	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
+7	French	French	PROPN	SP	_	8	nmod	_	_
+8	Huguenot	huguenot	NOUN	S	Number=Sing	3	obl	_	_
+9	named	name	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	acl	_	_
+10	Christopher	Christopher	PROPN	SP	_	9	xcomp	_	_
+11	Mountjoy	Mountjoy	PROPN	SP	_	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
+14	maker	maker	NOUN	S	Number=Sing	10	appos	_	_
+15	of	of	ADP	E	_	18	case	_	_
+16	ladies	lady	NOUN	S	Number=Plur	18	nmod	_	SpaceAfter=No
+17	'	'	PART	PART	_	16	case	_	_
+18	wigs	wig	NOUN	S	Number=Plur	14	nmod	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	other	other	ADJ	A	Degree=Pos	21	amod	_	_
+21	headgear	headgear	NOUN	S	Number=Sing	18	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = en_partut-ud-1887
+# text = His last three plays were collaborations, probably with John Fletcher, who succeeded him as the house playwright for the King's Men.
+1	His	his	DET	AP	Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+2	last	last	ADJ	NO	Degree=Pos|NumType=Ord	3	amod	_	_
+3	three	three	NUM	N	NumType=Card	4	nummod	_	_
+4	plays	play	NOUN	S	Number=Plur	6	nsubj	_	_
+5	were	be	AUX	V	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	collaborations	collaboration	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	probably	probably	ADV	B	_	10	advmod	_	_
+9	with	with	ADP	E	_	10	case	_	_
+10	John	John	PROPN	SP	_	6	nmod	_	_
+11	Fletcher	Fletcher	PROPN	SP	_	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	who	who	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	succeeded	succeed	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
+15	him	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	as	as	ADP	E	_	19	case	_	_
+17	the	the	DET	RD	Definite=Def|PronType=Art	19	det	_	_
+18	house	house	NOUN	S	Number=Sing	19	nmod	_	_
+19	playwright	playwright	NOUN	S	Number=Sing	14	obl	_	_
+20	for	for	ADP	E	_	24	case	_	_
+21	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+22	King	king	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+23	's	's	PART	PART	_	22	case	_	_
+24	Men	man	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = en_partut-ud-1926
+# text = that is the question".
+1	that	that	PRON	PD	PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+4	question	question	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = en_partut-ud-1955
+# text = In 1613, Sir Henry Wotton recorded that Henry VIII "was set forth with many extraordinary circumstances of pomp and ceremony".
+1	In	in	ADP	E	_	2	case	_	_
+2	1613	1613	NUM	N	NumType=Card	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Sir	Sir	PROPN	SP	_	7	nsubj	_	_
+5	Henry	Henry	PROPN	SP	_	4	flat	_	_
+6	Wotton	Wotton	PROPN	SP	_	4	flat	_	_
+7	recorded	record	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	that	that	SCONJ	CS	_	13	mark	_	_
+9	Henry	Henry	PROPN	SP	_	13	nsubj:pass	_	_
+10	VIII	eigth	ADJ	NO	Degree=Pos|NumType=Ord	9	flat	_	_
+11	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	was	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	set	set	ADJ	A	Degree=Pos	7	ccomp	_	_
+14	forth	forth	ADP	E	_	13	compound:prt	_	_
+15	with	with	ADP	E	_	18	amod	_	_
+16	many	many	ADJ	A	Degree=Pos	18	amod	_	_
+17	extraordinary	extraordinary	ADJ	A	Degree=Pos	18	amod	_	_
+18	circumstances	circumstance	NOUN	S	Number=Plur	13	obl	_	_
+19	of	of	ADP	E	_	20	case	_	_
+20	pomp	pomp	NOUN	S	Number=Sing	18	nmod	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	ceremony	ceremony	NOUN	S	Number=Sing	20	conj	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = en_partut-ud-1958
+# text = It contained 36 texts, including 18 printed for the first time.
+1	It	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	contained	contain	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	36	36	NUM	N	NumType=Card	4	nummod	_	_
+4	texts	text	NOUN	S	Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	including	include	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	4	acl	_	_
+7	18	18	NUM	N	NumType=Card	6	obj	_	_
+8	printed	print	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	_
+9	for	for	ADP	E	_	12	case	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+11	first	first	ADJ	NO	Degree=Pos|NumType=Ord	12	amod	_	_
+12	time	time	NOUN	S	Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-1967
+# text = He dedicated them to Henry Wriothesley, Earl of Southampton.
+1	He	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	dedicated	dedicate	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	them	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	to	to	ADP	E	_	5	case	_	_
+5	Henry	Henry	PROPN	SP	_	2	obl	_	_
+6	Wriothesley	Wriothesley	PROPN	SP	_	5	flat	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	Earl	Earl	PROPN	SP	_	5	appos	_	_
+9	of	of	ADP	E	_	10	case	_	_
+10	Southampton	Southampton	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-2031
+# text = These include two operas by Giuseppe Verdi, Otello and Falstaff, whose critical standing compares with that of the source plays.
+1	These	this	PRON	PD	Number=Plur|PronType=Dem	2	nsubj	_	_
+2	include	include	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	two	two	NUM	N	NumType=Card	4	nummod	_	_
+4	operas	opera	NOUN	S	Number=Plur	2	obj	_	_
+5	by	by	ADP	E	_	6	case	_	_
+6	Giuseppe	Giuseppe	PROPN	SP	_	4	nmod	_	_
+7	Verdi	Verdi	PROPN	SP	_	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	Otello	Otello	PROPN	SP	_	4	nmod	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	Falstaff	Falstaff	PROPN	SP	_	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	whose	whose	PRON	PR	PronType=Rel	15	nmod	_	_
+14	critical	critical	ADJ	A	Degree=Pos	15	amod	_	_
+15	standing	standing	NOUN	S	Number=Sing	16	nsubj	_	_
+16	compares	compare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+17	with	with	ADP	E	_	18	case	_	_
+18	that	that	SCONJ	CS	_	16	obl	_	_
+19	of	of	ADP	E	_	22	case	_	_
+20	the	the	DET	RD	Definite=Def|PronType=Art	22	det	_	_
+21	source	source	NOUN	S	Number=Sing	22	nmod	_	_
+22	plays	play	NOUN	S	Number=Plur	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = en_partut-ud-2035
+# text = In Shakespeare's day, English grammar, spelling and pronunciation were less standardised than they are now, and his use of language helped shape modern English.
+1	In	in	ADP	E	_	4	case	_	_
+2	Shakespeare	Shakespeare	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+3	's	's	PART	PART	_	2	case	_	_
+4	day	day	NOUN	S	Number=Sing	14	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	English	English	ADJ	A	Degree=Pos	7	amod	_	_
+7	grammar	grammar	NOUN	S	Number=Sing	14	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	spelling	spelling	NOUN	S	Number=Sing	7	conj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	pronunciation	pronunciation	NOUN	S	Number=Sing	7	conj	_	_
+12	were	be	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	14	cop	_	_
+13	less	less	ADV	B	Degree=Cmp	14	advmod	_	_
+14	standardised	standardize	VERB	V	Tense=Past|VerbForm=Part	0	root	_	_
+15	than	than	ADP	E	_	17	mark	_	_
+16	they	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+17	are	be	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+18	now	now	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	25	punct	_	_
+20	and	and	CCONJ	CC	_	25	cc	_	_
+21	his	his	DET	AP	Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	use	use	NOUN	S	Number=Sing	25	nsubj	_	_
+23	of	of	ADP	E	_	24	case	_	_
+24	language	language	NOUN	S	Number=Sing	22	nmod	_	_
+25	helped	help	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	_
+26	shape	shape	VERB	V	VerbForm=Inf	25	ccomp	_	_
+27	modern	modern	ADJ	A	Degree=Pos	28	amod	_	_
+28	English	English	ADJ	A	Degree=Pos	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = en_partut-ud-2065
+# text = In the 1950s, a wave of new critical approaches replaced modernism and paved the way for "post-modern" studies of Shakespeare.
+1	In	in	ADP	E	_	3	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	3	det	_	_
+3	1950	1950	NUM	N	NumType=Card	12	obl	_	SpaceAfter=No
+4	s	s	X	X	_	3	dep	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	a	a	DET	RI	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+7	wave	wave	NOUN	S	Number=Sing	12	nsubj	_	_
+8	of	of	ADP	E	_	11	case	_	_
+9	new	new	ADJ	A	Degree=Pos	11	amod	_	_
+10	critical	critical	ADJ	A	Degree=Pos	11	amod	_	_
+11	approaches	approach	NOUN	S	Number=Plur	7	nmod	_	_
+12	replaced	replace	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	modernism	modernism	NOUN	S	Number=Sing	12	obj	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	paved	pave	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+17	way	way	NOUN	S	Number=Sing	15	obj	_	_
+18	for	for	ADV	B	_	15	advmod	_	_
+19	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	post	post	NOUN	S	Number=Sing	24	nmod	_	SpaceAfter=No
+21	-	-	PUNCT	FF	_	20	punct	_	SpaceAfter=No
+22	modern	modern	ADJ	A	Degree=Pos	20	amod	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	20	punct	_	_
+24	studies	study	NOUN	S	Number=Plur	15	nsubj	_	_
+25	of	of	ADP	E	_	26	case	_	_
+26	Shakespeare	Shakespeare	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = en_partut-ud-2079
+# text = At 18, he married the 26-year-old Anne Hathaway, who was pregnant.
+1	At	at	ADP	E	_	2	case	_	_
+2	18	18	NUM	N	NumType=Card	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	he	he	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	married	marry	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+7	26	26	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+9	year	year	NOUN	S	Number=Sing	12	nmod	_	SpaceAfter=No
+10	-	-	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+11	old	old	ADJ	A	Degree=Pos	9	amod	_	_
+12	Anne	Anne	PROPN	SP	_	5	obj	_	_
+13	Hathaway	Hathaway	PROPN	SP	_	12	flat	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	who	who	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	was	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+17	pregnant	pregnant	ADJ	A	Degree=Pos	12	acl:relcl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = en_partut-ud-2090
+# text = In the late 19th century, Edward Dowden classified four of the late comedies as romances, and though many scholars prefer to call them tragicomedies, his term is often used.
+1	In	in	ADP	E	_	6	case	_	_
+2	the	the	DET	RD	Definite=Def|PronType=Art	6	det	_	_
+3	late	late	ADJ	A	Degree=Pos	4	amod	_	_
+4	19	19	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+5	th	th	ADJ	A	Degree=Pos	4	amod	_	_
+6	century	century	NOUN	S	Number=Sing	10	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	Edward	Edward	PROPN	SP	_	10	nsubj	_	_
+9	Dowden	Dowden	PROPN	SP	_	8	flat	_	_
+10	classified	classify	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	four	four	NUM	N	NumType=Card	10	obj	_	_
+12	of	of	ADP	E	_	15	case	_	_
+13	the	the	DET	RD	Definite=Def|PronType=Art	15	det	_	_
+14	late	late	ADJ	A	Degree=Pos	15	amod	_	_
+15	comedies	comedy	NOUN	S	Number=Plur	11	nmod	_	_
+16	as	as	ADP	E	_	17	case	_	_
+17	romances	romance	NOUN	S	Number=Plur	10	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	33	punct	_	_
+19	and	and	CCONJ	CC	_	33	cc	_	_
+20	though	though	SCONJ	CS	_	23	mark	_	_
+21	many	many	ADJ	A	Degree=Pos	22	amod	_	_
+22	scholars	scholar	NOUN	S	Number=Plur	23	nsubj	_	_
+23	prefer	prefer	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	33	advcl	_	_
+24	to	to	PART	PART	_	25	mark	_	_
+25	call	call	VERB	V	VerbForm=Inf	23	ccomp	_	_
+26	them	they	PRON	PE	Number=Plur|Person=3|PronType=Prs	25	obj	_	_
+27	tragicomedies	tragicomedy	NOUN	S	Number=Plur	25	xcomp	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	23	punct	_	_
+29	his	his	DET	AP	Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	term	term	NOUN	S	Number=Sing	33	nsubj:pass	_	_
+31	is	be	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux:pass	_	_
+32	often	often	ADV	B	_	33	advmod	_	_
+33	used	use	VERB	V	Tense=Past|VerbForm=Part	10	conj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	10	punct	_	_
+

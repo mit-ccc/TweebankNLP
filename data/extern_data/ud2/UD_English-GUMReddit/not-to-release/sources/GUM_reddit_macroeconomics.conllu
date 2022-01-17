@@ -1,0 +1,1507 @@
+# newdoc id = GUM_reddit_macroeconomics
+# global.Entity = entity-GRP-infstat-MIN-coref_type-identity
+# meta::dateCollected = 2017-09-13
+# meta::dateCreated = 2017-09-12
+# meta::dateModified = 2017-09-12
+# meta::sourceURL = https://www.reddit.com/r/explainlikeimfive/comments/6zm74h/eli5_if_every_major_country_is_in_billions_if_not/
+# meta::speakerCount = 2
+# meta::title = ELI5: If every major country is in billions (if not trillions) of debt, where are they borrowing from?
+# sent_id = GUM_reddit_macroeconomics-1
+# s_type = frag
+# speaker = GUM_reddit_macroeconomics_spk_A
+# text = ELI5:
+# newpar = sp who:::"GUM_reddit_macroeconomics_spk_A" (2 s) | head (2 s)
+1	ELI5	ELI5	PROPN	NNP	Abbr=Yes|Number=Sing	0	root	0:root	Discourse=preparation:1->5:1|Entity=(abstract-1-new-1-coref)|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	1:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-2
+# s_type = wh
+# speaker = GUM_reddit_macroeconomics_spk_A
+# text = If every major country is in billions (if not trillions) of debt, where are they borrowing from?
+1	If	if	SCONJ	IN	_	7	mark	7:mark	Discourse=background:2->5:0|Entity=(abstract-2-new-19-disc
+2	every	every	DET	DT	_	4	det	4:det	Entity=(place-3-new-3-coref
+3	major	major	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
+4	country	country	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=3)
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
+6	in	in	ADP	IN	_	7	case	7:case	_
+7	billions	billion	NOUN	NNS	Number=Plur	19	advcl	19:advcl:if	Entity=(abstract-4-new-1-sgl
+8	(	(	PUNCT	-LRB-	_	11	punct	11:punct	Discourse=antithesis:3->2:0|SpaceAfter=No
+9	if	if	SCONJ	IN	_	11	mark	11:mark	_
+10	not	not	PART	RB	Polarity=Neg	11	advmod	11:advmod	_
+11	trillions	trillion	NOUN	NNS	Number=Plur	7	acl	7:acl:if	SpaceAfter=No
+12	)	)	PUNCT	-RRB-	_	11	punct	11:punct	_
+13	of	of	ADP	IN	_	14	case	14:case	Discourse=same-unit_m:4->2:1
+14	debt	debt	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=4)|SpaceAfter=No
+15	,	,	PUNCT	,	_	7	punct	7:punct	_
+16	where	where	SCONJ	WRB	PronType=Int	19	obl	19:obl:from	Discourse=question:5->6:0
+17	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	19:nsubj	Entity=(place-3-giv:act-1-ana)
+19	borrowing	borrow	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
+20	from	from	ADP	IN	_	16	case	16:case	SpaceAfter=No
+21	?	?	PUNCT	.	_	19	punct	19:punct	Entity=2)
+
+# sent_id = GUM_reddit_macroeconomics-3
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = sub
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = You can borrow from your own people.
+# newpar = sp who:::"GUM_reddit_macroeconomics_spk_B" whom:::"GUM_reddit_macroeconomics_spk_A" (53 s) | p (2 s)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=ROOT:6:0|Entity=(person-5-acc:com-1-ana)
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
+3	borrow	borrow	VERB	VB	VerbForm=Inf	0	root	0:root	_
+4	from	from	ADP	IN	_	7	case	7:case	_
+5	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(person-6-new-3-sgl(person-5-giv:act-1-ana)
+6	own	own	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
+7	people	person	NOUN	NNS	Number=Plur	3	obl	3:obl:from	Entity=6)|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-4
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = The money that is printed is FEDERAL RESERVE (thanks for the corrections) notes -- it's technically a debt that the Reserve owes the bearer of the note (but printing money does not technically increase the debt supply -- the role of money has changed since fiat currency).
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:7->6:1|Entity=(object-7-new-2-coref
+2	money	money	NOUN	NN	Number=Sing	15	nsubj	5:nsubj:pass|15:nsubj	_
+3	that	that	PRON	WDT	PronType=Rel	5	nsubj:pass	2:ref	Discourse=elaboration:8->7:0
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass	_
+5	printed	print	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl:relcl	2:acl:relcl	Entity=7)
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	Discourse=same-unit_m:9->7:1
+7	FEDERAL	Federal	ADJ	NNP	Degree=Pos	8	amod	8:amod	Entity=(object-7-giv:act-1,9-pred(organization-8-new-1,2-coref-Federal_Reserve|XML=<hi rend:::"bold">
+8	RESERVE	Reserve	PROPN	NNP	Number=Sing	15	compound	15:compound	Entity=8)|XML=</hi>
+9	(	(	PUNCT	-LRB-	_	10	punct	10:punct	Discourse=concession:10->9:0|SpaceAfter=No
+10	thanks	thanks	NOUN	NNS	Number=Plur	8	parataxis	8:parataxis	_
+11	for	for	ADP	IN	_	13	case	13:case	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(abstract-9-acc:com-2-sgl
+13	corrections	correction	NOUN	NNS	Number=Plur	10	nmod	10:nmod:for	Entity=9)|SpaceAfter=No
+14	)	)	PUNCT	-RRB-	_	10	punct	10:punct	_
+15	notes	note	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=same-unit_m:11->7:1|Entity=7)
+16	--	-	PUNCT	:	_	21	punct	21:punct	Discourse=elaboration:12->7:2
+17-18	it's	_	_	_	_	_	_	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	21:nsubj	Entity=(object-7-giv:act-1-ana)
+18	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	21:cop	_
+19	technically	technically	ADV	RB	Degree=Pos	21	advmod	21:advmod	XML=<hi rend:::"italic"></hi>
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Entity=(object-7-giv:act-2-pred
+21	debt	debt	NOUN	NN	Number=Sing	15	parataxis	15:parataxis	_
+22	that	that	ADP	IN	_	25	obj	25:obj	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(organization-8-giv:act-2-coref-Federal_Reserve
+24	Reserve	Reserve	PROPN	NNP	Number=Sing	25	nsubj	25:nsubj	Entity=8)
+25	owes	owe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	21:acl:relcl	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(person-10-new-2-sgl
+27	bearer	bearer	NOUN	NN	Number=Sing	25	iobj	25:iobj	_
+28	of	of	ADP	IN	_	30	case	30:case	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Bridge=7<11|Entity=(object-11-acc:inf-2-sgl
+30	note	note	NOUN	NN	Number=Sing	27	nmod	27:nmod:of	Entity=11)10)7)
+31	(	(	PUNCT	-LRB-	_	38	punct	38:punct	Discourse=contrast_m:13->12:0|SpaceAfter=No
+32	but	but	CCONJ	CC	_	38	cc	38:cc	_
+33	printing	print	VERB	VBG	VerbForm=Ger	38	csubj	38:csubj	_
+34	money	money	NOUN	NN	Number=Sing	33	obj	33:obj	Entity=(abstract-12-new-1-coref)
+35	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	38:aux	_
+36	not	not	PART	RB	Polarity=Neg	38	advmod	38:advmod	_
+37	technically	technically	ADV	RB	Degree=Pos	38	advmod	38:advmod	_
+38	increase	increase	VERB	VB	VerbForm=Inf	15	conj	15:conj:but	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	41	det	41:det	Entity=(abstract-13-new-3-sgl
+40	debt	debt	NOUN	NN	Number=Sing	41	compound	41:compound	Entity=(abstract-14-new-1-coref)
+41	supply	supply	NOUN	NN	Number=Sing	38	obj	38:obj	Entity=13)
+42	--	-	PUNCT	:	_	48	punct	48:punct	Discourse=cause:14->13:0
+43	the	the	DET	DT	Definite=Def|PronType=Art	44	det	44:det	Entity=(abstract-15-new-2-sgl
+44	role	role	NOUN	NN	Number=Sing	48	nsubj	48:nsubj	_
+45	of	of	ADP	IN	_	46	case	46:case	_
+46	money	money	NOUN	NN	Number=Sing	44	nmod	44:nmod:of	Entity=(abstract-12-giv:act-1-coref)15)
+47	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	aux	48:aux	_
+48	changed	change	VERB	VBN	Tense=Past|VerbForm=Part	38	parataxis	38:parataxis	_
+49	since	since	ADP	IN	_	51	case	51:case	_
+50	fiat	fiat	NOUN	NN	Number=Sing	51	compound	51:compound	Entity=(abstract-16-new-2-coref
+51	currency	currency	NOUN	NN	Number=Sing	48	obl	48:obl:since	Entity=16)|SpaceAfter=No
+52	)	)	PUNCT	-RRB-	_	38	punct	38:punct	SpaceAfter=No
+53	.	.	PUNCT	.	_	15	punct	15:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-5
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = When you print more money, you are devaluing the rest of the currency that is already in circulation.
+# newpar = p (4 s)
+1	When	when	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=condition:15->16:1|Entity=(event-17-new-9-disc
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-5-giv:inact-1-ana)
+3	print	print	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl:when	_
+4	more	more	ADJ	JJR	Degree=Cmp	5	amod	5:amod	Entity=(object-18-new-2-sgl
+5	money	money	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=18)|SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	3:punct	_
+7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Discourse=joint_m:16->7:3|Entity=(person-5-giv:act-1-ana)
+8	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
+9	devaluing	devalue	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(abstract-19-new-2-sgl
+11	rest	rest	NOUN	NN	Number=Sing	9	obj	9:obj	_
+12	of	of	ADP	IN	_	14	case	14:case	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(abstract-20-new-2-sgl
+14	currency	currency	NOUN	NN	Number=Sing	11	nmod	11:nmod:of|17:nsubj	Entity=20)
+15	that	that	PRON	WDT	PronType=Rel	17	nsubj	14:ref	Discourse=elaboration:17->16:0
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	_
+17	already	already	ADV	RB	_	14	acl:relcl	14:acl:relcl	_
+18	in	in	ADP	IN	_	19	case	19:case	_
+19	circulation	circulation	NOUN	NN	Number=Sing	17	nmod	17:nmod:in	Entity=(abstract-21-new-1-sgl)19)|SpaceAfter=No
+20	.	.	PUNCT	.	_	9	punct	9:punct	Entity=17)
+
+# sent_id = GUM_reddit_macroeconomics-6
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = This means that if the govt decided to print $ 100,000,000,000,000,000 (1 quadrillion dollars) in the span of a week, the value of the dollar would probably crash pretty hard (probably ...).
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	2:nsubj	Discourse=elaboration:18->16:2|Entity=(event-17-giv:act-1-coref)
+2	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	that	that	SCONJ	IN	_	31	mark	31:mark	_
+4	if	if	SCONJ	IN	_	7	mark	7:mark	Discourse=condition:19->22:0|Entity=(event-22-new-28-disc
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Bridge=3<23|Entity=(organization-23-acc:inf-2-coref
+6	govt	government	NOUN	NN	Number=Sing	7	nsubj	7:nsubj|9:nsubj:xsubj	Entity=23)|XML=<sic></sic>
+7	decided	decide	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	advcl	31:advcl:if	_
+8	to	to	PART	TO	_	9	mark	9:mark	_
+9	print	print	VERB	VB	VerbForm=Inf	7	xcomp	7:xcomp	_
+10	$	$	SYM	SYM	_	9	obj	9:obj	Entity=(abstract-24-new-1-coref
+11	100,000,000,000,000,000	100000000000000000	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	10:nummod	Entity=24)
+12	(	(	PUNCT	-LRB-	_	15	punct	15:punct	Discourse=restatement:20->19:0|SpaceAfter=No
+13	1	1	NUM	CD	NumForm=Digit|NumType=Card	14	compound	14:compound	Entity=(abstract-24-giv:act-3-appos
+14	quadrillion	quadrillion	NOUN	NN	Number=Sing	15	nummod	15:nummod	_
+15	dollars	dollar	NOUN	NNS	Number=Plur	10	appos	10:appos	Entity=24)|SpaceAfter=No
+16	)	)	PUNCT	-RRB-	_	15	punct	15:punct	_
+17	in	in	ADP	IN	_	19	case	19:case	Discourse=same-unit_m:21->19:1
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(time-25-new-2-sgl
+19	span	span	NOUN	NN	Number=Sing	9	obl	9:obl:in	_
+20	of	of	ADP	IN	_	22	case	22:case	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	_
+22	week	week	NOUN	NN	Number=Sing	19	nmod	19:nmod:of	Entity=25)|SpaceAfter=No
+23	,	,	PUNCT	,	_	7	punct	7:punct	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Discourse=same-unit_m:22->18:0|Entity=(abstract-26-new-2-sgl
+25	value	value	NOUN	NN	Number=Sing	31	nsubj	31:nsubj	_
+26	of	of	ADP	IN	_	28	case	28:case	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Bridge=24<27|Entity=(abstract-27-acc:inf-2-coref
+28	dollar	dollar	NOUN	NN	Number=Sing	25	nmod	25:nmod:of	Entity=27)26)
+29	would	would	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	31	aux	31:aux	_
+30	probably	probably	ADV	RB	Degree=Pos	31	advmod	31:advmod	_
+31	crash	crash	VERB	VB	VerbForm=Inf	2	ccomp	2:ccomp	_
+32	pretty	pretty	ADV	RB	_	33	advmod	33:advmod	_
+33	hard	hard	ADV	RB	Degree=Pos	31	advmod	31:advmod	_
+34	(	(	PUNCT	-LRB-	_	35	punct	35:punct	Discourse=evaluation:23->18:1|SpaceAfter=No
+35	probably	probably	ADV	RB	Degree=Pos	31	advmod	31:advmod	_
+36	...	…	PUNCT	:	_	35	punct	35:punct	SpaceAfter=No
+37	)	)	PUNCT	-RRB-	_	35	punct	35:punct	Entity=22)|SpaceAfter=No
+38	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-7
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = This is related because people use money to buy US debt -- we're loaning the US govt the very money it prints.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=evaluation:24->16:3|Entity=(event-22-giv:act-1-coref)
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
+3	related	related	ADJ	JJ	Degree=Pos	0	root	0:root	_
+4	because	because	SCONJ	IN	_	6	mark	6:mark	Discourse=cause:25->24:0
+5	people	person	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=(event-28-new-2-disc(person-29-new-1-sgl)
+6	use	use	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl:because	_
+7	money	money	NOUN	NN	Number=Sing	6	obj	6:obj|9:nsubj:xsubj	Entity=(abstract-12-giv:inact-1-coref)
+8	to	to	PART	TO	_	9	mark	9:mark	Discourse=purpose:26->25:0
+9	buy	buy	VERB	VB	VerbForm=Inf	6	xcomp	6:xcomp	_
+10	US	US	PROPN	NNP	Abbr=Yes|Number=Sing	11	compound	11:compound	Entity=(abstract-30-new-2-sgl(place-31-new-1-coref-United_States)
+11	debt	debt	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=30)
+12	--	-	PUNCT	:	_	15	punct	15:punct	Discourse=elaboration:27->25:1
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	15:nsubj	Entity=(person-32-acc:com-1-ana)|SpaceAfter=No
+14	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
+15	loaning	loan	VERB	VBG	Tense=Pres|VerbForm=Part	6	parataxis	6:parataxis	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(organization-23-giv:act-3-coref
+17	US	US	PROPN	NNP	Abbr=Yes|Number=Sing	18	compound	18:compound	Entity=(place-31-giv:act-1-coref-United_States)
+18	govt	government	NOUN	NN	Number=Sing	15	iobj	15:iobj	Entity=23)|XML=<sic></sic>
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Bridge=12<33|Entity=(abstract-33-acc:inf-3-sgl
+20	very	very	ADJ	JJ	Degree=Pos	21	amod	21:amod	_
+21	money	money	NOUN	NN	Number=Sing	15	obj	15:obj	_
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	23:nsubj	Discourse=elaboration:28->27:0|Entity=(organization-23-giv:act-1-ana)
+23	prints	print	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	21:acl:relcl	Entity=33)28)|SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-8
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = The only reason that this results in anything favorable is because people all over the world value USD and that paper currency represents potential labor, new assets, etc.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=evaluation:29->16:4|Entity=(abstract-34-new-3-sgl
+2	only	only	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
+3	reason	reason	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	_
+4	that	that	SCONJ	IN	_	6	mark	6:mark	Discourse=antithesis:30->29:0
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Entity=(event-28-giv:act-1-coref)
+6	results	result	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	3:acl:relcl	_
+7	in	in	ADP	IN	_	8	case	8:case	_
+8	anything	anything	NOUN	NN	Number=Sing	6	obl	6:obl:in	Entity=(abstract-35-new-1-sgl
+9	favorable	favorable	ADJ	JJ	Degree=Pos	8	amod	8:amod	Entity=35)34)
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:31->29:1
+11	because	because	SCONJ	IN	_	17	mark	17:mark	_
+12	people	person	NOUN	NNS	Number=Plur	17	nsubj	17:nsubj	Entity=(person-36-new-1-sgl
+13	all	all	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
+14	over	over	ADP	IN	_	16	case	16:case	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(place-37-acc:com-2-sgl
+16	world	world	NOUN	NN	Number=Sing	12	nmod	12:nmod:over	Entity=37)36)
+17	value	value	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	10:ccomp	_
+18	USD	USD	PROPN	NNP	Abbr=Yes|Number=Sing	17	obj	17:obj	Entity=(abstract-27-giv:inact-1-coref-United_States_dollar)
+19	and	and	CCONJ	CC	_	23	cc	23:cc	Discourse=joint_m:32->31:0
+20	that	that	DET	DT	Number=Sing|PronType=Dem	22	det	22:det	Bridge=27<38|Entity=(object-38-acc:inf-3-sgl
+21	paper	paper	NOUN	NN	Number=Sing	22	compound	22:compound	_
+22	currency	currency	NOUN	NN	Number=Sing	23	nsubj	23:nsubj	Entity=38)
+23	represents	represent	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	10:ccomp|17:conj:and	_
+24	potential	potential	ADJ	JJ	Degree=Pos	25	amod	25:amod	Entity=(abstract-39-new-2-sgl
+25	labor	labor	NOUN	NN	Number=Sing	23	obj	23:obj	Entity=39)|SpaceAfter=No
+26	,	,	PUNCT	,	_	28	punct	28:punct	_
+27	new	new	ADJ	JJ	Degree=Pos	28	amod	28:amod	Entity=(abstract-40-new-2-sgl
+28	assets	asset	NOUN	NNS	Number=Plur	25	conj	23:obj|25:conj	Entity=40)|SpaceAfter=No
+29	,	,	PUNCT	,	_	30	punct	30:punct	_
+30	etc.	etc.	X	FW	Abbr=Yes	25	conj	23:obj|25:conj	_
+
+# sent_id = GUM_reddit_macroeconomics-9
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = sub
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = If you own a baseball card of Sammy Sosa, there is a chance it could be worth a lot of money.
+# newpar = p (4 s)
+1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=condition:33->34:1
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-5-giv:inact-1-ana)
+3	own	own	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	advcl	12:advcl:if	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(object-41-new-3,6-coref
+5	baseball	baseball	NOUN	NN	Number=Sing	6	compound	6:compound	_
+6	card	card	NOUN	NN	Number=Sing	3	obj	3:obj	_
+7	of	of	ADP	IN	_	8	case	8:case	_
+8	Sammy	Sammy	PROPN	NNP	Number=Sing	6	nmod	6:nmod:of	Entity=(person-42-new-1,2-coref-Sammy_Sosa
+9	Sosa	Sosa	PROPN	NNP	Number=Sing	8	flat	8:flat	Entity=42)41)|SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	3:punct	_
+11	there	there	PRON	EX	_	12	expl	12:expl	Discourse=justify:34->51:4
+12	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	_
+14	chance	chance	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	18:nsubj	Discourse=elaboration:35->34:0|Entity=(object-41-giv:act-1-ana)
+16	could	could	AUX	MD	VerbForm=Fin	18	aux	18:aux	_
+17	be	be	AUX	VB	VerbForm=Inf	18	cop	18:cop	_
+18	worth	worth	ADJ	JJ	Degree=Pos	14	acl:relcl	14:acl:relcl	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(abstract-43-new-2-sgl
+20	lot	lot	NOUN	NN	Number=Sing	18	obj	18:obj	_
+21	of	of	ADP	IN	_	22	case	22:case	_
+22	money	money	NOUN	NN	Number=Sing	20	nmod	20:nmod:of	Entity=43)|SpaceAfter=No
+23	.	.	PUNCT	.	_	12	punct	12:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-10
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = imp
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = Now imagine if the card company just mails a Sammy Sosa card to every family in America.
+1	Now	now	ADV	RB	_	2	advmod	2:advmod	Discourse=attribution:36->37:0
+2	imagine	imagine	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+3	if	if	SCONJ	IN	_	8	mark	8:mark	Discourse=condition:37->38:1
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Bridge=41<44|Entity=(organization-44-acc:inf-3-coref
+5	card	card	NOUN	NN	Number=Sing	6	compound	6:compound	_
+6	company	company	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=44)
+7	just	just	ADV	RB	_	8	advmod	8:advmod	_
+8	mails	mail	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(object-45-new-3,4-coref
+10	Sammy	Sammy	PROPN	NNP	Number=Sing	12	compound	12:compound	Entity=(person-42-giv:act-1,2-coref-Sammy_Sosa
+11	Sosa	Sosa	PROPN	NNP	Number=Sing	10	flat	10:flat	Entity=42)
+12	card	card	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=45)
+13	to	to	ADP	IN	_	15	case	15:case	_
+14	every	every	DET	DT	_	15	det	15:det	Entity=(person-46-new-2-sgl
+15	family	family	NOUN	NN	Number=Sing	8	obl	8:obl:to	_
+16	in	in	ADP	IN	_	17	case	17:case	_
+17	America	America	PROPN	NNP	Number=Sing	15	nmod	15:nmod:in	Entity=(place-31-giv:inact-1-coref-United_States)46)|SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-11
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = Your Sammy Sosa card isn't worth anything anymore because there are so many of them and everyone has it now.
+1	Your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Discourse=contrast_m:38->34:2|Entity=(object-41-giv:inact-3,4-coref(person-5-giv:inact-1-ana)
+2	Sammy	Sammy	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(person-42-giv:act-1,2-coref-Sammy_Sosa
+3	Sosa	Sosa	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=42)
+4	card	card	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=41)
+5-6	isn't	_	_	_	_	_	_	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
+6	n't	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	_
+7	worth	worth	ADJ	JJ	Degree=Pos	0	root	0:root	_
+8	anything	anything	NOUN	NN	Number=Sing	7	obj	7:obj	_
+9	anymore	anymore	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
+10	because	because	SCONJ	IN	_	12	mark	12:mark	Discourse=cause:39->38:0
+11	there	there	PRON	EX	_	12	expl	12:expl	_
+12	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	7:advcl:because	_
+13	so	so	ADV	RB	_	14	advmod	14:advmod	Bridge=45<47|Entity=(object-47-acc:inf-2-coref
+14	many	many	ADJ	JJ	Degree=Pos	12	nsubj	12:nsubj	_
+15	of	of	ADP	IN	_	16	case	16:case	_
+16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obl	14:obl:of	Entity=47)
+17	and	and	CCONJ	CC	_	19	cc	19:cc	Discourse=joint_m:40->39:0
+18	everyone	everyone	NOUN	NN	Number=Sing	19	nsubj	19:nsubj	Entity=(person-48-new-1-coref)
+19	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	7:advcl:because|12:conj:and	_
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	19:obj	Entity=(object-47-giv:act-1-ana)
+21	now	now	ADV	RB	_	19	advmod	19:advmod	SpaceAfter=No
+22	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-12
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = imp
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = Now imagine if they mailed another 5 to everyone -- the value crashes even harder because there are SO many of them now.
+1	Now	now	ADV	RB	_	2	advmod	2:advmod	Discourse=attribution:41->42:0
+2	imagine	imagine	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+3	if	if	SCONJ	IN	_	5	mark	5:mark	Discourse=condition:42->43:1|Entity=(event-49-new-11-disc
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(organization-44-giv:inact-1-ana)
+5	mailed	mail	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	2:ccomp	_
+6	another	another	DET	DT	_	7	det	7:det	Entity=(object-50-new-2-sgl
+7	5	5	NUM	CD	NumForm=Digit|NumType=Card	5	obj	5:obj	Entity=50)
+8	to	to	ADP	IN	_	9	case	9:case	_
+9	everyone	everyone	NOUN	NN	Number=Sing	5	obl	5:obl:to	Entity=(person-48-giv:act-1-coref)
+10	--	-	PUNCT	:	_	13	punct	13:punct	Discourse=contrast_m:43->34:2
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Bridge=47<51|Entity=(abstract-51-acc:inf-2-sgl
+12	value	value	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	Entity=51)
+13	crashes	crash	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	_
+14	even	even	ADV	RB	_	15	advmod	15:advmod	_
+15	harder	hard	ADV	RBR	Degree=Cmp	13	advmod	13:advmod	_
+16	because	because	SCONJ	IN	_	18	mark	18:mark	Discourse=cause:44->43:0
+17	there	there	PRON	EX	_	18	expl	18:expl	_
+18	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	13:advcl:because	_
+19	SO	so	ADV	RB	_	20	advmod	20:advmod	Bridge=45<52|Entity=(object-52-acc:inf-2-sgl|XML=<hi rend:::"bold"></hi>
+20	many	many	ADJ	JJ	Degree=Pos	18	nsubj	18:nsubj	_
+21	of	of	ADP	IN	_	22	case	22:case	_
+22	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	obl	20:obl:of	Entity=52)
+23	now	now	ADV	RB	_	18	advmod	18:advmod	Entity=49)|SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-13
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = That's the same idea with money.
+# newpar = p (4 s)
+1-2	That's	_	_	_	_	_	_	_	_
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Discourse=preparation:45->51:3|Entity=(event-49-giv:act-1-coref)
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(event-49-giv:act-3-coref
+4	same	same	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
+5	idea	idea	NOUN	NN	Number=Sing	0	root	0:root	Entity=49)
+6	with	with	ADP	IN	_	7	case	7:case	_
+7	money	money	NOUN	NN	Number=Sing	5	nmod	5:nmod:with	Entity=(abstract-12-giv:inact-1-coref)|SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-14
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = sub
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = You can't keep printing more money or else the value of it will deteriorate.
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj|5:nsubj:xsubj	Discourse=background:46->51:1|Entity=(person-53-new-1-sgl)
+2-3	can't	_	_	_	_	_	_	_	_
+2	ca	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
+4	keep	keep	VERB	VB	VerbForm=Inf	0	root	0:root	_
+5	printing	print	VERB	VBG	VerbForm=Ger	4	xcomp	4:xcomp	_
+6	more	more	ADJ	JJR	Degree=Cmp	7	amod	7:amod	Entity=(object-54-new-2-coref
+7	money	money	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=54)
+8	or	or	CCONJ	CC	_	15	cc	15:cc	Discourse=justify:47->46:0
+9	else	else	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(abstract-55-new-2-sgl
+11	value	value	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	_
+12	of	of	ADP	IN	_	13	case	13:case	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nmod	11:nmod:of	Entity=(object-54-giv:act-1-ana)55)
+14	will	will	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	15	aux	15:aux	_
+15	deteriorate	deteriorate	VERB	VB	VerbForm=Inf	4	conj	4:conj:or	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-15
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = multiple
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = But the gov't keeps issuing more debt and we still look at $ 20 like it's $ 20, right?
+1	But	but	CCONJ	CC	_	11	cc	11:cc	Discourse=antithesis:48->46:1
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(organization-23-giv:inact-2-coref
+3	gov't	government	NOUN	NN	Number=Sing	4	nsubj	4:nsubj|5:nsubj:xsubj	Entity=23)|XML=<sic></sic>
+4	keeps	keep	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	issuing	issue	VERB	VBG	VerbForm=Ger	4	xcomp	4:xcomp	_
+6	more	more	ADJ	JJR	Degree=Cmp	7	amod	7:amod	Entity=(abstract-56-new-2-sgl
+7	debt	debt	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=56)
+8	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=contrast_m:49->48:0
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	11:nsubj	Entity=(person-32-acc:com-1-ana)
+10	still	still	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
+11	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	4:conj:but	_
+12	at	at	ADP	IN	_	13	case	13:case	_
+13	$	$	SYM	SYM	_	11	obl	11:obl:at	Entity=(object-57-new-1-coref
+14	20	20	NUM	CD	NumForm=Digit|NumType=Card	13	nummod	13:nummod	Entity=57)
+15	like	like	SCONJ	IN	_	18	mark	18:mark	_
+16-17	it's	_	_	_	_	_	_	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	18:nsubj	Entity=(object-57-giv:act-1-ana)
+17	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
+18	$	$	SYM	SYM	_	11	advcl	11:advcl:like	Entity=(object-57-giv:act-1-coref
+19	20	20	NUM	CD	NumForm=Digit|NumType=Card	18	nummod	18:nummod	Entity=57)|SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	21:punct	_
+21	right	right	ADJ	JJ	Degree=Pos	4	discourse	4:discourse	Discourse=restatement:50->49:0|SpaceAfter=No
+22	?	?	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-16
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = sub
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = Eventually, there could come a time when we look at a $ 20 bill and it means nothing to us.
+1	Eventually	eventually	ADV	RB	Degree=Pos	5	advmod	5:advmod	Discourse=elaboration:51->16:5|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	there	there	PRON	EX	_	5	expl	5:expl	_
+4	could	could	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	5	aux	5:aux	_
+5	come	come	VERB	VB	VerbForm=Inf	0	root	0:root	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(time-58-new-2-coref
+7	time	time	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	_
+8	when	when	SCONJ	WRB	PronType=Rel	10	mark	10:mark	Discourse=circumstance:52->53:0
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	10:nsubj	Entity=(person-32-giv:act-1-ana)
+10	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	acl:relcl	7:acl:relcl	_
+11	at	at	ADP	IN	_	15	case	15:case	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Entity=(object-57-giv:act-4-coref
+13	$	$	SYM	SYM	_	15	compound	15:compound	_
+14	20	20	NUM	CD	NumForm=Digit|NumType=Card	13	nummod	13:nummod	_
+15	bill	bill	NOUN	NN	Number=Sing	10	obl	10:obl:at	Entity=57)
+16	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=elaboration:53->51:0
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	18:nsubj	Entity=(object-57-giv:act-1-ana)
+18	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	7:acl:relcl|10:conj:and	_
+19	nothing	nothing	NOUN	NN	Number=Sing|Polarity=Neg	18	obj	18:obj	Entity=(abstract-59-new-1-sgl)
+20	to	to	ADP	IN	_	21	case	21:case	_
+21	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	18	obl	18:obl:to	Entity=(person-32-giv:act-1-ana)58)|SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-17
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = This is what happened in Zimbabwe where a billion dollar transaction might happen for a loaf of bread.
+# newpar = p (3 s)
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=evidence:54->51:2|Entity=(time-58-giv:act-1-ana)
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
+3	what	what	PRON	WP	PronType=Rel	0	root	0:root	_
+4	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	_
+5	in	in	ADP	IN	_	6	case	6:case	_
+6	Zimbabwe	Zimbabwe	PROPN	NNP	Number=Sing	4	obl	4:obl:in	Entity=(place-60-new-1-coref-Zimbabwe)
+7	where	where	SCONJ	WRB	PronType=Rel	13	mark	13:mark	Discourse=elaboration:55->54:0
+8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(event-61-new-4-sgl
+9	billion	billion	NUM	CD	NumForm=Word|NumType=Card	10	nummod	10:nummod	_
+10	dollar	dollar	NOUN	NN	Number=Sing	11	compound	11:compound	_
+11	transaction	transaction	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	Entity=61)
+12	might	might	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	13	aux	13:aux	_
+13	happen	happen	VERB	VB	VerbForm=Inf	6	acl:relcl	6:acl:relcl	_
+14	for	for	ADP	IN	_	16	case	16:case	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(object-62-new-2-sgl
+16	loaf	loaf	NOUN	NN	Number=Sing	13	obl	13:obl:for	_
+17	of	of	ADP	IN	_	18	case	18:case	_
+18	bread	bread	NOUN	NN	Number=Sing	16	nmod	16:nmod:of	Entity=62)|SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-18
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = They printed so much money (without proper secure backing by the gov't) that it just became worthless.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	Bridge=60<63|Discourse=cause:56->59:1|Entity=(person-63-acc:inf-1-coref)
+2	printed	print	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	so	so	ADV	RB	_	4	advmod	4:advmod	Entity=(object-64-new-3-coref
+4	much	much	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
+5	money	money	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=64)
+6	(	(	PUNCT	-LRB-	_	10	punct	10:punct	Discourse=manner:57->56:0|SpaceAfter=No
+7	without	without	ADP	IN	_	10	case	10:case	_
+8	proper	proper	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(abstract-65-new-3-sgl
+9	secure	secure	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
+10	backing	backing	NOUN	NN	Number=Sing	2	obl	2:obl:without	_
+11	by	by	ADP	IN	_	13	case	13:case	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Bridge=60<66|Entity=(organization-66-acc:inf-2-sgl
+13	gov't	government	NOUN	NN	Number=Sing	10	nmod	10:nmod:by	Entity=66)65)|SpaceAfter=No|XML=<sic></sic>
+14	)	)	PUNCT	-RRB-	_	10	punct	10:punct	_
+15	that	that	SCONJ	IN	_	18	mark	18:mark	Discourse=result:58->56:1
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	18:nsubj|19:nsubj:xsubj	Entity=(object-64-giv:act-1-ana)
+17	just	just	ADV	RB	_	18	advmod	18:advmod	_
+18	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	2:advcl:that	_
+19	worthless	worthless	ADJ	JJ	Degree=Pos	18	xcomp	18:xcomp	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-19
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = So they started to just increase the numbers on their currency so you can actually pay for something.
+1	So	so	ADV	RB	_	3	advmod	3:advmod	Discourse=elaboration:59->54:1
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj|6:nsubj:xsubj	Entity=(person-63-giv:act-1-ana)
+3	started	start	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+4	to	to	PART	TO	_	6	mark	6:mark	_
+5	just	just	ADV	RB	_	6	advmod	6:advmod	_
+6	increase	increase	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(abstract-67-new-2-sgl
+8	numbers	number	NOUN	NNS	Number=Plur	6	obj	6:obj	_
+9	on	on	ADP	IN	_	11	case	11:case	_
+10	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(abstract-68-new-2-sgl(person-63-giv:act-1-ana)
+11	currency	currency	NOUN	NN	Number=Sing	8	nmod	8:nmod:on	Entity=68)67)
+12	so	so	SCONJ	IN	_	16	mark	16:mark	Discourse=purpose:60->59:0
+13	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	16	nsubj	16:nsubj	Entity=(person-69-acc:com-1-sgl)
+14	can	can	AUX	MD	VerbForm=Fin	16	aux	16:aux	_
+15	actually	actually	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
+16	pay	pay	VERB	VB	VerbForm=Inf	3	advcl	3:advcl:so	_
+17	for	for	ADP	IN	_	18	case	18:case	_
+18	something	something	NOUN	NN	Number=Sing	16	obl	16:obl:for	Entity=(object-70-new-1-sgl)|SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-20
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = Because the gov't theoretically owes its population money, they issue paper as a certificate of this.
+# newpar = p (3 s)
+1	Because	because	SCONJ	IN	_	5	mark	5:mark	Discourse=cause:61->62:0
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(event-71-new-4-disc(organization-23-giv:inact-2-coref
+3	gov't	government	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=23)|XML=<sic></sic>
+4	theoretically	theoretically	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
+5	owes	owe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:because	_
+6	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(person-72-new-2-coref(organization-23-giv:act-1-ana)
+7	population	population	NOUN	NN	Number=Sing	5	iobj	5:iobj	Entity=72)
+8	money	money	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=(abstract-12-giv:inact-1-coref)71)|SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	5:punct	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	11:nsubj	Discourse=joint_m:62->7:3|Entity=(person-63-giv:act-1-ana)
+11	issue	issue	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+12	paper	paper	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=(object-73-new-1-coref)
+13	as	as	ADP	IN	_	15	case	15:case	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Entity=(object-73-giv:act-2-coref
+15	certificate	certificate	NOUN	NN	Number=Sing	11	obl	11:obl:as	_
+16	of	of	ADP	IN	_	17	case	17:case	_
+17	this	this	PRON	DT	Number=Sing|PronType=Dem	15	nmod	15:nmod:of	Entity=(event-71-giv:act-1-coref)73)|SpaceAfter=No
+18	.	.	PUNCT	.	_	11	punct	11:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-21
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = sub
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = You might not have physically went to the bank and traded something in return for paper but you did something that warranted the earning of that dollar.
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj|11:nsubj	Discourse=concession:63->65:1|Entity=(person-74-acc:com-1-ana)
+2	might	might	AUX	MD	VerbForm=Fin	6	aux	6:aux|11:aux	_
+3	not	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
+4	have	have	AUX	VB	VerbForm=Inf	6	aux	6:aux|11:aux	_
+5	physically	physically	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
+6	went	go	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
+7	to	to	ADP	IN	_	9	case	9:case	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(organization-75-new-2-sgl
+9	bank	bank	NOUN	NN	Number=Sing	6	obl	6:obl:to	Entity=75)
+10	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=sequence_m:64->63:0
+11	traded	trade	VERB	VBN	Tense=Past|VerbForm=Part	6	conj	6:conj:and	_
+12	something	something	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=(object-76-new-1-sgl)
+13	in	in	ADP	IN	_	14	case	14:case	_
+14	return	return	NOUN	NN	Number=Sing	11	obl	11:obl:in	_
+15	for	for	ADP	IN	_	16	case	16:case	_
+16	paper	paper	NOUN	NN	Number=Sing	14	nmod	14:nmod:for	Entity=(object-73-giv:act-1-coref)
+17	but	but	CCONJ	CC	_	19	cc	19:cc	Discourse=elaboration:65->62:1
+18	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	19:nsubj	Entity=(person-74-giv:act-1-ana)
+19	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	6	conj	6:conj:but	_
+20	something	something	NOUN	NN	Number=Sing	19	obj	19:obj|22:nsubj	Entity=(event-77-new-1-sgl
+21	that	that	PRON	WDT	PronType=Rel	22	nsubj	20:ref	Discourse=elaboration:66->65:0
+22	warranted	warrant	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	acl:relcl	20:acl:relcl	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(event-78-new-2-sgl
+24	earning	earning	NOUN	NN	Number=Sing	22	obj	22:obj	_
+25	of	of	ADP	IN	_	27	case	27:case	_
+26	that	that	DET	DT	Number=Sing|PronType=Dem	27	det	27:det	Entity=(object-73-giv:act-2-coref
+27	dollar	dollar	NOUN	NN	Number=Sing	24	nmod	24:nmod:of	Entity=73)78)77)|SpaceAfter=No
+28	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-22
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = If you work for a company, they pay you that money because it has value and you can buy things with it.
+1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=condition:67->68:1
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-74-giv:act-1-ana)
+3	work	work	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl:if	_
+4	for	for	ADP	IN	_	6	case	6:case	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(organization-79-new-2-coref
+6	company	company	NOUN	NN	Number=Sing	3	obl	3:obl:for	Entity=79)|SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	3:punct	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	9:nsubj	Discourse=background:68->65:2|Entity=(organization-79-giv:act-1-ana)
+9	pay	pay	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+10	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	9	iobj	9:iobj	Entity=(person-74-giv:act-1-ana)
+11	that	that	DET	DT	Number=Sing|PronType=Dem	12	det	12:det	Entity=(object-73-giv:act-2-coref
+12	money	money	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=73)
+13	because	because	SCONJ	IN	_	15	mark	15:mark	Discourse=cause:69->68:0
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	15:nsubj	Entity=(object-73-giv:act-1-ana)
+15	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl:because	_
+16	value	value	NOUN	NN	Number=Sing	15	obj	15:obj	Entity=(abstract-80-new-1-coref)
+17	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=elaboration:70->69:0
+18	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	20:nsubj	Entity=(person-74-giv:act-1-ana)
+19	can	can	AUX	MD	VerbForm=Fin	20	aux	20:aux	_
+20	buy	buy	VERB	VB	VerbForm=Inf	15	conj	9:advcl:because|15:conj:and	_
+21	things	thing	NOUN	NNS	Number=Plur	20	obj	20:obj	Entity=(object-81-new-1-sgl)
+22	with	with	ADP	IN	_	23	case	23:case	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obl	20:obl:with	Entity=(object-73-giv:act-1-ana)|SpaceAfter=No
+24	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-23
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = The only reason it has value is because the US gov't says it does.
+# newpar = p (3 s)
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint_m:71->65:3|Entity=(abstract-82-new-3-coref
+2	only	only	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
+3	reason	reason	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Discourse=elaboration:72->71:0|Entity=(object-73-giv:act-1-ana)
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	3:acl:relcl	_
+6	value	value	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=(abstract-80-giv:act-1-coref)82)
+7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:73->71:1
+8	because	because	SCONJ	IN	_	12	mark	12:mark	Discourse=cause:74->71:2|Entity=(abstract-82-giv:act-5-coref
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Discourse=attribution:75->76:0|Entity=(organization-23-giv:inact-3-coref
+10	US	US	PROPN	NNP	Abbr=Yes|Number=Sing	11	compound	11:compound	Entity=(place-31-giv:inact-1-coref-United_States)
+11	gov't	government	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=23)|XML=<sic></sic>
+12	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	7:ccomp	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Discourse=same-unit_m:76->74:0|Entity=(object-73-giv:act-1-ana)
+14	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	12:ccomp	Entity=82)|SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-24
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = multiple
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = You can pay gov't-related fees and bills with the money they issue and because the gov't is well-secured, people accept it.
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=elaboration:77->71:3|Entity=(person-74-giv:inact-1-ana)
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
+3	pay	pay	VERB	VB	VerbForm=Inf	0	root	0:root	_
+4	gov't-related	government-related	ADJ	JJ	Degree=Pos|Typo=Yes	5	amod	5:amod	Entity=(abstract-83-new-2,4-sgl|XML=<sic></sic>
+5	fees	fee	NOUN	NNS	Number=Plur	3	obj	3:obj	_
+6	and	and	CCONJ	CC	_	7	cc	7:cc	_
+7	bills	bill	NOUN	NNS	Number=Plur	5	conj	3:obj|5:conj:and	Entity=83)
+8	with	with	ADP	IN	_	10	case	10:case	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(abstract-84-new-2-coref
+10	money	money	NOUN	NN	Number=Sing	3	obl	3:obl:with	_
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	12:nsubj	Discourse=elaboration:78->77:0|Entity=(organization-23-giv:act-1-ana)
+12	issue	issue	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	10:acl:relcl	Entity=84)
+13	and	and	CCONJ	CC	_	21	cc	21:cc	Discourse=joint_m:79->77:1
+14	because	because	SCONJ	IN	_	18	mark	18:mark	Discourse=cause:80->81:0
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(organization-23-giv:act-2-coref
+16	gov't	government	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	Entity=23)|XML=<sic></sic>
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
+18	well-secured	well-secured	ADJ	JJ	Degree=Pos	21	advcl	21:advcl:because	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	18:punct	_
+20	people	person	NOUN	NNS	Number=Plur	21	nsubj	21:nsubj	Discourse=same-unit_m:81->79:0|Entity=(person-72-giv:inact-1-coref)
+21	accept	accept	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj:and	_
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	21:obj	Entity=(abstract-84-giv:act-1-ana)|SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-25
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = sub
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = If our gov't was unstable, no one would trust the dollars they slept under for warmth because the gov't could just come out and say, 'Sorry we're not paying you guys back'.
+1	If	if	SCONJ	IN	_	5	mark	5:mark	Discourse=condition:82->83:3
+2	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(organization-23-giv:act-2-coref(person-74-giv:act-1-ana)
+3	gov't	government	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=23)|XML=<sic></sic>
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
+5	unstable	unstable	ADJ	JJ	Degree=Pos|Polarity=Neg	10	advcl	10:advcl:if	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	5:punct	_
+7	no	no	DET	DT	Polarity=Neg	8	det	8:det	Discourse=contrast_m:83->71:4|Entity=(person-85-acc:com-2-coref
+8	one	one	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=85)
+9	would	would	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	10	aux	10:aux	_
+10	trust	trust	VERB	VB	VerbForm=Inf	0	root	0:root	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(object-86-new-2-coref
+12	dollars	dollar	NOUN	NNS	Number=Plur	10	obj	10:obj	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	14:nsubj	Discourse=elaboration:84->83:0|Entity=(person-85-giv:act-1-ana)
+14	slept	sleep	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	12:acl:relcl	_
+15	under	under	ADP	IN	_	14	obl	14:obl	Entity=86)
+16	for	for	ADP	IN	_	17	case	17:case	Discourse=contrast_m:85->83:1
+17	warmth	warmth	NOUN	NN	Number=Sing	14	obl	14:obl:for	Entity=(abstract-87-new-1-sgl)
+18	because	because	SCONJ	IN	_	23	mark	23:mark	Discourse=cause:86->83:2
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(organization-23-giv:act-2-coref
+20	gov't	government	NOUN	NN	Number=Sing	23	nsubj	23:nsubj|26:nsubj	Entity=23)|XML=<sic></sic>
+21	could	could	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	23	aux	23:aux|26:aux	_
+22	just	just	ADV	RB	_	23	advmod	23:advmod	_
+23	come	come	VERB	VB	VerbForm=Inf	10	advcl	10:advcl:because	_
+24	out	out	ADP	RP	_	23	compound:prt	23:compound:prt	_
+25	and	and	CCONJ	CC	_	26	cc	26:cc	Discourse=attribution:87->89:1
+26	say	say	VERB	VB	VerbForm=Inf	23	conj	10:advcl:because|23:conj:and	SpaceAfter=No
+27	,	,	PUNCT	,	_	33	punct	33:punct	_
+28	'	'	PUNCT	``	_	33	punct	33:punct	Discourse=evaluation:88->89:0|SpaceAfter=No|XML=<quote>
+29	Sorry	sorry	ADJ	JJ	Degree=Pos	33	discourse	33:discourse	_
+30	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	33	nsubj	33:nsubj	Discourse=joint_m:89->86:0|Entity=(organization-23-giv:act-1-ana)|SpaceAfter=No
+31	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	33	aux	33:aux	_
+32	not	not	PART	RB	Polarity=Neg	33	advmod	33:advmod	_
+33	paying	pay	VERB	VBG	Tense=Pres|VerbForm=Part	26	ccomp	26:ccomp	_
+34	you	you	PRON	PRP	Case=Acc|Number=Plur|Person=2|PronType=Prs	35	dep	35:dep	Entity=(person-85-giv:act-2-coref
+35	guys	guy	NOUN	NNS	Number=Plur	33	iobj	33:iobj	Entity=85)
+36	back	back	ADP	RP	_	33	compound:prt	33:compound:prt	SpaceAfter=No
+37	'	'	PUNCT	''	_	33	punct	33:punct	SpaceAfter=No|XML=</quote>
+38	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-26
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = wh
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = Well what would they be paying back?
+# newpar = p (2 s)
+1	Well	well	INTJ	UH	_	6	discourse	6:discourse	Discourse=question:90->92:0
+2	what	what	PRON	WP	PronType=Int	6	obj	6:obj	_
+3	would	would	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(organization-23-giv:act-1-ana)
+5	be	be	AUX	VB	VerbForm=Inf	6	aux	6:aux	_
+6	paying	pay	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
+7	back	back	ADP	RP	_	6	compound:prt	6:compound:prt	SpaceAfter=No
+8	?	?	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-27
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = wh
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = To whom are they paying back to?
+1	To	to	ADP	IN	_	2	case	2:case	Discourse=joint_m:91->90:0
+2	whom	who	PRON	WP	PronType=Int	5	obl	5:obl:to	_
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(organization-23-giv:act-1-ana)
+5	paying	pay	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
+6	back	back	ADP	RP	_	5	compound:prt	5:compound:prt	_
+7	to	to	ADP	IN	Typo=Yes	5	obl	5:obl	SpaceAfter=No|XML=<sic></sic>
+8	?	?	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-28
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = It used to be gold.
+# newpar = p (3 s)
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|5:nsubj:xsubj	Discourse=concession:92->93:2|Entity=(substance-88-new-1-cata)
+2	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	to	to	PART	TO	_	5	mark	5:mark	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	5:cop	_
+5	gold	gold	NOUN	NN	Number=Sing	2	xcomp	2:xcomp	Entity=(substance-88-acc:com-1-coref)|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-29
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = But as we grew as a planet, we ran out of gold to back every dollar with and it just became a nightmare to handle.
+1	But	but	CCONJ	CC	_	22	cc	22:cc	Discourse=antithesis:93->98:1
+2	as	as	SCONJ	IN	_	4	mark	4:mark	Discourse=circumstance:94->95:1
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-74-giv:inact-1-ana)
+4	grew	grow	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	10	advcl	10:advcl:as	_
+5	as	as	ADP	IN	_	7	case	7:case	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(place-89-new-2-sgl
+7	planet	planet	NOUN	NN	Number=Sing	4	obl	4:obl:as	Entity=89)|SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	4:punct	_
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	10:nsubj	Discourse=same-unit_m:95->93:0|Entity=(event-90-new-2-disc(person-74-giv:act-1-ana)
+10	ran	run	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+11	out	out	ADP	RP	_	10	compound:prt	10:compound:prt	_
+12	of	of	ADP	IN	_	13	case	13:case	_
+13	gold	gold	NOUN	NN	Number=Sing	10	obl	10:obl:of	Entity=(substance-88-giv:act-1-coref)
+14	to	to	PART	TO	_	15	mark	15:mark	Discourse=purpose:96->95:0
+15	back	back	VERB	VB	VerbForm=Inf	13	acl	13:acl:to	_
+16	every	every	DET	DT	_	17	det	17:det	Entity=(object-86-giv:inact-2-coref
+17	dollar	dollar	NOUN	NN	Number=Sing	15	obj	15:obj	Entity=86)
+18	with	with	ADP	IN	_	15	obl	15:obl	Entity=90)
+19	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=evaluation:97->93:1
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	22:nsubj|24:nsubj:xsubj	Entity=(event-90-giv:act-1-coref)
+21	just	just	ADV	RB	_	22	advmod	22:advmod	_
+22	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	10:conj:but	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(event-90-giv:act-2-coref
+24	nightmare	nightmare	NOUN	NN	Number=Sing	22	xcomp	22:xcomp	Entity=90)
+25	to	to	PART	TO	_	26	mark	26:mark	_
+26	handle	handle	VERB	VB	VerbForm=Inf	24	acl	24:acl:to	SpaceAfter=No
+27	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-30
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = other
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = Enter, fiat currency, a piece of paper that means nothing except what the gov't says it means.
+1	Enter	enter	VERB	VB	VerbForm=Inf	0	root	0:root	Discourse=background:98->122:3|SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	4:punct	_
+3	fiat	fiat	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(abstract-16-giv:inact-2-coref
+4	currency	currency	NOUN	NN	Number=Sing	1	nsubj	1:nsubj	Entity=16)|SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	7:punct	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(abstract-16-giv:act-2-appos
+7	piece	piece	NOUN	NN	Number=Sing	4	appos	4:appos|11:nsubj|12:nmod:except	_
+8	of	of	ADP	IN	_	9	case	9:case	_
+9	paper	paper	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	_
+10	that	that	PRON	WDT	PronType=Rel	11	nsubj	7:ref	Discourse=elaboration:99->98:0
+11	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	7:acl:relcl	_
+12	nothing	nothing	NOUN	NN	Number=Sing|Polarity=Neg	11	obj	11:obj	Entity=(abstract-91-new-1-sgl
+13	except	except	ADP	IN	_	14	case	14:case	Discourse=antithesis:100->99:0
+14	what	what	PRON	WP	PronType=Rel	12	nmod	7:ref	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Discourse=attribution:101->102:0|Entity=(organization-23-giv:inact-2-coref
+16	gov't	government	NOUN	NN	Number=Sing	17	nsubj	17:nsubj	Entity=23)|XML=<sic></sic>
+17	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	19:nsubj	Discourse=same-unit_m:102->100:0|Entity=(abstract-16-giv:act-1-ana)
+19	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	17:ccomp	Entity=91)16)|SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-31
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = People used to go to banks with gold and receive 'money' for it.
+# newpar = p (4 s)
+1	People	person	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj|4:nsubj:xsubj|10:nsubj:xsubj	Discourse=cause:103->110:0|Entity=(person-92-new-1-coref)
+2	used	use	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	to	to	PART	TO	_	4	mark	4:mark	_
+4	go	go	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	_
+5	to	to	ADP	IN	_	6	case	6:case	_
+6	banks	bank	NOUN	NNS	Number=Plur	4	obl	4:obl:to	Entity=(organization-93-new-1-coref)
+7	with	with	ADP	IN	_	8	case	8:case	_
+8	gold	gold	NOUN	NN	Number=Sing	4	obl	4:obl:with	Entity=(substance-94-new-1-coref)
+9	and	and	CCONJ	CC	_	10	cc	10:cc	_
+10	receive	receive	VERB	VB	VerbForm=Inf	4	conj	2:xcomp|4:conj:and	_
+11	'	'	PUNCT	``	_	12	punct	12:punct	SpaceAfter=No|XML=<q>
+12	money	money	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=(abstract-95-new-1-sgl)|SpaceAfter=No
+13	'	'	PUNCT	''	_	12	punct	12:punct	XML=</q>
+14	for	for	ADP	IN	_	15	case	15:case	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obl	10:obl:for	Entity=(substance-94-giv:act-1-ana)|SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-32
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = The banks would literally hold their gold and give them an certificate that says they own a claim of gold in their vaults.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:104->103:0|Entity=(organization-93-giv:act-2-coref
+2	banks	bank	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj|9:nsubj	Entity=93)
+3	would	would	AUX	MD	Number=Plur|Person=3|VerbForm=Fin	5	aux	5:aux|9:aux	_
+4	literally	literally	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
+5	hold	hold	VERB	VB	VerbForm=Inf	0	root	0:root	_
+6	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(substance-94-giv:act-2-coref(person-92-giv:act-1-ana)
+7	gold	gold	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=94)
+8	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=joint_m:105->104:0
+9	give	give	VERB	VB	VerbForm=Inf	5	conj	5:conj:and	_
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	iobj	9:iobj	Entity=(person-92-giv:act-1-ana)
+11	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(object-96-new-2-coref
+12	certificate	certificate	NOUN	NN	Number=Sing	9	obj	9:obj|14:nsubj	_
+13	that	that	PRON	WDT	PronType=Rel	14	nsubj	12:ref	Discourse=attribution:106->107:0
+14	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	12:acl:relcl	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	16:nsubj	Discourse=elaboration:107->105:0|Entity=(person-92-giv:act-1-ana)
+16	own	own	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	14:ccomp	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	Entity=(abstract-97-new-2-sgl
+18	claim	claim	NOUN	NN	Number=Sing	16	obj	16:obj	_
+19	of	of	ADP	IN	_	20	case	20:case	_
+20	gold	gold	NOUN	NN	Number=Sing	18	nmod	18:nmod:of	Entity=(substance-98-new-1-coref)
+21	in	in	ADP	IN	_	23	case	23:case	_
+22	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(place-99-new-2-sgl(organization-93-giv:act-1-ana)
+23	vaults	vault	NOUN	NNS	Number=Plur	18	nmod	18:nmod:in	Entity=99)97)96)|SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-33
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = sub
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = If ANYONE brought that certificate to the bank, they could expect to receive gold for it.
+1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=condition:108->109:0|Entity=(event-100-new-12-disc
+2	ANYONE	anyone	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=(person-101-new-1-coref)|XML=<hi rend:::"bold"></hi>
+3	brought	bring	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	12:advcl:if	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	5:det	Entity=(object-96-giv:act-2-coref
+5	certificate	certificate	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=96)
+6	to	to	ADP	IN	_	8	case	8:case	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(organization-93-giv:act-2-coref
+8	bank	bank	NOUN	NN	Number=Sing	3	obl	3:obl:to	Entity=93)|SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	3:punct	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	12:nsubj|14:nsubj:xsubj	Discourse=joint_m:109->103:1|Entity=(person-101-giv:act-1-ana)
+11	could	could	AUX	MD	VerbForm=Fin	12	aux	12:aux	_
+12	expect	expect	VERB	VB	VerbForm=Inf	0	root	0:root	_
+13	to	to	PART	TO	_	14	mark	14:mark	_
+14	receive	receive	VERB	VB	VerbForm=Inf	12	xcomp	12:xcomp	_
+15	gold	gold	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=(substance-98-giv:act-1-coref)
+16	for	for	ADP	IN	_	17	case	17:case	_
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obl	14:obl:for	Entity=(object-96-giv:act-1-ana)|SpaceAfter=No
+18	.	.	PUNCT	.	_	12	punct	12:punct	Entity=100)
+
+# sent_id = GUM_reddit_macroeconomics-34
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = That's what gave it value.
+1-2	That's	_	_	_	_	_	_	_	_
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=result:110->119:2|Entity=(event-100-giv:act-1-coref)
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
+3	what	what	PRON	WP	PronType=Rel	0	root	0:root	_
+4	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	iobj	4:iobj	Entity=(object-96-giv:act-1-ana)
+6	value	value	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=(abstract-102-new-1-coref)|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-35
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = sub
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = You could say you want that farmer's potatoes and he can go get $ 1 of gold from the bankers at his convenience or he could hold onto it and use it just like the person did before him -- 'trade' it for something else like new shoes.
+# newpar = p (3 s)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=attribution:111->112:0|Entity=(person-103-acc:com-1-ana)
+2	could	could	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
+3	say	say	VERB	VB	VerbForm=Inf	0	root	0:root	_
+4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Discourse=circumstance:112->113:1|Entity=(person-103-giv:act-1-ana)
+5	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	7:det	Entity=(object-104-new-4-sgl(person-105-new-2-coref
+7-8	farmer's	_	_	_	_	_	_	_	_
+7	farmer	farmer	NOUN	NN	Number=Sing	9	nmod:poss	9:nmod:poss	_
+8	's	's	PART	POS	_	7	case	7:case	Entity=105)
+9	potatoes	potato	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=104)
+10	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=evidence:113->110:1
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj|14:nsubj:xsubj	Entity=(person-105-giv:act-1-ana)
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	13:aux	_
+13	go	go	VERB	VB	VerbForm=Inf	5	conj	3:ccomp|5:conj:and	_
+14	get	get	VERB	VB	VerbForm=Inf	13	xcomp	13:xcomp	_
+15	$	$	SYM	SYM	_	14	obj	14:obj	Entity=(substance-106-new-1-sgl
+16	1	1	NUM	CD	NumForm=Digit|NumType=Card	15	nummod	15:nummod	_
+17	of	of	ADP	IN	_	18	case	18:case	_
+18	gold	gold	NOUN	NN	Number=Sing	15	nmod	15:nmod:of	Entity=106)
+19	from	from	ADP	IN	_	21	case	21:case	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Bridge=93<107|Entity=(person-107-acc:inf-2-sgl
+21	bankers	banker	NOUN	NNS	Number=Plur	14	obl	14:obl:from	Entity=107)
+22	at	at	ADP	IN	_	24	case	24:case	_
+23	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	24:nmod:poss	_
+24	convenience	convenience	NOUN	NN	Number=Sing	14	obl	14:obl:at	_
+25	or	or	CCONJ	CC	_	28	cc	28:cc	Discourse=contrast_m:114->113:0
+26	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	28:nsubj|32:nsubj	Entity=(event-108-new-3,7-disc(person-105-giv:act-1-ana)
+27	could	could	AUX	MD	VerbForm=Fin	28	aux	28:aux|32:aux	_
+28	hold	hold	VERB	VB	VerbForm=Inf	13	conj	5:conj|13:conj:or	_
+29	onto	onto	ADP	IN	_	30	case	30:case	_
+30	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	obl	28:obl:onto	Entity=(object-96-giv:act-1-ana)
+31	and	and	CCONJ	CC	_	32	cc	32:cc	Discourse=sequence_m:115->114:0
+32	use	use	VERB	VB	VerbForm=Inf	28	conj	13:conj|28:conj:and	_
+33	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	obj	32:obj	Entity=(object-96-giv:act-1-ana)
+34	just	just	ADV	RB	_	38	advmod	38:advmod	Discourse=manner:116->115:0
+35	like	like	SCONJ	IN	_	38	mark	38:mark	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	37:det	Entity=(person-103-giv:act-2-coref
+37	person	person	NOUN	NN	Number=Sing	38	nsubj	38:nsubj	Entity=103)
+38	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	advcl	32:advcl:like	_
+39	before	before	ADP	IN	_	40	case	40:case	_
+40	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	obl	38:obl:before	Entity=(person-105-giv:act-1-ana)
+41	--	-	PUNCT	:	_	43	punct	43:punct	_
+42	'	'	PUNCT	``	_	43	punct	43:punct	Discourse=restatement_m:117->116:0|SpaceAfter=No|XML=<q>
+43	trade	trade	VERB	VB	Person=2|VerbForm=Inf	32	parataxis	32:parataxis	SpaceAfter=No
+44	'	'	PUNCT	''	_	43	punct	43:punct	XML=</q>
+45	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	43	obj	43:obj	Entity=(object-96-giv:act-1-ana)
+46	for	for	ADP	IN	_	47	case	47:case	_
+47	something	something	NOUN	NN	Number=Sing	43	obl	43:obl:for	Entity=(object-109-new-1-sgl
+48	else	else	ADV	RB	Degree=Pos	47	advmod	47:advmod	_
+49	like	like	ADP	IN	_	51	case	51:case	_
+50	new	new	ADJ	JJ	Degree=Pos	51	amod	51:amod	Entity=(object-110-new-2-sgl
+51	shoes	shoe	NOUN	NNS	Number=Plur	47	nmod	47:nmod:like	Entity=110)109)108)|SpaceAfter=No
+52	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-36
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = wh
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = Why?
+1	Why	why	ADV	WRB	PronType=Int	0	root	0:root	Discourse=question:118->119:1|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-37
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = Because everyone liked gold and everyone believed gold had value.
+1	Because	because	SCONJ	IN	_	3	mark	3:mark	Discourse=background:119->122:1
+2	everyone	everyone	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=(person-111-new-1-coref)
+3	liked	like	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+4	gold	gold	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(substance-98-giv:inact-1-coref)
+5	and	and	CCONJ	CC	_	7	cc	7:cc	Discourse=attribution:120->121:0
+6	everyone	everyone	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=(person-111-giv:act-1-coref)
+7	believed	believe	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	3:conj:and	_
+8	gold	gold	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Discourse=joint_m:121->119:0|Entity=(substance-98-giv:act-1-coref)
+9	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	7:ccomp	_
+10	value	value	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=(abstract-102-giv:inact-1-coref)|SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-38
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = Eventually, this took off and people stopped trading for things and we developed currency with quantitative values that allowed for easy exchanges to take place.
+# newpar = p (1 s)
+1	Eventually	eventually	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=joint_m:122->7:3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(event-108-giv:inact-1-coref)
+4	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+5	off	off	ADP	RP	_	4	compound:prt	4:compound:prt	_
+6	and	and	CCONJ	CC	_	8	cc	8:cc	Discourse=sequence_m:123->122:0
+7	people	person	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj|9:nsubj:xsubj	Entity=(person-112-new-1-sgl)
+8	stopped	stop	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	4:conj:and	_
+9	trading	trade	VERB	VBG	VerbForm=Ger	8	xcomp	8:xcomp	_
+10	for	for	ADP	IN	_	11	case	11:case	_
+11	things	thing	NOUN	NNS	Number=Plur	9	obl	9:obl:for	Entity=(object-113-new-1-sgl)
+12	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=sequence_m:124->122:0
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	14:nsubj	Entity=(person-74-giv:inact-1-ana)
+14	developed	develop	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	conj	4:conj:and	_
+15	currency	currency	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=(abstract-16-giv:inact-1-coref
+16	with	with	ADP	IN	_	18	case	18:case	_
+17	quantitative	quantitative	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(abstract-114-new-2-sgl
+18	values	value	NOUN	NNS	Number=Plur	15	nmod	15:nmod:with|20:nsubj	Entity=114)
+19	that	that	PRON	WDT	PronType=Rel	20	nsubj	18:ref	Discourse=elaboration:125->124:0
+20	allowed	allow	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	18:acl:relcl	_
+21	for	for	SCONJ	IN	_	25	mark	25:mark	_
+22	easy	easy	ADJ	JJ	Degree=Pos	23	amod	23:amod	Entity=(event-115-new-2-sgl
+23	exchanges	exchange	NOUN	NNS	Number=Plur	25	nsubj	25:nsubj	Entity=115)
+24	to	to	PART	TO	_	25	mark	25:mark	_
+25	take	take	VERB	VB	VerbForm=Inf	20	advcl	20:advcl:for_to	_
+26	place	place	NOUN	NN	Number=Sing	25	obj	25:obj	Entity=16)|SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-39
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = sub
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = So you might think,' Well, now that there isn't gold behind my dollar, how is it worth anything even if the gov't say it is? They won't give me anything in return for it".
+# newpar = p (1 s)
+1	So	so	ADV	RB	_	4	advmod	4:advmod	Discourse=attribution:126->128:3
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-116-acc:com-1-ana)
+3	might	might	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
+4	think	think	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	,	_	22	punct	22:punct	SpaceAfter=No
+6	'	'	PUNCT	''	_	22	punct	22:punct	Discourse=circumstance:127->128:1|XML=<quote>
+7	Well	well	INTJ	UH	_	22	discourse	22:discourse	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	7:punct	_
+9	now	now	ADV	RB	_	12	advmod	12:advmod	Entity=(abstract-117-new-14-disc
+10	that	that	SCONJ	IN	_	12	mark	12:mark	_
+11	there	there	PRON	EX	_	12	expl	12:expl	_
+12-13	isn't	_	_	_	_	_	_	_	_
+12	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	22:advcl:that	_
+13	n't	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	_
+14	gold	gold	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=(substance-98-giv:inact-1-coref)
+15	behind	behind	ADP	IN	_	17	case	17:case	_
+16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	17:nmod:poss	Bridge=16<118|Entity=(object-118-acc:inf-2-coref(person-116-giv:act-1-ana)
+17	dollar	dollar	NOUN	NN	Number=Sing	12	obl	12:obl:behind	Entity=118)|SpaceAfter=No
+18	,	,	PUNCT	,	_	12	punct	12:punct	_
+19	how	how	ADV	WRB	PronType=Int	22	advmod	22:advmod	Discourse=question:128->132:1
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	22:cop	_
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	22:nsubj	Entity=(object-118-giv:act-1-ana)
+22	worth	worth	ADJ	JJ	Degree=Pos	4	ccomp	4:ccomp	_
+23	anything	anything	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=(object-119-new-1-sgl)
+24	even	even	ADV	RB	_	28	advmod	28:advmod	Discourse=attribution:129->130:0
+25	if	if	SCONJ	IN	_	28	mark	28:mark	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(organization-23-giv:inact-2-coref
+27	gov't	government	NOUN	NN	Number=Sing	28	nsubj	28:nsubj	Entity=23)|XML=<sic></sic>
+28	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	22:advcl:if	_
+29	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nsubj	30:nsubj	Discourse=concession:130->128:0|Entity=(object-118-giv:act-1-ana)
+30	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	ccomp	28:ccomp	SpaceAfter=No
+31	?	?	PUNCT	.	_	22	punct	22:punct	Entity=117)
+32	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	35	nsubj	35:nsubj	Discourse=justify:131->128:2|Entity=(organization-23-giv:act-1-ana)
+33-34	won't	_	_	_	_	_	_	_	_
+33	wo	will	AUX	MD	VerbForm=Fin	35	aux	35:aux	_
+34	n't	not	PART	RB	Polarity=Neg	35	advmod	35:advmod	_
+35	give	give	VERB	VB	VerbForm=Inf	22	parataxis	22:parataxis	_
+36	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	35	iobj	35:iobj	Entity=(person-116-giv:act-1-ana)
+37	anything	anything	NOUN	NN	Number=Sing	35	obj	35:obj	Entity=(object-120-new-1-sgl)
+38	in	in	ADP	IN	_	39	case	39:case	_
+39	return	return	NOUN	NN	Number=Sing	35	obl	35:obl:in	_
+40	for	for	ADP	IN	_	41	case	41:case	_
+41	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	obl	35:obl:for	Entity=(object-118-giv:act-1-ana)|SpaceAfter=No
+42	"	''	PUNCT	''	_	4	punct	4:punct	SpaceAfter=No
+43	.	.	PUNCT	.	_	4	punct	4:punct	XML=</quote>
+
+# sent_id = GUM_reddit_macroeconomics-40
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = The same thing applies to gold.
+# newpar = p (4 s)
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint_m:132->122:2|Entity=(abstract-117-giv:act-3-coref
+2	same	same	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
+3	thing	thing	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=117)
+4	applies	apply	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	to	to	ADP	IN	_	6	case	6:case	_
+6	gold	gold	NOUN	NN	Number=Sing	4	obl	4:obl:to	Entity=(substance-98-giv:act-1-coref)|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-41
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = No one wants gold unless other people want gold.
+1	No	no	DET	DT	Polarity=Neg	2	det	2:det	Discourse=elaboration:133->132:0
+2	one	one	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	_
+3	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+4	gold	gold	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(substance-98-giv:act-1-coref)
+5	unless	unless	SCONJ	IN	_	8	mark	8:mark	Discourse=condition:134->133:0
+6	other	other	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(person-121-new-2-sgl
+7	people	person	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	Entity=121)
+8	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl:unless	_
+9	gold	gold	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=(substance-98-giv:act-1-coref)|SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-42
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = wh
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = If you can't reasonably trade your gold for something else, then what value does it have?
+1	If	if	SCONJ	IN	_	6	mark	6:mark	Discourse=condition:135->136:0
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-116-giv:inact-1-ana)
+3-4	can't	_	_	_	_	_	_	_	_
+3	ca	can	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
+4	n't	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
+5	reasonably	reasonably	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
+6	trade	trade	VERB	VB	VerbForm=Inf	18	advcl	18:advcl:if	_
+7	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(substance-122-new-2-coref(person-116-giv:act-1-ana)
+8	gold	gold	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=122)
+9	for	for	ADP	IN	_	10	case	10:case	_
+10	something	something	NOUN	NN	Number=Sing	6	obl	6:obl:for	Entity=(object-123-new-1-sgl
+11	else	else	ADV	RB	Degree=Pos	10	advmod	10:advmod	Entity=123)|SpaceAfter=No
+12	,	,	PUNCT	,	_	6	punct	6:punct	_
+13	then	then	ADV	RB	PronType=Dem	18	advmod	18:advmod	Discourse=justify:136->133:1
+14	what	what	DET	WDT	PronType=Int	15	det	15:det	Entity=(abstract-124-new-2-sgl
+15	value	value	NOUN	NN	Number=Sing	18	obj	18:obj	Entity=124)
+16	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	18:aux	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	18:nsubj	Entity=(substance-122-giv:act-1-ana)
+18	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
+19	?	?	PUNCT	.	_	18	punct	18:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-43
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = (Someone did point out you can shave gold flakes into your water and drink it, like some companies have chosen to do, but that's on you)
+1	(	(	PUNCT	-LRB-	_	4	punct	4:punct	Discourse=attribution:137->138:2|SpaceAfter=No
+2	Someone	someone	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=(person-125-new-1-sgl)
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
+4	point	point	VERB	VB	VerbForm=Inf	0	root	0:root	_
+5	out	out	ADP	RP	_	4	compound:prt	4:compound:prt	_
+6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	8:nsubj|15:nsubj	Discourse=concession:138->133:2|Entity=(person-116-giv:act-1-ana)
+7	can	can	AUX	MD	VerbForm=Fin	8	aux	8:aux|15:aux	_
+8	shave	shave	VERB	VB	VerbForm=Inf	4	ccomp	4:ccomp	Entity=(event-126-new-1,8-disc
+9	gold	gold	NOUN	NN	Number=Sing	10	compound	10:compound	Entity=(object-127-new-2-sgl(substance-98-giv:inact-1-coref)
+10	flakes	flake	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=127)
+11	into	into	ADP	IN	_	13	case	13:case	_
+12	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(substance-128-new-2-coref(person-116-giv:act-1-ana)
+13	water	water	NOUN	NN	Number=Sing	8	obl	8:obl:into	Entity=128)
+14	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=sequence_m:139->138:0
+15	drink	drink	VERB	VB	VerbForm=Inf	8	conj	4:ccomp|8:conj:and	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	15:obj	Entity=(substance-128-giv:act-1-ana)126)|SpaceAfter=No
+17	,	,	PUNCT	,	_	22	punct	22:punct	_
+18	like	like	SCONJ	IN	_	22	mark	22:mark	Discourse=manner:140->138:1
+19	some	some	DET	DT	_	20	det	20:det	Entity=(organization-129-new-2-sgl
+20	companies	company	NOUN	NNS	Number=Plur	22	nsubj	22:nsubj|24:nsubj:xsubj	Entity=129)
+21	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	22:aux	_
+22	chosen	choose	VERB	VBN	Tense=Past|VerbForm=Part	8	advcl	8:advcl:like	_
+23	to	to	PART	TO	_	24	mark	24:mark	_
+24	do	do	VERB	VB	VerbForm=Inf	22	xcomp	22:xcomp	SpaceAfter=No
+25	,	,	PUNCT	,	_	28	punct	28:punct	_
+26	but	but	CCONJ	CC	_	28	cc	28:cc	Discourse=concession:141->138:3
+27-28	that's	_	_	_	_	_	_	_	_
+27	that	that	PRON	DT	Number=Sing|PronType=Dem	28	nsubj	28:nsubj	Entity=(event-126-giv:act-1-coref)
+28	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj:but	_
+29	on	on	ADP	IN	_	30	case	30:case	_
+30	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	28	obl	28:obl:on	Entity=(person-116-giv:act-1-ana)|SpaceAfter=No
+31	)	)	PUNCT	-RRB-	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-44
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = As long as people continue to value dollars, it doesn't matter what it's worth, sans some certain supply and demand laws.
+# newpar = p (3 s)
+1	As	as	ADV	RB	_	2	advmod	2:advmod	Discourse=condition:142->143:0
+2	long	long	ADV	RB	Degree=Pos	13	advmod	13:advmod	_
+3	as	as	SCONJ	IN	_	5	mark	5:mark	_
+4	people	person	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj|7:nsubj:xsubj	Entity=(person-130-new-1-sgl)
+5	continue	continue	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	2:advcl:as	_
+6	to	to	PART	TO	_	7	mark	7:mark	_
+7	value	value	VERB	VB	VerbForm=Inf	5	xcomp	5:xcomp	_
+8	dollars	dollar	NOUN	NNS	Number=Plur	7	obj	7:obj	Entity=(object-86-giv:inact-1-coref)|SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	2:punct	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	Discourse=joint_m:143->133:3|Entity=(abstract-131-new-4-disc(abstract-132-new-1-cata)
+11-12	doesn't	_	_	_	_	_	_	_	_
+11	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
+12	n't	not	PART	RB	Polarity=Neg	13	advmod	13:advmod	_
+13	matter	matter	VERB	VB	VerbForm=Inf	0	root	0:root	_
+14	what	what	PRON	WP	PronType=Rel	13	dislocated	13:dislocated	Entity=(abstract-132-acc:com-1-coref
+15-16	it's	_	_	_	_	_	_	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	17:nsubj	Entity=(object-86-giv:act-1-ana)
+16	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	_
+17	worth	worth	ADJ	JJ	Degree=Pos	14	acl:relcl	14:acl:relcl	Entity=132)|SpaceAfter=No
+18	,	,	PUNCT	,	_	25	punct	25:punct	_
+19	sans	sans	ADP	IN	_	25	case	25:case	_
+20	some	some	DET	DT	_	25	det	25:det	Entity=(abstract-133-new-6-sgl
+21	certain	certain	ADJ	JJ	Degree=Pos	25	amod	25:amod	_
+22	supply	supply	NOUN	NN	Number=Sing	25	compound	25:compound	Entity=(abstract-134-new-1-sgl)
+23	and	and	CCONJ	CC	_	24	cc	24:cc	_
+24	demand	demand	NOUN	NN	Number=Sing	22	conj	22:conj:and|25:compound	Entity=(abstract-135-new-1-sgl)
+25	laws	law	NOUN	NNS	Number=Plur	13	obl	13:obl:sans	Entity=133)131)|SpaceAfter=No
+26	.	.	PUNCT	.	_	13	punct	13:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-45
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = So gold is no different in that regard.
+1	So	so	ADV	RB	_	5	advmod	5:advmod	Discourse=antithesis:144->133:4
+2	gold	gold	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=(substance-98-giv:inact-1-coref)
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
+4	no	no	ADV	RB	Degree=Pos|Polarity=Neg	5	advmod	5:advmod	_
+5	different	different	ADJ	JJ	Degree=Pos	0	root	0:root	_
+6	in	in	ADP	IN	_	8	case	8:case	_
+7	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	8:det	Entity=(abstract-131-giv:act-2-coref
+8	regard	regard	NOUN	NN	Number=Sing	5	obl	5:obl:in	Entity=131)|SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-46
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = The ONE difference between paper currency and gold is that $ 100,000 in cash weighs a lot less than $ 100,000 in gold and is a lot easier to hide too.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint_m:145->133:5|Entity=(abstract-136-new-3-coref
+2	ONE	one	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	XML=<hi rend:::"bold"></hi>
+3	difference	difference	NOUN	NN	Number=Sing	15	nsubj	15:nsubj|30:nsubj:xsubj	_
+4	between	between	ADP	IN	_	6	case	6:case	_
+5	paper	paper	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(object-137-new-2-sgl
+6	currency	currency	NOUN	NN	Number=Sing	3	nmod	3:nmod:between	Entity=137)
+7	and	and	CCONJ	CC	_	8	cc	8:cc	_
+8	gold	gold	NOUN	NN	Number=Sing	6	conj	3:nmod:between|6:conj:and	Entity=(substance-98-giv:act-1-coref)136)
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	_
+10	that	that	SCONJ	IN	_	15	mark	15:mark	Entity=(abstract-136-giv:act-6,19-coref
+11	$	$	SYM	SYM	_	15	nsubj	15:nsubj|30:nsubj:xsubj	Entity=(object-138-new-1-sgl
+12	100,000	100000	NUM	CD	NumForm=Digit|NumType=Card	11	nummod	11:nummod	_
+13	in	in	ADP	IN	_	14	case	14:case	_
+14	cash	cash	NOUN	NN	Number=Sing	11	nmod	11:nmod:in	Entity=(object-139-new-1-sgl)138)
+15	weighs	weigh	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	_
+17	lot	lot	NOUN	NN	Number=Sing	18	obl:npmod	18:obl:npmod	_
+18	less	less	ADV	RBR	Degree=Cmp	21	advmod	21:advmod	_
+19	than	than	ADP	IN	_	18	fixed	18:fixed	_
+20	$	$	SYM	SYM	_	15	obj	15:obj	Entity=(substance-140-new-1-sgl
+21	100,000	100000	NUM	CD	NumForm=Digit|NumType=Card	20	nummod	20:nummod	_
+22	in	in	ADP	IN	_	23	case	23:case	_
+23	gold	gold	NOUN	NN	Number=Sing	20	nmod	20:nmod:in	Entity=(substance-98-giv:act-1-coref)140)
+24	and	and	CCONJ	CC	_	28	cc	28:cc	Discourse=joint_m:146->145:0
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	28:cop	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	27:det	_
+27	lot	lot	NOUN	NN	Number=Sing	28	obl:npmod	28:obl:npmod	_
+28	easier	easy	ADJ	JJR	Degree=Cmp	15	conj	15:conj:and	_
+29	to	to	PART	TO	_	30	mark	30:mark	_
+30	hide	hide	VERB	VB	VerbForm=Inf	28	xcomp	28:xcomp	_
+31	too	too	ADV	RB	Degree=Pos	28	advmod	28:advmod	Entity=136)|SpaceAfter=No
+32	.	.	PUNCT	.	_	15	punct	15:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-47
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = frag
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = EDIT:
+# newpar = p (4 s)
+1	EDIT	edit	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:147->148:3|Entity=(event-141-new-1-sgl)|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	1:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-48
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = I made some slight revisions to correct errors and to try and relate things better to the main topic at hand.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration:148->6:2|Entity=(person-142-acc:com-1-ana)
+2	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	some	some	DET	DT	_	5	det	5:det	Entity=(abstract-143-new-3-sgl
+4	slight	slight	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
+5	revisions	revision	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=143)
+6	to	to	PART	TO	_	7	mark	7:mark	Discourse=purpose:149->148:0
+7	correct	correct	VERB	VB	VerbForm=Inf	2	advcl	2:advcl:to	_
+8	errors	error	NOUN	NNS	Number=Plur	7	obj	7:obj	Entity=(abstract-144-new-1-coref)
+9	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=joint_m:150->149:0
+10	to	to	PART	TO	_	11	mark	11:mark	_
+11	try	try	VERB	VB	VerbForm=Inf	7	conj	2:advcl:to|7:conj:and	_
+12	and	and	CCONJ	CC	_	13	cc	13:cc	_
+13	relate	relate	VERB	VB	VerbForm=Inf	11	conj	7:conj|11:conj:and	_
+14	things	thing	NOUN	NNS	Number=Plur	13	obj	13:obj	Entity=(abstract-145-new-1-sgl)
+15	better	well	ADV	RBR	Degree=Cmp	13	advmod	13:advmod	_
+16	to	to	ADP	IN	_	19	case	19:case	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(abstract-2-giv:inact-3-coref
+18	main	main	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
+19	topic	topic	NOUN	NN	Number=Sing	13	obl	13:obl:to	_
+20	at	at	ADP	IN	_	21	case	21:case	_
+21	hand	hand	NOUN	NN	Number=Sing	19	nmod	19:nmod:at	Entity=2)|SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-49
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = other
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = Sorry, I kinda started rambling.
+1	Sorry	sorry	ADJ	JJ	Degree=Pos	5	discourse	5:discourse	Discourse=concession:151->148:1|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj|6:nsubj:xsubj	Entity=(person-142-giv:act-1-ana)
+4	kinda	kinda	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
+5	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+6	rambling	ramble	VERB	VBG	VerbForm=Ger	5	xcomp	5:xcomp	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-50
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = I have also posted below in response to u/penny_eater to correct my errors and explain them in a little bit further detail but it kinda strays away from ELI5 territory.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint_m:152->148:2|Entity=(person-142-giv:act-1-ana)
+2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
+3	also	also	ADV	RB	_	4	advmod	4:advmod	_
+4	posted	post	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	Entity=(event-146-new-1-disc
+5	below	below	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
+6	in	in	ADP	IN	_	7	case	7:case	_
+7	response	response	NOUN	NN	Number=Sing	4	obl	4:obl:in	_
+8	to	to	ADP	IN	_	9	case	9:case	_
+9	u/penny_eater	u/penny_eater	PROPN	NNP	Number=Sing	7	nmod	7:nmod:to	Entity=(person-147-acc:com-1-sgl)146)|XML=<ref target:::"https://www.reddit.com/user/penny_eater"></ref>
+10	to	to	PART	TO	_	11	mark	11:mark	Discourse=purpose:153->152:0
+11	correct	correct	VERB	VB	VerbForm=Inf	4	advcl	4:advcl:to	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(abstract-144-giv:inact-2-coref(person-142-giv:act-1-ana)
+13	errors	error	NOUN	NNS	Number=Plur	11	obj	11:obj	Entity=144)
+14	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=joint_m:154->153:0
+15	explain	explain	VERB	VB	VerbForm=Inf	11	conj	4:advcl:to|11:conj:and	_
+16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	obj	15:obj	Entity=(abstract-144-giv:act-1-ana)
+17	in	in	ADP	IN	_	22	case	22:case	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	_
+19	little	little	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
+20	bit	bit	NOUN	NN	Number=Sing	21	obl:npmod	21:obl:npmod	_
+21	further	further	ADJ	JJR	Degree=Cmp	22	amod	22:amod	_
+22	detail	detail	NOUN	NN	Number=Sing	15	obl	15:obl:in	_
+23	but	but	CCONJ	CC	_	26	cc	26:cc	Discourse=concession:155->152:1
+24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	nsubj	26:nsubj	Entity=(event-146-giv:act-1-coref)
+25	kinda	kinda	ADV	RB	Degree=Pos	26	advmod	26:advmod	_
+26	strays	stray	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj:but	_
+27	away	away	ADV	RB	Degree=Pos	26	advmod	26:advmod	_
+28	from	from	ADP	IN	_	30	case	30:case	_
+29	ELI5	ELI5	PROPN	NNP	Abbr=Yes|Number=Sing	30	compound	30:compound	Entity=(abstract-148-new-2-sgl(abstract-1-giv:inact-1-coref)
+30	territory	territory	NOUN	NN	Number=Sing	26	obl	26:obl:from	Entity=148)|SpaceAfter=No
+31	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-51
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = This kinda seems all over the place but it should be good starter information for someone trying to understand debt markets and macroeconomics, in general.
+# newpar = p (2 s)
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=concession:156->157:1|Entity=(abstract-149-acc:com-1-ana)
+2	kinda	kinda	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
+3	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+4	all	all	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
+5	over	over	ADP	IN	_	7	case	7:case	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	_
+7	place	place	NOUN	NN	Number=Sing	3	obl	3:obl:over	_
+8	but	but	CCONJ	CC	_	14	cc	14:cc	Discourse=preparation:157->159:2
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Entity=(abstract-149-giv:act-1-ana)
+10	should	should	AUX	MD	VerbForm=Fin	14	aux	14:aux	_
+11	be	be	AUX	VB	VerbForm=Inf	14	cop	14:cop	_
+12	good	good	ADJ	JJ	Degree=Pos	14	amod	14:amod	Entity=(abstract-149-giv:act-3-pred
+13	starter	starter	NOUN	NN	Number=Sing	14	compound	14:compound	_
+14	information	information	NOUN	NN	Number=Sing	3	conj	3:conj:but	_
+15	for	for	ADP	IN	_	16	case	16:case	_
+16	someone	someone	NOUN	NN	Number=Sing	14	nmod	14:nmod:for	Entity=(person-150-new-1-sgl
+17	trying	try	VERB	VBG	VerbForm=Ger	16	acl	16:acl	Discourse=elaboration:158->157:0
+18	to	to	PART	TO	_	19	mark	19:mark	_
+19	understand	understand	VERB	VB	VerbForm=Inf	17	xcomp	17:xcomp	_
+20	debt	debt	NOUN	NN	Number=Sing	21	compound	21:compound	Entity=(place-151-new-2-sgl(abstract-14-giv:inact-1-coref)
+21	markets	market	NOUN	NNS	Number=Plur	19	obj	19:obj	Entity=151)
+22	and	and	CCONJ	CC	_	23	cc	23:cc	_
+23	macroeconomics	macroeconomics	NOUN	NN	Number=Sing	21	conj	19:obj|21:conj:and	Entity=(abstract-152-new-1-sgl)|SpaceAfter=No
+24	,	,	PUNCT	,	_	26	punct	26:punct	_
+25	in	in	ADP	IN	_	26	case	26:case	_
+26	general	general	NOUN	NN	Number=Sing	19	obl	19:obl:in	Entity=150)149)|SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-52
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = Monetary supply and debt are pretty hand-in-hand, even if they're not exactly the same thing.
+1	Monetary	monetary	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=restatement:159->6:3|Entity=(abstract-153-new-2,4-coref(abstract-154-new-2-sgl
+2	supply	supply	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=154)
+3	and	and	CCONJ	CC	_	4	cc	4:cc	_
+4	debt	debt	NOUN	NN	Number=Sing	2	conj	2:conj:and|7:nsubj	Entity=(abstract-14-giv:act-1-coref)153)
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
+6	pretty	pretty	ADV	RB	_	7	advmod	7:advmod	_
+7	hand	hand	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No|XML=<w>
+8	-	-	PUNCT	HYPH	_	11	punct	11:punct	SpaceAfter=No
+9	in	in	ADP	IN	_	11	case	11:case	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	9	punct	9:punct	SpaceAfter=No
+11	hand	hand	NOUN	NN	Number=Sing	7	nmod	7:nmod:in	SpaceAfter=No|XML=</w>
+12	,	,	PUNCT	,	_	21	punct	21:punct	_
+13	even	even	ADV	RB	_	21	advmod	21:advmod	Discourse=concession:160->159:0
+14	if	if	SCONJ	IN	_	21	mark	21:mark	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	21:nsubj	Entity=(abstract-153-giv:act-1-ana)|SpaceAfter=No
+16	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	21:cop	_
+17	not	not	PART	RB	Polarity=Neg	21	advmod	21:advmod	_
+18	exactly	exactly	ADV	RB	Degree=Pos	21	advmod	21:advmod	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(abstract-155-new-3-sgl
+20	same	same	ADJ	JJ	Degree=Pos	21	amod	21:amod	_
+21	thing	thing	NOUN	NN	Number=Sing	7	advcl	7:advcl:if	Entity=155)|SpaceAfter=No
+22	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-53
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = Larger and more complex economies warranted the development of fiat currency which ultimately changed the role of currency, in general.
+# newpar = p (2 s)
+1	Larger	large	ADJ	JJR	Degree=Cmp	5	amod	5:amod	Discourse=joint_m:161->159:1|Entity=(abstract-156-new-5-sgl
+2	and	and	CCONJ	CC	_	4	cc	4:cc	_
+3	more	more	ADV	RBR	Degree=Cmp	4	advmod	4:advmod	_
+4	complex	complex	ADJ	JJ	Degree=Pos	1	conj	1:conj:and|5:amod	_
+5	economies	economy	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=156)
+6	warranted	warrant	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(event-157-new-2-sgl
+8	development	development	NOUN	NN	Number=Sing	6	obj	6:obj	_
+9	of	of	ADP	IN	_	11	case	11:case	_
+10	fiat	fiat	NOUN	NN	Number=Sing	11	compound	11:compound	Entity=(abstract-16-giv:inact-2-coref
+11	currency	currency	NOUN	NN	Number=Sing	8	nmod	8:nmod:of|14:nsubj	_
+12	which	which	PRON	WDT	PronType=Rel	14	nsubj	11:ref	Discourse=elaboration:162->161:0
+13	ultimately	ultimately	ADV	RB	Degree=Pos	14	advmod	14:advmod	_
+14	changed	change	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	11:acl:relcl	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(abstract-158-new-2-sgl
+16	role	role	NOUN	NN	Number=Sing	14	obj	14:obj	_
+17	of	of	ADP	IN	_	18	case	18:case	_
+18	currency	currency	NOUN	NN	Number=Sing	16	nmod	16:nmod:of	Entity=(abstract-159-new-1-coref)158)|SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	21:punct	_
+20	in	in	ADP	IN	_	21	case	21:case	_
+21	general	general	NOUN	NN	Number=Sing	14	obl	14:obl:in	Entity=16)157)|SpaceAfter=No
+22	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-54
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = decl
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = It no longer represents a claim, per se, but it represents value because the gov't says it has value and will accept it for gov't related transactions and business with foreign entities.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=elaboration:163->161:1|Entity=(abstract-159-giv:act-1-ana)
+2	no	no	ADV	RB	Degree=Pos|Polarity=Neg	3	advmod	3:advmod	_
+3	longer	long	ADV	RBR	Degree=Cmp	4	advmod	4:advmod	_
+4	represents	represent	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(abstract-160-new-2-sgl
+6	claim	claim	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=160)|SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	9:punct	_
+8	per	per	X	FW	_	9	case	9:case	_
+9	se	se	X	FW	_	6	nmod	6:nmod:per	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	13:punct	_
+11	but	but	CCONJ	CC	_	13	cc	13:cc	Discourse=contrast_m:164->163:0
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	Entity=(abstract-159-giv:act-1-ana)
+13	represents	represent	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj:but	_
+14	value	value	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=(abstract-102-giv:inact-1-coref)
+15	because	because	SCONJ	IN	_	18	mark	18:mark	Discourse=cause:165->164:0
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Discourse=attribution:166->167:0|Entity=(organization-23-giv:inact-2-coref
+17	gov't	government	NOUN	NN	Number=Sing	18	nsubj	18:nsubj|24:nsubj	Entity=23)|XML=<sic></sic>
+18	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	13:advcl:because	_
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	20:nsubj	Discourse=same-unit_m:167->165:0|Entity=(abstract-159-giv:act-1-ana)
+20	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	18:ccomp	_
+21	value	value	NOUN	NN	Number=Sing	20	obj	20:obj	Entity=(abstract-102-giv:act-1-coref)
+22	and	and	CCONJ	CC	_	24	cc	24:cc	Discourse=joint_m:168->167:1
+23	will	will	AUX	MD	VerbForm=Fin	24	aux	24:aux	_
+24	accept	accept	VERB	VB	VerbForm=Inf	18	conj	13:advcl:because|18:conj:and	_
+25	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	obj	24:obj	Entity=(abstract-159-giv:act-1-ana)
+26	for	for	ADP	IN	_	29	case	29:case	_
+27	gov't	government	NOUN	NN	Number=Sing	28	compound	28:compound	Entity=(abstract-161-new-3-sgl(organization-23-giv:act-1-coref)|XML=<sic></sic>
+28	related	related	ADJ	JJ	Degree=Pos	29	amod	29:amod	_
+29	transactions	transaction	NOUN	NNS	Number=Plur	24	obl	24:obl:for	Entity=161)
+30	and	and	CCONJ	CC	_	31	cc	31:cc	_
+31	business	business	NOUN	NN	Number=Sing	29	conj	24:obl:for|29:conj:and	Entity=(abstract-162-new-1-sgl
+32	with	with	ADP	IN	_	34	case	34:case	_
+33	foreign	foreign	ADJ	JJ	Degree=Pos	34	amod	34:amod	Entity=(organization-163-new-2-sgl
+34	entities	entity	NOUN	NNS	Number=Plur	31	nmod	31:nmod:with	Entity=163)162)|SpaceAfter=No
+35	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_macroeconomics-55
+# addressee = GUM_reddit_macroeconomics_spk_A
+# s_type = imp
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = Also, don't get me started on the petrodollar.
+# newpar = p (1 s)
+1	Also	also	ADV	RB	_	5	advmod	5:advmod	Discourse=joint_m:169->159:1|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3-4	don't	_	_	_	_	_	_	_	_
+3	do	do	AUX	VB	VerbForm=Inf	5	aux	5:aux	_
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
+5	get	get	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+6	me	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj:pass	7:nsubj:pass	Entity=(person-142-giv:inact-1-ana)
+7	started	start	VERB	VBN	Tense=Past|VerbForm=Part	5	xcomp	5:xcomp	_
+8	on	on	ADP	IN	_	10	case	10:case	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(abstract-164-new-2-sgl
+10	petrodollar	petrodollar	NOUN	NN	Number=Sing	7	obl	7:obl:on	Entity=164)|SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	5:punct	_
+

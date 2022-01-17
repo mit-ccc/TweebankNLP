@@ -1,0 +1,1106 @@
+If you plot multiple charts, you will see a drop area for multi-chart fields.
+This type of drop area is not displayed for single charts. Drop areas Moving
+fields to the category and series areas When you move a field to the series
+area, the unique items of data within the field are displayed as data series in
+the chart. These series are represented by colored data markers, and their names
+appear in the chart legend. When you move a field to the category area, the
+unique items of data are displayed as categories, or related groups of data.
+Each category consists of one point from each data series. Category labels
+usually appear across the x axis of the chart, although this can vary depending
+on the type of chart you are using. Moving fields to the data area Data fields
+provide the values to be summarized in the chart. When you move a field to the
+data area, the values from the field are used as the data that is measured in
+the chart. A filter field is similar to a page field in a Microsoft Excel
+PivotTable report. For example, when you move a Product field to the filter
+area, you can have the chart display category and series values for one product
+at a time. Moving fields to the MultiChart area For example, if you move the
+Salesperson field to the MultiChart area, a chart is created based on data for
+each salesperson in that field. In the following example, the Salesperson field
+is in the MultiChart area, but it's filtered so it displays individual charts
+for Buchanan and Davolio. Filtered Salesperson field in MultiChart area Moving
+the category or series fields to inner or outer levels When a chart contains
+multiple series or category fields, the fields that are closest to the data are
+referred to as inner fields. In the following example, Year is the outer field
+and Salesperson is the inner field. The inner field items are displayed as
+salespeople's names, and the outer field items are displayed as the years 1997
+and 1998. Multiple fields in a chart 1 Inner field items 2 Outer field items You
+can expand and collapse multiple fields to show more or less information in a
+particular field. For example, you can collapse the outer field (Year) in the
+example so that the inner field items are no longer displayed. Chart with
+collapsed field The layout of a chart does not have to include all fields that
+are available from the source data. If more data is available, you can add
+fields to the chart. For example, if the chart summarizes sales revenue, and the
+source data also includes sales quantities, you might add the Quantity field as
+a data field to summarize both revenue and quantity of products sold. You can
+also remove fields from the chart layout that you no longer want to see. Impact
+of changing layout on filtering Filter settings are retained when you move or
+remove a field. This means that when you move a series or category field to the
+filter area and back, previously hidden items are again hidden. If you remove a
+field and later add the field back to the layout, the same items are again
+hidden. Restricting use of a chart When you design a chart for other users, you
+can restrict the user's ability to change the layout of the chart by preventing
+fields from being added and moved. About the data outline The data outline
+displays a tree view of the data model of a data access page. It lists the
+record sources, fields, and calculated controls of a page. Because the field
+list of a page does not show the contents specific to a page, you can use the
+data outline to review the structure of a page. You can also select the objects
+displayed in the data outline, set their properties, define and edit
+relationships between record sources, and delete fields and record sources. The
+following illustration shows the Orders page with two group levels. The inner
+group level contains fields from the OrderDetails table and a calculated control
+named Value. In the outer group level, the header section contains fields from
+the Orders table and the footer section contains a calculated total control
+named OrderValue. Data access page with two group levels The following
+illustration shows the data outline for the Orders page. Data outline for Orders
+page 1 The RecordsetDef object, which contains one or more record sources 2 The
+underlying record sources 3 Primary key fields 4 Data fields 5 Aggregate field 6
+Calculated field About enabling the System Administrator (SA) user name in an
+Access project Note The hyperlink in this topic goes to the Web. You can switch
+back to Help at any time. When the Microsoft SQL Server 2000 Desktop Engine
+(formerly called the Microsoft Database Engine or MSDE) is installed on
+Microsoft Windows NT computers, it is installed with Windows NT Authentication
+implemented (this feature is also known as integrated security). Text fields You
+can group based on the first n characters of the individual items. For example,
+you can group the LastName field by first letter to create groups, such as A, B,
+and so on. You can specify the start and end values for the grouping range. For
+example, if you specify the start range as 01-Jul-1999 while grouping the
+ShippedDate field in weekly intervals, the following groups will be created:
+01-Jul-1999, 01-Jul-1999, 08-Jul-1999,. Dates prior to 01-Jul-1999 are grouped
+into a single group titled 01-Jul-1999. If you also specify the end value as
+31-Dec-1999, the following groups will be created: 31-Dec-1999 31-Dec-1999,
+31-Dec-1999 Dates that fall after 31-Dec-1999 are grouped into a single group
+titled 31-Dec-1999. Custom grouping in PivotTable view You can randomly select
+items from a row or column field and group them into higher-level groups. For
+example, you can select from the Promotions row field all the promotions that
+run for a specific period and create a group. This would add a new row field
+named Promotions 2 above the Promotions row field with two members: Group1 and
+Other. You can change the caption of Group 1 to Fixed and Promotions 2 to
+Category in the Properties dialog box. The Other group will contain all items
+that you did not include in the Fixed custom group. You can then select all the
+popular promotions from the Other group and create a new custom group that will
+be captioned Popular. After you do this, the Category field will have three
+members: Fixed, Popular, and Other. The following illustration shows how the
+PivotTable view will look after the captions of the custom group field and
+custom groups have been changed. PivotTable view with custom groups A custom
+group field. Contains custom groups as its items and appears as the parent of
+the field whose items you grouped. Custom groups. Appear as the parents of items
+you explicitly selected to create the groups. 3 The Other group is the parent of
+the items you did not assign to any specific custom group. Creating and deleting
+custom groups and custom group fields You can not group items that belong to
+different fields or items that belong to parent items into a custom group. When
+you create the first custom group for a field, a custom group field is
+automatically added as the field's parent. Similarly, when you delete the last
+custom group for a field, the custom group field is automatically deleted. When
+you delete a custom group that is not the last custom group in the field, the
+deleted group's members automatically move to the Other group. The groups you
+create do not affect source data. Moving a field whose parent is a custom group
+field When you move a field that has custom groups between row and column areas,
+the custom group fields that are based on the field move with the field. If you
+move the field to the filter area, the custom group fields are hidden. However,
+the bound field will show the custom group hierarchy in the drop-down list, so
+you can filter data by selecting custom groups or individual values. When you
+move the field back to a row or column area, the custom group fields will appear
+again. You can not move a field with custom groups to the detail area. Adding
+and removing nested custom groups You can select two or more custom groups to
+create a higher-level grouping. For example, you can group the members of the
+Category field into two groups: high priority promotions and low priority
+promotions. The following illustration shows how the row area will look with
+nested custom groups. PivotTable view with nested custom groups 1 A custom group
+field that appears as the parent of the Category custom group field. You can
+also remove a lower-level custom group. The following illustration shows what
+the data will look like after the Category field has been removed. Use a grid of
+grouped lines as a table for displaying data In Design view of a form or report,
+create a grid of lines. For example, your grid might look like following: A more
+complex grid made of seven lines Click outside of the grid of lines and drag a
+rectangle over the grid. On the Format menu, click Group. Move a line in a grid
+of grouped lines Click the grid of grouped lines. While holding down the ALT
+key, click the line you want to move. When the pointer changes to a
+double-headed arrow, you can drag the line to a new location. Rules for moving
+an interior vertical line If you move the line to the right, the distance
+between the moving line and the nearest parallel line to the right remains
+constant, and the perpendicular line to the left of the moving line lengthens.
+If you move the line to the left, the distance between the moving line and the
+nearest parallel line to the right remains constant, and the perpendicular line
+to the left of the moving line contracts. 
+
+At the back table sat two old men in shabby clothes, one very fat and the other
+very thin, intently studying the racing forms. Two empty coffee cups sat on the
+table between them. In the foreground, facing the magazine rack, a young student
+stood with an open magazine in his hands, staring at a picture of a naked woman.
+Quinn sat down at the counter and ordered a hamburger and a coffee. As the
+counterman swung into action, he spoke over his shoulder to Quinn. Did you see
+game tonight, man? I missed it. Anything good to report? What do you think? For
+several years Quinn had been having the same conversation with this man, whose
+name he did not know. Once, when he had been in the luncheonette, they had
+talked about baseball, and now, each time Quinn came in, they continued to talk
+about it. In the winter, the talk was of trades, predictions, memories. During
+the seasons, it was always the most recent game. They were both Mets fans, and
+the hopelessness of that passion had created a bond between them. The counterman
+shook his head. First two times up, Kingsman hits solo shots, he said. Boom,
+boom. Big mothers – all the way to the moon. Jones is pitching good for once and
+things don't look too bad. It's two to one, bottom of the ninth. Pittsburgh gets
+men on second and third, one out, so the Mets go to the bullpen for Allen. He
+walks the next guy to load them up. The Mets bring the corners in for a force at
+home, or maybe they can get the double play if it's hit up the middle. Pena
+comes up and chicken-shits a little grounder to first and the fucker goes
+through Kingman's legs. Two men score, and that's it, bye-bye New York. Dave
+Kingman is a turd, said Quinn, biting into his hamburger. But watch out for
+Foster, said the counterman. Foster's washed up. A has-been. A mean-faced bozo.
+Quinn chewed his food carefully, feeling with his tongue for stray bits of bone.
+They should ship him back to Cincinatti by express mail. Yeah, said the
+counterman. But they'll be tough. Better than last year, anyway. I don't know,
+said Quinn, taking another bite. It looks good on paper, but what do they really
+have? Stearns is always getting hurt. They have minor leaguers at second and
+short, and Brooks can't keep his mind on the game. Mookie's good, but he's raw,
+and they can't even decide who to put in right. There's still Rusty, of course,
+but he's too fat to run anymore. And as for the pitching, forget it. You and I
+could go over to Shea tomorrow and get hired as the top two starters. Maybe I
+make you the manager, said the counterman. You could tell those fuckers where to
+get off. You bet your bottom dollar, said Quinn. After he finished eating, Quinn
+wandered over to the stationery shelves. A shipment of new notebooks had come
+in, and the pile was impressive, a beautiful array of blues and greens and reds
+and yellows. He picked one up and saw that the pages had the narrow lines he
+preferred. Quinn did all his writing with a pen, using a typewriter only for
+final drafts, and he was always on the lookout for good spiral notebooks. Now
+that he had embarked on the Stillman case, he felt that a new notebook was in
+order. It would be helpful to have a separate place to record his thoughts, his
+observations, and his questions. In that way, perhaps, things might not get out
+of control. He looked through the pile, trying to decide which one to pick. For
+reasons that were never made clear to him, he suddenly felt an irresistible urge
+for a particular red notebook at the bottom. He pulled it out and examined it,
+gingerly fanning the pages with his thumb. He was at a loss to explain to
+himself why he found it so appealing. It was a standard
+eight-and-a-half-by-eleven notebook with one hundred pages. But something about
+it seemed to call out to him – as if its unique destiny in the world was to hold
+the words that came from his pen. Almost embarrassed by the intensity of his
+feelings, Quinn tucked the red notebook under his arm, walked over to the cash
+register, and bought it. He made it to Grand Central well in advance. Stillman's
+train was not due to arrive until six-forty-one, but Quinn wanted time to study
+the geography of the place, to make sure that Stillman would not be able to slip
+away from him. As he emerged from the subway and entered the great hall, he saw
+by the clock that it was just past four. Already the station had begun to fill
+with the rush-hour crowd. Making his way through the press of oncoming bodies,
+Quinn made a tour of the numbered gates, looking for hidden staircases, unmarked
+exits, dark alcoves. He concluded that a man determined to disappear could do so
+without much trouble. He would have to hope that Stillman had not been warned
+that he would be there. If that were the case, and Stillman managed to elude
+him, it would mean that Virginia Stillman was responsible. There was no one
+else. It solaced him to know that he had an alternate plan if things went awry.
+If Stillman did not show up, Quinn would go straight to 69th Street and confront
+Virginia Stillman with what he knew. As he wandered through the station, he
+reminded himself of who he was supposed to be. The effect of being Paul Auster,
+he had begun to learn, was not altogether unpleasant. Although he still had the
+same body, the same mind, the same thoughts, he felt as though he had somehow
+been taken out of himself, as if he no longer had to walk around with the burden
+of his own consciousness. By a simple trick of the intelligence, a deft little
+twist of naming, he felt incomparably lighter and freer. At the same time, he
+knew it was all an illusion. But there was a certain comfort in that. He had not
+really lost himself; he was merely pretending, and he could return to being
+Quinn whenever he wished. The fact that there was now a purpose to his being
+Paul Auster – a purpose that was becoming more and more important to him –
+served as a kind of moral justification for the charade and absolved him of
+having to defend his lie. For imagining himself as Auster had become synonymous
+in his mind with doing good in the world. He wandered through the station, then,
+as if inside the body of Paul Auster, waiting for Stillman to appear. He looked
+up at the vaulted ceiling of the great hall and studied the fresco of
+constellations. There were light bulbs representing the stars and line drawings
+of the celestial figures. Quinn had never been able to grasp the connection
+between the constellations and their names. As a boy he had spent many hours
+under the night sky trying to tally the clusters of pinprick lights with the
+shapes of bears, bulls, archers, and water carriers. But nothing had ever come
+of it, and he had felt stupid, as though there were a blind spot in the center
+of his brain. In spite of everything, it was impossible for Quinn not to feel
+glad of this. They sat there for a short time without saying anything. At last,
+Auster gave a little shrug, which seemed to acknowledge that they had come to an
+impasse. He stood up and said, I was about to make some lunch for myself. It's
+no trouble making it for two. Quinn hesitated. It was as though Auster had read
+his thoughts, divining the thing he wanted most – to eat, to have an excuse to
+stay a while. I really should be going, he said. But yes, thank you. A little
+food can't do any harm. How does a ham omelette sound? Sounds good. Auster
+retreated to the kitchen to prepare the food. Quinn would have liked to offer to
+help, but he could not budge. His body felt like a stone. For want of any other
+idea, he closed his eyes. In the past, it had sometimes comforted him to make
+the world disappear. This time, however, Quinn found nothing interesting inside
+his head. It seemed as though things had ground to a halt in there. Then, from
+the darkness, he began to hear a voice, a chanting, idiotic voice that sang the
+same sentence over and over again: You can't make an omelette without breaking
+eggs. He opened his eyes to make the words stop. There was bread and butter,
+more beer, knives and forks, salt and pepper, napkins, and omelettes, two of
+them, oozing on white plates. Quinn ate with crude intensity, polishing off the
+meal in what seemed a matter of seconds. After that, he made a great effort to
+be calm. Tears lurked mysteriously behind his eyes, and his voice seemed to
+tremble as he spoke, but somehow he managed to hold his own. To prove that he
+was not a self-obsessed ingrate, he began to question Auster about his writing.
+Auster was somewhat reticent about it, but at last he conceded that he was
+working on a book of essays. The current piece was about Don Quixote. One of my
+favourite books, said Quinn. Yes, mine too. There's nothing like it. Quinn asked
+him about the essay. I suppose you can call it speculative, since I'm not really
+out to prove anything. In fact, it's all done tounge-in-cheek. An imaginative
+reading, I guess you could say. What's the gist? It mostly has to do with the
+authorship of the book. Who wrote it, and how it was written. Is there any
+question? Of course not. But I mean the book inside the book Cervantes wrote,
+the one he imagined he was writing. Ah. It's quite simple. Cervantes, if you
+remember, goes to great lengths to convince the reader that he is not the
+author. The book, he says, was written in Arabic by Cid Hamete Benengali.
+Cervantes describes how he discovered the manuscript by chance one day in the
+market at Toledo. He hires someone to translate it for him into Spanish, and
+thereafter he presents himself as no more than the editor of the translation. In
+fact, he can not even vouch for the accuracy of the translation itself. And yet
+he goes on to say, Quinn added, that Cid Hamete Benengali's is the only true
+version of Don Quixote's story. All the other versions are frauds, written by
+impostors. He makes a great point of insisting that everything in the book
+really happened in the world. Exactly. Because the book after all is an attack
+on the dangers of the make-believe. He couldn't very well offer a work of the
+imagination to do that, could he? He had to claim that it was real. Still, I've
+always suspected that Cervantes devoured those old romances. You can't hate
+something so violently unless a part of you also loves it. In some sense, Don
+Quixote was just a stand-in for himself. I agree with you. What better portrait
+of a writer than to show a man who has been bewitched by books? Precisely. In
+any case, since the book is supposed to be real, it follows that the story has
+to be written by an eyewitness to the events that take place in it. But Cid
+Hamete, the acknowledged author, never makes an appearance. Not once does he
+claim to be present at what happens. So, my question is this: who is Cid Hamete
+Benengali? Yes, I see what you're getting at. The theory I present in the essay
+is that he is actually a combination of four different people. Sancho Panza is
+of course the witness. There's no other candidate – since he is the only one who
+accompanies Don Quixote on all his adventures. But Sancho can neither read nor
+write. Therefore, he can not be the author. On the other hand, we know that
+Sancho has a great gift for language. In spite of his inane malapropisms, he can
+talk circles around everyone else in the book. It seems perfectly possible to me
+that he dictated the story to someone else – namely, to the barber and the
+priest, Don Quixote's good friends. They put the story into proper literary form
+– in Spanish – and then turned the manuscript over to Samson Carrasco, the
+bachelor from Salamanca, who proceeded to translate it into Arabic. Cervantes
+found the translation, had it rendered back into Spanish, and then published the
+book The Adventures of Don Quixote. But why would Sancho and the others go to
+all that trouble? To cure Don Quixote of his madness. They want to save their
+friend. Remember, at the beginning they burn his books of chivalry, but that has
+no effect. The Knight of the Sad Countenance does not give up his obsessions.
+Then, at one time or another, they all go out looking for him in various
+disguises – as a woman in distress, as the Knight of the Mirrors, as the Knight
+of the White Moon – in order to lure Don Quixote back home. 
+
+Do you know what a physicist is? Do you recognize the name of Einstein?" "Never.
+Who is he?" This is too much for me. Silent, I give his case some thought.
+Busy-minded people, with their head-culture that touches all surfaces, have
+heard of Einstein. But do they know what they have heard? A majority do not.
+These Hasidim choose not to know. By and by I open a paperback and try to lose
+myself in mere politics. A dozen Hasidim in the lavatory queue stare down at us.
+We land and spill out and go our separate ways. At the baggage carousel I see my
+youthful Hasid again and we take a final look at each other. In me he sees what
+deformities the modern age can produce in the seed of Abraham. In him I see a
+piece of history, an antiquity. It is rather as if Puritans in
+seventeenth-century dress and observing seventeenth-century customs were to be
+found still living in Boston or Plymouth. Israel, which receives us impartially,
+is accustomed to strange arrivals. But then Israel is something else again. We
+are staying in Jerusalem as guests of the Mishkenot Sha'ananim, the dwellings of
+serenity. Mayor Teddy Kollek, irrepressible organizer of wonderful events (some
+of them too rich for my blood), takes us to dinner with one of the Armenian
+Archbishops in the Old City. On the rooftop patio of the opulent apartment are
+tubs of fragrant flowers. The moon is nearly full. Below is the church, portions
+of which go back to the fourth century. The Archbishop is, to use an old word, a
+portly man. His cassock, dark red, swells with the body. On his breast two
+ball-point pens are clipped between the buttons. He has a full youthful clever
+face; a black beard, small and tidy. The eyes are green. Present are Isaac
+Stern; Alexander Schneider, formerly of the Budapest String Quartet; Kollek's
+son, Amos; two Israeli couples whom I can not identify; and the foreign-news
+editor of Le Monde, Michel Tatu. In the Archbishop's drawing room are golden
+icons. In illuminated cases are ancient objects. I can seldom get up much
+interest in such cases and objects. Middle-aged Armenians serve drinks and wait
+on us. They wear extremely loud shirts, blue-green sprigged with red berries,
+but they strike me as good fellows and are neat and nimble about the table. The
+conversation is quick and superknowledgeable. In French, in English, in Hebrew,
+and occasionally in Russian. (Tatu, who lived for years in Moscow, chats in
+Russian with Stern and Schneider.) The Archbishop, who has himself cooked the
+eggplant and the leg of lamb, tells the company his recipes. He and Kollek
+discuss seasonings. Schneider recalls a great Armenian musician and teacher (his
+own teacher) named Dirian Alexanian, editor of Bach's Suites for Cello
+Unaccompanied and the most intolerant perfectionist "Just as particular about
+music as other people are about seasonings. Alexanian said to Pablo Casals after
+a performance of some of the suites, You made three bad mistakes. Terrible.
+Casals did not answer. He knew Alexanian was right."Pale, with black hair in
+abundance, Tatu is one of those short men who have learned to hold their ground
+against big ones. He sits with the ease that disguises this sort of tension. His
+paper is not friendly to Israel. Two or three times I consider whether to
+mention to him a letter I sent Le Monde during the 1973 war about the position
+being taken by France. I want to ask him why it wasn't printed. But I succeed in
+suppressing this a triumph over myself. Besides, Tatu does not have the look of
+a man whose life is easy and I don't see why I should spoil his Jerusalem dinner
+for him in his diary it would probably be entered as "An enchanted evening in Le
+Proche Orient with an Armenian archbishop." I decide to let him enjoy his
+dinner. Seeking common ground with my wife (a laudable desire), he tells her
+that he too is Rumanian by origin. He can safely say this, for his family came
+to France in the seventeenth century. What is all important is to be French, or
+to have been French for a good long time. And French he definitely is. But I can
+see that the Archbishop gives him bad marks for lighting up after the main
+course. People of real culture do not smoke at dinner tables. You never know
+whom you have asked to your palace. Dostoevski, no mean judge of such matters,
+thought there was much to be said for the murderer's point of view. Navrozov
+extends the position. Liberal democracy is as brief as a bubble. Now-and-then
+history treats us to an interval of freedom and civilization and we make much of
+it. We forget, he seems to think, that as a species we are generally close to
+the "state of nature," as Thomas Hobbes described it a nasty, brutish, pitiless
+condition in which men are too fearful of death to give much thought to freedom.
+If Hobbes is too nifty an authority, let us think of the social views of Jimmy
+Hoffa. Or of the Godfather. Or of Lenin, as Navrozov accurately characterizes
+him. And this is what America, bubbling with political illusions, is up against.
+So, at least, Navrozov thinks. Perhaps Alexander Solzhenitsyn agrees with him in
+part. Apparently Russians are all inclined to see us in this way. My own cousin,
+Nota Gordon, two years out of the Soviet Union, says to me, "You are no match
+for them. You do not understand with whom you are dealing. "Nota held the rank
+of captain in the Russian army and fought the Germans until 1945. He was three
+times seriously wounded. He has the family look the brown eyes, arched brows,
+dark coloring, and white hair. He has, besides, the gold crowns of Russian
+dental art. Criminals released from prison during the war served in his company.
+Nota has no swagger but he is war-hardened. There was no food sent to the front
+lines. You ate frozen potatoes, you foraged, and you stole. You could depend on
+your criminal soldiers to bring in provisions. "I myself had absolute authority
+to kill anyone in my command. At my discretion. No explanations necessary," says
+Nota. We are first cousins but he is Russian, I am an American, and in his
+Russian eyes an American is amiable, good-natured, attractive perhaps, but
+undeveloped, helpless: all that Dostoevski was to his fellow convict the
+murderer. Nevertheless, I see that in a book called Things to Come two Americans
+who think themselves anything but undeveloped and helpless, Herman Kahn and B
+Bruce-Briggs, are not impressed by Russian achievements. "Most striking is the
+disappointing performance of Soviet foreign and domestic policy since the late
+1950s, "they wrote in 1972. "In the foreign policy field the Soviets have had an
+almost uninterrupted series of defeats and disappointments. They have failed to
+extend their influence in Europe. Their attempts to ingratiate themselves with
+India and other neutralist nations have gained them little. For fifteen years
+the Soviet Union has been supporting the Arabs against Israel in the Middle East
+and all they have to show for it is the humiliation of their proteges and the
+capture and destruction of their equipment by Israel. The Arabs have shown no
+inclination toward Communist ideology and their oil continues to flow to the
+West. (The only other choice for the Arabs is to leave their oil in the ground.)
+"I copy this out for my own entertainment a specimen of illusionless American
+political analysis. These views, no substitute for common sense, are based upon
+careful staff work at the Hudson Institute. The Messrs. Kahn and Bruce Briggs
+say in a prefatory note that their book is "basically an organizational product.
+All of the staff at Hudson have contributed in some way to this work, as have
+the thousands of people with whom we have discussed these issues at meetings,
+seminars, and briefings at the Institute and other locations around the world.
+"What the literary imagination faces in these political times. One of the finest
+Israeli writers, A B Yehoshua, speaks about this in an excellent book of
+interviews, Unease in zion, edited by Ehud ben Ezer. "It is true," Yehoshua
+writes, "that because our spiritual life today can not revolve around anything
+but these questions [ political questions ], when you engage in them without end
+you can not spare yourself, spiritually, for other things. Nor can you attain
+the true solitude that is a condition and prerequisite of creation, the source
+and its strength. Rather, you are continuously summoned to solidarity, summoned
+from within yourself rather than by any external compulsion, because you live
+from one newscast to the next, and it becomes a solidarity that is technical,
+automatic from the standpoint of its emotional reaction, because by now you are
+completely built to react that way and to live in tension. Your emotional
+reactions to any piece of news about an Israeli casualty, a plane shot down, are
+pre-determined. Hence the lack of solitude, the inability to be alone in the
+spiritual sense, and to arrive at a life of intellectual creativity." During the
+Six Day War, Yehoshua says that he felt himself linked to a great event, that he
+was within a historic wave and at one with its flow. This was a pleasant and
+elevating feeling. But today, unable to see the end of war, he has lost the
+sensation of being borne upon any such wave. "You do not achieve peace from
+history," he says. The feeling of being swept along and of uncertainty as
+regards the future prevents you from seeing things in any perspective
+whatsoever. You live the moment, without any perspective, but you can not break
+free of the moment, forget the moment. You can not cut yourself off and not read
+newspapers or stop hearing the news over the radio for weeks on end, as you
+could six or seven years ago. "It is slightly different with us. Our media make
+crisis chatter out of news and fill our minds with anxious phantoms of the real
+thing a summit in Helsinki, a treaty in Egypt, a constitutional crisis in India,
+a vote in the UN, the financial collapse of New York. We can't avoid being
+politicized (to use a word as murky as the condition it describes) because it is
+necessary after all to know what is going on. Worse yet, what is going on will
+not let us alone. Neither the facts nor the deformations, the insidious
+platitudes of the media (tormenting because the underlying realities are so huge
+and so terrible), can be screened out. The study of literature is itself heavily
+"politicized." There is a clever, persistent young woman who writes to me often
+from Italy, who insists upon giving the most ordinary occurrences in my novels a
+political interpretation. A cafeteria lunch in New York actually refers to a
+meeting in Canada between Churchill and Roosevelt, and a tussle with a drunk in
+the hallway of a rooming house corresponds to D-Day. 
+
+I am sorry to own I began to worry them. This was already a fresh departure for
+me. I was not used to get things that way, you know. I always went my own road
+and on my own legs where I had a mind to go. I wouldn't have believed it of
+myself; but, then – you see – I felt somehow I must get there by hook or by
+crook. So I worried them. The men said 'My dear fellow' and did nothing. Then –
+would you believe it? – I tried the women. I, Charlie Marlow, set the women to
+work – to get a job. Heavens! Well, you see, the notion drove me. I had an aunt,
+a dear enthusiastic soul. She wrote: 'It will be delightful. I am ready to do
+anything, anything for you. It is a glorious idea. I know the wife of a very
+high personage in the Administration, and also a man who has lots of influence
+with, &c., &c. She was determined to make no end of fuss to get me appointed
+skipper of a river steamboat, if such was my fancy. I got my appointment – of
+course; and I got it very quick. It appears the Company had received news that
+one of their captains had been killed in a scuffle with the natives. This was my
+chance, and it made me the more anxious to go. It was only months and months
+afterwards, when I made the attempt to recover what was left of the body, that I
+heard the original quarrel arose from a misunderstanding about some hens. Yes,
+two black hens. Fresleven – that was the fellow's name, a Dane – thought himself
+wronged somehow in the bargain, so he went ashore and started to hammer the
+chief of the village with a stick. Oh, it didn't surprise me in the least to
+hear this, and at the same time to be told that Fresleven was the gentlest,
+quietest creature that ever walked on two legs. No doubt he was; but he had been
+a couple of years already out there engaged in the noble cause, you know, and he
+probably felt the need at last of asserting his self-respect in some way.
+Therefore he whacked the old nigger mercilessly, while a big crowd of his people
+watched him, thunderstruck, till some man, – I was told the chief's son, – in
+desperation at hearing the old chap yell, made a tentative jab with a spear at
+the white man – and of course it went quite easy between the shoulder-blades.
+Then the whole population cleared into the forest, expecting all kinds of
+calamities to happen, while, on the other hand, the steamer Fresleven commanded
+left also in a bad panic, in charge of the engineer, I believe. Afterwards
+nobody seemed to trouble much about Fresleven's remains, till I got out and
+stepped into his shoes. I couldn't let it rest, though; but when an opportunity
+offered at last to meet my predecessor, the grass growing through his ribs was
+tall enough to hide his bones. They were all there. The supernatural being had
+not been touched after he fell. And the village was deserted, the huts gaped
+black, rotting, all askew within the fallen enclosures. A calamity had come to
+it, sure enough. The people had vanished. Mad terror had scattered them, men,
+women, and children, through the bush, and they had never returned. What became
+of the hens I don't know either. I should think the cause of progress got them,
+anyhow. However, through this glorious affair I got my appointment, before I had
+fairly begun to hope for it. I flew around like mad to get ready, and before
+forty-eight hours I was crossing the Channel to show myself to my employers, and
+sign the contract. In a very few hours I arrived in a city that always makes me
+think of a whited sepulcher. Prejudice no doubt. I had no difficulty in finding
+the Company's offices. It was the biggest thing in the town, and everybody I met
+was full of it. They were going to run an over-sea empire, and make no end of
+coin by trade. A narrow and deserted street in deep shadow, high houses,
+innumerable windows with venetian blinds, a dead silence, grass sprouting
+between the stones, imposing carriage archways right and left, immense double
+doors standing ponderously ajar. I slipped through one of these cracks, went up
+a swept and ungarnished staircase, as arid as a desert, and opened the first
+door I came to. Two women, one fat and the other slim, sat on straw-bottomed
+chairs, knitting black wool. The slim one got up and walked straight at me –
+still knitting with downcast eyes – and only just as I began to think of getting
+out of her way, as you would for a somnambulist, stood still, and looked up. Her
+dress was as plain as an umbrella-cover, and she turned round without a word and
+preceded me into a waiting-room. I gave my name, and looked about. Deal table in
+the middle, plain chairs all round the walls, on one end a large shining map,
+marked with all the colors of a rainbow. There was a vast amount of red – good
+to see at any time, because one knows that some real work is done in there, a
+deuce of a lot of blue, a little green, smears of orange, and, on the East
+Coast, a purple patch, to show where the jolly pioneers of progress drink the
+jolly lager-beer. However, I wasn't going into any of these. I was going into
+the yellow. Dead in the center. And the river was there – fascinating – deadly –
+like a snake. Ough! A door opened, a white-haired secretarial head, but wearing
+a compassionate expression, appeared, and a skinny forefinger beckoned me into
+the sanctuary. Its light was dim, and a heavy writing-desk squatted in the
+middle. From behind that structure came out an impression of pale plumpness in a
+frock-coat. The great man himself. He was five feet six, I should judge, and had
+his grip on the handle-end of ever so many millions. He shook hands, I fancy,
+murmured vaguely, was satisfied with my French. Bon voyage. In about forty-five
+seconds I found myself again in the waiting-room with the compassionate
+secretary, who, full of desolation and sympathy, made me sign some document. I
+believe I undertook amongst other things not to disclose any trade secrets.
+Well, I am not going to. I began to feel slightly uneasy. You know I am not used
+to such ceremonies, and there was something ominous in the atmosphere. It was
+just as though I had been let into some conspiracy – I don't know – something
+not quite right; and I was glad to get out. In the outer room the two women
+knitted black wool feverishly. A caravan had come in. A violent babble of
+uncouth sounds burst out on the other side of the planks. All the carriers were
+speaking together, and in the midst of the uproar the lamentable voice of the
+chief agent was heard 'giving it up' tearfully for the twentieth time that
+day... He rose slowly. 'What a frightful row,' he said. He crossed the room
+gently to look at the sick man, and returning, said to me, 'He does not hear.'
+'What! Dead?' I asked, startled. 'No, not yet,' he answered, with great
+composure. Then, alluding with a toss of the head to the tumult in the
+station-yard, 'When one has got to make correct entries, one comes to hate those
+savages – hate them to the death.' He remained thoughtful for a moment. 'When
+you see Mr. Kurtz, he went on, tell him from me that everything here – he
+glanced at the desk – is very satisfactory. I don't like to write to him – with
+those messengers of ours you never know who may get hold of your letter – at
+that Central Station. He stared at me for a moment with his mild, bulging eyes.
+'Oh, he will go far, very far,' he began again. 'He will be a somebody in the
+Administration before long. They, above – the Council in Europe, you know – mean
+him to be. He turned to his work. The noise outside had ceased, and presently in
+going out I stopped at the door. In the steady buzz of flies the homeward-bound
+agent was lying flushed and insensible; the other, bent over his books, was
+making correct entries of perfectly correct transactions; and fifty feet below
+the doorstep I could see the still tree-tops of the grove of death. Next day I
+left that station at last, with a caravan of sixty men, for a two-hundred-mile
+tramp. No use telling you much about that. Paths, paths, everywhere; a
+stamped-in network of paths spreading over the empty land, through long grass,
+through burnt grass, through thickets, down and up chilly ravines, up and down
+stony hills ablaze with heat; and a solitude, a solitude, nobody, not a hut. The
+population had cleared out a long time ago. Well, if a lot of mysterious niggers
+armed with all kinds of fearful weapons suddenly took to traveling on the road
+between Deal and Gravesend, catching the yokels right and left to carry heavy
+loads for them, I fancy every farm and cottage thereabouts would get empty very
+soon. Only here the dwellings were gone too. Still I passed through several
+abandoned villages. There's something pathetically childish in the ruins of
+grass walls. Day after day, with the stamp and shuffle of sixty pair of bare
+feet behind me, each pair under a 60-lb. load. Camp, cook, sleep, strike camp,
+march. Now and then a carrier dead in harness, at rest in the long grass near
+the path, with an empty water-gourd and his long staff lying by his side. A
+great silence around and above. Perhaps on some quiet night the tremor of
+far-off drums, sinking, swelling, a tremor vast, faint; a sound weird,
+appealing, suggestive, and wild – and perhaps with as profound a meaning as the
+sound of bells in a Christian country. Once a white man in an unbuttoned
+uniform, camping on the path with an armed escort of lank Zanzibaris, very
+hospitable and festive – not to say drunk. Was looking after the upkeep of the
+road, he declared. Can't say I saw any road or any upkeep, unless the body of a
+middle-aged negro, with a bullet-hole in the forehead, upon which I absolutely
+stumbled three miles farther on, may be considered as a permanent improvement. I
+had a white companion too, not a bad chap, but rather too fleshy and with the
+exasperating habit of fainting on the hot hillsides, miles away from the least
+bit of shade and water. Annoying, you know, to hold your own coat like a parasol
+over a man's head while he is coming-to. I couldn't help asking him once what he
+meant by coming there at all. 'To make money, of course.' What do you think? he
+said, scornfully. Then he got fever, and had to be carried in a hammock slung
+under a pole. As he weighed sixteen stone I had no end of rows with the
+carriers. They jibbed, ran away, sneaked off with their loads in the night –
+quite a mutiny. So, one evening, I made a speech in English with gestures, not
+one of which was lost to the sixty pairs of eyes before me, and the next morning
+I started the hammock off in front all right. An hour afterwards I came upon the
+whole concern wrecked in a bush – man, hammock, groans, blankets, horrors. The
+heavy pole had skinned his poor nose. He was very anxious for me to kill
+somebody, but there wasn't the shadow of a carrier near. I remembered the old
+doctor, – 'It would be interesting for science to watch the mental changes of
+individuals, on the spot. I felt I was becoming scientifically interesting.
+However, all that is to no purpose. On the fifteenth day I came in sight of the
+big river again, and hobbled into the Central Station. It was on a back water
+surrounded by scrub and forest, with a pretty border of smelly mud on one side,
+and on the three others inclosed by a crazy fence of rushes. A neglected gap was
+all the gate it had, and the first glance at the place was enough to let you see
+the flabby devil was running that show. White men with long staves in their
+hands appeared languidly from amongst the buildings, strolling up to take a look
+at me, and then retired out of sight somewhere. One of them, a stout, excitable
+chap with black mustaches, informed me with great volubility and many
+digressions, as soon as I told him who I was, that my steamer was at the bottom
+of the river. I was thunderstruck. What, how, why? Oh, it was all right. The
+manager himself was there. All quite correct. 'Everybody had behaved splendidly!
+splendidly! – 'you must,' he said in agitation, 'go and see the general manager
+at once. 
+
+The proposal put forward by the Commission is to be welcomed from the consumers'
+point of view. Affected parties have also criticized the fact that the
+manufacturer's public declarations are also included in the defect definition.
+Ultimately that would be a disadvantage for the consumer. They were voted down
+and the reasons will no doubt be put once again by Mrs Bonino. One is the
+question of second-hand goods. I believe that with this hierarchy we have solved
+many of the problems for small and medium enterprises. At the same time it could
+result in job losses in the labour intensive repair services sector. In practise
+it turns out that it is sometimes impossible to answer this question. He is not
+to blame. But on the other hand a good reputation will benefit him, both with
+respect to the product and to his service. The shopkeeper will need right of
+recourse which he can use to recover his costs from the manufacturer. Madam
+President, I do not have a script, just two observations. That is an utterly
+ridiculous assumption. But a degree of protection is not the same as absolute
+cover against a host of things at the expense of something similar. What, for
+instance, is 'appropriate after-sales service'? The same applies to a whole
+series of other examples we can give. This is a sine-qua-non, and it would seem
+unnecessary to keep stressing it. I believe that this would be a lot easier if
+consumers were involved. There must be strict rules in abattoirs to maintain the
+highest levels of hygiene. Good farming practice and animal welfare can not be
+considered in isolation from food legislation as a whole. We have to sustain the
+European Union as a major food producer and a major exporter. Please allow me to
+say that the present report can be judged very positively. And I would not want
+the opposite view to arise through any misunderstanding in the present report.
+So we need to know the results of this debate and put them into effect.
+Commissioner, ladies and gentlemen, I would like to read her speech to you.
+Public opinion still has no faith in the Commission's ability to exercise
+control. Mr President, the European consumer needs to have increased confidence
+in food, not least after the BSE crisis. In Holland and other countries the
+original nature of national identity is being stripped away in the name of
+chicken and pig feed. Would that not be better than total harmonization, which
+is fundamentally a commercial rule aimed at promoting commercial interests, not
+food quality? The framework directive is part of this process. I have just
+another brief comment on the foreign trade aspect. If we are a member of an
+international rights community, then we must stay with it. The vote will be
+taken at 12.00 noon tomorrow. It is complicated because it deals with all nine
+separately and it is necessary to submit amendments in nine sets. Upon which
+safeguards are we insisting? With the help of their financial controller proper
+arrangements will now be legislated for. That is the problem: you can not
+comment on things that you have not read. They were set up by the European Union
+for a specific purpose. Our research has shown that these agencies do not need
+more controls. Let us hope, therefore, that the proposals of the Commission will
+be sufficient to make sure this job will be done effectively. To a certain
+extent, this reminds me of my previous activity in the Committee on Budgets and
+in the Committee on Budgetary Control. We regret this and reaffirm our
+commitment to inform Parliament of all important agency decisions that have a
+financial impact. We take note of that, Mr von Habsburg, and I should be
+grateful if you could provide us with this letter. I have it here with me, Madam
+President. If that facility is available to Vice-President – and good luck to
+him – is it available to other Members? Ladies and gentlemen, you are
+persistently confusing the Minutes with the Report of Proceedings. I have
+therefore voted against the report. The measures you described could be improved
+and there are others which you did not mention. Does the Commission have any
+sort of long-term policy in mind here? The situation is also explained by the
+Asian and Russian crises, which also deprive the European Union of a potential
+market. Secondly, a promotion campaign should be swiftly launched within the
+Community to increase awareness amongst the general public and boost consumption
+in Europe. The taxpayer who has to pay for it, the smaller undertakings and
+species-friendly stock rearing all fall by the wayside. Nor have I expanded my
+production. What representation did the Commissioner receive from the United
+Kingdom Government about this dire emergency? The whole industry is in crisis.
+In a case like this, those governments that are still recommending increased
+production are being irresponsible. Measures should be the same throughout the
+EU to ensure no Member State gets an unfair advantage. Through you I urge the
+Commission and the Council to reach decisions and take urgent action following
+the meeting on 14 October. Europe's farmers need help now. That just goes to
+show the possibilities in our country! But we do not take the view that
+including a corresponding reference to this in a recital can produce that
+result. For generic drugs at the end of a patent or other protection period are
+of course useful. Further improvements were made to the proposal in the
+Committee on the Environment, Public Health and Consumer Protection. It will be
+resumed at 3 p.m. First there is the paragraph inviting the Commission to
+withdraw its proposal. It is very important for us to know that. Madam
+President, in the Swedish version of Amendment No-4 there is an unfortunate
+mistake. It is therefore very odd that the original text has been retained in
+this amendment. The authentic text is 'under certain conditions'. That needs to
+be made very clear. But business in the audiovisual sector is essentially done
+by small and medium-sized enterprises. Katiforis report (A4-0090/99) At some
+stage in their development all SMEs experience problems arising from their weak
+capital resources. Finance and mentorship should go hand in hand. If demand were
+to increase, so too would risk capital, regardless of whether the markets are
+fragmented or not. This document reflects our group's main concerns about the
+future of the ACP-EU link. Areas vital to the health of Europeans certainly
+ought to be prioritised for intensified action and initiative by the European
+Union. Parliament has demonstrated its great interest in this area on a number
+of occasions. Second Hautala report (A4-0029/99) However, I can not support the
+reference to abortion. But the harmful psychological effects that abortions have
+on women are deliberately and constantly concealed. Entitlement to free
+abortions equates with women having the right to manage their lives and make
+decisions about their own bodies. There is no easy answer to the painful issue
+of abortion. I am thinking here, amongst other things, of issues such as the law
+on abortion. This objective requires a comprehensive approach to policy making
+and the mobilisation of all policy actors. To a certain extent, ensuring equal
+opportunities for men and women is like trying to attain the unattainable. I
+would very much like to know on what kind of scientific evidence the Greens are
+basing all these amendments. Children and workers at power stations were both
+studied. We have evidence, Mr President, but we apparently do not have proof.
+This is an issue which affects aspects of everyday life. The guidelines and
+exposure proposed by the Commissioner are based on those recently published by
+the International Convention on Non-Ionising Radiation Protection. Mr Tamino's
+proposals are therefore greatly disproportionate. There are limited resources
+for public health and we must see to it that they are exploited effectively. The
+Commission's estimates of what would be health-endangering values reflect the
+outcome of the research carried out. However, it is essential that the rules
+should be reasonable. Electromagnetic fields and their effect on people are
+subjects that have come up for debate with increasing frequency in recent years.
+In point of fact, we still do not have any precise answers to the questions
+which they raise. We should be establishing limit values on a Europe-wide basis,
+but they should be reasonable as well. Sweden has been mentioned in the
+discussion as one of the countries with satisfactory limit values. These are
+concentrated rays, but they do not penetrate down to where we usually are. For
+one thing, there is increasing concern, and that is undoubtedly true, on the
+part of experts too. Then there is Amendment No-12. If necessary, the Commission
+will act at once. We must work to end that in a sensible way. It is also hard,
+on the other hand, to expect countries to surrender sovereignty over their
+national health systems. So what should be done? The current policy is ripe for
+review and the financial resources are regrettably very limited. It is only if
+the disadvantages equal the advantages that we should use the precautionary
+principle. The Needle report on the European Union's new public health policy
+seems to ignore this fact completely. Mr President, ladies and gentlemen, Mr
+Needle has gone to great trouble with the hearing in committee. I also believe
+that the regional authorities are not all in a position to establish contacts
+with the Commission. The report mentions best practice and standards in health
+care. That is in fact the point of departure we have chosen here and I am very
+glad all this has been properly understood. Unfortunately, at its last vote on
+the subject Parliament approved these subsidies by a majority. But Europe will
+not stand by while the world's trade rules are flouted. The dispute is becoming
+increasingly bitter and is beginning to look like a trade war. The European
+Union put a new and revised banana regime in place on 1 January 1999. For that
+and many other reasons we support the motion for a resolution. The United States
+has shown that it holds negotiations in contempt. If we do not achieve our
+objective of resolving this dispute, then I fear the WTO will slip on a banana
+skin. 
+
+He made a resigned grimace assuming understanding... My wife and I decided we
+couldn't stick it any longer. So we try it out here. I don't know; we'll see. I
+read you were coming back, there was an article in the paper, my wife Margot
+sent it to me in Switzerland, so I thought it was you. You were just in front of
+me when we got out in Rome. Yes, I suppose I won't know my way around when I get
+into town. Oh, it's still not New York or London, don't worry. The man spoke
+with an accent, and a certain European kind of resignation. They laughed. Well,
+in that case, we'll probably bump into each other in Great Lakes Road. Please
+Nkrumah Road. I said I should have to learn my way round all over again. The man
+looked about quickly and lowered his voice. This country can do with a few more
+white people like you, take it from me. People with some faith. Sometimes I even
+think I'm down South again, that's a fact. I've said it to my wife. A young
+black man with sunglasses and a thick, springy mat of hair shaped to a crew-cut
+by topiary rather than barbering had cut through the crowd with the encircling
+movement of authority. This way, Colonel, sir. Your luggage will be brought to
+the entrance, if you'll just give me the tickets... The other man, bobbing in
+the wash of this activity yet smiling at it in hostly assumption of his own
+established residence in the country, was talking across the black man and the
+exchange of pleasantries, tickets, thanks: at the Silver Rhino, of course, you
+remember the place. Any time... we'd be very pleased... He thanked him,
+listening to the two men at once and hearing neither, and followed the firm rump
+in white shorts past barriers and through the reception hall. That's all right,
+officer, this is Colonel Bray. I'm looking after Colonel Bray, no need to bother
+him. A youthful black official at passport control said uncertainly, Just a
+minute. I don't know about this... but the pale Cockney who was teaching him to
+take over his job said, That's okay, chum, it's our ole friend Mr. Kabata. The
+luggage was not waiting at the flag-draped and bunting-swathed entrance, where a
+picture of a huge Roman emperor Mweta, in a toga, smiled as he did in the old
+photograph of the Gala village football team. Mr. Kabata said, What's the matter
+with these people. Excuse me, I'll get a boy, and returned with the cases on the
+head of one of the stringy, splay-footed peasants who had always constituted the
+portering personnel. The porter addressed both men as Mukwayi, the respectful
+term became servile during the long time when it was used indiscriminately for
+any white man. There was an official pennant on the Volkswagen. Beside him,
+Kabata's strong thighs filled the seat. It's not too comfortable for a man your
+height, Colonel. The President will be expecting me to have come for you with
+the Mercedes, but, honestly, if I'd have waited to get it I would have turned up
+I don't know when. You know how it is just at the moment. Mrs. Indira Gandhi
+arrives this afternoon and yesterday it was United Nations and Sekou Toure.
+There were gilded arches over the old airport road to town; several men on
+bicycles wore shirts with Mweta's face printed in yellow and puce on their
+backs. He said, All very festive, but it was distraction; he had the feeling of
+listening inwardly, watching for something else. The young man said, You are
+from Gala district. I was. Why, are you from there? From Umsalongwe. But my
+mother is a Gala. I have visited that place. Oh have you? Recently or when you
+were a child? Perhaps I was still there then? I think they'll be very pleased to
+see you back there. He laughed. I wonder if I'll get that far. Oh, you must make
+trip the young man said proudly. I do it to Umsalongwe in ten hours. The road is
+much improved, much improved. You'll see. You could make it to Matoko in, say,
+six or seven. My car is a little tiny thing, a second-hand crock. Near the
+bridge the women were going for water with paraffin tins on their heads.
+Advertisement hoardings had gone up, there was a cement works, smart factories
+put together out of jutting glassy sections and, in between, the patches
+scratched in the bush where women and children were hoeing crooked rows of beans
+and maize. The children (an excuse to dawdle, of course) stopped and waved. He
+found himself waving back urgently, bending his head under the low roof of the
+car, smiling and craning to hold their faces when they were already out of
+sight. The car was approaching, was carrying him through the market quarter of
+the town. Under the mango trees, barbers' mirrors set up a flash in the shade,
+and live chickens lay in heaps with their legs tied. It was the mango season,
+and there were the saffron-yellow sabres of the pips, sucked hairy, everywhere
+where people passed. The bird was on the roof of the round, thatched guest room
+in the garden of his old friend Roland Dando – a Welshman – newly appointed as
+Attorney-General. When Bray was delivered to the house there was no one at home
+but servants well primed to welcome him. They gave him the African cook's
+special lunch that he remembered so well: slightly burned meat soup with lots of
+barley, overdone steak with fried onions, a pudding frothy on top and gelatinous
+underneath, tasting of eggs and granadilla juice. Roly rang up to see if he had
+arrived, and explained again – he had done so in advance by letter – that he had
+an official lunch to attend. Bray's ears were filled with the strange echoes of
+exhaustion and, stoked up by the hot lunch, his body threatened to suffocate him
+with waves of heat. He went into the room kept darkened by drawn curtains and
+slept. There was no ceiling and he looked up into the pattern of a spider's web
+made by the supporting beams of the roof. The underside of thatch that rested on
+it was smooth and straight, grey where it was old, blond where it had been
+replaced, and, like a tidy head, here and there showed a single stray strand out
+of place. The bird was probably balancing on the little porcelain conductor
+through which the electricity wire led to the light dangling above him. The bird
+was gone; he knew, almost as if the breath's weight of claws had pressed down
+the roof and now the pressure was released. The sun had come round and the
+curtains glowed like the sky above a fire. Bray felt he must be somewhere about;
+it was difficult to imagine this time without him. It was his as much as
+Mweta's. But no one seemed to have seen him, or to know whether he was, or had
+been, in the capital. There were other faces from the past; William Clough, the
+Governor, lifting his bristly eyebrows in exaggerated greeting at Mweta's
+banquet, the way he used to do on the tennis court in Dar-es-Salaam. James, you
+must come and say hello to Dorothy before we leave. I daren't say dine – we're
+homeless, you know... Uncle Willie's Independence Joke, Vivien said. Produces a
+hearty, man-of-the-world laugh from Africans. The kind of laugh they've picked
+up from people like Uncle Willie said Neil. Still, the Cloughs pursued Bray
+through Vivien. Aunt Dorothy says her secretary's been trying to get hold of
+you. They want you for drinks on Monday. I'd go if I were you, or she'll tell
+everyone in London you were buttering up to the Africans and didn't want to see
+them. He laughed. No, it's true She says that about me, to my mother. And she
+knows quite well that we'd never see each other in London either. The Cloughs
+had moved into the British Consulate for the last week or two before their
+departure, a large, glassy, contemporary house placed to show off the umbrella
+thorn-trees of the site, just as in an architect's scale model. The consul and
+his wife had been swept into some back room by the presence of aides,
+secretaries, and the necessity to keep their cats out of the way of Lady
+Dorothy's dog. There was some sort of scuffle when Bray arrived... he saw the
+consul's wife, whom he had met briefly, disappearing upstairs with her head bent
+consolingly to a Siamese. Flower arrangements were placed everywhere, as if
+there were illness in the house. Well, the job is done, one asks nothing more
+but to fold one's tents. He's a good chap, if they'll let him alone, he's learnt
+a lot, and one's done what one could... if he keeps his head, and that one can't
+be sure of, not even with him, mmh? not even with him. An elderly servant came
+in with a silver tray of glasses and bottles, and Clough interrupted himself to
+say with the sweet forbearance of one who does not spare himself, encouraging
+where others would give way to exasperation, It would be so nice if we could
+have a few slices of lemon... and more ice? Yes, all I've said to Mweta, again
+and again... make your own pace. Make your own pace and stick to it. He knows
+his own mind but he's not an intransigent fellow at all... well, of course, you
+know. Some time ago... a word in your ear, I said, you'd be unwise to lose
+Brigadier Radcliffe. Well, they've been clamouring away, of course, but he's
+refused to touch the army. Oh, I think I can say we've come out of it quite good
+friends. It was a modest disclaimer, with the effect of assuming in common the
+ease with Africans that he believed Bray to have. He looked pleasantly into the
+martini jug and put it down again patiently. The elderly servant who brought ice
+and lemon had the nicks at the outer corner of the eyes that Northern Gala
+people wore. That's perfect. Thank you so much. Bray greeted the servant in Gala
+with the respectful form of address for elders and the man dumped the
+impersonality of a servant as if it had been the tray in his hands and grinned
+warmly, showing some pigmentation abnormality in a pink inner lip spotted like a
+Dalmatian. The ex-Governor looked on, smiling. The servant bowed confusedly at
+him, walking backwards, in the tribal way before rank, and then recovering
+himself and leaving the room with an anonymous lope. I'll pour Dorothy's martini
+as well, maybe that'll bring her. If only one could be transported on a magic
+carpet... anyway, we shall have three months in London now, with perhaps a week
+or two in Ireland. What've you been doing all these years in your ivory tower in
+Wiltshire? Were you a golfer, I can't quite remember...? Dorothy Clough came in
+and Clough cried out, Does it fit? Come and have a drink with James... My dear
+James... it must be a hundred years... We've had a crate made to transport
+Fritzi, and she's been trying it on him. My niece Vivien found a carpenter. She
+has the most extraordinary contacts, that girl. It's very useful! William Clough
+took a pecking sip at his martini. He said with gallant good humour, Reposting
+was child's play compared with this. One has had to learn how to camp out... I'm
+sure it's terribly good, keeps the mind flexible. Denis thinks your angle lamp's
+been left at Government House, did he tell you? Dorothy Clough sat forward in
+her chair, as if she had alighted only for a moment. For heaven's sake, let them
+have it, it's someone else's turn to burn the midnight oil there, now... wha'd'
+you say, James... Roly Dando asked with grudging interest about the visit. He's
+never been sent anywhere where there was anything left to do, he said. Clough
+only goes in for the last year, after self-government's been granted and the
+date for independence's been given. An early date. Bray was slightly embarrassed
+by gossip, when quite sober, and said hesitantly, smiling, The impression was
+that he and his wife were slipping away quietly after the field of battle. Since
+he arrived eighteen months ago there's been damn all for him to do except go
+fishing up at Rinsala. At the Pettigrews' house that night, Dando's voice came
+from the group round someone basting a sheep on the home-made spit:... damn all
+except go fishing with his secretary acting ghillie... Rebecca Edwards had just
+told Neil Bayley that Felix Pasilis, the Pettigrews' Greek friend, was furious
+with her because she'd forgotten some essential herb that he wanted for his
+sheep... If I were Felix I'd make you go back home and get it, my girl, Neil
+said, and the look of inattentive exhaustion on her rather heavy young face
+moved Bray in fellow-feeling to distract attention from her, saying, My God, I'm
+afraid I behaved like a child at Cloughs'! I showed off by making a point of
+speaking to the servant in Gala. Neil and Rebecca Edwards laughed. Poor Uncle
+Willie. He was quite a nice young man in Dar-es-Salaam. He took Swahili lessons
+conscientiously and he certainly spoke it better than I did. 
+
+To his horror, the elf burst into tears – very noisy tears. S-sit down! he
+wailed. Harry thought he heard the voices downstairs falter. Harry, trying to
+say Shh! and look comforting at the same time, ushered Dobby back onto the bed
+where he sat hiccoughing, looking like a large and very ugly doll. At last he
+managed to control himself, and sat with his great eyes fixed on Harry in an
+expression of watery adoration. You can't have met many decent wizards, said
+Harry, trying to cheer him up. Dobby shook his head. Hedwig had woken up with a
+particularly loud screech and was beating her wings wildly against the bars of
+her cage. Dobby almost spoke ill of his family, sir. Dobby shuddered. Oh no,
+sir, no Dobby will have to punish himself most grievously for coming to see you,
+sir. Dobby will have to shut his ears in the oven door for this. Dobby is always
+having to punish himself for something, sir. They lets Dobby get on with it,
+sir. But why don't you leave? And the family will never set Dobby free. Harry
+stared. This makes the Dursleys sound almost human. Can't anyone help you?
+Almost at once, Harry wished he hadn't spoken. Dobby dissolved again into wails
+of gratitude. Dobby has heard of your greatness, sir, but of your goodness,
+Dobby never knew But he stopped quickly, because thinking about Hermione was
+painful. Voldemort? said Harry. He stopped again. Thinking about Ron was
+painful, too. Dobby leaned towards Harry, his eyes wide as headlamps. Dobby
+heard tell, he said hoarsely, that Harry Potter met the Dark Lord for a second
+time just weeks ago. that Harry Potter escaped yet again. Harry nodded and
+Dobby's eyes suddenly shone with tears. He has braved so many dangers already!
+But Dobby has come to protect Harry Potter, to warn him, even if he does have to
+shut his ears in the oven door later. There was a silence broken only by the
+chink of knives and forks from downstairs and the distant rumble of Uncle
+Vernon's voice. But I've got to go back – term starts on September the first.
+It's all that's keeping me going. You don't know what it's like here. I don't
+belong here. He is too great, too good, to lose. "Why?" said Harry in surprise.
+Harry Potter must not put himself in peril. What terrible things? said Harry at
+once. Dobby made a funny choking noise and then banged his head madly against
+the wall. A sudden, unpleasant thought struck him. Hang on – this hasn't got
+anything to do with Vol – sorry – with You Know Who, has it? Slowly, Dobby shook
+his head. But Dobby's eyes were wide and he seemed to be trying to give Harry a
+hint. Harry, however, was completely at sea. Dobby shook his head, his eyes
+wider than ever. Dobby bowed his head. Albus Dumbledore is the greatest
+Headmaster Hogwarts has ever had. Dobby knows it, sir. Dobby has heard
+Dumbledore's powers rival those of He Who Must Not Be Named at the height of his
+strength. And before Harry could stop him, Dobby bounded off the bed, seized
+Harry's desk lamp, and started beating himself around the head with
+ear-splitting yelps. A sudden silence fell downstairs. What – the – devil – are
+– you – doing? said Uncle Vernon through gritted teeth, his face horribly close
+to Harry's. He stomped flat-footed from the room. Shaking, Harry let Dobby out
+of the wardrobe. Friends who don't even write to Harry Potter? said Dobby slyly.
+Dobby shuffled his feet. Dobby has them here, sir, said the elf. Stepping nimbly
+out of Harry's reach, he pulled a thick wad of envelopes from the inside of the
+pillowcase he was wearing. Harry could make out Hermione's neat writing, Ron's
+untidy scrawl and even a scribble that looked as though it was from the Hogwarts
+gamekeeper, Hagrid. The moment she saw Harry, Ginny accidentally knocked her
+porridge bowl to the floor with a loud clatter. Ginny seemed very prone to
+knocking things over whenever Harry entered a room. She dived under the table to
+retrieve the bowl and emerged with her face glowing like the setting sun.
+Pretending he hadn't noticed this, Harry sat down and took the toast Mrs Weasley
+offered him. For a few minutes there was silence as they all read their letters.
+Harry's told him to catch the Hogwarts Express as usual from King's Cross
+station on September the first. There was also a list of the new books he'd need
+for the coming year. SECOND-YEAR STUDENTS WILL REQUIRE: The Standard Book of
+Spells, Grade 2 by Miranda Goshawk Break with a Banshee by Gilderoy Lockhart
+Gadding with Ghouls by Gilderoy Lockhart Holidays with Hags by Gilderoy Lockhart
+Travels with Trolls by Gilderoy Lockhart Voyages with Vampires by Gilderoy
+Lockhart Wanderings with Werewolves by Gilderoy Lockhart Year with the Yeti by
+Gilderoy Lockhart Fred, who had finished his own list, peered over at Harry's.
+The new Defense Against the Dark Arts teacher must be a fan – bet it's a witch.
+At this point, Fred caught his mother's eye and quickly busied himself with the
+marmalade. Oh, are you starting at Hogwarts this year? Harry asked Ginny. She
+nodded, blushing to the roots of her flaming hair, and put her elbow in the
+butter dish. Fortunately no one saw this except Harry, because just then Ron's
+elder brother Percy walked in. He was already dressed, his Hogwarts prefect
+badge pinned to his knitted tank top. He sat down in the only remaining chair
+but leapt up again almost immediately, pulling from underneath him a moulting,
+grey feather duster – at least, that was what Harry thought it was, until he saw
+that it was breathing. I wrote to her saying we were going to try and rescue you
+from the Dursleys. Then he ripped open Hermione's letter and read it out loud:
+Dear Ron, and Harry if you're there, I hope everything went all right and that
+Harry is okay and that you didn't do anything illegal to get him out, Ron,
+because that would get Harry into trouble, too. I've been really worried and if
+Harry is all right, will you please let me know at once, but perhaps it would be
+better if you used a different owl, because I think another delivery might
+finish your one off. I'm very busy with schoolwork, of course – – and we're
+going to London next Wednesday to buy my new books. Why don't we meet in Diagon
+Alley? Let me know what's happening as soon as you can, love from Hermione.
+Harry, Ron, Fred and George were planning to go up the hill to a small paddock
+the Weasleys owned. It was surrounded by trees that blocked it from view of the
+village below, meaning that they could practise Quidditch there, as long as they
+didn't fly too high. They couldn't use real Quidditch balls, which would have
+been hard to explain if they had escaped and flown away over the village;
+instead they threw apples for each other to catch. They took turns to ride
+Harry's Nimbus Two Thousand, which was easily the best broom; Ron's old Shooting
+Star was often outstripped by passing butterflies. Five minutes later they were
+marching up the hill, broomsticks over their shoulders. They had asked Percy if
+he wanted to join them, but he had said he was busy. Harry had only seen Percy
+at meal-times so far; he stayed shut in his room the rest of the time. Wish I
+knew what he was up to, said Fred, frowning. If we're not careful, we'll have
+another Head Boy in the family. I don't think I could stand the shame. Bill was
+the oldest Weasley brother. He and the next brother, Charlie, had already left
+Hogwarts. Harry had never met either of them, but knew that Charlie was in
+Romania, studying dragons, and Bill in Egypt, working for the wizard's bank,
+Gringotts. Harry said nothing. He felt a bit awkward. Stored in an underground
+vault at Gringotts in London was a small fortune that his parents had left him.
+of course, it was only in the wizarding world that he had money; you couldn't
+use Galleons, Sickles, and Knuts in Muggle shops. He had never mentioned his
+Gringotts bank account to the Dursleys; he didn't think their horror of anything
+connected with magic would stretch to a large pile of gold. Mrs Weasley woke
+them all early the following Wednesday. After a quick half-a-dozen bacon
+sandwiches each, they pulled on their coats and Mrs Weasley took a flowerpot off
+the kitchen mantelpiece and peered inside. We'll have to buy some more today ah
+well, guests first! And she offered him the flowerpot. Harry stared at them all
+watching him. Never? said Mr Weasley. How exactly – He took a pinch of
+glittering powder out of the flowerpot, stepped up to the fire, and threw the
+powder into the flames. With a roar, the fire turned emerald green and rose
+higher than Fred, who stepped right into it, shouted, Diagon Alley! and
+vanished. 
+
+We lived in a big light spacious well-windowed generous house, designed by
+Lutyens. My father had bought it for my mother in a grand gesture of love and
+pride. Not for her a poky terrace with a dog kennel and an outside toilet. The
+garden shrubbed and green had a noose of trees all round it and in the centre of
+the rolled lawn was a Victorian sun-dial of granite and slate. At the bottom of
+the dial was the hooded figure of Time scything the hours, but at the top, over
+the position of the twelve was an angel with a trumpet bearing the inscription
+'Aliquem alium internum'. I did not know what this meant and when I was able to
+translate it I did not understand it. Later it came to mean a great deal to me
+but that is not yet. His own family were Liverpool limeys; had always worked the
+docks, the boats, in the Navy or as Merchant seamen. The women had worked in the
+clutter of cargo offices up and down the quays. His mother, my grandmother, had
+been the Official Polisher of Brass Plaques and some said that when she had
+finished her Friday round the shine of it was so bright that it tipped the waves
+like a skimming stone and could still be seen in the harbour of New York. 'The
+other way round.' He had been made a Director of the Line. Yes. No. The clock
+ticking and the smell of buttered kippers. The young man out of his mother's
+body and wearing his father's clothes. Be someone. Be someone. Redeem history.
+Make our lives not an endless sacrifice but a gathering of energy, the strength
+to jump, but we fall, until you who leap and do not fall. Then we see what we
+were for, the single stuttered words gain the momentum of narrative. This is the
+story of a humble family who became a name. My son David whose father
+grandfather and great-grandfather unto the sixth generation worked the docks. My
+son David, rich, respected, powerful, a man. My son David whose eyes have the
+shine of them. My son David pulling history home. When she was eleven, Papa
+died. Within three months Mother in a little black suit, child in black warm
+coat, took ship to Hamburg and re-settled in Berlin. The books and the bookshop
+had been sold and the secret room was empty. My grandmother was singing a hymn,
+essentially praising God but effectively preventing my father from hearing what
+was happening. It was a quick birth and when I was laid on my mother's breast,
+my grandmother ate a sandwich and went to tell my father that he had the
+pleasure of a daughter. It was what Jove had said a few months ago when he had
+been holding my wrist, too tightly, across a restaurant table. She was still
+holding my hand and what I did was outside of anything I had imagined I would
+do. I leaned across the narrow table and kissed her. My head was engaged and I
+was pushing out of my mother's chthonic underworld into my father's world of
+difficulty and dream. I never expected to go back down again. When she ate her
+scones she left a snail-trail of soot along her upper lip. Her neighbour called
+her 'Blackmouth'. My grandmother called her neighbour 'Stinkpad' but otherwise
+they were friendly, exchanging handkerchiefs and soap at Christmas. Cowardice
+bedshares with arrogance. I was afraid and I wanted to bluff my way out. The
+kiss was a smoke bomb to cause confusion and distract attention. I thought she
+might slap me. I thought she would rush away. In fact she did nothing. Asked her
+question and did nothing. I started to re-eat my cold pasta. I would have been
+glad to climb into the plate and cover myself in clam sauce. I was at the age of
+making lists but the lists I made were correspondences, half true and altogether
+fanciful, of the earth the sea and the sky. Perhaps I was trying to hold
+together my own world that was in so much danger of falling away. Perhaps I
+wanted order where there was none. As the QE2 floated so confidently on the
+waters I thought of the Titanic, ghostly and abandoned beneath, and somewhere
+above, in the secretive blackness, the Ship of Fools navigating the stars. Was
+it the comet? Accordingly, my father put on his Jolly Jack Tars and my mother
+wrapped herself up in her mink coat. In those days their car was a three-litre
+Rover, really, a leather three-piece suite and cocktail cabinet on wheels. My
+father purred down to the docks looking like a criminal, while my mother fixed
+herself a strictly forbidden gin and tonic in the back. Page of Cups. Young
+hopeful of the Tarot deck. My identity card. When Stella kissed me I remember
+thinking, 'This is not allowed.' I was glad of the fog and the dark because I
+knew that if anyone saw us, the totality of our lives; history, complexity,
+nationality, intelligence, age, achievement, status, would be shrunk up to the
+assumptions of our kiss. Whoever saw us would say, 'There's a couple of ...',
+and this kiss, tentative, ambivalent, would become a lock and key. 'David,' she
+said. She was wearing a black oilskin that had been her husband's. It hung on
+her from head to foot, so much so that she seemed less to be wearing a rainproof
+than to be in the grip of a monster from the Deep. She and I would be
+approaching the place from opposite ends of town. I imagined her, angry,
+confident, ready to match me and beat me at my own game. This was the big fight
+and Jove the prize. When I told him she had written to me he had decided to
+visit friends for the weekend. At the same time I realised that I would like to
+do much more kissing if it were not so complicated. So complicated. My first
+serious emotion was for a married man. My first experience of authentic desire
+was with a married woman. You see, I did want to kiss her. That was what
+surprised me most of all. As he gossiped and lounged the noise of the Remington
+stopped. His secretary came out from the low line of offices that huddled to the
+waterfront. There was an urgent call for him. Would he step inside at once? My
+father loved the sea and should have been an active seaman but there were more
+opportunities indoors for a bright boy who had a way about him. He compensated
+by wheedling his way onto the tugs, and because there was still an
+apprenticeship mentality about the Company, his oddity was tolerated. What harm
+could it do and wasn't all experience useful? Besides, he did it in his own time
+and it made him popular with the men. Meanwhile, in a maze of soggy sheets and
+copies of Woman's Weekly, my father speared my mother on his manhood. It was a
+shining morning, he was leaning on the harbourside rail, watching the cranes
+load the ships. The world poured through his fingers; spices, wine, tea, green
+bananas, coconuts, American golf clubs, blankets made of wool with satin hemmed
+round the edges. Today they were loading nylon stockings, Monroe look-alikes
+stamped all over the cardboard boxes. 'I came here to meet ...' He had risen in
+the world and now he was going to prove it. On board my grandmother unpacked her
+carpet bag. She set out a pile of clean rags, the ones she used for polishing
+the brass plaques, a bottle of cooking brandy, a bottle of iodine, a primus
+stove, a cylinder of water, a kitchen knife, a packet of sandwiches, a little
+blanket from the dog's box, her spectacles and the Bible, now open towards the
+end of the Psalms. This done, she took off her oilskin and pegged it over the
+hatch. I had her letter in my pocket. The careful handwriting. The instruction
+to obey. 'I will meet you on Wednesday the 12th at 6:30 p.m. in the bar at the
+Algonquin Hotel.' He knew the gangmen and the loaders and the truck drivers and
+the harbour pilots, and as he leaned on his rail, watching, sometimes waving,
+other men joined him, lit a cigarette, told him the news and with a slap on the
+back, moved on. The easy fraternity of working men was comfortable to him. No
+one here asked him what school he had attended. 'Is something wrong?' said my
+father. My father used to tell me I had an octopus-complex. 'Must you try and do
+eight things at once?' I used to imagine that there was an octopus, hooded,
+ancient, floating in the limp waters of my body, reaching out, dark and blind,
+using the tentacles to probe what stood outside it. Analogies fail, but I am
+capable of behaving like an eight-armed cephalopod while protesting the
+innocence of my two hands on the table. His father, my grandfather, was killed
+in a war farce when an American torpedo scuppered the wrong boat. As a result,
+my grandmother was paid a sizeable pension and was able to have her wild strong
+son privately educated. She poured her money into him as though he were a
+treasure chest. He learned well, looked well, and if anyone questioned him about
+his Mersey terrace two up two down he simply knocked them out. Throughout his
+life my father has dealt with difficult questions by knocking them out. What is
+unconscious does not speak and that included the hidden part of himself. She had
+been well educated and taught to conceal it. She never gave up singing and
+playing the piano and she never gave up her watercolours. The rest of the mind
+she disposed of at marriage and did not think to ask my father what he had done
+with it. Why had she chosen here? Here it was. Five minutes to spare. The
+cruelty of time. Did I say that? No she did. I sometimes think my personality is
+a troopship's atoll; invade me. And so the three of them climbed aboard the
+Godspeed and chugged into the dark. When I was born the waters were still alive.
+My father too, was still alive, strong and burly, as wide as he was tall, with
+an enormous chest that looked as though it could tow the cargo boats itself. We
+cooked breakfast in the remains of the frying pan and ate our food standing up,
+looking out of the window over to the park. 

@@ -1,0 +1,10 @@
+The treebank is licensed under the Creative Commons License Attribution-NonCommercial-ShareAlike 4.0 International.
+
+The complete license text is available at:
+http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+Details:
+
+GUM is made available under a Creative Commons license in keeping with the underlying texts. The documents from Wikimedia (Wikinews, including interviews and bios, and Wikivoyage) are available under a CC-BY attribution license, as are open access textbooks from OpenStax, YouTube Creative Commons vlogs and the political speeches, which are in the public domain. However wikiHow texts are made available under a CC-BY-NC-SA license (non-commercial, share alike), as are the fiction texts, meaning that commercial and/or non-open source use of those texts is prohibited. Conversational data from the Santa Barbara Corpus has been kindly made available under a Creative Commons attribution license by John Du Bois, UCSB (see the SBC website for details). Additional data from reddit, not currently included in this repository, is available under a separate license from the main GUM (non UD) repository, see the project website at https://corpling.uis.georgetown.edu/gum/ for details. 
+
+When using the annotated data in this repository, please make sure to cite the sources of the texts as required by their source sites, and give credit to the GUM annotators, which are listed on the project website, for the annotated data.

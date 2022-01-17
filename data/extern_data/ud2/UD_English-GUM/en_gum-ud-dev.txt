@@ -1,0 +1,1519 @@
+Introduction 
+
+Research on adult-learned second language (L2) has provided considerable insight
+into the neurocognitive mechanisms underlying the learning and processing of L2
+grammar [1]–[11]. Of interest here, studies suggest that, despite the
+difficulties in acquiring L2 grammar, adult learners can approximate native-like
+levels of use and neurocognitive processing [12]–[15]. However, it is not enough
+to have attained such native-like levels. Crucially, it is also desirable to
+retain them, even in the absence of continued practice or exposure to the L2. In
+fact, substantial periods (months to years) of limited or no exposure following
+L2 training are not uncommon, and may even be the norm [16]. Such a scenario may
+be found in different situations, including when one studies a language in a
+classroom and then stops taking classes [17], [18] and when one is immersed in a
+foreign language setting and then moves away [19]. In the present study, we
+examine the outcomes of such a period of no exposure on the neurocognition of L2
+grammar: that is, whether a substantial period of no exposure leads to decreased
+proficiency and/or less native-like neural processes (“use it or lose it” [20]),
+no such changes, or perhaps whether even higher proficiency and/or more
+native-like processing may be observed. Additionally, we test whether any such
+outcomes might vary as a function of the type of L2 training, in particular
+between classroom-like and immersion-like contexts. 
+
+Previous Research 
+
+We are aware of six studies designed to investigate the effects of a substantial
+period of limited exposure following adult L2 training [17], [18], [21]–[24],
+all of which were restricted to the examination of behavioral (performance)
+outcomes. (Note that we do not consider case studies, purely observational data,
+or research on L2s acquired by children; for a comprehensive review, see [16]).
+The six studies tested L2 learners after periods of 1 month to 50 years of
+limited L2 exposure, mainly on general language skills [17], [18], [21], [23],
+[24], though also on more specific paradigms meant to target aspects of
+grammatical abilities [17], [18] or lexical abilities [22], [23]. These language
+measures were compared in most studies to the same measures in a different set
+of subjects who had not experienced a period of limited exposure [17], [18],
+[22], [23], or to retrospective ratings of the same subjects [21], with only one
+longitudinal study testing the same subjects before and after a period of
+limited exposure [24]. Across the studies, the periods of limited exposure
+followed either classroom training [17], [18], [22], [24] or mixed classroom and
+immersion training [21], [23], [24]. The training lasted varying lengths of
+time, apparently usually in the range of a few years, and resulted in seemingly
+varying proficiency levels (though not directly measured, except by [24]) prior
+to the period of limited exposure. 
+
+Overall, the results of the six studies have been taken to suggest the
+following. A period of limited exposure generally leads to attrition (loss) of
+L2 performance or knowledge [17], [18], [21], [23]. Such loss has been observed
+after as little as a few months of limited exposure, e.g., after a 1-7 month
+[23] or 6 month delay [21], as well as after 2 years [18], though in one case it
+was observed only by 3-5 years, and not earlier [17]. Although attrition may
+take place within the first few years, some studies suggest that it then appears
+to level off, with no further losses occurring [17], [18]. Higher levels of
+proficiency (or exposure) may be associated with less attrition [17], [18],
+[21], [23] or even with no observed losses [21]. Moreover, one study found no
+changes at all in performance, across proficiency levels, after either 2 or 4
+years of limited exposure [22]. Finally, in some cases a gain in performance has
+been observed: after 1.5 years of limited exposure in one study, particularly
+for L2 learners with immersion as well as classroom training [24], and in
+another study after 2 years, though only for some abilities, such as listening
+and reading comprehension [18]. It remains unclear what might explain such
+gains, which have been attributed to motivation and to L2 experience during the
+period of ostensibly limited exposure [24], or to factors related to general
+maturation, cognitive development, or continued academic training [18]. 
+
+Digital Humanities Clinics - Leading Dutch Librarians into DH 
+
+Michiel Cock m.p.cock@vu.nl Vrije Universiteit Amsterdam, the Netherlands Lotte
+Wilms lotte.wilms@kb.nl National Library of the Netherlands, the Netherlands 
+
+In 2015, an initiative was started to set up a Dutch speaking DH+Lib community
+in the Netherlands and Belgium, based on the example of the American communal
+space of librarians, archivists, LIS graduate students, and information
+specialists to discuss topics ‘Where the Digital Humanities and Libraries meet’.
+At the initial meeting it became apparent that most participants were there to
+learn more about digital humanities and were not (yet) in the situation where
+they were able to offer expertise on the subject. On the administrative level,
+the directors of the libraries participating in the consortium of Dutch academic
+libraries (UKB) also expressed the wish that librarians become more fluent in
+DH. 
+
+A year later, the National Library of the Netherlands (Koninklijke Bibliotheek),
+and the University Library of the Vrije Universiteit Amsterdam again concluded
+that librarians at their institutes who wanted to get involved in DH needed more
+training to adequately support researchers and students in this field. Therefore
+both institutes joined forces to develop a set of clinics on DH for librarians.
+The two institutes were later joined by the Leiden University Libraries. We see
+this as the ideal opportunity to provide these educative sessions not only to
+our own librarians, but also to the academic librarians of other Dutch research
+libraries. In essence, we want to teach our country’s librarians the ins and
+outs of DH in order for them to take up their natural role of facilitating and
+supporting research and ideally become the research partner needed in DH
+projects. 
+
+The aim of these clinics is to provide basic methodological competencies and
+technical skills in DH, for a diverse group of librarians, consisting of both
+subject and technical librarians with basic technical skills. The content of
+these sessions should enable them to provide services to researchers and
+students, identify remaining gaps in knowledge or skills that they could address
+by self-directed learning and (perhaps) to automate their daily library work. We
+are not setting out to turn them into programmers or data crunchers, but want to
+boost their knowledge level to where they feel comfortable providing information
+about DH projects, follow the literature and research, follow online tutorials
+and hopefully take up the challenge of finishing this professional development
+by engaging with the DH community. 
+
+In order to design this curriculum we follow a four step approach with a Working
+Out Loud-principle (Williams, 2010): 
+
+Desk research about what being a DH librarian entails (e.g. Hartsell-Gundy et
+al., 2015; Mulligan, 2016; also see the Zotero library of the LIBER Digital
+Humanities working group); 
+
+Identify possible subjects, based on experience, a comparison of existing
+teaching material related to DH (e.g. The Programming Historian, the Digital
+Scholarship Training Programme at the British Library and Columbia University's
+Developing Librarian project) and the TaDiRAH taxonomy of research activities; 
+
+Get feedback from researchers on possible subjects, based on the knowledge and
+skills they feel librarians need; 
+
+Get feedback from librarians on possible subjects, based on already known gaps
+in their knowledge and skills. 
+
+With these in hand, we will design the curriculum of clinics, based on the
+method of 'constructive alignment' (Biggs et al., 2011), to make sure that the
+intended learning objectives and the teaching/learning activities stay aligned.
+
+Our plan is to organize a maximum of 6 clinics, each one full day. Each day
+starts with one or more lectures by researchers, that address the conceptual
+knowledge needed. The afternoon sessions will be devoted to the hands-on
+training of skills, following the Library Carpentry model as closely as
+possible. By having researchers provide the lecture sessions, we hope to fuel
+the enthusiasm of the librarians with the inspiration of direct contact with
+researchers and to provide access to a network within and across universities.
+With these clinics, we hope to initiate a stream of DH activities in Dutch
+universities, making access to support easier for new digital scholars. 
+
+The poster at DH2017 will present the curriculum, its position in the
+international context and offer the lessons learned from both the design process
+and the first clinics. We welcome discussion about our efforts and the
+possibilities of applying this in other contexts. 
+
+Education and early loves 
+
+Byron received his early formal education at Aberdeen Grammar School, and in
+August 1799 entered the school of Dr. William Glennie, in Dulwich. [17] Placed
+under the care of a Dr. Bailey, he was encouraged to exercise in moderation but
+not restrain himself from "violent" bouts in an attempt to overcompensate for
+his deformed foot. His mother interfered with his studies, often withdrawing him
+from school, with the result that he lacked discipline and his classical studies
+were neglected. 
+
+In 1801, he was sent to Harrow, where he remained until July 1805. [6] An
+undistinguished student and an unskilled cricketer, he did represent the school
+during the very first Eton v Harrow cricket match at Lord's in 1805. [19] 
+
+His lack of moderation was not restricted to physical exercise. Byron fell in
+love with Mary Chaworth, whom he met while at school, [6] and she was the reason
+he refused to return to Harrow in September 1803. His mother wrote, "He has no
+indisposition that I know of but love, desperate love, the worst of all maladies
+in my opinion. In short, the boy is distractedly in love with Miss Chaworth."
+[6] In Byron's later memoirs, "Mary Chaworth is portrayed as the first object of
+his adult sexual feelings." [20] 
+
+Byron finally returned in January 1804, [6] to a more settled period which saw
+the formation of a circle of emotional involvements with other Harrow boys,
+which he recalled with great vividness: "My school friendships were with me
+passions (for I was always violent)." [21] The most enduring of those was with
+John FitzGibbon, 2nd Earl of Clare — four years Byron's junior — whom he was to
+meet unexpectedly many years later in Italy (1821). [22] His nostalgic poems
+about his Harrow friendships, Childish Recollections (1806), express a prescient
+"consciousness of sexual differences that may in the end make England untenable
+to him." [23] Letters to Byron in the John Murray archive contain evidence of a
+previously unremarked if short-lived romantic relationship with a younger boy at
+Harrow, John Thomas Claridge. 
+
+John FitzGibbon, 2nd Earl of Clare 
+
+Ah! Sure some stronger impulse vibrates here, Which whispers friendship will be
+doubly dear To one, who thus for kindred hearts must roam, And seek abroad, the
+love denied at home. 
+
+The following autumn, he went up to Trinity College, Cambridge, [24] where he
+met and formed a close friendship with the younger John Edleston. About his
+"protégé" he wrote, "He has been my almost constant associate since October,
+1805, when I entered Trinity College. His voice first attracted my attention,
+his countenance fixed it, and his manners attached me to him for ever." In his
+memory Byron composed Thyrza, a series of elegies. [25] In later years, he
+described the affair as "a violent, though pure love and passion". This
+statement, however, needs to be read in the context of hardening public
+attitudes toward homosexuality in England and the severe sanctions (including
+public hanging) against convicted or even suspected offenders. [26] The liaison,
+on the other hand, may well have been "pure" out of respect for Edleston's
+innocence, in contrast to the (probably) more sexually overt relations
+experienced at Harrow School. [27] 
+
+Byron spent three years at Trinity College, engaging in sexual escapades,
+boxing, horse riding and gambling. [28] Also while at Cambridge he formed
+lifelong friendships with men such as John Cam Hobhouse, who initiated him into
+the Cambridge Whig Club, which endorsed liberal politics, [28] and Francis
+Hodgson, a Fellow at King's College, with whom he corresponded on literary and
+other matters until the end of his life. 
+
+Emperor Norton 
+
+Joshua Abraham Norton (c. 1818 – January 8, 1880), known as Emperor Norton, was
+a citizen of San Francisco, California, who in 1859 proclaimed himself "Norton
+I, Emperor of the United States". He later expanded his pretense by claiming to
+be "Protector of Mexico" as well. 
+
+Born in England, Norton spent most of his early life in South Africa. After the
+death of his mother in 1846 and his father in 1848, he sailed west, arriving in
+San Francisco possibly in November 1849. Norton initially made a living as a
+businessman, but he lost his fortune investing in Peruvian rice. 
+
+After he lost a lawsuit in which he tried to void his rice contract, Norton's
+public prominence faded. He reemerged in September 1859, laying claim to the
+position of Emperor of the United States. He had no political power, and his
+influence extended only so far as he was humored by those around him;
+nevertheless, he was treated deferentially in San Francisco, and currency issued
+in his name was honored in the establishments he frequented. 
+
+Though some considered him insane or eccentric, citizens of San Francisco
+celebrated his regal presence and his proclamations, such as his order that the
+United States Congress be dissolved by force and his numerous decrees calling
+for a bridge connecting San Francisco to Oakland, and a corresponding tunnel to
+be built under San Francisco Bay. Long after his death, similar structures were
+built in the form of the San Francisco – Oakland Bay Bridge and the Transbay
+Tube, and there have been campaigns to rename the bridge "The Emperor Norton
+Bridge". 
+
+On January 8, 1880, Norton collapsed at the corner of California and Dupont (now
+Grant) streets and died before he could be given medical treatment. Nearly
+30,000 people packed the streets of San Francisco to pay him homage at his
+funeral. Norton has been immortalized as the basis of characters in the
+literature of writers Mark Twain, Robert Louis Stevenson, Christopher Moore,
+Morris and Goscinny, Selma Lagerlöf, and Neil Gaiman. 
+
+Norton I, Emperor of the United States, photograph, c. 1871 – 72 
+
+Declares himself emperor 
+
+Emperor Joshua Norton, in full military regalia, circa 1880 or earlier 
+
+By 1859, Norton had become completely disgruntled with what he considered the
+inadequacies of the legal and political structures of the United States. On
+September 17, 1859, he took matters into his own hands and distributed letters
+to the various newspapers in the city, proclaiming himself "Emperor of these
+United States": 
+
+At the peremptory request and desire of a large majority of the citizens of
+these United States, I, Joshua Norton, formerly of Algoa Bay, Cape of Good Hope,
+and now for the last 9 years and 10 months past of S.F., Cal., declare and
+proclaim myself Emperor of these U.S.; and in virtue of the authority thereby in
+me vested, do hereby order and direct the representatives of the different
+States of the Union to assemble in Musical Hall, of this city, on the 1st day of
+Feb. next, then and there to make such alterations in the existing laws of the
+Union as may ameliorate the evils under which the country is laboring, and
+thereby cause confidence to exist, both at home and abroad, in our stability and
+integrity. 
+
+— NORTON I, Emperor of the United States. 
+
+The announcement was first reprinted for humorous effect by the editor of the
+San Francisco Bulletin. Norton would later add "Protector of Mexico" to this
+title. Thus commenced his unprecedented and whimsical 21-year "reign" over
+America. 
+
+One of Norton's undated proclamations 
+
+In his self-appointed role of emperor, Norton issued numerous decrees on matters
+of the state. After assuming absolute control over the country, he saw no
+further need for a legislature, and on October 12, 1859, he issued a decree
+formally abolishing the United States Congress. In it, Norton observed: 
+
+... fraud and corruption prevent a fair and proper expression of the public
+voice; that open violation of the laws are constantly occurring, caused by mobs,
+parties, factions and undue influence of political sects; that the citizen has
+not that protection of person and property which he is entitled. 
+
+Norton ordered all interested parties to assemble at Platt's Music Hall in San
+Francisco in February 1860 to "remedy the evil complained of". 
+
+In an imperial decree the following month, Norton summoned the Army to depose
+the elected officials of the U.S. Congress: 
+
+WHEREAS, a body of men calling themselves the National Congress are now in
+session in Washington City, in violation of our Imperial edict of the 12th of
+October last, declaring the said Congress abolished; 
+
+WHEREAS, it is necessary for the repose of our Empire that the said decree
+should be strictly complied with; 
+
+NOW, THEREFORE, we do hereby Order and Direct Major-General Scott, the
+Command-in-Chief of our Armies, immediately upon receipt of this, our Decree, to
+proceed with a suitable force and clear the Halls of Congress. 
+
+What'd you do Sabrina? 
+
+Nothing. I left the phone in my bedroom last night, and so I'm grounded from the
+phone. It was an accident. 
+
+You guys are always in trouble. What's up with that? 
+
+Mom's a bitch. 
+
+Get your feet off of there. Get your feet off of there. 
+
+You're so stupid thinking I spent the night. I came home last night and told
+you. 
+
+Kendra, just let it go. 
+
+You — 
+
+No, because she doesn't — 
+
+All you said last night was — 
+
+She thinks I spent the night in my jeans — 
+
+Kim wasn't staying the night. 
+
+If I did spend the night, and I was trying to lie, I would give up, cause then I
+wouldn't care, cause I knew I deserved it. But I didn't spend the night, and I
+don't deserve this. Kim couldn't spend the night, I told you. She could, but
+then af- — I wanted to stay at the game longer. And her mom wanted to take her
+home early, and I'm like, no let's stay longer. But her mom wouldn't let her.
+And so she went home and, I was like, I'll call you when I get home, and then
+you come over. And she goes, no just spend the night. We'll do this some other
+weekend. Okay cool, cause she had to go bowling in the morning. Talk to
+Melanie's mom. Her mom would know. I'll have Melanie call you. 
+
+Oh. 
+
+Her mom call you, 
+
+Right, right. 
+
+Her mom wouldn't lie. 
+
+Right, Melanie will call me to confirm your lie. 
+
+Melanie lies but — 
+
+You'll get a hold of her first. I know how that works. 
+
+No, Melanie's mom. 
+
+I thought Melanie didn't have a phone. But I'm supposed to call Melanie's mom. 
+
+I didn't want you to have her phone number. 
+
+Yeah, another lie. Remember? 
+
+That was a long time ago. 
+
+Now I'm supposed to re- — A- and I'm supposed to trust you every time you tell
+the truth. But how am I supposed to know when you're telling the truth? 
+
+That was a joke. That was a joke. 
+
+Yeah, and I'm supposed to read your mind and know what you're joking about. 
+
+No but, it was a joke. 
+
+You know Kendra, y- — I don't know how many times I gotta tell you, once you
+lie, once you lie — 
+
+Are they having a carwash? 
+
+You lose th- complete trust. 
+
+No. 
+
+Yeah they are. 
+
+Yeah that's what it is a — 
+
+We should have a carwash there. 
+
+Carwash and a bakesale. They're not getting any people though. 
+
+Mm. Hot out. 
+
+What's that supposed to be? They're making it into something. 
+
+You're not going anywhere for a while. 
+
+It's a bookstore. 
+
+Really? 
+
+God, I didn't spend the night, that's what makes me so mad, I'm grounded for
+nothing. I was home all night last night, I came home and told you. And even my
+cuffs and everything's on my bed. So stupid. Next time if I leave in the
+morning, I'll wake you up. Mom I'm awake now, I'm leaving. 
+
+Well you woke me up last night, to tell me Kim wasn't spending the night. I
+don't know why you couldn't wake me up in the morning, to tell me that you were
+going. You guys wake me up every time I'm trying to take a little nap. 
+
+What if we are awake? I was tired this morning. So much fun. My hair looks like
+a mess. I left it in a ponytail, I didn't even have time to take a shower. I
+think if I spent the night I would've took a shower. All I need is your
+signature so I can play the volleyball. On the volleyball team. 
+
+No. No. 
+
+Why? It's just volleyball. It's f- like on Saturdays and Wednesdays. It's for
+church. It's fun. 
+
+You have practice every Wednesday. 
+
+Yeah but, not at uh — This is at six thirty. 
+
+I don't care. 
+
+And Susan's going to it too. 
+
+Mm. Who cut the grass? 
+
+Marlena did it. 
+
+Marlena did it a long time ago, but it hasn't been watered. It's dying. 
+
+I know. 
+
+Gonna rip your purse. 
+
+I know. 
+
+See if I spent the night mom, you'd think I'd still be in my uniform? 
+
+I know she's — J- she — See now she's trying to think of ways to cover her
+tracks. I know what you're doing. Seen this before. 
+
+I'm hungry. 
+
+Shit. 
+
+I love your jeans. 
+
+Cause I wanted to go to the bathroom when you're done. 
+
+Anyways, they were not. 
+
+Did you get a sawsall? 
+
+Yes, it's right here. 
+
+Oh. 
+
+I got the blades. They're right here. 
+
+Do you remember the uh, program on TV, about Hantavirus? 
+
+About what virus? 
+
+Hantavirus. 
+
+Hutter? What's that about? I don't re- – I don't remember. 
+
+It's the one from the dead mice. 
+
+Oh, yeah. Is it, is it all over now? Is it for real now? Is it in here? Is it in
+the United States now? 
+
+They said, they already determined it was in like eighteen different states. 
+
+What? 
+
+So? 
+
+The Hantavirus. 
+
+What, what are you g- — 
+
+Well — 
+
+So what're you getting at? 
+
+That insulation out there with the mice shit in it? 
+
+Did you just wash — Yes. 
+
+Really bothers me. 
+
+I kn- — Oh oh I know. I mean that's the thing I thought of too. 
+
+Well, it's all packed up in garbage bags now. I didn't even touch it. Used a
+hoe, stuffed it. I didn't touch anything. Don't touch anything yellow. Okay? Not
+with your gloves or anything. Find something else to pick it up with. 
+
+Mhm. Did you — did you put it in a trash bag? 
+
+I took that brown trash thing, and tucked a bag in it. And then I put them in
+there. Squashed em down. 
+
+The Beast 
+
+I was thirteen. It was spring, the barren time in March when you can not be sure
+if it is really warmer, but you are so desperate for change that you tell
+yourself the mud at the edge of the sidewalk is different from winter mud and
+you are sure that the smell of wet soil has suddenly a bit of the scent of
+summer rains, of grass and drowned earthworms. And it has, because it is spring
+and inside the ground something is stirring. I was wearing a yellow linen dress
+which my mother had picked out and which I therefore disliked although I knew it
+flattered me. My shoes were white and I was concentrating on keeping them out of
+the mud. My father and I were going to mass — my mother did not go; she was
+Protestant. My father put his hand on top of my hair, his palm on my head, and I
+could feel the bone of my skull and my skin and his hot palm, so dry and strong.
+When I was a little girl, he did that often, and called me Muscles. He had not
+called me Muscles or put his hand on my head for a long time. I could not help
+arching my back a little, I wanted to push against his hand like a cat but the
+instinct that comes with being thirteen, the half-understood caution that makes
+a girl timid, or wild, the shyness told me to just walk. I wanted to feel the
+rough edge of the pocket of his coat against my cheek, but I was too tall. I
+wanted to be seven again, and safe. But I still wanted to push against his hand
+and put my hand in his pocket and steal the leather palmed glove, that secret
+animal. 
+
+Instead I went into the church, took a Bulletin, dipped my finger in Holy Water
+and genuflected. The inside of the church smelled like damp wood and furniture
+polish, not alive at all. My father took off his coat and draped it over the
+edge of the pew and when I came back from communion I stole his glove. The paper
+taste of the wafer was still in my mouth and I took a deep breath of the
+leather. It smelled like March. 
+
+We walked back through the school because it was drizzling, my father tall in
+his navy suit and my shoes going click on the linoleum. There were two classes
+of each grade, starting at the sixth and going down to the first. The hall ended
+in a T and we went left through the gym, walked underneath the bleachers and
+stood next to the side door, waiting for the rain to stop. 
+
+It was dark under the bleachers. My father was a young man, thirty-five, younger
+because he liked to be outside, to play softball on Saturday and to take my
+mother and me camping on vacation. He stood rocked back on his heels with his
+coat thrown over his shoulders and his hands in his pockets. I thought of bacon
+and eggs, toast with peach jam out of the jar. I was so hungry. 
+
+The space under the bleachers was secret and dark. There were things in the
+shadows; a metal pail, a mop, rags. Next to the door was a tall wrought-iron
+candle holder — the kind that stood at either end of the altar. There was no
+holder and the end was jagged. On the floor was a wrapper from a French Chew.
+They were sold at eighth-grade basketball games on Friday nights. The light from
+the door made the shadows under the bleachers darker, the long space stretched
+far away. 
+
+I heard the rain and the faint rustle of paper and smelled damp concrete. I did
+not go near my father but kept my hand in my pocket, feeling the soft leather
+glove. 
+
+There was a rustling on the concrete and the drizzle of soft rain. I wondered if
+anyone ever went back under the bleachers, if there were crickets or mice there.
+The rustling might have been mice. I wished the rain would stop. I wanted to go
+home. I made noises with my heels but they were too loud so I stopped. Something
+else clicked and I tried to see what it was but couldn’t see anything. It wasn’t
+as loud as my heels. My father cleared his throat, looking out the door. 
+
+I imagined a man down there in the dark, an escaped convict or a madman. 
+
+It had nearly stopped raining. In fifteen minutes we would be home and my mother
+would fry eggs. 
+
+I heard a noise like paper. My father heard it, too, but he pretended not to, at
+least he didn’t turn his head. And there was a heavier sound, a rasp, like a box
+pulled over concrete. I looked at my father but he didn’t turn his head. I
+wished he would turn his head. There was a click again and the rustle, and I
+could not think of what it could be. I had no explanation for the particular
+combination of sounds. No doubt there was, some two things that happened to be
+making noises at the same time. Once in a fever I heard thousands of birds
+outside my window and I was terrified that they would fling themselves through
+the glass and attack me, but it was only the rain on the eaves. 
+
+Chapter Two: Master Lunre 
+
+My father’s actions were largely incomprehensible to me, guided by his own
+secret and labyrinthine calculations. He dwelt in another world, a world of
+intrigue, bargains, contracts and clandestine purchases of land all over the
+island. He was in many ways a world in himself, whole as a sphere. No doubt his
+decisions were perfectly logical in his own eyes — even the one that prompted
+him, a patriotic islander, to bring me a tutor from Bain: Master Lunre, an
+Olondrian. 
+
+The day began as it usually did when my father was expected home from his
+travels, the house festooned with flowers and stocked with coconut liquor. We
+stood by the gate, washed and perfumed and arrayed in our brightest clothes, my
+mother twisting her hands in her skirt, my father’s wife with red eyes. Jom,
+grown taller and broad in the shoulders, moaned gently to himself, while I stood
+nervously rubbing the heel of one sandal on the flagstones. We scanned the deep
+blue valley for the first sign of the company, but before we saw them we heard
+the children shouting: “A yellow man!” 
+
+A yellow man! We glanced at one another in confusion. My mother bit her lower
+lip; Jom gave a groan of alarm. At first I thought the children meant my father,
+whose golden skin, the color of the night-monkey’s pelt, was a rarity in the
+islands; but certainly the children of Tyom were familiar with my father, and
+would never have greeted a council-member with such ill-mannered yells. Then I
+remembered the only “yellow man” I had ever seen, an Olondrian wizard and doctor
+who had visited Tyom in my childhood, who wore two pieces of glass on his eyes,
+attached to his ears with wires, and roamed the hills of Tinimavet, cutting bits
+off the trees. I have since learned that that doctor wrote a well-received
+treatise, On the Medicinal Properties of the Juice of the Young Coconut, and
+died a respected man in his native city of Deinivel; but at the time I felt
+certain he had returned with his sack of tree-cuttings. 
+
+“There they are,” said Pavit, the head house-servant, in a strained voice. And
+there they were: a chain of riders weaving among the trees. My father’s plaited
+umbrella appeared, his still, imposing figure, and beside him another man, tall
+and lean, astride an island mule. The hectic screams of the children preceded
+the company into the village, so that they advanced like a festival, drawing
+people out of their houses. As they approached I saw that my father’s face was
+shining with pride, and his bearing had in it a new hauteur, like that of the
+old island kings. The man who rode beside him, looking uncomfortable with his
+long legs, kept his gaze lowered and fixed between the ears of his plodding
+mule. He was not yellow, but very pale brown, the color of raw cashews; he had
+silver hair, worn cropped close to the skull so that it resembled a cap. He was
+not the leaf-collecting doctor, but an altogether strange man, with silver
+eyebrows in his smooth face and long fine-knuckled hands. As he dismounted in
+front of the house I heard my mother whispering: “Protect us, God with the
+Black-and-White Tail, from that which is not of this earth.” 
+
+My father dismounted from his mule and strutted toward us, grinning. I thought I
+caught an odor off him, of fish, sea-sickness and sweat. We knelt and stared
+down at the bald ground, murmuring ritual greetings, until he touched the tops
+of our heads with the palm of his fleshy hand. Then we stood, unable to keep
+from staring at the stranger, who faced us awkwardly, half-smiling, taller than
+any man there. 
+
+Wikinews interviews meteorological experts on Cyclone Phalin 
+
+File photo of interviewee David Titley. Image: David Titley. 
+
+Cyclone Phailin has winds that have been measured at 200 km / h, as it surges
+over land will it begin to lose strength? 
+
+Yes, all tropical cyclones are driven by high heat content waters. Once a storm
+moves over any appreciably sized piece of land, the moisture source is removed
+and the storm begins to dissipate. As of the last advisory, T C Phailin has
+winds of 190 kilometers per hour and has moved inland, headed on a northwest
+track. That is a Category 3 storm. The forecast is for a continued decline in
+strength to a tropical storm within 24 hours and a tropical depression within 36
+hours. However, there will be very heavy rains and flooding along its path. 
+
+Yes, it will loose strength steadily as more and more of this swirling system
+moves from being over ocean to being over land. This occurs for two reasons: 
+
+As it moves over land, it is cut off from the source of energy driving the storm
+[which is] the evaporation of water from the warm sea surface; 
+
+Increased friction - the ocean surface is much, much smoother than the land
+surface. 
+
+Tropical cyclones are sustained by a form of energy called latent heat, which is
+released by moisture evaporated from the ocean that condenses to form rain. As
+tropical cyclones make landfall, this energy source is cut-off and they rapidly
+lose strength as they move over land. 
+
+Yes, the Cyclone is almost certain to lose strength as it surges over land.
+Cyclones gather their strength through scraping moisture and heat from warm
+ocean water that it is not the case over land. In the mean time, much stronger
+friction over land quickly reduces their strength. 
+
+Yes. All tropical cyclones lose strength once they make landfall. However, they
+can remain dangerous storms due to very heavy rains and subsequent landslides,
+and river flooding. 
+
+Phailin's winds will rapidly weaken as it pushes inland. 
+
+Once Cyclone Phailin comes on shore it will immediately begin to lose strength.
+However, and this is important, it still will contain lots of rainfall making
+flooding an almost certainty. 
+
+File photo of interviewee R Saravanan. Image: R Saravanan. 
+
+A previous cyclone in 1999 in the Bay of Bengal area of India left 10,000 people
+dead. Is the Indian government well prepared to deal with this cyclone? 
+
+I have not followed that aspect of the societal response for the present storm.
+However, historically, there have been several events that should cause a
+societal response. Hopefully, we all learn from past mistakes. The history of
+strong cyclones and death in the region is notable, with at least 5 large
+cyclone events in the past 35 years with 10,000 and as many as 300,000 people
+killed, millions left homeless and estimated damages as high as US$ 10 billion.
+
+I don't have enough information to answer this question, one way or the other. 
+
+From all the press reports that I have read, the Indian government appears to
+have taken the threat of Cyclone Phailin very seriously indeed. The government
+has been much more pro-active in preparing for this cyclone than in the past.
+The forecasts of cyclone track and intensity have been fairly accurate.
+Mandatory mass evacuations have been carried out, which is essential to minimize
+loss of life in these situations. Unfortunately, extensive property damage is
+bound to occur even with the best preparation. 
+
+My knowledge of the responsiveness of the Indian government to this storm is
+purely from the cyber space. I heard that they orchestrated the largest people
+evacuation to a natural disaster in Indian history. This shall be applauded
+given the size and strength of Phailin. I visited the damaged area of the 1999
+storm near Bhubaneshwar in the summer of 2012 for an invited symposium and
+summer school on tropical cyclones [...] sponsored by the Indian government.
+Given the living standard and residence of people living near the coastal areas
+in this region, the evacuation is certainly necessary and essential to save
+lives. 
+
+I cannot comment directly on how the Indian government was prepared for this
+cyclone. However, the news reports (BBC etc.) were very encouraging in that the
+authorities were reportedly making strenuous efforts to evacuate the population
+from near the coast and areas that are prone to flooding. Water is the main
+killer in these storms. 
+
+From all reports that I have seen, the government was well prepared for this
+cyclone. 
+
+For this question I don't know the 'preparedness' of the Indian gov't to deal
+with this. 
+
+Wikinews interviews Mario J. Lucero and Isabel Ruiz of Heaven Sent Gaming 
+
+General questions 
+
+What is Heaven Sent Gaming? 
+
+Heaven Sent Gaming is basically me and Isabel, I'm Mario J. Lucero. 
+
+And, I'm Isabel Ruiz. 
+
+And, together we formed this thing, it's sort of like an entertainment team. We
+started it basically, because I wanted to - I wanted to work with Isabel on a
+lot of projects that we had going on together. We were coming with comics, like,
+left and right, we were coming up with things like Karis, in high school she
+came up with that one, I came up with an individual story called Thad's World
+Destruction and, she wanted to illustrate it, and so, that's the way we ended up
+doing it. 
+
+Yep, we like to just make our own original content, and, yep, that's what we
+wanted to do. 
+
+How did you two meet? 
+
+We met back in high school. In this private, tiny-tiny private school of 50
+students. But, before hand in middle school, I kept on hearing about this guy
+named Mario, and he kept on hearing about me, this girl named Isabel. And,
+everyone, all of our friends and all of our acquaintances would say, "Hey, you'd
+get along with him really well." So before hand I kinda knew about him, but I
+never met him. And one of our friends, our common friends, he introduced us
+during study hall, and we just kind of hit it off from there. 
+
+It's true. 
+
+Who else is involved in this project? 
+
+Currently, we're in talks with people. There's Jeff [Drake], who is behind the
+camera. 
+
+Right now, yeah, he's helping us right now. We're talking about doing some
+individual web series, video series. Josh Kindig, he's coming on board, he has
+some ideas for that too, he wants to take over "aywv" and do more gaming news. 
+
+There's of course Jason, who is our editor and he's the one who writes dD. 
+
+Digital Domain 
+
+What is your purpose behind this venture? 
+
+Well, back in college, back in Collins College, Isabel and I, we had met like
+she said at Sandia View Academy, and we went off to college together in Arizona;
+and ... (how do I best explain this?) Basically, she came up with a few class
+projects, and I came up with a few class projects; we started working with a few
+of our friends, and colleagues and whatnot. Those included Drew Cass, Devin
+Thurlow, people like that. She had several ideas, and she used to draw a lot in
+the sketchbook, she used to have this thick sketchbook that she used to carry
+around with her everywhere, where she'd draw these different characters and
+whatnot; and she was always really shy to show that off to people, and I wanted
+to help her show that stuff, and I wanted to bring it out to the world. I was a
+writer, and she always liked my writings, so I was like, let's just get both of
+our things together, and let's get this done. 
+
+And for me, what I want the purpose to be, is to inspire people. To bring a
+little more light to the world is what I want, out of all of this. 
+
+And what was the verse that we have? First Corinthians 9: 25? 
+
+Yes. 
+
+Yeah, exactly. We just want to be able to bring, like she said, bring light into
+the entertainment and into the media industry, specifically is what we do. 
+
+Yeah. 
+
+Parents prosecuted after homeopathic treatment leads to daughter's death Friday,
+May 8, 2009 
+
+Thomas Sam, 42, and his wife Manju Sam, 36, from Sydney, Australia, are
+undergoing trial for manslaughter by gross negligence for the death of their
+nine-month-old child, Gloria. She died from infection caused by severe eczema
+after they shunned effective conventional medical treatments for homeopathy, a
+form of alternative medicine that has been described as pseudoscience. Articles
+in peer-reviewed academic journals including Social Science & Medicine have
+characterized homeopathy as a form of quackery. 
+
+An example of severe eczema. Image: Jambula. 
+
+Gloria developed severe eczema at the age of four months and the parents were
+advised to send the child to a skin specialist. Thomas Sam, a practising
+homeopath, instead decided to treat his daughter himself. His daughter's
+condition deteriorated, to the point that the baby spent all her energy battling
+the infections caused by the constant breaking of the skin, leading to severe
+malnutrition and, eventually, her death. By the end, Gloria's eczema was so
+severe that her skin broke every time her parents changed her clothes or nappy,
+and in the words of the Crown prosecutor, Mark Tedeschi, QC, "Gloria spent a lot
+of the last five months of her life crying, irritable, scratching and the only
+thing that gave her solace was to suck on her mother's breast." Gloria also
+became unable to move her legs. 
+
+Mr. Tedeschi also told the court that, over the last five months of her life,
+"Gloria's eczema played a devastating role in her overall health and it is
+asserted by the Crown that both her parents knew this and discussed it with each
+other." However, despite their child's severe illness, and her lack of
+improvement, the Sams continued to shun conventional medical treatment, instead
+seeking help from other homeopaths and naturopaths. Gloria temporarily improved
+during the rare times they used conventional treatments, but they soon dropped
+them in favour of homeopathy, and she consistently worsened. 
+
+Allegedly, Thomas' sister pleaded with him to send Gloria to a conventional
+medical doctor, but he replied "I am not able to do that". The parents are also
+accused of putting their social life ahead of their child, taking her on a trip
+to India and leaving her to servants while embarking on a busy social schedule,
+and giving her homeopathic drops instead of using the prescription creams they
+had been given. 
+
+Gloria was finally taken to the emergency department shortly before her death.
+By this time, "her skin was weeping, her body malnourished and her corneas
+melting", according to the Sydney Morning Herald. 
+
+Speaking in the parents' defense, Tom Molomby, SC, said that, as the parents
+came from India, where homeopathy is in common use, they should be declared not
+guilty due to cultural differences. 
+
+Homeopathy is a form of alternative medicine which treats patients with
+massively diluted forms of substances that, if given to a healthy person
+undiluted, would cause symptoms similar to the disease. Typical treatments take
+the dilutions, with ritualised shaking between each step of the dilution, past
+the level where any molecules of the original substance are likely to remain;
+for homeopathic treatments to work, basic well-understood concepts in chemistry
+and physics would have to be wrong. There is no evidence that homeopathy is more
+effective than placebo for any condition. 
+
+Australian children suffering from iodine deficiency 
+
+Thursday, February 23, 2006 
+
+Almost half of all Australian primary school children are mild to moderately
+iodine deficient, researchers say. A new study documenting iodine nutritional
+status in Australian school children has revealed many are not getting enough
+iodine - which can lead to mental and growth retardation. The report's authors
+say iodine deficiency is "the sleeper health issue in Australia", and
+potentially a very serious one. 
+
+The results of the Australian National Iodine Nutrition Study published in the
+Medical Journal of Australia this week, revealed that children in mainland
+Australia are borderline iodine deficient. The report has prompted calls for all
+edible salt to be iodised. They say adding the mineral to salt is the simplest
+and most effective method of preventing iodine deficiency disorders. 
+
+A cross-sectional survey of 1709 schoolchildren - aged 8 – 10 years, from 88
+schools - was carried out in New South Wales, Victoria, South Australia, Western
+Australia and Queensland, between July 2003 and December 2004. Tasmania was
+excluded from the study - where an voluntary iodine fortification program using
+iodised salt in bread, is ongoing. 
+
+The authors say the results confirm the existence of inadequate iodine intake in
+the Australian population. They call for "urgent implementation of mandatory
+iodisation of all edible salt in Australia." Most iodine in food comes from
+seafood, milk and iodised salt. 
+
+Professor Cres Eastman, Director of the National Iodine Nutrition study, and
+Chairman of the Australian Centre for Control of Iodine Deficiency Disorders,
+says it is crucial that children and pregnant women in particular have an
+adequate intake of iodine. Iodine deficiency can lead to serious health problems
+including brain damage, stunted growth and deafness. 
+
+Professor Eastman says manufacturers could easily remedy the situation by using
+iodised salt in their products in line with the United States and most European
+countries. "I suspect they won't do that on a voluntary basis, we've tried so
+far and haven't succeeded, so we've convinced the Food Standards of Australia
+and New Zealand | that all salt should be iodised," he said. 
+
+The report says the decline in iodine intake appears to be due to changes in the
+dairy industry, where chlorine-containing sanitisers have replaced
+iodine-containing sanitisers. Iodine released from these chemicals into milk has
+been the major source of dietary iodine in Australia for at least four decades,
+but is now declining. Another contributory factor has been the decreasing
+consumption of iodised salt used in foods. The report states that few if any
+food manufacturers use iodised salt in the preparation and manufacture of foods.
+
+Professor Eastman says iodine is added to only 10 per cent of Australian salt in
+contravention of a World Health Organisation recommendation that all salt be
+iodised. He says authorities are reacting slowly to his urgent calls for
+mandatory iodised salt. 
+
+"The effects of iodine deficiency are dependent upon how severe it is and when
+it occurs. So if we go to the pregnant woman, she doesn't get enough iodine, she
+won't make enough thyroid hormone, and the foetus won't get the amount of
+thyroid hormone it needs for adequate and proper development of the brain, so
+you'll then see consequences being loss of IQ, learning difficulties, hearing
+difficulties and other neurological problems," Professor Eastman said. 
+
+"If an infant's not getting enough iodine ... brain development won't be
+completed and they won't grow normally, and as you get older the problem will be
+that you will develop a goiter and your thyroid won't function as well as it
+should, so that may have all sorts of pernicious effects upon normal function in
+life." 
+
+More than two billion people around the world live in areas prone to iodine
+deficiency, and yet the problem is easily fixed. The World Health Organisation
+(WHO) recommends that every country should iodise all edible salt. The most well
+known effects of IDD are visible goiter and cretinism, a condition characterised
+by severe brain damage occurring in very early life. WHO say Iodine deficiency
+is the world’s most prevalent, yet easily preventable, cause of brain damage. 
+
+Professor Eastman said he is alarmed by what they found. "Pregnant women in
+Australia are getting about half as much as what they require on a daily basis.
+So that alarms me, because there's quite serious potential for adverse effects
+and brain damage in the next generation of children born in this country," he
+said. 
+
+"If Iodine deficiency is serious you lose 15 IQ points, on average. There
+shouldn't be anyone suffering from iodine deficiency in a developed country like
+Australia." 
+
+Lydia Buchtmann for Food Standards Australia New Zealand, says they are looking
+at mandatory guidelines on iodine by the end of the year. She says the issue is
+complicated and will take time to get right. We need to "make sure there's
+sufficient iodine added into the food supply, to help those people with a
+deficiency. But at the other end of the scale we've got to make sure the people
+who eat a lot of food - we all know the teenage boy who comes home from school
+and eats a whole loaf of bread - that those people don't get too much and get
+overdose," Ms Bauchtman said. "One of the reasons that iodine is going down is
+because people are taking that good healthy eating message and not adding salt
+during cooking." 
+
+Senior researcher Mu Li, of the University of NSW's school of public health,
+said "it is reasonable to assume that pregnant women and breastfeeding mothers
+are also iodine deficient, putting the next generation of children born in this
+country at risk of the neuropsychological consequences of iodine deficiency." 
+
+Madam Speaker, "I solemnly swear that in all things appertaining to the trial of
+the impeachment of Donald John Trump, President of the United States, now
+pending, I will do impartial justice according to the Constitution and laws." 
+
+That is the oath Senators swore on January 16. It is the oath created by
+Senators when they tried the first impeachment of a President in 1868. It is an
+oath rooted in the Revolution fought by their grandparents to create a republic
+of laws, not kings. It is an oath whose power derives from its common sense:
+that a juror must always be impartial for a trial to be fair. And it is an oath
+made necessary by the fact that Senators are not, as we are not, under normal
+circumstances, impartial in our work. 
+
+The words chosen for this oath recognize that when our Constitution calls
+Senators to try impeachment, it calls them away from their role as partisans.
+When that oath is taken, Senators are supposed to step back from the affiliation
+of party or political kinship with or opposition to the President on trial. They
+are required, as the oath plainly states, to "do impartial justice according to
+the Constitution and laws." 
+
+Madam Speaker, this afternoon, Senators will be asked to vote on the two
+Articles of Impeachment the House presented on abuse of power and the
+obstruction of Congress. After voting to refuse to hear evidence and call
+witnesses with pertinent information, nearly all Republican Senators have
+already announced that they will vote against the articles. 
+
+In doing so, many of them acknowledge that what President Trump did was wrong
+and inappropriate. They accept that it was wrong for him to withhold military
+aid to Ukraine until the President of that country promised to interfere in the
+American elections. 
+
+The evidence of President Trump's abuse of power and attempt to solicit foreign
+interference in the 2020 elections is clear enough that Republican Senators
+cannot and have not denied the facts, yet they cannot bring themselves to
+confront this President and are choosing party over country. 
+
+The Senator from Alaska, in explaining her decision to vote to block witnesses
+and evidence, tried to deflect responsibility from the consequences of her
+actions, writing: "I have come to the conclusion that there will be no fair
+trial in the Senate." I agree with that. She further said: "It is sad for me
+today to admit that, as an institution, the Congress has failed." 
+
+Madam Speaker, the Congress has not failed. The House did its job, whether you
+agree or not. In regular order, by a vote of this House, we impeached the
+President of the United States based upon our oath to protect and defend the
+Constitution of the United States. 
+
+The House did its job and did so with the solemnity required when undertaking
+the process of impeachment, which we did not seek but accepted as our
+responsibility under the Constitution. We held hearings, called witnesses, and
+subpoenaed documents. Many of the witnesses and documents, of course, were
+withheld by the White House. 
+
+It is the Senate that will fail if Senators do not uphold their oaths to
+impartial justice. It is the Senate, Madam Speaker, that will fail if it does
+not hold this President accountable for using a hold on military aid to compel
+an ally to interfere in our election for his own personal gain. 
+
+History will judge poorly those who choose fear of their party over the courage
+to do the right thing. Neither the Speaker nor myself, nor the whip, Jim
+Clyburn, urged any member in our party to vote any way on impeachment. There was
+no lobbying. There was no pressure. Our members voted consistent with their oath
+of office and the conviction that that vote was required by that oath to protect
+and defend the Constitution. 
+
+Americans will judge. I am often asked why the House passed Articles of
+Impeachment even knowing that the odds were slim that Senate Republicans would
+set aside partisanship and hear the case as impartial jurors. It is because I
+know future generations will look back on this chapter in our history and ask:
+Who stood up for the Constitution and the laws? Who stood up for the values our
+Founders charged us to keep? Who refused to shrink from the heavy
+responsibilities of their oath? I can be proud that the House did its job,
+followed the law, defended our Constitution. 
+
+We did not convict; that is not our role. Essentially, what we said was there
+was probable cause that powers had been abused and certainly cause to see that
+the President refused to cooperate with the constitutional responsibilities of
+the House of Representatives. 
+
+I am also proud of the House managers, as all of my colleagues on the Democratic
+side of the aisle are proud of our managers who made their case. They made their
+case with intellect. They made their case with evidence that had been adduced
+here in the House. They made their case and appealed to Senators to hold this
+President accountable, as our Founders intended. 
+
+Almost everybody has watched a trial either in person or on television. A trial
+is not an opening argument and a closing argument with nothing in between.
+Seventy-five percent of our people wanted to have witnesses because that was
+their understanding of what a trial is, not just argument at the beginning and
+argument at the end, but evidence for jurors who have pledged to be impartial to
+consider. Any judge in this country would agree that opening and closing
+statements alone are not a trial. 
+
+Nevertheless, the House managers proved their case. The truth is clear. The
+American people know what that truth is and know what this President has done.
+And they will remember who on this day abided by the truth, the whole truth, and
+nothing but the truth. 
+
+Learning Objectives 
+
+By the end of this section, you will be able to: 
+
+Describe cognition 
+
+Distinguish concepts and prototypes 
+
+Explain the difference between natural and artificial concepts 
+
+Imagine all of your thoughts as if they were physical entities, swirling rapidly
+inside your mind. How is it possible that the brain is able to move from one
+thought to the next in an organized, orderly fashion? The brain is endlessly
+perceiving, processing, planning, organizing, and remembering—it is always
+active. Yet, you don’t notice most of your brain’s activity as you move
+throughout your daily routine. This is only one facet of the complex processes
+involved in cognition. Simply put, cognition is thinking, and it encompasses the
+processes associated with perception, knowledge, problem solving, judgment,
+language, and memory. Scientists who study cognition are searching for ways to
+understand how we integrate, organize, and utilize our conscious cognitive
+experiences without being aware of all of the unconscious work that our brains
+are doing (for example, Kahneman, 2011). 
+
+Cognition 
+
+Upon waking each morning, you begin thinking—contemplating the tasks that you
+must complete that day. In what order should you run your errands? Should you go
+to the bank, the cleaners, or the grocery store first? Can you get these things
+done before you head to class or will they need to wait until school is done?
+These thoughts are one example of cognition at work. Exceptionally complex,
+cognition is an essential feature of human consciousness, yet not all aspects of
+cognition are consciously experienced. 
+
+Cognitive psychology is the field of psychology dedicated to examining how
+people think. It attempts to explain how and why we think the way we do by
+studying the interactions among human thinking, emotion, creativity, language,
+and problem solving, in addition to other cognitive processes. Cognitive
+psychologists strive to determine and measure different types of intelligence,
+why some people are better at problem solving than others, and how emotional
+intelligence affects success in the workplace, among countless other topics.
+They also sometimes focus on how we organize thoughts and information gathered
+from our environments into meaningful categories of thought, which will be
+discussed later. 
+
+Concepts and Prototypes 
+
+The human nervous system is capable of handling endless streams of information.
+The senses serve as the interface between the mind and the external environment,
+receiving stimuli and translating it into nervous impulses that are transmitted
+to the brain. The brain then processes this information and uses the relevant
+pieces to create thoughts, which can then be expressed through language or
+stored in memory for future use. To make this process more complex, the brain
+does not gather information from external environments only. When thoughts are
+formed, the brain also pulls information from emotions and memories (Figure
+7.2). Emotion and memory are powerful influences on both our thoughts and
+behaviors. 
+
+Figure 7.2 Sensations and information are received by our brains, filtered
+through emotions and memories, and processed to become thoughts. 
+
+In order to organize this staggering amount of information, the brain has
+developed a file cabinet of sorts in the mind. The different files stored in the
+file cabinet are called concepts. Concepts are categories or groupings of
+linguistic information, images, ideas, or memories, such as life experiences.
+Concepts are, in many ways, big ideas that are generated by observing details,
+and categorizing and combining these details into cognitive structures. You use
+concepts to see the relationships among the different elements of your
+experiences and to keep the information in your mind organized and accessible. 
+
+Concepts are informed by our semantic memory (you will learn more about semantic
+memory in a later chapter) and are present in every aspect of our lives;
+however, one of the easiest places to notice concepts is inside a classroom,
+where they are discussed explicitly. When you study United States history, for
+example, you learn about more than just individual events that have happened in
+America’s past. You absorb a large quantity of information by listening to and
+participating in discussions, examining maps, and reading first-hand accounts of
+people’s lives. Your brain analyzes these details and develops an overall
+understanding of American history. In the process, your brain gathers details
+that inform and refine your understanding of related concepts like democracy,
+power, and freedom. 
+
+Concepts can be complex and abstract, like justice, or more concrete, like types
+of birds. In psychology, for example, Piaget’s stages of development are
+abstract concepts. Some concepts, like tolerance, are agreed upon by many
+people, because they have been used in various ways over many years. Other
+concepts, like the characteristics of your ideal friend or your family’s
+birthday traditions, are personal and individualized. In this way, concepts
+touch every aspect of our lives, from our many daily routines to the guiding
+principles behind the way governments function. 
+
+Another technique used by your brain to organize information is the
+identification of prototypes for the concepts you have developed. A prototype is
+the best example or representation of a concept. For example, for the category
+of civil disobedience, your prototype could be Rosa Parks. Her peaceful
+resistance to segregation on a city bus in Montgomery, Alabama, is a
+recognizable example of civil disobedience. Or your prototype could be Mohandas
+Gandhi, sometimes called Mahatma Gandhi (“Mahatma” is an honorific title)
+(Figure 7.3). 
+
+Figure 7.3 In 1930, Mohandas Gandhi led a group in peaceful protest against a
+British tax on salt in India. 
+
+Mohandas Gandhi served as a nonviolent force for independence for India while
+simultaneously demanding that Buddhist, Hindu, Muslim, and Christian
+leaders—both Indian and British—collaborate peacefully. Although he was not
+always successful in preventing violence around him, his life provides a
+steadfast example of the civil disobedience prototype (Constitutional Rights
+Foundation, 2013). Just as concepts can be abstract or concrete, we can make a
+distinction between concepts that are functions of our direct experience with
+the world and those that are more artificial in nature. 
+
+What's up YouTube? So we are going to do a week of me vlogging. It's kind of an
+interesting week. I bounced around here and there, so I have to kind of show you
+guys around and show you what it's all about, and today I'm on general nuclear
+medicine, so let's start the day. So like I said, I'm on my general nuclear
+medicine rotation this week. I get switched around -- moved around a few times
+to cover some residents who are on vacation, so I'll be at other spots later
+this week. So so far this morning I've just read a few studies (it's a little
+slow in the morning) of general nuclear medicine because a lot of stuff takes
+time for the radio tracers to go into the body or the specific organ we are
+targeting, so we have to wait a little bit in the morning. So I've done three
+lymphoscintigraphies. For lymphoscintigraphies we basically inject technetium in
+skin surrounding a melanoma and after we inject we wait about 15-20 minutes,
+maybe up to an hour, and wait for that radio tracer to travel to the closest
+lymph node which we would call the sentinel lymph node. What we do is we mark it
+under our cameras and then the patient will go up to the OR, have the melanoma,
+a wide excision of the melanoma, and then they will try to find the lymph node
+that we marked and take that one out as well to make sure there's no metastasis.
+So I've done three of those this morning. I will read a few more scans coming up
+here shortly and just trying to tie up some loose ends before I go to
+conference. I'll check back in afterwards. Ah, the sun feels so good on the
+face. I'm officially done. It is about 4:00 p.m. We get to head home early today
+because we finished off the scans, and I'm gonna go home and work out because I
+was too lazy to do it this morning because for some reason I was tired from
+having a weekend off, which makes no sense. But I'm gonna go work out, cook
+something for dinner and do this all over again tomorrow. We're on a different
+rotation tomorrow so stay tuned to find out which one. Alright it is day two. It
+is Tuesday and today I got pulled to ultrasound. Yes, I don't know why I got
+pulled on today, but I did, so probably just sit in there, read some ultrasounds
+and get out early. I need to film another YouTube video. Alright so I've been
+here just crushing ultrasounds, and today I've been feeling a little under the
+weather so I've been, like, yeah, I've been like crushing these all day today
+and then I'll show you what else I've been. I picked these up when I was in
+Amsterdam for ... I got sick when I was on Croatia for vacation. I have no idea
+what it says, but I think they're cough drops, so if anybody knows what this
+says let me know. But I'm pretty sure it's just cough drops with some vitamin C
+in it. So this is what I have been doing all day is crushing ultrasounds and
+having Dutch cough drops. So if anybody speaks Dutch tell me what that means. Oh
+and PS, I usually try to avoid taking medicines that I can't read the name of
+but I had someone help me at the pharmacy in the airport. She spoke a little bit
+of English and I think those are actually cough drops, so, that's the only
+reason I'm still eating them today. You can tell by my voice it's a little on
+the sore side today so hopefully I get better because, I haven't told you guys
+yet, but I'm going somewhere this weekend and it's gonna be fun. Now it's time
+to get back to work. So I'm officially going home right now. Yeah, normally I
+would go home and work out, especially since it's, like, a beautiful day I would
+probably go running. But since I feel kind of crappy today I'm just going to go
+home, hang out, rest (ambulance was a little loud sorry). So I'm probably just
+gonna go home and rest and I have to get my hair cut today for my big trip
+coming up. But you still don't know where I'm going. But yeah that's pretty much
+it, hope you guys don't mind this kind of like random vlog that I'm doing, but I
+just wanted to show you guys kind of loosely like how a week is and the life of
+a radiology resident. So hopefully you guys find it somewhat interesting, and if
+you do I'll keep doing it. So heading home now. 
+
+Athens (Greek: Αθήνα, Athína), is the capital city of Greece with a metropolitan
+population of 3.7 million inhabitants. It is in many ways the birthplace of
+Classical Greece, and therefore of Western civilization. 
+
+Understand 
+
+Old Athens 
+
+The first pre-historic settlements was constructed in 3000 BC around the hill of
+Acropolis. The legend says that the King of Athens, Theseus unified the ten
+tribes of early Athens into one kingdom (c. 1230 BC). This process of
+synoikismos – bringing together in one home – created the largest and wealthiest
+state on the Greek mainland, but it also created a larger class of people
+excluded from political life by the nobility. By the 7th century BC, social
+unrest had become widespread, and the Areopagus appointed Draco to draft a
+strict new law code (hence "draconian"). When this failed, they appointed Solon,
+with a mandate to create a new constitution (594). This was the great beginning
+of a new social revolution, which was the result of the democracy under
+Clisthenes (508 BC). During the Middle Ages, Athens experienced a decline, but
+re-emerged under Byzantian rule. Athens was thriving and prosperous during the
+Crusades, actually benefiting from the Italian trade during this period.
+However, this fruitful period was short-lived, as Greece suffered badly under
+the Ottoman Empire, only to recover in the 19th century as the capital of
+independent Greece. 
+
+Modern Olympic Games 
+
+Athens hosted the 2004 Summer Olympic Games. While most of the sporting venues
+were located outside the city proper - in various locations throughout Attica -
+the entire urban area of Athens underwent major lasting changes that have
+improved the quality of life for visitors and residents alike. Aside from the
+excellent transportation infrastructure that was completed in time for the 2004
+Olympics (from new freeways to light rail systems), the city's historic center
+underwent serious renovation. Most notable among the city's facelift projects
+are the Unification of Archaeological Sites - which connects the city's
+classical - era ruins and monuments to each other through a network of pleasant
+pedestrianized streets - and the restoration of the picturesque neoclassical
+Thissio and Pláka districts. 
+
+The ancient Olympic Games took place in Olympia from 776 BCE to 394 AD. It is a
+lengthy day trip from Athens to visit Olympia, but quite interesting. 
+
+Architecture 
+
+Athens was just a small provincial village when it was chosen in the 1830s to
+serve as the national capital of the modern Greek State. Although it had a
+prestigious past, the city's political, economic, and cultural importance had
+declined over the centuries, leaving behind only its classical ruins as a
+reminder of better times. With the decision to move the national capital from
+Nafplio to Athens, architects and city planners were hired to build a new city
+next to the classical ruins, with grand neoclassical homes and public buildings,
+large city squares, green spaces, and wide avenues, making a conscious, decisive
+turn from the city's Ottoman past. The city regained its importance in Greek
+civilization, and by 1900 had evolved into a very attractive cosmopolitan city,
+with abundant neoclassical architecture harking to the nation's past. 
+
+The 20th century however, marked the rapid development of Athens. The city
+suffered minor damage during WWII, and suffered extensive urban planning in the
+decades that followed, as the nation rapidly industrialized and urbanized. In
+the 1960s and 1970s, many 19th century neoclassical buildings, often small and
+private, were demolished to make way for office buildings, often designed by
+great Greek architects. The city also expanded outward through rash development,
+particularly towards the west, as its population grew by absorbing job-seekers
+from the provinces. With the onset of the automobile, public officials reduced
+the city's public transportation services without foreseeing the traffic
+gridlock and smog that would menace the city by the 1980s. 
+
+By the late 1980s and early 1990s, the city's reality led to a rude awakening
+among local and national officials and, coupled with the country's new found
+remarkable prosperity, large scale projects began to slowly regenerate the city
+and undo some of the damages of recent decades. Over the course of the next 15
+years, money was poured into new transportation infrastructure projects, the
+restoration of surviving neoclassical buildings, the gentrification of the
+city's historical center and the renovation of many former industrial areas and
+the city's coastline. The restoration of charming neoclassical buildings in the
+city's historical center has been accompanied by the construction of attractive
+post-modern buildings in newer districts; both of which have begun to improve
+the aesthetic essence of the city. Athens today is ever evolving, forging a
+brand new identity for the 21st century. 
+
+Climate 
+
+Spring and late autumn are the best times to visit Athens. Summer can be
+extremely hot and dry during heatwaves, but this rarely happens. Winter is
+definitely low season, with the occasional rainy or snowy day, but also an ideal
+time to save money while enjoying the city without countless other travelers and
+tourists. 
+
+Whilst peak traffic hour can be a bit smoggy on the main roads, on most sunny
+days the skies are azure blue. The main reason attributed for the pollution of
+Athens is because the city is enclosed by mountains in a basin which does not
+let the smog leave. The government's ban on diesel vehicles within Athens and
+the early 1990s initiatives to improve car emissions have greatly contributed to
+better atmospheric conditions in the basin. 
+
+Coron 
+
+Coron is in the province of Palawan, Philippines on Busuanga Island. It is the
+largest town on the island and has the largest share of accommodations. 
+
+Background 
+
+Coron is both the name of the largest town on the island of Busuanga, and the
+name of a different, smaller island just offshore. The area is famous for its
+World War II wreck diving, and the site has been named in many lists of top dive
+spots in the world. In September 1944, a fleet of Japanese ships hiding in the
+harbor were sunk in a daring raid by the US navy. The result is around ten well
+preserved underwater shipwrecks surrounded with coral reef. 
+
+There are also attractions on Coron Island itself. There are many beautiful
+white sand beaches, mostly tiny and surrounded by large limestone cliffs and
+wildlife. Barracuda and Kayangan lakes are both stunning locations, and good for
+snorkeling, and the island is the ancestral domain of an indigenous tribe who
+are managing the island in a sustainable way and keeping outsiders at a distance
+and offshore at night. 
+
+History 
+
+The first inhabitants of Coron were the Tagbanuas who belong to the second wave
+of Indonesians who migrated to this area some 5,000 years ago. They were a
+nomadic, seafaring people, living mainly by fishing and subsistence agriculture.
+Although they are now sedentary (with the young using cell phones, etc.), they
+maintain many of their old customs, traditions and beliefs. Today, the Tagbanuas
+remain the dominant if not entire population of Coron. 
+
+In 1902 that Coron was registered as a town and the name of the town was
+officially changed from Penon de Coron to Coron. 
+
+From 1939 to the outbreak of World War II, the municipality experienced the
+mining boom. Labor shifted from farming to mining. In July 1942 the Japanese
+occupied the mining camps and resumed operation of the manganese mines. On
+September 24, 1944, a group of Japanese ships were sunk by American warplanes in
+Coron waters as the ships retreated from Manila Bay. To this day, about 10 or 12
+of these World War II Japanese shipwrecks comprise what is considered one of the
+best dive sites in the world. 
+
+In 1947, large scale deep sea fishing was introduced to Coron, and the town
+experienced another boom, a fishing boom. The population increased, as many
+people from Luzon and the Visayas came to work either as fishermen or miners. 
+
+On June 17, 1950, Busuanga was officially created as a separate municipality
+from Coron and in 1954, Coron was further reduced by the official creation of
+the Municipality of Linapacan. On September 12, 1992, Coron was finally reduced
+by the official creation of the Municipality of Culion. 
+
+In the past, Coron was virtually unknown outside of Palawan. It remains a small,
+quaint fishing town with laid back charm but with increasing media exposure it
+is growing, slowly but steadily, Coron has taken an important position in the
+tourism industry. In the past decade, there has been a rapid influx of scuba
+divers and other tourists coming in, making tourism the major industry player in
+Coron today. 
+
+How to Tell a Joke 
+
+Two Parts: Getting the Material Right Getting the Delivery Right 
+
+From one-liners to classic three-liners to the one-minute gag you tell your
+friends, a good joke pleases everyone. Joke-telling is one of the best ways to
+ease tension, make a new friend, or light up a room. That is, of course, if you
+can get a laugh. Telling good jokes is an art that comes naturally to some
+people, but for others it takes practice and hard work. 
+
+Part 1 of 2: Getting the Material Right 
+
+Know your audience. All aspects of the joke you tell, from the content to the
+length, need to be suited to your audience. What’s funny to a group of 20-year
+old college students may be very different from what makes your 70-year old -
+uncle laugh (then again, maybe not). 
+
+Everyone’s an individual, so there are no hard and fast rules. But, unless you
+personally know the members of your audience, here are some good rules of thumb
+to follow: elderly people won’t like crude jokes; stay away from misogynist
+jokes if you’ve got an audience full of women; people of a specific ethnic or
+racial group won’t enjoy jokes making fun of their group; and jokes requiring
+specialized knowledge (of, for example, science or old movies) will only be
+appreciated by people who possess that knowledge. 
+
+The more you know about your audience the better you’ll be able to tailor your
+jokes to them. 
+
+Choose great material. You can find fodder lots of places — from your life, joke
+files online, by repurposing jokes you’ve heard in the past, and so on. 
+
+You may want to start your own joke file. You can write your jokes down on index
+cards to keep them handy or use a document file on your computer. [1] The latter
+option may allow for easier revision. 
+
+Decide on a target. Every joke has a “target,” which is what the joke is about.
+It’s important that the joke’s target (the most basic element of your material)
+be suited to your audience. Make sure it’s a target your audience will be
+interested in and something they’re likely willing to laugh at. [2] 
+
+For example, husbands are likely to laugh at jokes about wives and vice versa;
+students will typically find jokes about school and teachers humorous. 
+
+Have a realistic but exaggerated setup. The opening of the joke — or setup —
+should have a basis in the real world so your audience can relate to it, but it
+should also include exaggeration because this is what gives a joke its humorous
+edge. [3] 
+
+Think of the setup as the foundation of a story. It’s a fundamental part of the
+joke; if you don’t lay a good foundation here, then the punchline won’t make
+sense to the audience or they won’t find it humorous. 
+
+Your setup needs to be both realistic and exaggerated in order to be funny —
+it’s placing these two incongruous elements side by side that makes the joke
+funny. [4] 
+
+The exaggeration can be slight or considerable — it just depends on the
+individual joke. 
+
+Surprise with the punchline. The ending of the joke is obviously crucial. This
+is where the payoff comes in, what makes the joke succeed or fail. If you want
+to make the audience laugh, your punchline needs to be surprising. 
+
+Some jokes also have what is called a tag or topper, which is an additional
+punchline. The tag builds on the original punchline or twists back on it in a
+surprising way. 
+
+Make the joke your own. Lots of jokes rehash the same ground and sometimes they
+retell a story countless other jokes have told. For your joke to be funny, it
+has to surprise the audience in some way, which means it has to seem original or
+new. 
+
+One way to personalize a joke is to change the ending. [5] 
+
+Another option is to dress the joke up as a story about your own life. This will
+make a familiar joke unrecognizable. It may also make it particularly
+interesting if your audience is your friend(s). [6] 
+
+Know your material. Practicing your joke is crucial. You don’t need to have it
+completely memorized — in fact, you "shouldn’t" memorize it — but you need to be
+really comfortable with it, so comfortable that you can continue on with telling
+it even if you get nervous or sidetracked, which is very possible once you’re in
+front of an audience. 
+
+Memorized jokes sound wooden, like they are being read off a script instead of
+relayed by a friend or entertainer. 
+
+Good jokes have a lot of details and personality, so don’t be afraid to
+embellish. [7] Try different things out and see what feels right, what sounds
+best. Don’t use a joke until you’re completely comfortable with it. 
+
+Try recording your joke on a tape player and playing it back to yourself. If you
+hear a lot of awkward pauses or “ah”s or “um”s, your joke isn’t ready and you
+need to practice more. [8] You can also try practicing in front of a sympathetic
+friend or family member once you’re ready for a “real” audience. 
+
+How to Wash Overalls in a Washing Machine 
+
+Whether you are a working man or just a little cutie trying to stay cute, those
+overalls are going to need washing sooner or later. The straps on adults’
+overalls often get so twisted during the wash that one wishes she had just used
+an old fashioned washboard instead. Your appliances are also murder on the
+straps, which are almost always the first things to wear out on your overalls.
+This article will show you how to save time and prevent wear, extending the life
+of your overalls until they are so soft you could wear them to bed. 
+
+Steps 
+
+Wash alone or with "like" clothing. It’s best to wash adults’ overalls alone,
+especially men’s. However, it is okay to wash just a few items with them, like
+blue jeans. What you don’t want to wash with them is anything that can get
+twisted up with the straps, like women’s long sleeve shirts or kids’ blankets.
+Think similar clothing, minus the twisty-ness. Just do the denim and canvas
+stuff together. 
+
+Fasten the straps to the bib. If you didn’t know already, the bib is the top
+front part with the breast pockets. Go ahead and fasten both straps before you
+wash. This will help keep them from twisting up during the wash. 
+
+Use twist ties to keep the straps fastened. This step will reapportion years of
+your life in the long run. Don’t skip it. Take the 20 seconds to use a couple
+twist ties on the fasteners to make sure they don’t come loose. If your washing
+machine is worth its salt, it will undo those straps in a heartbeat and tie them
+in a sheet bend unless you prevent it. All it takes is two twist ties and a few
+seconds of patience. 
+
+Empty the pockets. Overalls have more pockets than pants. The bib has a wallet
+pocket and a watch pocket. Kids put rocks, candy, and bugs in these. Men put
+cell phones and small tools in them. Women defy the laws of purse-space, so when
+it comes to bib pockets, the sky is the limit. Make sure all the pockets are
+empty. 
+
+Move the strap adjusters around. You’ve probably got them just the way you like
+them, but if you move the adjusters up or down on the straps occasionally, the
+straps will last longer. Depending on the adjusters, you may be able to leave
+them a little loose too. The straps wear out fastest around the adjusters over
+the course of numerous wash and dry cycles (not to mention being out in the
+elements if they are work clothes). Moving them distributes the wear and tear of
+washing. This is the same idea as rotating tires. You know about rotating your
+tires, don't you? 
+
+Tips 
+
+If you wash your overalls alone or in a light load, use about half the detergent
+called for and less water. 
+
+Leave the straps fastened and twist-tied to the bib when you throw them in the
+dryer. This will cut down on some of the racket, but you're still going to hear
+them. 
+
+Warnings 
+
+The paper-type twist ties will deteriorate a little, but the dryer filter screen
+will catch the fallout. 
+
+Plastic-type twist ties will hold up in the wash, but may or may not melt in
+your dryer. Use with caution. 

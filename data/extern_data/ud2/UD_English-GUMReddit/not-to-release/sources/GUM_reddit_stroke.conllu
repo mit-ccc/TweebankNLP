@@ -1,0 +1,1187 @@
+# newdoc id = GUM_reddit_stroke
+# global.Entity = entity-GRP-infstat-MIN-coref_type-identity
+# meta::dateCollected = 2017-09-13
+# meta::dateCreated = 2017-08-29
+# meta::dateModified = 2017-09-13
+# meta::sourceURL = https://www.reddit.com/r/stroke/comments/6ws3eh/stroke_survivors_how_aware_were_you_just_after/?sort=old
+# meta::speakerCount = 8
+# meta::title = Stroke Survivors: how "aware" were you just after you stabilized and were unable to speak?
+# sent_id = GUM_reddit_stroke-1
+# s_type = wh
+# text = Stroke Survivors: how "aware" were you just after you stabilized and were unable to speak?
+# newpar = head rend:::"big" (1 s)
+1	Stroke	stroke	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=preparation:1->2:4|Entity=(person-1-new-2-coref(event-2-new-1-coref)
+2	Survivors	survivor	NOUN	NNS	Number=Plur	6	dislocated	6:dislocated	Entity=1)|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	2:punct	_
+4	how	how	ADV	WRB	PronType=Int	6	advmod	6:advmod	Discourse=question:2->17:4
+5	"	''	PUNCT	``	_	6	punct	6:punct	SpaceAfter=No|XML=<q>
+6	aware	aware	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
+7	"	''	PUNCT	''	_	6	punct	6:punct	XML=</q>
+8	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
+9	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-1-giv:act-1-ana)
+10	just	just	ADV	RB	_	13	advmod	13:advmod	Discourse=circumstance:3->2:0
+11	after	after	SCONJ	IN	_	13	mark	13:mark	_
+12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	13:nsubj|18:nsubj:xsubj	Entity=(person-1-giv:act-1-ana)
+13	stabilized	stabilize	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	6	advcl	6:advcl:after	_
+14	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=joint_m:4->3:0
+15	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	16:cop	_
+16	unable	unable	ADJ	JJ	Degree=Pos|Polarity=Neg	13	conj	6:advcl:after|13:conj:and	_
+17	to	to	PART	TO	_	18	mark	18:mark	_
+18	speak	speak	VERB	VB	VerbForm=Inf	16	xcomp	16:xcomp	SpaceAfter=No
+19	?	?	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = GUM_reddit_stroke-2
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_A
+# text = My 35 year old cousin just had a stroke and is still in recovery.
+# newpar = sp who:::"GUM_reddit_stroke_spk_A" (4 s) | p (4 s)
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Discourse=background:5->2:1|Entity=(person-3-new-5-coref(person-4-acc:com-1-ana)
+2	35	35	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	_
+3	year	year	NOUN	NN	Number=Sing	4	compound	4:compound	_
+4	old	old	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
+5	cousin	cousin	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=3)
+6	just	just	ADV	RB	_	7	advmod	7:advmod	_
+7	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(event-5-new-2-coref
+9	stroke	stroke	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=5)
+10	and	and	CCONJ	CC	_	14	cc	14:cc	Discourse=joint_m:6->5:0
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
+12	still	still	ADV	RB	Degree=Pos	14	advmod	14:advmod	_
+13	in	in	ADP	IN	_	14	case	14:case	_
+14	recovery	recovery	NOUN	NN	Number=Sing	7	conj	7:conj:and	Entity=(event-6-new-1-sgl)|SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = GUM_reddit_stroke-3
+# s_type = wh
+# speaker = GUM_reddit_stroke_spk_A
+# text = How much did you perceive your surroundings (hospital) and how was your internal monologue?
+1	How	how	ADV	WRB	PronType=Int	2	advmod	2:advmod	Discourse=joint_m:7->2:2
+2	much	much	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
+4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-1-giv:inact-1-ana)
+5	perceive	perceive	VERB	VB	VerbForm=Inf	0	root	0:root	_
+6	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(place-7-new-2-coref(person-1-giv:act-1-ana)
+7	surroundings	surroundings	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=7)
+8	(	(	PUNCT	-LRB-	_	9	punct	9:punct	Discourse=elaboration:8->7:0|SpaceAfter=No
+9	hospital	hospital	NOUN	NN	Number=Sing	7	appos	7:appos	Entity=(place-7-giv:act-1-appos)|SpaceAfter=No
+10	)	)	PUNCT	-RRB-	_	9	punct	9:punct	_
+11	and	and	CCONJ	CC	_	12	cc	12:cc	Discourse=joint_m:9->2:2
+12	how	how	SCONJ	WRB	PronType=Int	5	conj	5:conj:and	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	12:cop	_
+14	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(abstract-8-new-3-coref(person-1-giv:act-1-ana)
+15	internal	internal	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
+16	monologue	monologue	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=8)|SpaceAfter=No
+17	?	?	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_stroke-4
+# s_type = other
+# speaker = GUM_reddit_stroke_spk_A
+# text = I'm about to go visit and would like to know the best way to communicate with her if it's helpful.
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj|6:nsubj:xsubj|9:nsubj|11:nsubj:xsubj	Discourse=background:10->2:3|Entity=(person-4-giv:inact-1-ana)
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
+3	about	about	ADV	RB	_	0	root	0:root	_
+4	to	to	PART	TO	_	5	mark	5:mark	_
+5	go	go	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
+6	visit	visit	VERB	VB	VerbForm=Inf	5	xcomp	5:xcomp	_
+7	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=joint_m:11->10:0
+8	would	would	AUX	MD	VerbForm=Fin	9	aux	9:aux	_
+9	like	like	VERB	VB	VerbForm=Inf	3	conj	3:conj:and	_
+10	to	to	PART	TO	_	11	mark	11:mark	_
+11	know	know	VERB	VB	VerbForm=Inf	9	xcomp	9:xcomp	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(abstract-9-new-3-coref
+13	best	good	ADJ	JJS	Degree=Sup	14	amod	14:amod	_
+14	way	way	NOUN	NN	Number=Sing	11	obj	11:obj	_
+15	to	to	PART	TO	_	16	mark	16:mark	Discourse=elaboration:12->11:0
+16	communicate	communicate	VERB	VB	VerbForm=Inf	14	acl	14:acl:to	Entity=9)
+17	with	with	ADP	IN	_	18	case	18:case	_
+18	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obl	16:obl:with	Entity=(person-3-giv:inact-1-ana)
+19	if	if	SCONJ	IN	_	22	mark	22:mark	Discourse=condition:13->11:1
+20-21	it's	_	_	_	_	_	_	_	_
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	22:nsubj	Entity=(abstract-9-giv:act-1-ana)
+21	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	22:cop	_
+22	helpful	helpful	ADJ	JJ	Degree=Pos	16	advcl	16:advcl:if	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_stroke-5
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_A
+# text = I know each case is different, but wanted to know what the range of experiences are.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj|9:nsubj|11:nsubj:xsubj	Discourse=concession:14->16:1|Entity=(person-4-giv:act-1-ana)
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	each	each	DET	DT	_	4	det	4:det	Bridge=2<10|Entity=(event-10-acc:inf-2-sgl
+4	case	case	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=10)
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+6	different	different	ADJ	JJ	Degree=Pos	2	ccomp	2:ccomp	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	9:punct	_
+8	but	but	CCONJ	CC	_	9	cc	9:cc	Discourse=attribution:15->16:0
+9	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	2:conj:but	_
+10	to	to	PART	TO	_	11	mark	11:mark	_
+11	know	know	VERB	VB	VerbForm=Inf	9	xcomp	9:xcomp	_
+12	what	what	PRON	WP	PronType=Int	11	ccomp	11:ccomp	Discourse=joint_m:16->10:0
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Bridge=5<11|Entity=(abstract-11-acc:inf-2-coref
+14	range	range	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	_
+15	of	of	ADP	IN	_	16	case	16:case	_
+16	experiences	experience	NOUN	NNS	Number=Plur	14	nmod	14:nmod:of	Entity=11)
+17	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_stroke-6
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_B
+# text = I internally 'knew' what was going on (after the initial hours of just being a complete mess), but the internal monologue was very simplistic -- it was an understanding and acknowledgment of my surroundings and what was going on, but also a realization that my consciousness was traumatically altered.
+# newpar = sp who:::"GUM_reddit_stroke_spk_B" whom:::"GUM_reddit_stroke_spk_A" (3 s) | p (2 s)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=ROOT:17:0|Entity=(person-12-acc:com-1-ana)
+2	internally	internally	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
+3	'	'	PUNCT	``	_	4	punct	4:punct	SpaceAfter=No|XML=<q>
+4	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+5	'	'	PUNCT	''	_	4	punct	4:punct	XML=</q>
+6	what	what	PRON	WP	PronType=Rel	4	obj	4:obj	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	8:aux	_
+8	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	6	acl:relcl	6:acl:relcl	_
+9	on	on	ADP	RP	_	8	compound:prt	8:compound:prt	_
+10	(	(	PUNCT	-LRB-	_	14	punct	14:punct	Discourse=circumstance:18->17:0|SpaceAfter=No
+11	after	after	ADP	IN	_	14	case	14:case	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(time-13-acc:com-3-sgl
+13	initial	initial	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
+14	hours	hour	NOUN	NNS	Number=Plur	4	obl	4:obl:after	_
+15	of	of	SCONJ	IN	_	20	mark	20:mark	Discourse=elaboration:19->18:0
+16	just	just	ADV	RB	_	20	advmod	20:advmod	_
+17	being	be	AUX	VBG	VerbForm=Ger	20	cop	20:cop	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(abstract-14-new-3-sgl
+19	complete	complete	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
+20	mess	mess	NOUN	NN	Number=Sing	14	obl	14:obl	Entity=14)13)|SpaceAfter=No
+21	)	)	PUNCT	-RRB-	_	14	punct	14:punct	SpaceAfter=No
+22	,	,	PUNCT	,	_	29	punct	29:punct	_
+23	but	but	CCONJ	CC	_	29	cc	29:cc	Discourse=contrast_m:20->17:1
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(abstract-8-giv:inact-3-coref
+25	internal	internal	ADJ	JJ	Degree=Pos	26	amod	26:amod	_
+26	monologue	monologue	NOUN	NN	Number=Sing	29	nsubj	29:nsubj	Entity=8)
+27	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	cop	29:cop	_
+28	very	very	ADV	RB	_	29	advmod	29:advmod	_
+29	simplistic	simplistic	ADJ	JJ	Degree=Pos	4	conj	4:conj:but	_
+30	--	-	PUNCT	:	_	34	punct	34:punct	_
+31	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	nsubj	34:nsubj|36:nsubj|49:nsubj	Discourse=elaboration:21->20:0|Entity=(abstract-8-giv:act-1-ana)
+32	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	cop	34:cop	_
+33	an	a	DET	DT	Definite=Ind|PronType=Art	34	det	34:det	Entity=(abstract-8-giv:act-2,4,17-pred(abstract-15-new-2,4-sgl
+34	understanding	understanding	NOUN	NN	Number=Sing	29	parataxis	29:parataxis	_
+35	and	and	CCONJ	CC	_	36	cc	36:cc	_
+36	acknowledgment	acknowledgment	NOUN	NN	Number=Sing	34	conj	34:conj:and	_
+37	of	of	ADP	IN	_	39	case	39:case	_
+38	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	39	nmod:poss	39:nmod:poss	Entity=(place-16-new-2-sgl(person-12-giv:act-1-ana)
+39	surroundings	surroundings	NOUN	NNS	Number=Plur	36	nmod	36:nmod:of	Entity=16)
+40	and	and	CCONJ	CC	_	41	cc	41:cc	_
+41	what	what	PRON	WP	PronType=Rel	39	conj	36:nmod:of|39:conj:and	_
+42	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	43	aux	43:aux	_
+43	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	41	acl:relcl	41:acl:relcl	_
+44	on	on	ADP	RP	_	43	compound:prt	43:compound:prt	Entity=15)|SpaceAfter=No
+45	,	,	PUNCT	,	_	49	punct	49:punct	_
+46	but	but	CCONJ	CC	_	49	cc	49:cc	Discourse=joint_m:22->21:0
+47	also	also	ADV	RB	_	49	advmod	49:advmod	_
+48	a	a	DET	DT	Definite=Ind|PronType=Art	49	det	49:det	Entity=(abstract-17-new-2-sgl
+49	realization	realization	NOUN	NN	Number=Sing	34	conj	34:conj:but	_
+50	that	that	SCONJ	IN	_	55	mark	55:mark	Discourse=elaboration:23->22:0
+51	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	52	nmod:poss	52:nmod:poss	Entity=(abstract-18-new-2-sgl(person-12-giv:act-1-ana)
+52	consciousness	consciousness	NOUN	NN	Number=Sing	55	nsubj:pass	55:nsubj:pass	Entity=18)
+53	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	55	aux:pass	55:aux:pass	_
+54	traumatically	traumatically	ADV	RB	Degree=Pos	55	advmod	55:advmod	_
+55	altered	alter	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	49	acl	49:acl:that	Entity=17)8)|SpaceAfter=No
+56	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_stroke-7
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_B
+# text = It was a mess of thoughts, but the acute period was mostly just sleeping and just acknowledging major changes ("Oh, I guess I can't walk anymore," and "Oh, I guess I'll have to learn how to write left-handed now") but there wasn't much going on.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=concession:24->25:1|Entity=(abstract-8-giv:act-1-ana)
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(abstract-8-giv:act-2-pred
+4	mess	mess	NOUN	NN	Number=Sing	0	root	0:root	_
+5	of	of	ADP	IN	_	6	case	6:case	_
+6	thoughts	thought	NOUN	NNS	Number=Plur	4	nmod	4:nmod:of	Entity=(abstract-19-new-1-sgl)8)|SpaceAfter=No
+7	,	,	PUNCT	,	_	15	punct	15:punct	_
+8	but	but	CCONJ	CC	_	15	cc	15:cc	Discourse=joint_m:25->21:1
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(abstract-20-new-3-sgl
+10	acute	acute	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
+11	period	period	NOUN	NN	Number=Sing	15	nsubj	15:nsubj|18:nsubj|59:nsubj	Entity=20)
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	15:aux|18:aux	_
+13	mostly	mostly	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
+14	just	just	ADV	RB	_	15	advmod	15:advmod	_
+15	sleeping	sleep	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj	4:conj:but	_
+16	and	and	CCONJ	CC	_	18	cc	18:cc	_
+17	just	just	ADV	RB	_	18	advmod	18:advmod	_
+18	acknowledging	acknowledge	VERB	VBG	VerbForm=Ger	15	conj	4:conj|15:conj:and	_
+19	major	major	ADJ	JJ	Degree=Pos	20	amod	20:amod	Entity=(abstract-21-new-2-coref
+20	changes	change	NOUN	NNS	Number=Plur	18	obj	18:obj	Entity=21)
+21	(	(	PUNCT	-LRB-	_	26	punct	26:punct	Discourse=attribution:26->27:0|SpaceAfter=No
+22	"	''	PUNCT	``	_	26	punct	26:punct	Entity=(abstract-21-giv:act-5,18-appos|SpaceAfter=No|XML=<quote>
+23	Oh	oh	INTJ	UH	_	26	discourse	26:discourse	Entity=(abstract-22-new-4-sgl|SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	23:punct	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	26:nsubj	Entity=(person-12-giv:act-1-ana)
+26	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	appos	20:appos	_
+27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	30:nsubj	Discourse=elaboration:27->25:0|Entity=(person-12-giv:act-1-ana)
+28-29	can't	_	_	_	_	_	_	_	_
+28	ca	can	AUX	MD	VerbForm=Fin	30	aux	30:aux	_
+29	n't	not	PART	RB	Polarity=Neg	30	advmod	30:advmod	_
+30	walk	walk	VERB	VB	VerbForm=Inf	26	ccomp	26:ccomp	_
+31	anymore	anymore	ADV	RB	Degree=Pos	30	advmod	30:advmod	Entity=22)|SpaceAfter=No
+32	,	,	PUNCT	,	_	26	punct	26:punct	SpaceAfter=No
+33	"	''	PUNCT	''	_	26	punct	26:punct	XML=</quote>
+34	and	and	CCONJ	CC	_	39	cc	39:cc	Discourse=attribution:28->29:0
+35	"	''	PUNCT	``	_	39	punct	39:punct	SpaceAfter=No|XML=<quote>
+36	Oh	oh	INTJ	UH	_	39	discourse	39:discourse	Entity=(abstract-23-new-4-sgl|SpaceAfter=No
+37	,	,	PUNCT	,	_	36	punct	36:punct	_
+38	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	39	nsubj	39:nsubj	Entity=(person-12-giv:act-1-ana)
+39	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	conj	20:appos|26:conj:and	_
+40-41	I'll	_	_	_	_	_	_	_	_
+40	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	42	nsubj	42:nsubj|44:nsubj:xsubj	Discourse=joint_m:29->27:1|Entity=(person-12-giv:act-1-ana)
+41	'll	will	AUX	MD	VerbForm=Fin	42	aux	42:aux	_
+42	have	have	VERB	VB	VerbForm=Inf	39	ccomp	39:ccomp	_
+43	to	to	PART	TO	_	44	mark	44:mark	_
+44	learn	learn	VERB	VB	VerbForm=Inf	42	xcomp	42:xcomp	_
+45	how	how	SCONJ	WRB	PronType=Int	44	obj	44:obj	_
+46	to	to	PART	TO	_	47	mark	47:mark	_
+47	write	write	VERB	VB	VerbForm=Inf	45	acl	45:acl:to	_
+48	left	left	ADJ	JJ	Degree=Pos	50	amod	50:amod	SpaceAfter=No|XML=<w>
+49	-	-	PUNCT	HYPH	_	48	punct	48:punct	SpaceAfter=No
+50	handed	handed	ADV	RB	Degree=Pos	47	advmod	47:advmod	XML=</w>
+51	now	now	ADV	RB	_	47	advmod	47:advmod	Entity=23)|SpaceAfter=No
+52	"	''	PUNCT	''	_	39	punct	39:punct	Entity=21)|SpaceAfter=No|XML=</quote>
+53	)	)	PUNCT	-RRB-	_	26	punct	26:punct	_
+54	but	but	CCONJ	CC	_	59	cc	59:cc	Discourse=contrast_m:30->25:2
+55	there	there	PRON	EX	_	59	expl	59:expl	_
+56-57	wasn't	_	_	_	_	_	_	_	_
+56	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	59	aux	59:aux	_
+57	n't	not	PART	RB	Polarity=Neg	59	advmod	59:advmod	_
+58	much	much	ADJ	JJ	Degree=Pos	59	advmod	59:advmod	_
+59	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	15	conj	4:conj|15:conj:but	_
+60	on	on	ADP	RP	_	59	compound:prt	59:compound:prt	SpaceAfter=No
+61	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_stroke-8
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = frag
+# speaker = GUM_reddit_stroke_spk_B
+# text = Best, /MurrayStreet
+# newpar = p (1 s)
+1	Best	good	ADJ	JJS	Degree=Sup	0	root	0:root	Discourse=attribution:31->17:2|SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	3:punct	_
+3	/MurrayStreet	/MurrayStreet	PROPN	NNP	Number=Sing	1	parataxis	1:parataxis	Entity=(person-12-giv:act-1-coref)|XML=<sic></sic>
+
+# sent_id = GUM_reddit_stroke-9
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_C
+# text = I could always speak to some degree, sometimes it was jibberish but I could speak ... so not sure how useful my experience is for you.
+# newpar = sp who:::"GUM_reddit_stroke_spk_C" whom:::"GUM_reddit_stroke_spk_A" (10 s) | p (3 s)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint_m:32->17:3|Entity=(person-24-acc:com-1-ana)
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
+3	always	always	ADV	RB	_	4	advmod	4:advmod	_
+4	speak	speak	VERB	VB	VerbForm=Inf	0	root	0:root	Entity=(event-25-new-1-disc)
+5	to	to	ADP	IN	_	7	case	7:case	_
+6	some	some	DET	DT	_	7	det	7:det	_
+7	degree	degree	NOUN	NN	Number=Sing	4	obl	4:obl:to	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	12:punct	_
+9	sometimes	sometimes	ADV	RB	_	12	advmod	12:advmod	Discourse=concession:33->32:0
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(event-25-giv:act-1-coref)
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	12:cop	_
+12	jibberish	jibberish	ADJ	JJ	Degree=Pos	4	parataxis	4:parataxis	Entity=(event-25-giv:act-1-coref)
+13	but	but	CCONJ	CC	_	16	cc	16:cc	Discourse=restatement_m:34->32:1
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	16:nsubj	Entity=(person-24-giv:act-1-ana)
+15	could	could	AUX	MD	VerbForm=Fin	16	aux	16:aux	_
+16	speak	speak	VERB	VB	VerbForm=Inf	12	conj	12:conj:but	Entity=(event-25-giv:act-1-coref)
+17	...	…	PUNCT	:	_	20	punct	20:punct	_
+18	so	so	ADV	RB	_	20	advmod	20:advmod	Discourse=attribution:35->36:0
+19	not	not	PART	RB	Polarity=Neg	20	advmod	20:advmod	_
+20	sure	sure	ADJ	JJ	Degree=Pos	4	parataxis	4:parataxis	_
+21	how	how	SCONJ	WRB	PronType=Int	22	mark	22:mark	Discourse=concession:36->32:2
+22	useful	useful	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
+23	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	24:nmod:poss	Entity=(abstract-11-giv:inact-2-coref(person-24-giv:act-1-ana)
+24	experience	experience	NOUN	NN	Number=Sing	27	nsubj	27:nsubj	Entity=11)
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	27:cop	_
+26	for	for	ADP	IN	_	27	case	27:case	_
+27	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	20	ccomp	20:ccomp	Entity=(person-4-giv:inact-1-ana)|SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_stroke-10
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_C
+# text = I had my stroke at 31, so pretty close age wise.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=background:37->32:3|Entity=(person-24-giv:act-1-ana)
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(event-26-new-2-coref(person-24-giv:act-1-ana)
+4	stroke	stroke	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=26)
+5	at	at	ADP	IN	_	6	case	6:case	_
+6	31	31	NUM	CD	NumForm=Digit|NumType=Card	2	obl	2:obl:at	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	10:punct	_
+8	so	so	ADV	RB	_	10	advmod	10:advmod	_
+9	pretty	pretty	ADV	RB	_	10	advmod	10:advmod	_
+10	close	close	ADJ	JJ	Degree=Pos	2	parataxis	2:parataxis	_
+11	age	age	NOUN	NN	Number=Sing|Typo=Yes	10	obl:npmod	10:obl:npmod	XML=<sic>
+12	wise	wise	ADV	RB	Degree=Pos|Typo=Yes	11	advmod	11:advmod	SpaceAfter=No|XML=</sic>
+13	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_stroke-11
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_C
+# text = Compared to many here my stroke was not so severe, I recovered fully & quickly.
+1	Compared	compare	VERB	VBN	Tense=Past|VerbForm=Part	10	advcl	10:advcl	Discourse=antithesis:38->39:0
+2	to	to	ADP	IN	_	3	case	3:case	_
+3	many	many	ADJ	JJ	Degree=Pos	1	obl	1:obl:to	Entity=(person-27-acc:com-1-sgl
+4	here	here	ADV	RB	PronType=Dem	3	advmod	3:advmod	Entity=(place-28-acc:com-1-sgl)27)
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Discourse=evaluation:39->37:0|Entity=(event-26-giv:act-2-coref(person-24-giv:act-1-ana)
+6	stroke	stroke	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=26)
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	10:cop	_
+8	not	not	PART	RB	Polarity=Neg	10	advmod	10:advmod	_
+9	so	so	ADV	RB	_	10	advmod	10:advmod	_
+10	severe	severe	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	13:punct	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	13:nsubj	Discourse=evidence:40->39:1|Entity=(person-24-giv:act-1-ana)
+13	recovered	recover	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	parataxis	10:parataxis	_
+14	fully	fully	ADV	RB	Degree=Pos	13	advmod	13:advmod	_
+15	&	&	CCONJ	CC	_	16	cc	16:cc	_
+16	quickly	quickly	ADV	RB	Degree=Pos	14	conj	13:advmod|14:conj:and	SpaceAfter=No
+17	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = GUM_reddit_stroke-12
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_C
+# text = I felt like I was present, but in hindsight I wasn't nearly as with it as I felt internally at the time.
+# newpar = p (7 s)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration:41->32:4|Entity=(person-24-giv:act-1-ana)
+2	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	like	like	SCONJ	IN	_	6	mark	6:mark	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-24-giv:act-1-ana)
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
+6	present	present	ADJ	JJ	Degree=Pos	2	advcl	2:advcl:like	SpaceAfter=No
+7	,	,	PUNCT	,	_	17	punct	17:punct	_
+8	but	but	CCONJ	CC	_	17	cc	17:cc	Discourse=contrast_m:42->41:0
+9	in	in	ADP	IN	_	10	case	10:case	_
+10	hindsight	hindsight	NOUN	NN	Number=Sing	17	obl	17:obl:in	Entity=(abstract-29-new-1-sgl)
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	17:nsubj	Entity=(abstract-30-new-7-disc(person-24-giv:act-1-ana)
+12-13	wasn't	_	_	_	_	_	_	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	17	cop	17:cop	_
+13	n't	not	PART	RB	Polarity=Neg	17	advmod	17:advmod	_
+14	nearly	nearly	ADV	RB	Degree=Pos	17	advmod	17:advmod	_
+15	as	as	ADV	RB	_	17	advmod	17:advmod	_
+16	with	with	ADP	IN	_	17	case	17:case	_
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	conj	2:conj:but	_
+18	as	as	SCONJ	IN	_	20	mark	20:mark	Discourse=manner:43->42:0
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	20:nsubj	Entity=(person-24-giv:act-1-ana)
+20	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	17	advcl	17:advcl:as	_
+21	internally	internally	ADV	RB	Degree=Pos	20	advmod	20:advmod	_
+22	at	at	ADP	IN	_	24	case	24:case	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	_
+24	time	time	NOUN	NN	Number=Sing	20	obl	20:obl:at	Entity=30)|SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_stroke-13
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_C
+# text = I thought I was participating in conversation with my family, but my husband tells me I just kind of laid there and laughed or nodded my head ... did not contribute and when I tried it didn't make sense.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint_m:44->41:1|Entity=(person-24-giv:act-1-ana)
+2	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-24-giv:act-1-ana)
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
+5	participating	participate	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	2:ccomp	_
+6	in	in	ADP	IN	_	7	case	7:case	_
+7	conversation	conversation	NOUN	NN	Number=Sing	5	obl	5:obl:in	Entity=(abstract-31-new-1-coref)
+8	with	with	ADP	IN	_	10	case	10:case	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(person-32-new-2-sgl(person-24-giv:act-1-ana)
+10	family	family	NOUN	NN	Number=Sing	5	obl	5:obl:with	Entity=32)|SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	15:punct	_
+12	but	but	CCONJ	CC	_	15	cc	15:cc	Discourse=attribution:45->46:1
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(person-33-new-2-coref(person-24-giv:act-1-ana)
+14	husband	husband	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=33)
+15	tells	tell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	2:conj:but	_
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	iobj	15:iobj	Entity=(person-24-giv:act-1-ana)
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	21:nsubj|24:nsubj	Discourse=contrast_m:46->44:0|Entity=(person-24-giv:act-1-ana)
+18	just	just	ADV	RB	_	21	advmod	21:advmod	_
+19	kind	kind	NOUN	NN	Number=Sing	21	obl:npmod	21:obl:npmod	_
+20	of	of	ADP	IN	_	19	fixed	19:fixed	_
+21	laid	lay	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	ccomp	15:ccomp	_
+22	there	there	ADV	RB	PronType=Dem	21	advmod	21:advmod	_
+23	and	and	CCONJ	CC	_	24	cc	24:cc	Discourse=joint_m:47->46:0
+24	laughed	laugh	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	21	conj	15:ccomp|21:conj:and	_
+25	or	or	CCONJ	CC	_	26	cc	26:cc	Discourse=contrast_m:48->47:0
+26	nodded	nod	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	conj	21:conj|24:conj:or	_
+27	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	28:nmod:poss	Entity=(object-34-new-2-sgl(person-24-giv:act-1-ana)
+28	head	head	NOUN	NN	Number=Sing	26	obj	26:obj	Entity=34)
+29	...	…	PUNCT	:	_	32	punct	32:punct	_
+30	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	aux	32:aux	Discourse=joint_m:49->46:0
+31	not	not	PART	RB	Polarity=Neg	32	advmod	32:advmod	_
+32	contribute	contribute	VERB	VB	Person=2|VerbForm=Inf	2	parataxis	2:parataxis	Entity=(event-35-new-1-disc)
+33	and	and	CCONJ	CC	_	40	cc	40:cc	Discourse=circumstance:50->51:0
+34	when	when	SCONJ	WRB	PronType=Int	36	mark	36:mark	_
+35	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	36:nsubj	Entity=(person-24-giv:act-1-ana)
+36	tried	try	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	40	advcl	40:advcl:when	_
+37	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	40	nsubj	40:nsubj	Discourse=elaboration:51->49:0|Entity=(event-35-giv:act-1-coref)
+38-39	didn't	_	_	_	_	_	_	_	_
+38	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	40	aux	40:aux	_
+39	n't	not	PART	RB	Polarity=Neg	40	advmod	40:advmod	_
+40	make	make	VERB	VB	VerbForm=Inf	32	conj	32:conj:and	_
+41	sense	sense	NOUN	NN	Number=Sing	40	obj	40:obj	SpaceAfter=No
+42	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_stroke-14
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_C
+# text = I felt like I was speaking normally and couldn't understand why people would look at me funny or not understand, at least until I was prompted to say certain words and was unable to say them at all ... then I somewhat accepted it.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj|11:nsubj	Discourse=attribution:52->53:0|Entity=(person-24-giv:act-1-ana)
+2	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	like	like	SCONJ	IN	_	6	mark	6:mark	Discourse=joint_m:53->41:1
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-24-giv:act-1-ana)
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	6:aux	_
+6	speaking	speak	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	2:advcl:like	_
+7	normally	normally	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
+8	and	and	CCONJ	CC	_	11	cc	11:cc	Discourse=attribution:54->55:0
+9-10	couldn't	_	_	_	_	_	_	_	_
+9	could	could	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
+10	n't	not	PART	RB	Polarity=Neg	11	advmod	11:advmod	_
+11	understand	understand	VERB	VB	VerbForm=Inf	2	conj	2:conj:and	_
+12	why	why	SCONJ	WRB	PronType=Rel	11	obj	11:obj	Discourse=joint_m:55->53:1
+13	people	person	NOUN	NNS	Number=Plur	15	nsubj	15:nsubj|21:nsubj	Entity=(person-36-new-1-sgl)
+14	would	would	AUX	MD	Number=Plur|Person=3|VerbForm=Fin	15	aux	15:aux|21:aux	_
+15	look	look	VERB	VB	VerbForm=Inf	12	acl:relcl	12:acl:relcl	_
+16	at	at	ADP	IN	_	17	case	17:case	_
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obl	15:obl:at	Entity=(person-24-giv:act-1-ana)
+18	funny	funny	ADV	RB	Degree=Pos	15	advmod	15:advmod	_
+19	or	or	CCONJ	CC	_	21	cc	21:cc	_
+20	not	not	PART	RB	Polarity=Neg	21	advmod	21:advmod	_
+21	understand	understand	VERB	VB	VerbForm=Inf	15	conj	12:acl:relcl|15:conj:or	SpaceAfter=No
+22	,	,	PUNCT	,	_	28	punct	28:punct	_
+23	at	at	ADV	IN	_	28	advmod	28:advmod	Discourse=circumstance:56->57:0
+24	least	least	ADJ	JJS	Degree=Sup	23	fixed	23:fixed	_
+25	until	until	SCONJ	IN	_	28	mark	28:mark	_
+26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj:pass	28:nsubj:pass|30:nsubj:xsubj|37:nsubj:xsubj	Entity=(person-24-giv:act-1-ana)
+27	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	28	aux:pass	28:aux:pass	_
+28	prompted	prompt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	advcl	11:advcl:until	_
+29	to	to	PART	TO	_	30	mark	30:mark	_
+30	say	say	VERB	VB	VerbForm=Inf	28	xcomp	28:xcomp	_
+31	certain	certain	ADJ	JJ	Degree=Pos	32	amod	32:amod	Entity=(abstract-37-new-2-coref
+32	words	word	NOUN	NNS	Number=Plur	30	obj	30:obj	Entity=37)
+33	and	and	CCONJ	CC	_	35	cc	35:cc	Discourse=cause:57->58:0
+34	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	35	cop	35:cop	_
+35	unable	unable	ADJ	JJ	Degree=Pos|Polarity=Neg	28	conj	11:advcl:until|28:conj:and	_
+36	to	to	PART	TO	_	37	mark	37:mark	_
+37	say	say	VERB	VB	VerbForm=Inf	35	xcomp	35:xcomp	_
+38	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	37	obj	37:obj	Entity=(abstract-37-giv:act-1-ana)
+39	at	at	ADP	IN	_	40	case	40:case	_
+40	all	all	DET	DT	_	37	obl	37:obl:at	_
+41	...	…	PUNCT	:	_	45	punct	45:punct	_
+42	then	then	ADV	RB	PronType=Dem	45	advmod	45:advmod	Discourse=contrast_m:58->53:2
+43	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	45	nsubj	45:nsubj	Entity=(person-24-giv:act-1-ana)
+44	somewhat	somewhat	ADV	RB	_	45	advmod	45:advmod	_
+45	accepted	accept	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	parataxis	2:parataxis	_
+46	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	45	obj	45:obj	Entity=(abstract-30-giv:inact-1-coref)|SpaceAfter=No
+47	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_stroke-15
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_C
+# text = I remember bits and pieces of the conversation, my brother talking to the nurse about some tool they used to keep an eye on ICP, etc.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint_m:59->41:1|Entity=(person-24-giv:act-1-ana)
+2	remember	remember	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	bits	bit	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=(event-38-new-1,3-coref
+4	and	and	CCONJ	CC	_	5	cc	5:cc	_
+5	pieces	piece	NOUN	NNS	Number=Plur	3	conj	2:obj|3:conj:and	_
+6	of	of	ADP	IN	_	8	case	8:case	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(abstract-31-giv:inact-2-coref
+8	conversation	conversation	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	Entity=31)38)|SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	12:punct	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Discourse=elaboration:60->59:0|Entity=(event-38-giv:act-3-appos(person-39-new-2-sgl(person-24-giv:act-1-ana)
+11	brother	brother	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=39)
+12	talking	talk	VERB	VBG	VerbForm=Ger	3	appos	3:appos	_
+13	to	to	ADP	IN	_	15	case	15:case	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(person-40-acc:com-2-coref
+15	nurse	nurse	NOUN	NN	Number=Sing	12	obl	12:obl:to	Entity=40)
+16	about	about	ADP	IN	_	18	case	18:case	_
+17	some	some	DET	DT	_	18	det	18:det	Entity=(object-41-new-2-sgl
+18	tool	tool	NOUN	NN	Number=Sing	15	nmod	15:nmod:about	_
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	20:nsubj	Discourse=elaboration:61->60:0|Entity=(person-40-acc:com-1-ana)
+20	used	use	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	18:acl:relcl	_
+21	to	to	PART	TO	_	22	mark	22:mark	Discourse=purpose:62->61:0
+22	keep	keep	VERB	VB	VerbForm=Inf	20	advcl	20:advcl:to	_
+23	an	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	_
+24	eye	eye	NOUN	NN	Number=Sing	22	obj	22:obj	_
+25	on	on	ADP	IN	_	26	case	26:case	_
+26	ICP	ICP	NOUN	NN	Number=Sing	22	obl	22:obl:on	Entity=(place-42-new-1-sgl)41)38)|SpaceAfter=No
+27	,	,	PUNCT	,	_	28	punct	28:punct	_
+28	etc.	etc.	X	FW	Abbr=Yes	12	conj	3:appos|12:conj	_
+
+# sent_id = GUM_reddit_stroke-16
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_C
+# text = I knew where I was, but I didn't feel like I should be there.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:63->64:0|Entity=(person-24-giv:act-1-ana)
+2	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	where	where	SCONJ	WRB	PronType=Int	2	ccomp	2:ccomp	Discourse=joint_m:64->41:1|Entity=(place-43-new-1-coref)
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-24-giv:act-1-ana)
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	cop	3:cop	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	11:punct	_
+7	but	but	CCONJ	CC	_	11	cc	11:cc	Discourse=attribution:65->66:0
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	11:nsubj	Entity=(person-24-giv:act-1-ana)
+9-10	didn't	_	_	_	_	_	_	_	_
+9	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	aux	11:aux	_
+10	n't	not	PART	RB	Polarity=Neg	11	advmod	11:advmod	_
+11	feel	feel	VERB	VB	VerbForm=Inf	2	conj	2:conj:but	_
+12	like	like	SCONJ	IN	_	16	mark	16:mark	Discourse=contrast_m:66->64:1
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	16:nsubj	Entity=(person-24-giv:act-1-ana)
+14	should	should	AUX	MD	VerbForm=Fin	16	aux	16:aux	_
+15	be	be	AUX	VB	VerbForm=Inf	16	cop	16:cop	_
+16	there	there	ADV	RB	PronType=Dem	11	advcl	11:advcl:like	Entity=(place-43-giv:act-1-coref)|SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_stroke-17
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_C
+# text = I always knew my husband was there and only left when other family stayed with me.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=attribution:67->68:1|Entity=(person-24-giv:act-1-ana)
+2	always	always	ADV	RB	_	3	advmod	3:advmod	_
+3	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Discourse=joint_m:68->41:1|Entity=(event-44-new-4,7-disc(person-33-giv:inact-2-coref(person-24-giv:act-1-ana)
+5	husband	husband	NOUN	NN	Number=Sing	7	nsubj	7:nsubj|10:nsubj	Entity=33)
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
+7	there	there	ADV	RB	PronType=Dem	3	ccomp	3:ccomp	Entity=(place-43-giv:act-1-coref)
+8	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=joint_m:69->68:0
+9	only	only	ADV	RB	_	10	advmod	10:advmod	_
+10	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	3:ccomp|7:conj:and	_
+11	when	when	SCONJ	WRB	PronType=Int	14	mark	14:mark	Discourse=circumstance:70->69:0
+12	other	other	ADJ	JJ	Degree=Pos	13	amod	13:amod	Entity=(person-45-new-2-sgl
+13	family	family	NOUN	NN	Number=Sing	14	nsubj	14:nsubj	Entity=45)
+14	stayed	stay	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	advcl	10:advcl:when	_
+15	with	with	ADP	IN	_	16	case	16:case	_
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obl	14:obl:with	Entity=(person-24-giv:act-1-ana)44)|SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_stroke-18
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_C
+# text = I really appreciated that.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=evaluation:71->68:2|Entity=(person-24-giv:act-1-ana)
+2	really	really	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
+3	appreciated	appreciate	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+4	that	that	ADP	IN	_	3	obj	3:obj	Entity=(event-44-giv:act-1-coref)|SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_stroke-19
+# addressee = GUM_reddit_stroke_spk_C
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_A
+# text = I just got back from visiting and it seems like my cousin's experience has a lot in common with yours.
+# newpar = sp who:::"GUM_reddit_stroke_spk_A" whom:::"GUM_reddit_stroke_spk_C" (7 s) | p (7 s)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj|9:nsubj	Discourse=evidence:72->73:0|Entity=(person-4-giv:inact-1-ana)
+2	just	just	ADV	RB	_	3	advmod	3:advmod	_
+3	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+4	back	back	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
+5	from	from	SCONJ	IN	_	6	mark	6:mark	_
+6	visiting	visit	VERB	VBG	VerbForm=Ger	3	advcl	3:advcl:from	_
+7	and	and	CCONJ	CC	_	9	cc	9:cc	Discourse=background:73->84:3
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	9:expl	_
+9	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	3:conj:and	_
+10	like	like	SCONJ	IN	_	15	mark	15:mark	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(abstract-46-new-4-sgl(person-3-giv:inact-2-coref(person-4-giv:act-1-ana)
+12-13	cousin's	_	_	_	_	_	_	_	_
+12	cousin	cousin	NOUN	NN	Number=Sing	14	nmod:poss	14:nmod:poss	_
+13	's	's	PART	POS	_	12	case	12:case	Entity=3)
+14	experience	experience	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=46)
+15	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl:like	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	_
+17	lot	lot	NOUN	NN	Number=Sing	15	obj	15:obj	_
+18	in	in	ADP	IN	_	19	case	19:case	_
+19	common	common	ADJ	JJ	Degree=Pos	17	nmod	17:nmod:in	_
+20	with	with	ADP	IN	_	21	case	21:case	_
+21	yours	yours	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	19	obl	19:obl:with	Entity=(abstract-11-giv:inact-1-ana)|SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_stroke-20
+# addressee = GUM_reddit_stroke_spk_C
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_A
+# text = In less than a week, she can walk on her own, and apparently can play Wii.
+1	In	in	ADP	IN	_	5	case	5:case	Discourse=elaboration:74->73:1
+2	less	less	ADV	RBR	Degree=Cmp	5	advmod	5:advmod	_
+3	than	than	ADP	IN	_	2	fixed	2:fixed	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(time-47-new-2-sgl
+5	week	week	NOUN	NN	Number=Sing	9	obl	9:obl:in	Entity=47)|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	5:punct	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj|17:nsubj	Entity=(person-3-giv:act-1-ana)
+8	can	can	AUX	MD	VerbForm=Fin	9	aux	9:aux	_
+9	walk	walk	VERB	VB	VerbForm=Inf	0	root	0:root	_
+10	on	on	ADP	IN	_	12	case	12:case	_
+11	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	12:nmod:poss	Entity=(person-3-giv:act-1-ana)
+12	own	own	ADJ	JJ	Degree=Pos	9	obl	9:obl:on	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	17:punct	_
+14	and	and	CCONJ	CC	_	17	cc	17:cc	Discourse=joint_m:75->74:0
+15	apparently	apparently	ADV	RB	Degree=Pos	17	advmod	17:advmod	_
+16	can	can	AUX	MD	VerbForm=Fin	17	aux	17:aux	_
+17	play	play	VERB	VB	VerbForm=Inf	9	conj	9:conj:and	_
+18	Wii	Wii	PROPN	NNP	Number=Sing	17	obj	17:obj	Entity=(object-48-new-1-sgl-Wii)|SpaceAfter=No
+19	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = GUM_reddit_stroke-21
+# addressee = GUM_reddit_stroke_spk_C
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_A
+# text = She seems to recognize most people, although she couldn't identify herself in a picture. :-(
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|4:nsubj:xsubj	Discourse=joint_m:76->74:0|Entity=(person-3-giv:act-1-ana)
+2	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	to	to	PART	TO	_	4	mark	4:mark	_
+4	recognize	recognize	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	_
+5	most	most	ADJ	JJS	Degree=Sup	6	amod	6:amod	Entity=(person-49-new-2-sgl
+6	people	person	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=49)|SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	12:punct	_
+8	although	although	SCONJ	IN	_	12	mark	12:mark	Discourse=concession:77->76:0
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(person-3-giv:act-1-ana)
+10-11	couldn't	_	_	_	_	_	_	_	_
+10	could	could	AUX	MD	VerbForm=Fin	12	aux	12:aux	_
+11	n't	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	_
+12	identify	identify	VERB	VB	VerbForm=Inf	2	advcl	2:advcl:although	_
+13	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	12	obj	12:obj	Entity=(person-3-giv:act-1-ana)
+14	in	in	ADP	IN	_	16	case	16:case	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(object-50-new-2-sgl
+16	picture	picture	NOUN	NN	Number=Sing	12	obl	12:obl:in	Entity=50)|SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	2:punct	_
+18	:-(	:-(	SYM	SYM	_	2	discourse	2:discourse	Discourse=evaluation:78->77:0
+
+# sent_id = GUM_reddit_stroke-22
+# addressee = GUM_reddit_stroke_spk_C
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_A
+# text = Her vocabulary is limited but we are able to communicate.
+1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Bridge=4<3|Discourse=concession:79->80:0|Entity=(abstract-51-new-2-sgl(person-3-acc:inf-1-ana)
+2	vocabulary	vocabulary	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=51)
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
+4	limited	limited	ADJ	JJ	Degree=Pos	0	root	0:root	_
+5	but	but	CCONJ	CC	_	8	cc	8:cc	Discourse=joint_m:80->74:0
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	8:nsubj|10:nsubj:xsubj	Bridge=4<52|Entity=(person-52-acc:inf-1-sgl)
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
+8	able	able	ADJ	JJ	Degree=Pos	4	conj	4:conj:but	_
+9	to	to	PART	TO	_	10	mark	10:mark	_
+10	communicate	communicate	VERB	VB	VerbForm=Inf	8	xcomp	8:xcomp	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_stroke-23
+# addressee = GUM_reddit_stroke_spk_C
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_A
+# text = A lot of my family have young children so they brought in children's books and are reading them to her.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=background:81->82:0|Entity=(person-53-new-2-coref
+2	lot	lot	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	_
+3	of	of	ADP	IN	_	5	case	5:case	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(person-54-new-2-sgl(person-55-new-1-ana)
+5	family	family	NOUN	NN	Number=Sing	2	nmod	2:nmod:of	Entity=54)53)
+6	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+7	young	young	ADJ	JJ	Degree=Pos	8	amod	8:amod	Entity=(person-56-new-2-sgl
+8	children	child	NOUN	NNS	Number=Plur	6	obj	6:obj	Entity=56)
+9	so	so	ADV	RB	_	11	advmod	11:advmod	Discourse=background:82->84:0
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	11:nsubj|18:nsubj	Bridge=4<53|Entity=(person-53-acc:inf-1-ana)
+11	brought	bring	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	parataxis	6:parataxis	_
+12	in	in	ADP	RP	_	11	compound:prt	11:compound:prt	_
+13-14	children's	_	_	_	_	_	_	_	_
+13	children	child	NOUN	NNS	Number=Plur	15	nmod:poss	15:nmod:poss	Entity=(object-57-new-3-coref
+14	's	's	PART	POS	_	13	case	13:case	_
+15	books	book	NOUN	NNS	Number=Plur	11	obj	11:obj	Entity=57)
+16	and	and	CCONJ	CC	_	18	cc	18:cc	Discourse=joint_m:83->82:1
+17	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	18:aux	_
+18	reading	read	VERB	VBG	Tense=Pres|VerbForm=Part	11	conj	11:conj:and	Entity=(event-58-new-1-disc
+19	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	obj	18:obj	Entity=(object-57-giv:act-1-ana)
+20	to	to	ADP	IN	_	21	case	21:case	_
+21	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obl	18:obl:to	Entity=(person-3-giv:act-1-ana)58)|SpaceAfter=No
+22	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = GUM_reddit_stroke-24
+# addressee = GUM_reddit_stroke_spk_C
+# s_type = q
+# speaker = GUM_reddit_stroke_spk_A
+# text = Is that a good start, or should we just grab a Jane Austen and read that to her?
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	Discourse=question:84->94:4
+2	that	that	ADP	IN	_	5	nsubj	5:nsubj	Entity=(event-58-giv:act-1-coref)
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(event-59-new-3-sgl
+4	good	good	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
+5	start	start	NOUN	NN	Number=Sing	0	root	0:root	Entity=59)|SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	11:punct	_
+7	or	or	CCONJ	CC	_	11	cc	11:cc	Discourse=contrast_m:85->84:1
+8	should	should	AUX	MD	VerbForm=Fin	11	aux	11:aux|16:aux	_
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	11:nsubj|16:nsubj	Bridge=4<60|Entity=(person-60-acc:inf-1-coref)
+10	just	just	ADV	RB	_	11	advmod	11:advmod	_
+11	grab	grab	VERB	VB	VerbForm=Inf	5	conj	5:conj:or	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(object-61-new-2,3-coref
+13	Jane	Jane	PROPN	NNP	Number=Sing	11	obj	11:obj	_
+14	Austen	Austen	PROPN	NNP	Number=Sing	13	flat	13:flat	Entity=61)
+15	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=sequence_m:86->85:0
+16	read	read	VERB	VB	VerbForm=Inf	11	conj	5:conj|11:conj:and	_
+17	that	that	PRON	DT	Number=Sing|PronType=Dem	16	obj	16:obj	Entity=(object-61-giv:act-1-ana)
+18	to	to	ADP	IN	_	19	case	19:case	_
+19	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obl	16:obl:to	Entity=(person-3-giv:act-1-ana)|SpaceAfter=No
+20	?	?	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_stroke-25
+# addressee = GUM_reddit_stroke_spk_C
+# s_type = q
+# speaker = GUM_reddit_stroke_spk_A
+# text = We'll definitely be taking our cues from the speech therapists for re-teaching her language but to entertain and stimulate should we raise the reading level?
+1-2	We'll	_	_	_	_	_	_	_	_
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	Discourse=concession:87->91:1|Entity=(person-60-giv:act-1-ana)
+2	'll	will	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
+3	definitely	definitely	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux	5:aux	_
+5	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
+6	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(abstract-62-new-2-sgl(person-60-giv:act-1-ana)
+7	cues	cue	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=62)
+8	from	from	ADP	IN	_	11	case	11:case	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(person-63-new-3-coref
+10	speech	speech	NOUN	NN	Number=Sing	11	compound	11:compound	_
+11	therapists	therapist	NOUN	NNS	Number=Plur	5	obl	5:obl:from	Entity=63)
+12	for	for	SCONJ	IN	_	13	mark	13:mark	Discourse=purpose:88->87:0
+13	re-teaching	re-teach	VERB	VBG	VerbForm=Ger	5	advcl	5:advcl:for	_
+14	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	iobj	13:iobj	Entity=(person-3-giv:act-1-ana)
+15	language	language	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=(abstract-64-new-1-sgl)
+16	but	but	CCONJ	CC	_	23	cc	23:cc	Discourse=purpose:89->91:0
+17	to	to	PART	TO	_	18	mark	18:mark	_
+18	entertain	entertain	VERB	VB	VerbForm=Inf	23	advcl	23:advcl:to	_
+19	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=joint_m:90->89:0
+20	stimulate	stimulate	VERB	VB	VerbForm=Inf	18	conj	18:conj:and|23:advcl:to	_
+21	should	should	AUX	MD	VerbForm=Fin	23	aux	23:aux	Discourse=restatement_m:91->84:2
+22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	23:nsubj	Entity=(person-60-giv:act-1-ana)
+23	raise	raise	VERB	VB	VerbForm=Inf	5	conj	5:conj:but	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(abstract-65-new-3-coref
+25	reading	reading	NOUN	NN	Number=Sing	26	compound	26:compound	_
+26	level	level	NOUN	NN	Number=Sing	23	obj	23:obj	Entity=65)|SpaceAfter=No
+27	?	?	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_stroke-26
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = sub
+# speaker = GUM_reddit_stroke_spk_C
+# text = The speech therapists and her doctor(s) would probably have the best ideas based on her progress but if it seems like she follows the children's books I would just bump it up gradually by trying middle readers and young adult.
+# newpar = sp who:::"GUM_reddit_stroke_spk_C" whom:::"GUM_reddit_stroke_spk_A" (5 s) | p (3 s)
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=concession:92->94:1|Entity=(person-63-giv:act-3-coref
+2	speech	speech	NOUN	NN	Number=Sing	3	compound	3:compound	_
+3	therapists	therapist	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj	Entity=63)
+4	and	and	CCONJ	CC	_	6	cc	6:cc	_
+5	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	6:nmod:poss	Entity=(person-66-new-2-sgl(person-3-giv:act-1-ana)
+6	doctor(s)	doctor	NOUN	NNS	Number=Plur	3	conj	3:conj:and|9:nsubj	Entity=66)
+7	would	would	AUX	MD	Number=Plur|Person=3|VerbForm=Fin	9	aux	9:aux	_
+8	probably	probably	ADV	RB	Degree=Pos	9	advmod	9:advmod	_
+9	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(abstract-67-new-4-sgl
+11	best	good	ADJ	JJS	Degree=Sup	12	amod	12:amod	_
+12	ideas	idea	NOUN	NNS	Number=Plur	9	obj	9:obj	_
+13	based	base	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	9:advcl	Discourse=condition:93->92:0
+14	on	on	ADP	IN	_	16	case	16:case	_
+15	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(abstract-68-new-2-sgl(person-3-giv:act-1-ana)
+16	progress	progress	NOUN	NN	Number=Sing	13	obl	13:obl:on	Entity=68)67)
+17	but	but	CCONJ	CC	_	31	cc	31:cc	Discourse=joint_m:94->17:5
+18	if	if	SCONJ	IN	_	20	mark	20:mark	Discourse=condition:95->96:1
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	expl	20:expl	_
+20	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	31:advcl:if	_
+21	like	like	SCONJ	IN	_	23	mark	23:mark	_
+22	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	23:nsubj	Entity=(person-3-giv:act-1-ana)
+23	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	20:advcl:like	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(object-57-giv:inact-4-coref
+25-26	children's	_	_	_	_	_	_	_	_
+25	children	child	NOUN	NNS	Number=Plur	27	nmod:poss	27:nmod:poss	_
+26	's	's	PART	POS	_	25	case	25:case	_
+27	books	book	NOUN	NNS	Number=Plur	23	obj	23:obj	Entity=57)
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	31:nsubj	Discourse=same-unit_m:96->94:0|Entity=(person-24-giv:inact-1-ana)
+29	would	would	AUX	MD	VerbForm=Fin	31	aux	31:aux	_
+30	just	just	ADV	RB	_	31	advmod	31:advmod	_
+31	bump	bump	VERB	VB	VerbForm=Inf	9	conj	9:conj:but	_
+32	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	obj	31:obj	Entity=(abstract-65-giv:act-1-ana)
+33	up	up	ADP	RP	_	31	compound:prt	31:compound:prt	_
+34	gradually	gradually	ADV	RB	Degree=Pos	31	advmod	31:advmod	_
+35	by	by	SCONJ	IN	_	36	mark	36:mark	Discourse=means:97->96:0
+36	trying	try	VERB	VBG	VerbForm=Ger	31	advcl	31:advcl:by	_
+37	middle	middle	ADJ	JJ	Degree=Pos	38	amod	38:amod	Entity=(object-69-new-2-sgl
+38	readers	reader	NOUN	NNS	Number=Plur	36	obj	36:obj	Entity=69)
+39	and	and	CCONJ	CC	_	41	cc	41:cc	_
+40	young	young	ADJ	JJ	Degree=Pos	41	amod	41:amod	Entity=(object-70-new-2-sgl
+41	adult	adult	NOUN	NN	Number=Sing	38	conj	36:obj|38:conj:and	Entity=70)|SpaceAfter=No
+42	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = GUM_reddit_stroke-27
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_C
+# text = I was able to understand people the entire time, but there is no way I could really keep up with a novel on the level of Jane Austen.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=concession:98->99:1|Entity=(person-24-giv:act-1-ana)
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
+3	able	able	ADJ	JJ	Degree=Pos	0	root	0:root	_
+4	to	to	PART	TO	_	5	mark	5:mark	_
+5	understand	understand	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
+6	people	person	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=(person-71-new-1-sgl)
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(time-72-new-3-sgl
+8	entire	entire	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
+9	time	time	NOUN	NN	Number=Sing	5	obl:tmod	5:obl:tmod	Entity=72)|SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	13:punct	_
+11	but	but	CCONJ	CC	_	13	cc	13:cc	Discourse=justify:99->94:2
+12	there	there	PRON	EX	_	13	expl	13:expl	_
+13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj:but	_
+14	no	no	DET	DT	Polarity=Neg	15	det	15:det	_
+15	way	way	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	19:nsubj	Discourse=elaboration:100->99:0|Entity=(person-24-giv:act-1-ana)
+17	could	could	AUX	MD	VerbForm=Fin	19	aux	19:aux	_
+18	really	really	ADV	RB	Degree=Pos	19	advmod	19:advmod	_
+19	keep	keep	VERB	VB	VerbForm=Inf	15	acl:relcl	15:acl:relcl	_
+20	up	up	ADP	RP	_	19	compound:prt	19:compound:prt	_
+21	with	with	ADP	IN	_	23	case	23:case	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	23:det	Entity=(object-73-new-2,8-sgl
+23	novel	novel	NOUN	NN	Number=Sing	19	obl	19:obl:with	_
+24	on	on	ADP	IN	_	26	case	26:case	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(abstract-65-giv:act-2,5-coref
+26	level	level	NOUN	NN	Number=Sing	23	nmod	23:nmod:on	_
+27	of	of	ADP	IN	_	28	case	28:case	_
+28	Jane	Jane	PROPN	NNP	Number=Sing	26	nmod	26:nmod:of	Entity=(object-61-giv:inact-1,2-coref
+29	Austen	Austen	PROPN	NNP	Number=Sing	28	flat	28:flat	Entity=61)65)73)|SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_stroke-28
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_C
+# text = I watched movies more than I read/was read to, and pretty simple movies at that so it didn't really matter if I followed every little thing.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration:101->99:2|Entity=(person-24-giv:act-1-ana)
+2	watched	watch	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	movies	movie	NOUN	NNS	Number=Plur	2	obj	2:obj	Entity=(object-74-new-1-coref)
+4	more	more	ADV	RBR	Degree=Cmp	2	advmod	2:advmod	_
+5	than	than	SCONJ	IN	_	7	mark	7:mark	Discourse=antithesis:102->101:0
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj|10:nsubj:pass	Entity=(person-24-giv:act-1-ana)
+7	read	read	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	advcl	4:advcl:than	SpaceAfter=No|XML=<w>
+8	/	/	SYM	SYM	_	10	cc	10:cc	Discourse=contrast_m:103->102:0|SpaceAfter=No
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	10:aux:pass	XML=</w>
+10	read	read	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	conj	4:advcl:than|7:conj:slash	_
+11	to	to	ADP	IN	_	10	obl	10:obl	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	16:punct	_
+13	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=justify:104->106:1
+14	pretty	pretty	ADV	RB	_	15	advmod	15:advmod	Entity=(object-74-giv:act-3-coref
+15	simple	simple	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
+16	movies	movie	NOUN	NNS	Number=Plur	2	conj	2:conj:and	_
+17	at	at	ADP	IN	_	18	case	18:case	_
+18	that	that	PRON	DT	Number=Sing|PronType=Dem	16	nmod	16:nmod:at	Entity=74)
+19	so	so	ADV	RB	_	24	advmod	24:advmod	Discourse=evaluation:105->106:0
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	24:expl	Entity=(abstract-75-new-1-cata)
+21-22	didn't	_	_	_	_	_	_	_	_
+21	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	24	aux	24:aux	_
+22	n't	not	PART	RB	Polarity=Neg	24	advmod	24:advmod	_
+23	really	really	ADV	RB	Degree=Pos	24	advmod	24:advmod	_
+24	matter	matter	VERB	VB	VerbForm=Inf	2	parataxis	2:parataxis	_
+25	if	if	SCONJ	IN	_	27	mark	27:mark	Discourse=elaboration:106->101:1|Entity=(abstract-75-acc:com-3-coref
+26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	27:nsubj	Entity=(person-24-giv:act-1-ana)
+27	followed	follow	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	24	csubj	24:csubj	_
+28	every	every	DET	DT	_	30	det	30:det	Entity=(abstract-76-new-3-sgl
+29	little	little	ADJ	JJ	Degree=Pos	30	amod	30:amod	_
+30	thing	thing	NOUN	NN	Number=Sing	27	obj	27:obj	Entity=76)75)|SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_stroke-29
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_C
+# text = It sounds like she is making a lot of progress, honestly just being there to encourage and support her is the best thing and it sounds like she is getting a lot of that.
+# newpar = p (2 s)
+1	It	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	2:expl	Discourse=joint_m:107->94:3
+2	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	like	like	SCONJ	IN	_	6	mark	6:mark	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-3-giv:inact-1-ana)
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
+6	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	2:advcl:like	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(abstract-77-new-2-sgl
+8	lot	lot	NOUN	NN	Number=Sing	6	obj	6:obj	_
+9	of	of	ADP	IN	_	10	case	10:case	_
+10	progress	progress	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=77)|SpaceAfter=No
+11	,	,	PUNCT	,	_	24	punct	24:punct	_
+12	honestly	honestly	ADV	RB	Degree=Pos	15	discourse	15:discourse	Discourse=joint_m:108->107:0
+13	just	just	ADV	RB	_	15	advmod	15:advmod	_
+14	being	be	AUX	VBG	VerbForm=Ger	15	cop	15:cop	Entity=(abstract-78-new-2-disc
+15	there	there	ADV	RB	PronType=Dem	24	csubj	24:csubj|27:csubj	Entity=(place-79-acc:com-1-sgl)
+16	to	to	PART	TO	_	17	mark	17:mark	Discourse=antithesis:109->108:0
+17	encourage	encourage	VERB	VB	VerbForm=Inf	15	advcl	15:advcl:to	_
+18	and	and	CCONJ	CC	_	19	cc	19:cc	_
+19	support	support	VERB	VB	VerbForm=Inf	17	conj	15:advcl:to|17:conj:and	_
+20	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	17:obj|19:obj	Entity=(person-3-giv:act-1-ana)78)
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	24:cop	Discourse=same-unit_m:110->108:1
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(abstract-78-giv:act-3-coref
+23	best	good	ADJ	JJS	Degree=Sup	24	amod	24:amod	_
+24	thing	thing	NOUN	NN	Number=Sing	2	parataxis	2:parataxis	Entity=78)
+25	and	and	CCONJ	CC	_	27	cc	27:cc	Discourse=joint_m:111->107:0
+26	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	expl	27:expl	_
+27	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	24:conj:and	_
+28	like	like	SCONJ	IN	_	31	mark	31:mark	_
+29	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	nsubj	31:nsubj	Entity=(person-3-giv:act-1-ana)
+30	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	31:aux	_
+31	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	27	advcl	27:advcl:like	_
+32	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	33:det	_
+33	lot	lot	NOUN	NN	Number=Sing	31	obj	31:obj	_
+34	of	of	ADP	IN	_	35	case	35:case	_
+35	that	that	PRON	DT	Number=Sing|PronType=Dem	33	nmod	33:nmod:of	Entity=(abstract-78-giv:act-1-ana)|SpaceAfter=No
+36	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_stroke-30
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_C
+# text = I'll be wishing her the best.
+1-2	I'll	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint_m:112->107:0|Entity=(person-24-giv:inact-1-ana)
+2	'll	will	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux	4:aux	_
+4	wishing	wish	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
+5	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	iobj	4:iobj	Entity=(person-3-giv:act-1-ana)
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	_
+7	best	good	ADJ	JJS	Degree=Sup	4	obj	4:obj	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_stroke-31
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_D
+# text = I didn't have any aphasia but I was overwhelmed and exhausted, in no position to judge just how bad the situation actually was.
+# newpar = sp who:::"GUM_reddit_stroke_spk_D" whom:::"GUM_reddit_stroke_spk_A" (7 s) | p (6 s)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=concession:113->114:1|Entity=(person-80-acc:com-1-ana)
+2-3	didn't	_	_	_	_	_	_	_	_
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux	4:aux	_
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
+4	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	_
+5	any	any	DET	DT	_	6	det	6:det	Entity=(abstract-81-new-2-sgl
+6	aphasia	aphasia	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=81)
+7	but	but	CCONJ	CC	_	10	cc	10:cc	Discourse=joint_m:114->94:3
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj:pass	10:nsubj:pass|12:nsubj:pass	Entity=(person-80-giv:act-1-ana)
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	aux:pass	10:aux:pass|12:aux:pass	_
+10	overwhelmed	overwhelm	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	4:conj:but	_
+11	and	and	CCONJ	CC	_	12	cc	12:cc	_
+12	exhausted	exhaust	VERB	VBN	Tense=Past|VerbForm=Part	10	conj	4:conj|10:conj:and	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	16:punct	_
+14	in	in	ADP	IN	_	16	case	16:case	_
+15	no	no	DET	DT	Polarity=Neg	16	det	16:det	Entity=(abstract-82-new-2-sgl
+16	position	position	NOUN	NN	Number=Sing	10	obl	10:obl:in	Entity=82)
+17	to	to	PART	TO	_	18	mark	18:mark	Discourse=attribution:115->116:0
+18	judge	judge	VERB	VB	VerbForm=Inf	16	acl	16:acl:to	_
+19	just	just	ADV	RB	_	21	advmod	21:advmod	Discourse=elaboration:116->114:0
+20	how	how	SCONJ	WRB	PronType=Rel	21	mark	21:mark	_
+21	bad	bad	ADJ	JJ	Degree=Pos	18	acl:relcl	18:acl:relcl	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(abstract-83-new-2-sgl
+23	situation	situation	NOUN	NN	Number=Sing	21	nsubj	21:nsubj	Entity=83)
+24	actually	actually	ADV	RB	Degree=Pos	21	advmod	21:advmod	_
+25	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	cop	21:cop	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_stroke-32
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_D
+# text = The two things that helped the most were being told that I could get my life back with a lot of hard work in rehab.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=elaboration:117->114:2|Entity=(abstract-84-new-3-coref
+2	two	two	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	_
+3	things	thing	NOUN	NNS	Number=Plur	10	nsubj	5:nsubj|10:nsubj	_
+4	that	that	PRON	WDT	PronType=Rel	5	nsubj	3:ref	_
+5	helped	help	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	_
+7	most	most	ADJ	JJS	Degree=Sup	5	obl:npmod	5:obl:npmod	Entity=84)
+8	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	cop	10:cop	_
+9	being	be	AUX	VBG	VerbForm=Ger	10	aux:pass	10:aux:pass	Entity=(abstract-84-giv:act-2-coref
+10	told	tell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+11	that	that	SCONJ	IN	_	14	mark	14:mark	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	14:nsubj	Entity=(person-80-giv:act-1-ana)
+13	could	could	AUX	MD	VerbForm=Fin	14	aux	14:aux	_
+14	get	get	VERB	VB	VerbForm=Inf	10	ccomp	10:ccomp	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(abstract-85-new-2-sgl(person-80-giv:act-1-ana)
+16	life	life	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=85)
+17	back	back	ADV	RB	Degree=Pos	14	advmod	14:advmod	_
+18	with	with	ADP	IN	_	20	case	20:case	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(abstract-86-new-2-sgl
+20	lot	lot	NOUN	NN	Number=Sing	14	obl	14:obl:with	_
+21	of	of	ADP	IN	_	23	case	23:case	_
+22	hard	hard	ADJ	JJ	Degree=Pos	23	amod	23:amod	_
+23	work	work	NOUN	NN	Number=Sing	20	nmod	20:nmod:of	_
+24	in	in	ADP	IN	_	25	case	25:case	_
+25	rehab	rehab	NOUN	NN	Number=Sing	23	nmod	23:nmod:in	Entity=(abstract-87-new-1-coref)86)84)|SpaceAfter=No
+26	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = GUM_reddit_stroke-33
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_D
+# text = I suspect my attention span was noticeably shorter at that point and I had not yet realized that I wasn't seeing everything on the left side.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=background:118->117:0|Entity=(person-80-giv:act-1-ana)
+2	suspect	suspect	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(abstract-88-new-3-sgl(person-80-giv:act-1-ana)
+4	attention	attention	NOUN	NN	Number=Sing	5	compound	5:compound	_
+5	span	span	NOUN	NN	Number=Sing	8	nsubj	8:nsubj	Entity=88)
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	8:cop	_
+7	noticeably	noticeably	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
+8	shorter	short	ADJ	JJR	Degree=Cmp	2	ccomp	2:ccomp	_
+9	at	at	ADP	IN	_	11	case	11:case	_
+10	that	that	DET	DT	Number=Sing|PronType=Dem	11	det	11:det	Entity=(time-89-acc:com-2-sgl
+11	point	point	NOUN	NN	Number=Sing	8	obl	8:obl:at	Entity=89)
+12	and	and	CCONJ	CC	_	17	cc	17:cc	Discourse=attribution:119->120:0
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	17:nsubj	Entity=(person-80-giv:act-1-ana)
+14	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	17	aux	17:aux	_
+15	not	not	PART	RB	Polarity=Neg	17	advmod	17:advmod	_
+16	yet	yet	ADV	RB	_	17	advmod	17:advmod	_
+17	realized	realize	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	2:conj:and	_
+18	that	that	SCONJ	IN	_	22	mark	22:mark	Discourse=joint_m:120->118:0
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	22:nsubj	Entity=(person-80-giv:act-1-ana)
+20-21	wasn't	_	_	_	_	_	_	_	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	22	aux	22:aux	_
+21	n't	not	PART	RB	Polarity=Neg	22	advmod	22:advmod	_
+22	seeing	see	VERB	VBG	Tense=Pres|VerbForm=Part	17	ccomp	17:ccomp	_
+23	everything	everything	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=(object-90-new-1-sgl)
+24	on	on	ADP	IN	_	27	case	27:case	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(abstract-91-new-3-sgl
+26	left	left	ADJ	JJ	Degree=Pos	27	amod	27:amod	_
+27	side	side	NOUN	NN	Number=Sing	22	obl	22:obl:on	Entity=91)|SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_stroke-34
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_D
+# text = After being transferred to the rehab hospital, yet another strange medical place and bed with disturbing noises and fall alarms I remember wanting to cry when the sweet PT held my shoulder without indicating I was damaged goods and assured me she was on my side and there to help me get what I wanted.
+1	After	after	ADP	IN	_	3	obl	3:obl	Discourse=circumstance:121->124:2
+2	being	be	AUX	VBG	VerbForm=Ger	3	aux:pass	3:aux:pass	_
+3	transferred	transfer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	advcl	23:advcl	_
+4	to	to	ADP	IN	_	7	case	7:case	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(place-92-new-3-coref
+6	rehab	rehab	NOUN	NN	Number=Sing	7	compound	7:compound	Entity=(abstract-87-giv:inact-1-coref)
+7	hospital	hospital	NOUN	NN	Number=Sing	3	obl	3:obl:to	Entity=92)|SpaceAfter=No
+8	,	,	PUNCT	,	_	13	punct	13:punct	_
+9	yet	yet	ADV	RB	_	10	advmod	10:advmod	Discourse=evaluation:122->121:0
+10	another	another	DET	DT	_	13	det	13:det	Entity=(place-92-giv:act-4,6-appos
+11	strange	strange	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
+12	medical	medical	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
+13	place	place	NOUN	NN	Number=Sing	7	appos	7:appos	_
+14	and	and	CCONJ	CC	_	15	cc	15:cc	_
+15	bed	bed	NOUN	NN	Number=Sing	13	conj	7:appos|13:conj:and	_
+16	with	with	ADP	IN	_	18	case	18:case	_
+17	disturbing	disturbing	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(abstract-93-new-2-sgl
+18	noises	noise	NOUN	NNS	Number=Plur	13	nmod	13:nmod:with	Entity=93)
+19	and	and	CCONJ	CC	_	21	cc	21:cc	_
+20	fall	fall	NOUN	NN	Number=Sing	21	compound	21:compound	Entity=(abstract-94-new-2-sgl
+21	alarms	alarm	NOUN	NNS	Number=Plur	18	conj	13:nmod:with|18:conj:and	Entity=94)92)
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	23:nsubj|24:nsubj:xsubj|26:nsubj:xsubj	Discourse=attribution:123->124:1|Entity=(person-80-giv:act-1-ana)
+23	remember	remember	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+24	wanting	want	VERB	VBG	VerbForm=Ger	23	xcomp	23:xcomp	Discourse=sequence_m:124->118:1
+25	to	to	PART	TO	_	26	mark	26:mark	_
+26	cry	cry	VERB	VB	VerbForm=Inf	24	xcomp	24:xcomp	_
+27	when	when	SCONJ	WRB	PronType=Int	31	mark	31:mark	Discourse=circumstance:125->124:0
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(person-95-new-3-coref
+29	sweet	sweet	ADJ	JJ	Degree=Pos	30	amod	30:amod	_
+30	PT	PT	NOUN	NN	Number=Sing	31	nsubj	31:nsubj|41:nsubj	Entity=95)
+31	held	hold	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	advcl	24:advcl:when	_
+32	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	33	nmod:poss	33:nmod:poss	Entity=(object-96-new-2-sgl(person-80-giv:act-1-ana)
+33	shoulder	shoulder	NOUN	NN	Number=Sing	31	obj	31:obj	Entity=96)
+34	without	without	SCONJ	IN	_	35	mark	35:mark	Discourse=manner:126->125:0
+35	indicating	indicate	VERB	VBG	VerbForm=Ger	31	advcl	31:advcl:without	_
+36	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	39	nsubj	39:nsubj	Entity=(person-80-giv:act-1-ana)
+37	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	39	cop	39:cop	_
+38	damaged	damage	VERB	VBN	Tense=Past|VerbForm=Part	39	amod	39:amod	Entity=(abstract-97-new-2-sgl
+39	goods	good	NOUN	NNS	Number=Plur	35	ccomp	35:ccomp	Entity=97)
+40	and	and	CCONJ	CC	_	41	cc	41:cc	Discourse=attribution:127->128:1
+41	assured	assure	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	conj	24:advcl:when|31:conj:and	_
+42	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	41	iobj	41:iobj	Entity=(person-80-giv:act-1-ana)
+43	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	47	nsubj	47:nsubj|49:nsubj	Discourse=joint_m:128->125:1|Entity=(person-95-giv:act-1-ana)
+44	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	47	cop	47:cop	_
+45	on	on	ADP	IN	_	47	case	47:case	_
+46	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	47	nmod:poss	47:nmod:poss	Entity=(person-80-giv:act-1-ana)
+47	side	side	NOUN	NN	Number=Sing	41	ccomp	41:ccomp	_
+48	and	and	CCONJ	CC	_	49	cc	49:cc	_
+49	there	there	ADV	RB	PronType=Dem	47	conj	41:ccomp|47:conj:and	_
+50	to	to	PART	TO	_	51	mark	51:mark	Discourse=purpose:129->128:0
+51	help	help	VERB	VB	VerbForm=Inf	49	advcl	49:advcl:to	_
+52	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	51	obj	51:obj|53:nsubj:xsubj	Entity=(person-80-giv:act-1-ana)
+53	get	get	VERB	VB	VerbForm=Inf	51	xcomp	51:xcomp	_
+54	what	what	PRON	WP	PronType=Rel	53	obj	53:obj	_
+55	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	56	nsubj	56:nsubj	Entity=(person-80-giv:act-1-ana)
+56	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	54	acl:relcl	54:acl:relcl	SpaceAfter=No
+57	.	.	PUNCT	.	_	23	punct	23:punct	_
+
+# sent_id = GUM_reddit_stroke-35
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = frag
+# speaker = GUM_reddit_stroke_spk_D
+# text = (note:
+1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=preparation:130->133:2|SpaceAfter=No
+2	note	note	NOUN	NN	Number=Sing	0	root	0:root	Entity=(abstract-98-new-1-sgl)|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_stroke-36
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = decl
+# speaker = GUM_reddit_stroke_spk_D
+# text = Several stroke survivors have mentioned being a little more emotional after the stroke, for me things snuck up and hit me in the feels harder than expected.)
+1	Several	several	ADJ	JJ	Degree=Pos	3	amod	3:amod	Discourse=attribution:131->132:0|Entity=(person-99-new-3-sgl
+2	stroke	stroke	NOUN	NN	Number=Sing	3	compound	3:compound	Entity=(event-2-giv:inact-1-coref)
+3	survivors	survivor	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj|10:nsubj:xsubj	Entity=99)
+4	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
+5	mentioned	mention	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
+6	being	be	AUX	VBG	VerbForm=Ger	10	cop	10:cop	Discourse=background:132->133:1
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	_
+8	little	little	ADJ	JJ	Degree=Pos	9	obl:npmod	9:obl:npmod	_
+9	more	more	ADV	RBR	Degree=Cmp	10	advmod	10:advmod	_
+10	emotional	emotional	ADJ	JJ	Degree=Pos	5	xcomp	5:xcomp	_
+11	after	after	ADP	IN	_	13	case	13:case	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(event-2-giv:act-2-coref
+13	stroke	stroke	NOUN	NN	Number=Sing	10	obl	10:obl:after	Entity=2)|SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	18:punct	_
+15	for	for	ADP	IN	_	16	case	16:case	Discourse=background:133->124:3
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	obl	18:obl:for	Entity=(person-80-giv:inact-1-ana)
+17	things	thing	NOUN	NNS	Number=Plur	18	nsubj	18:nsubj|21:nsubj	Entity=(abstract-100-new-1-sgl)
+18	snuck	sneak	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	5:parataxis	_
+19	up	up	ADP	RP	_	18	compound:prt	18:compound:prt	_
+20	and	and	CCONJ	CC	_	21	cc	21:cc	Discourse=contrast_m:134->133:0
+21	hit	hit	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	conj	18:conj:and	_
+22	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	21	obj	21:obj	Entity=(person-80-giv:act-1-ana)
+23	in	in	ADP	IN	_	25	case	25:case	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(abstract-101-new-2-sgl
+25	feels	feel	NOUN	NNS	Number=Plur	21	obl	21:obl:in	Entity=101)
+26	harder	hard	ADV	RBR	Degree=Cmp	21	advmod	21:advmod	_
+27	than	than	SCONJ	IN	_	28	mark	28:mark	Discourse=antithesis:135->134:0
+28	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part	26	advcl	26:advcl:than	SpaceAfter=No
+29	.	.	PUNCT	.	_	5	punct	5:punct	SpaceAfter=No
+30	)	)	PUNCT	-RRB-	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_stroke-37
+# addressee = GUM_reddit_stroke_spk_A
+# s_type = other
+# speaker = GUM_reddit_stroke_spk_D
+# text = Assurance, quiet optimism and positive energy should all help with your Cousin, thank you for helping her and good luck & recovery to her.
+# newpar = p (1 s)
+1	Assurance	assurance	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Discourse=joint_m:136->114:3|Entity=(abstract-102-new-1,4,7-coref(abstract-103-new-1-sgl)|SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	4:punct	_
+3	quiet	quiet	ADJ	JJ	Degree=Pos	4	amod	4:amod	Entity=(abstract-104-new-2-sgl
+4	optimism	optimism	NOUN	NN	Number=Sing	1	conj	1:conj:and|10:nsubj	Entity=104)
+5	and	and	CCONJ	CC	_	7	cc	7:cc	_
+6	positive	positive	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(abstract-105-new-2-sgl
+7	energy	energy	NOUN	NN	Number=Sing	1	conj	1:conj:and|10:nsubj	Entity=105)102)
+8	should	should	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	10	aux	10:aux	_
+9	all	all	ADV	RB	Degree=Pos	10	advmod	10:advmod	Entity=(abstract-102-giv:act-1-coref)
+10	help	help	VERB	VB	VerbForm=Inf	0	root	0:root	_
+11	with	with	ADP	IN	_	13	case	13:case	_
+12	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(person-3-giv:inact-2-coref(person-55-giv:inact-1-ana)
+13	Cousin	cousin	NOUN	NN	Number=Sing	10	obl	10:obl:with	Entity=3)|SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	15:punct	_
+15	thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	parataxis	10:parataxis	Discourse=joint_m:137->114:3
+16	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	15	obj	15:obj	Entity=(person-55-giv:act-1-ana)
+17	for	for	SCONJ	IN	_	18	mark	18:mark	Discourse=cause:138->137:0
+18	helping	help	VERB	VBG	VerbForm=Ger	15	advcl	15:advcl:for	_
+19	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	18:obj	Entity=(person-3-giv:act-1-ana)
+20	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=joint_m:139->137:1
+21	good	good	ADJ	JJ	Degree=Pos	22	amod	22:amod	Entity=(abstract-106-new-2-sgl
+22	luck	luck	NOUN	NN	Number=Sing	15	conj	15:conj:and	Entity=106)
+23	&	&	CCONJ	CC	_	24	cc	24:cc	_
+24	recovery	recovery	NOUN	NN	Number=Sing	22	conj	15:conj|22:conj:and	Entity=(event-107-new-1-sgl)
+25	to	to	ADP	IN	_	26	case	26:case	_
+26	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obl	22:obl:to	Entity=(person-3-giv:act-1-ana)|SpaceAfter=No
+27	.	.	PUNCT	.	_	10	punct	10:punct	_
+

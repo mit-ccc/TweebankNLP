@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>5432</sentences><tokens>61879</tokens><words>61879</words><fused>0</fused></total>
+    <train><sentences>4274</sentences><tokens>48655</tokens><words>48655</words><fused>0</fused></train>
+    <dev><sentences>572</sentences><tokens>6644</tokens><words>6644</words><fused>0</fused></dev>
+    <test><sentences>586</sentences><tokens>6580</tokens><words>6580</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="779" /><!-- to, from, flight, i, the, on, be, what, san, boston, show, a, denver, in, and -->
+  <forms unique="932" /><!-- to, from, flights, the, on, what, flight, me, i, san, boston, show, a, denver, in -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="14">
+    <tag name="ADJ">2079</tag><!-- first, cheap, early, available, next, seven, late, like, many, expensive -->
+    <tag name="ADP">13640</tag><!-- to, from, on, in, of, between, that, for, after, before -->
+    <tag name="ADV">566</tag><!-- how, o'clock, now, first, much, early, back, also, then, only -->
+    <tag name="AUX">2254</tag><!-- be, will, do, can, may, should, have, must -->
+    <tag name="CCONJ">967</tag><!-- and, or, either, but, 343, both -->
+    <tag name="DET">4885</tag><!-- the, a, all, what, which, any, an, that, this, you -->
+    <tag name="INTJ">390</tag><!-- please, okay, hi, yes, hello, oh, sure, thank -->
+    <tag name="NOUN">9333</tag><!-- flight, fare, morning, pm, trip, ground, class, round, transportation, afternoon -->
+    <tag name="NUM">1191</tag><!-- one, twenty, 5, 6, 10, 8, 7, 12, 4, 9 -->
+    <tag name="PART">495</tag><!-- to, be -->
+    <tag name="PRON">3828</tag><!-- i, what, there, you, which, it, that, be, one, they -->
+    <tag name="PROPN">16372</tag><!-- san, boston, denver, francisco, atlanta, pittsburgh, dallas, baltimore, philadelphia, washington -->
+    <tag name="SYM">2</tag><!-- b, c -->
+    <tag name="VERB">5877</tag><!-- show, list, leave, arrive, like, fly, need, go, have, be -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="18">
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV">36</feat><!-- less, more, earlier -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">1853</feat><!-- first, available, next, o'clock, early, seventh, like, many, much, expensive -->
+    <feat name="Degree" value="Sup" upos="ADJ,ADV">573</feat><!-- cheapest, earliest, latest, least, lowest, most, shortest, smallest, closest, highest -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">2903</feat><!-- is, are, need, does, show, want, arrive, do, 's, have -->
+    <feat name="Number" value="Plur" upos="NOUN,PROPN">3690</feat><!-- flights, airlines, fares, dollars, airports, cities, meals, times, prices, types -->
+    <feat name="Number" value="Sing" upos="AUX,NOUN,PROPN,VERB">23264</feat><!-- flight, san, boston, denver, francisco, atlanta, is, pittsburgh, dallas, baltimore -->
+    <feat name="NumType" value="Card" upos="NUM">1191</feat><!-- one, twenty, 5, 6, 10, 8, 7, 12, 4, 9 -->
+    <feat name="Person" value="3" upos="AUX,VERB">1249</feat><!-- is, does, 's, leaves, arrives, serves, goes, has, flies, stops -->
+    <feat name="Poss" value="Yes" upos="DET">35</feat><!-- your, my, their -->
+    <feat name="PronType" value="Art" upos="DET">4174</feat><!-- the, a, all, any, an, that, this, no, some, both -->
+    <feat name="PronType" value="Dem" upos="PRON">240</feat><!-- there -->
+    <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">1793</feat><!-- what, which, how, that, where, when, who, like, this, those -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">2689</feat><!-- me, i, you, it, your, my, their, 's, one, we -->
+    <feat name="Tense" value="Past" upos="VERB">94</feat><!-- used, served, interested, provided, serviced, bound, called, carried, come, got -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">3766</feat><!-- is, are, leaving, need, does, arriving, show, want, arrive, do -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">2903</feat><!-- is, are, need, does, show, want, arrive, do, 's, have -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">3489</feat><!-- show, list, like, fly, give, leave, find, have, go, tell -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">957</feat><!-- leaving, arriving, going, departing, used, flying, connecting, looking, stopping, using -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="41">
+    <dep name="acl">43</dep>
+    <dep name="acl:relcl">1177</dep>
+    <dep name="advcl">55</dep>
+    <dep name="advmod">509</dep>
+    <dep name="amod">1787</dep>
+    <dep name="appos">277</dep>
+    <dep name="aux">1199</dep>
+    <dep name="aux:pass">10</dep>
+    <dep name="case">13131</dep>
+    <dep name="cc">952</dep>
+    <dep name="cc:preconj">11</dep>
+    <dep name="ccomp">49</dep>
+    <dep name="compound">2377</dep>
+    <dep name="compound:prt">22</dep>
+    <dep name="conj">988</dep>
+    <dep name="cop">1007</dep>
+    <dep name="csubj">2</dep>
+    <dep name="dep">5</dep>
+    <dep name="det">4738</dep>
+    <dep name="det:predet">72</dep>
+    <dep name="discourse">419</dep>
+    <dep name="dislocated">69</dep>
+    <dep name="expl">239</dep>
+    <dep name="fixed">28</dep>
+    <dep name="flat">3148</dep>
+    <dep name="goeswith">5</dep>
+    <dep name="iobj">1241</dep>
+    <dep name="list">103</dep>
+    <dep name="mark">802</dep>
+    <dep name="nmod">8567</dep>
+    <dep name="nmod:poss">43</dep>
+    <dep name="nmod:tmod">1263</dep>
+    <dep name="nsubj">3324</dep>
+    <dep name="nummod">843</dep>
+    <dep name="obj">3274</dep>
+    <dep name="obl">3130</dep>
+    <dep name="obl:tmod">867</dep>
+    <dep name="parataxis">110</dep>
+    <dep name="reparandum">18</dep>
+    <dep name="root">5432</dep>
+    <dep name="xcomp">543</dep>
+  </deps>
+</treebank>

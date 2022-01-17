@@ -1,0 +1,1434 @@
+# newdoc id = GUM_reddit_ring
+# global.Entity = entity-GRP-infstat-MIN-coref_type-identity
+# meta::dateCollected = 2017-09-13
+# meta::dateCreated = 2016-09-30
+# meta::dateModified = 2016-09-30
+# meta::sourceURL = https://www.reddit.com/r/singing/comments/5570x1/is_this_ring/
+# meta::speakerCount = 4
+# meta::title = Is this ring?
+# sent_id = GUM_reddit_ring-1
+# s_type = q
+# speaker = GUM_reddit_ring_spk_A
+# text = Is this ring?
+# newpar = sp who:::"GUM_reddit_ring_spk_A" (4 s) | head (1 s)
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	Discourse=preparation:1->26:6
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Entity=(abstract-1-new-1-cata)
+3	ring	ring	NOUN	NN	Number=Sing	0	root	0:root	Entity=(abstract-1-acc:com-1-coref)|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_ring-2
+# s_type = frag
+# speaker = GUM_reddit_ring_spk_A
+# text = http://vocaroo.com/i/s1tDCvWpykHC
+# newpar = p (3 s)
+1	http://vocaroo.com/i/s1tDCvWpykHC	http://vocaroo.com/i/s1tDCvWpykHC	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=preparation:2->3:0|Entity=(abstract-2-new-1-coref-Ring)|XML=<ref target:::"http://vocaroo.com/i/s1tDCvWpykHC"></ref>
+
+# sent_id = GUM_reddit_ring-3
+# s_type = q
+# speaker = GUM_reddit_ring_spk_A
+# text = Is that ring I'm hearing?
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	Discourse=solutionhood:3->26:5
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Entity=(abstract-1-giv:inact-1-ana)
+3	ring	ring	NOUN	NN	Number=Sing	0	root	0:root	Entity=(abstract-1-giv:act-1-coref)
+4-5	I'm	_	_	_	_	_	_	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-3-acc:com-1-ana)
+5	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
+6	hearing	hear	VERB	VBG	Tense=Pres|VerbForm=Part	3	acl:relcl	3:acl:relcl	SpaceAfter=No
+7	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_ring-4
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_A
+# text = I feel I sang quite well here, but then it's often hard to find back to this voice.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:4->5:0|Entity=(person-3-giv:act-1-ana)
+2	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=evaluation:5->3:1|Entity=(person-3-giv:act-1-ana)
+4	sang	sing	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	ccomp	2:ccomp	_
+5	quite	quite	ADV	RB	_	6	advmod	6:advmod	_
+6	well	well	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
+7	here	here	ADV	RB	PronType=Dem	4	advmod	4:advmod	Entity=(abstract-2-giv:inact-1-coref-Ring)|SpaceAfter=No
+8	,	,	PUNCT	,	_	14	punct	14:punct	_
+9	but	but	CCONJ	CC	_	14	cc	14:cc	Discourse=concession:6->5:1
+10	then	then	ADV	RB	PronType=Dem	14	advmod	14:advmod	_
+11-12	it's	_	_	_	_	_	_	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	14:expl	Entity=(event-4-new-1-cata)
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
+13	often	often	ADV	RB	Degree=Pos	14	advmod	14:advmod	_
+14	hard	hard	ADJ	JJ	Degree=Pos	2	conj	2:conj:but	_
+15	to	to	PART	TO	_	16	mark	16:mark	Entity=(event-4-acc:com-2-coref
+16	find	find	VERB	VB	VerbForm=Inf	14	csubj	14:csubj	_
+17	back	back	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
+18	to	to	ADP	IN	_	20	case	20:case	_
+19	this	this	DET	DT	Number=Sing|PronType=Dem	20	det	20:det	Bridge=1<5|Entity=(abstract-5-acc:inf-2-coref
+20	voice	voice	NOUN	NN	Number=Sing	16	obl	16:obl:to	Entity=5)4)|SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_ring-5
+# addressee = GUM_reddit_ring_spk_A
+# s_type = q
+# speaker = GUM_reddit_ring_spk_B
+# text = Are you an opera singer?
+# newpar = sp who:::"GUM_reddit_ring_spk_B" whom:::"GUM_reddit_ring_spk_A" (2 s) | p (2 s)
+1	Are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	cop	5:cop	Discourse=solutionhood:7->10:2
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-3-giv:act-1-ana)
+3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(person-6-new-3-coref
+4	opera	opera	NOUN	NN	Number=Sing	5	compound	5:compound	_
+5	singer	singer	NOUN	NN	Number=Sing	0	root	0:root	Entity=6)|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_ring-6
+# addressee = GUM_reddit_ring_spk_A
+# s_type = wh
+# speaker = GUM_reddit_ring_spk_B
+# text = Why are you concerned about "ring"?
+1	Why	why	ADV	WRB	PronType=Int	4	advmod	4:advmod	Discourse=joint_m:8->7:0
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
+3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj:pass	4:nsubj:pass	Entity=(person-3-giv:act-1-ana)
+4	concerned	concern	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+5	about	about	ADP	IN	_	7	case	7:case	_
+6	"	''	PUNCT	``	_	7	punct	7:punct	SpaceAfter=No|XML=<q>
+7	ring	ring	NOUN	NN	Number=Sing	4	obl	4:obl:about	Entity=(abstract-7-new-1-coref)|SpaceAfter=No
+8	"	''	PUNCT	''	_	7	punct	7:punct	SpaceAfter=No|XML=</q>
+9	?	?	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_ring-7
+# addressee = GUM_reddit_ring_spk_B
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_A
+# text = I've been instructed to try developing it.
+# newpar = sp who:::"GUM_reddit_ring_spk_A" whom:::"GUM_reddit_ring_spk_B" (2 s)
+1-2	I've	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	4:nsubj:pass|6:nsubj:xsubj|7:nsubj:xsubj	Discourse=background:9->10:0|Entity=(person-3-giv:act-1-ana)
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	aux:pass	4:aux:pass	_
+4	instructed	instruct	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+5	to	to	PART	TO	_	6	mark	6:mark	_
+6	try	try	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	_
+7	developing	develop	VERB	VBG	VerbForm=Ger	6	xcomp	6:xcomp	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	7:obj	Entity=(abstract-7-giv:act-1-ana)|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_ring-8
+# addressee = GUM_reddit_ring_spk_B
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_A
+# text = I am trying to develop a generally pleasant voice, I have no clear idea about style.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=background:10->3:2|Entity=(person-3-giv:act-1-ana)
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
+3	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
+4	to	to	PART	TO	_	5	mark	5:mark	_
+5	develop	develop	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(abstract-8-new-4-sgl
+7	generally	generally	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
+8	pleasant	pleasant	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
+9	voice	voice	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=8)|SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	12:punct	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	12:nsubj	Discourse=concession:11->10:1|Entity=(person-3-giv:act-1-ana)
+12	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	3:parataxis	_
+13	no	no	DET	DT	Polarity=Neg	15	det	15:det	Entity=(abstract-9-new-3-sgl
+14	clear	clear	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
+15	idea	idea	NOUN	NN	Number=Sing	12	obj	12:obj	_
+16	about	about	ADP	IN	_	17	case	17:case	_
+17	style	style	NOUN	NN	Number=Sing	15	nmod	15:nmod:about	Entity=(abstract-10-new-1-sgl)9)|SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_ring-9
+# addressee = GUM_reddit_ring_spk_A
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_C
+# text = Ring is one of those things, IMO, that some dweeb voice teacher heard sitting in an audience from a real opera singer.
+# newpar = sp who:::"GUM_reddit_ring_spk_C" whom:::"GUM_reddit_ring_spk_A" (13 s) | p (2 s)
+1	Ring	ring	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=background:12->17:3|Entity=(abstract-7-giv:inact-1-coref)
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	Entity=(abstract-7-giv:act-1-coref
+4	of	of	ADP	IN	_	6	case	6:case	_
+5	those	this	DET	DT	Number=Plur|PronType=Dem	6	det	6:det	_
+6	things	thing	NOUN	NNS	Number=Plur	3	nmod	3:nmod:of|15:obj	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	6:punct	_
+8	IMO	IMO	ADV	RB	Degree=Pos	3	advmod	3:advmod	SpaceAfter=No
+9	,	,	PUNCT	,	_	15	punct	15:punct	_
+10	that	that	PRON	WDT	PronType=Rel	15	obj	6:ref	Discourse=elaboration:13->12:0
+11	some	some	DET	DT	_	14	det	14:det	Entity=(person-11-new-4-coref
+12	dweeb	dweeb	NOUN	NN	Number=Sing	14	compound	14:compound	_
+13	voice	voice	NOUN	NN	Number=Sing	14	compound	14:compound	Entity=(abstract-12-new-1-sgl)
+14	teacher	teacher	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=11)
+15	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	6:acl:relcl	_
+16	sitting	sit	VERB	VBG	VerbForm=Ger	15	advcl	15:advcl	Discourse=circumstance:14->13:0
+17	in	in	ADP	IN	_	19	case	19:case	_
+18	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(person-13-new-2-sgl
+19	audience	audience	NOUN	NN	Number=Sing	16	obl	16:obl:in	Entity=13)
+20	from	from	ADP	IN	_	24	case	24:case	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(person-14-new-4-sgl
+22	real	real	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
+23	opera	opera	NOUN	NN	Number=Sing	24	compound	24:compound	Entity=(abstract-15-new-1-coref)
+24	singer	singer	NOUN	NN	Number=Sing	19	nmod	19:nmod:from	Entity=14)7)|SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_ring-10
+# addressee = GUM_reddit_ring_spk_A
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_C
+# text = He heard a "ring" and decided to make it into a technique.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|8:nsubj|10:nsubj:xsubj	Discourse=elaboration:15->12:1|Entity=(person-11-giv:act-1-ana)
+2	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(abstract-7-giv:act-3-coref
+4	"	''	PUNCT	``	_	5	punct	5:punct	SpaceAfter=No|XML=<q>
+5	ring	ring	NOUN	NN	Number=Sing	2	obj	2:obj	SpaceAfter=No
+6	"	''	PUNCT	''	_	5	punct	5:punct	Entity=7)|XML=</q>
+7	and	and	CCONJ	CC	_	8	cc	8:cc	Discourse=sequence_m:16->15:0
+8	decided	decide	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	2:conj:and	_
+9	to	to	PART	TO	_	10	mark	10:mark	_
+10	make	make	VERB	VB	VerbForm=Inf	8	xcomp	8:xcomp	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	10:obj	Entity=(abstract-7-giv:act-1-ana)
+12	into	into	ADP	IN	_	14	case	14:case	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(abstract-16-new-2-sgl
+14	technique	technique	NOUN	NN	Number=Sing	10	obl	10:obl:into	Entity=16)|SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_ring-11
+# addressee = GUM_reddit_ring_spk_A
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_C
+# text = First of all the term is poorly defined.
+# newpar = p (5 s)
+1	First	first	ADJ	JJ	Degree=Pos|NumType=Ord	8	advmod	8:advmod	Discourse=background:17->26:2
+2	of	of	ADP	IN	_	3	case	3:case	_
+3	all	all	DET	DT	_	1	obl	1:obl:of	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=7<17|Entity=(abstract-17-acc:inf-2-coref
+5	term	term	NOUN	NN	Number=Sing	8	nsubj:pass	8:nsubj:pass	Entity=17)
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	8:aux:pass	_
+7	poorly	poorly	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
+8	defined	define	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = GUM_reddit_ring-12
+# addressee = GUM_reddit_ring_spk_A
+# s_type = q
+# speaker = GUM_reddit_ring_spk_C
+# text = Does it mean twang?
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	Discourse=justify:18->17:0
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(abstract-17-giv:act-1-ana)
+3	mean	mean	VERB	VB	VerbForm=Inf	0	root	0:root	_
+4	twang	twang	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(abstract-18-new-1-sgl)|SpaceAfter=No
+5	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_ring-13
+# addressee = GUM_reddit_ring_spk_A
+# s_type = q
+# speaker = GUM_reddit_ring_spk_C
+# text = Singer formant?
+1	Singer	singer	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=joint_m:19->18:0|Entity=(abstract-19-new-2-sgl(person-20-new-1-sgl)
+2	formant	formant	NOUN	NN	Number=Sing	0	root	0:root	Entity=19)|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_ring-14
+# addressee = GUM_reddit_ring_spk_A
+# s_type = wh
+# speaker = GUM_reddit_ring_spk_C
+# text = Which harmonic?
+1	Which	which	DET	WDT	PronType=Int	2	det	2:det	Discourse=joint_m:20->18:0|Entity=(abstract-21-new-2-sgl
+2	harmonic	harmonic	NOUN	NN	Number=Sing	0	root	0:root	Entity=21)|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_ring-15
+# addressee = GUM_reddit_ring_spk_A
+# s_type = q
+# speaker = GUM_reddit_ring_spk_C
+# text = Chiaroscuro?
+1	Chiaroscuro	chiaroscuro	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint_m:21->18:0|Entity=(abstract-22-new-1-sgl)|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GUM_reddit_ring-16
+# addressee = GUM_reddit_ring_spk_A
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_C
+# text = Second of all you're not an opera singer!
+# newpar = p (4 s)
+1	Second	second	ADJ	JJ	Degree=Pos|NumType=Ord	9	advmod	9:advmod	Discourse=joint_m:22->17:1
+2	of	of	ADP	IN	_	3	case	3:case	_
+3	all	all	DET	DT	_	1	obl	1:obl:of	_
+4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Entity=(person-3-giv:inact-1-ana)|SpaceAfter=No
+5	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	cop	9:cop	_
+6	not	not	PART	RB	Polarity=Neg	9	advmod	9:advmod	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(person-6-giv:inact-3-pred
+8	opera	opera	NOUN	NN	Number=Sing	9	compound	9:compound	Entity=(abstract-15-giv:inact-1-coref)
+9	singer	singer	NOUN	NN	Number=Sing	0	root	0:root	Entity=6)|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = GUM_reddit_ring-17
+# addressee = GUM_reddit_ring_spk_A
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_C
+# text = Ring is characteristic of operatic voices.
+1	Ring	ring	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Discourse=background:23->17:2|Entity=(abstract-7-giv:inact-1-coref)
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
+3	characteristic	characteristic	ADJ	JJ	Degree=Pos	0	root	0:root	_
+4	of	of	ADP	IN	_	6	case	6:case	_
+5	operatic	operatic	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(abstract-23-new-2-sgl
+6	voices	voice	NOUN	NNS	Number=Plur	3	obl	3:obl:of	Entity=23)|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_ring-18
+# addressee = GUM_reddit_ring_spk_A
+# s_type = q
+# speaker = GUM_reddit_ring_spk_C
+# text = Have you ever heard a contemporary pop or rock singer with a "ring" in their voice?
+1	Have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	4:aux	Discourse=question:24->25:0
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-3-giv:inact-1-ana)
+3	ever	ever	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
+4	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(person-24-new-6-coref
+6	contemporary	contemporary	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
+7	pop	pop	NOUN	NN	Number=Sing	10	compound	10:compound	Entity=(abstract-25-new-1-coref)
+8	or	or	CCONJ	CC	_	7	cc	7:cc	_
+9	rock	rock	NOUN	NN	Number=Sing	10	compound	10:compound	Entity=(abstract-26-new-1-sgl)
+10	singer	singer	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=24)
+11	with	with	ADP	IN	_	14	case	14:case	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(abstract-27-new-3-sgl
+13	"	''	PUNCT	``	_	14	punct	14:punct	SpaceAfter=No|XML=<q>
+14	ring	ring	NOUN	NN	Number=Sing	10	nmod	10:nmod:with	SpaceAfter=No
+15	"	''	PUNCT	''	_	14	punct	14:punct	XML=</q>
+16	in	in	ADP	IN	_	18	case	18:case	_
+17	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	Entity=(person-24-giv:act-1-ana)
+18	voice	voice	NOUN	NN	Number=Sing	14	nmod	14:nmod:in	Entity=27)|SpaceAfter=No
+19	?	?	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_ring-19
+# addressee = GUM_reddit_ring_spk_A
+# s_type = intj
+# speaker = GUM_reddit_ring_spk_C
+# text = No!
+1	No	no	INTJ	UH	Polarity=Neg	0	root	0:root	Discourse=evidence:25->23:0|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GUM_reddit_ring-20
+# addressee = GUM_reddit_ring_spk_A
+# s_type = sub
+# speaker = GUM_reddit_ring_spk_C
+# text = I would just stop worrying about trying to do shit which is not relevant to the style you're trying to learn.
+# newpar = p (2 s)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj|5:nsubj:xsubj	Discourse=ROOT:26:0|Entity=(person-28-acc:com-1-sgl)
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
+3	just	just	ADV	RB	_	4	advmod	4:advmod	_
+4	stop	stop	VERB	VB	VerbForm=Inf	0	root	0:root	_
+5	worrying	worry	VERB	VBG	VerbForm=Ger	4	xcomp	4:xcomp	_
+6	about	about	SCONJ	IN	_	7	mark	7:mark	_
+7	trying	try	VERB	VBG	VerbForm=Ger	5	advcl	5:advcl:about	_
+8	to	to	PART	TO	_	9	mark	9:mark	_
+9	do	do	VERB	VB	VerbForm=Inf	7	xcomp	7:xcomp	_
+10	shit	shit	NOUN	NN	Number=Sing	9	obj	9:obj|14:nsubj	Entity=(abstract-29-new-1-sgl
+11	which	which	PRON	WDT	PronType=Rel	14	nsubj	10:ref	Discourse=evaluation:27->26:0
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	14:cop	_
+13	not	not	PART	RB	Polarity=Neg	14	advmod	14:advmod	_
+14	relevant	relevant	ADJ	JJ	Degree=Pos	10	acl:relcl	10:acl:relcl	_
+15	to	to	ADP	IN	_	17	case	17:case	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(abstract-30-new-2-coref
+17	style	style	NOUN	NN	Number=Sing	14	obl	14:obl:to	_
+18	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	20:nsubj|22:nsubj:xsubj	Discourse=elaboration:28->27:0|Entity=(person-3-giv:inact-1-ana)|SpaceAfter=No
+19	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	20	aux	20:aux	_
+20	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	17	acl:relcl	17:acl:relcl	_
+21	to	to	PART	TO	_	22	mark	22:mark	_
+22	learn	learn	VERB	VB	VerbForm=Inf	20	xcomp	20:xcomp	Entity=30)29)|SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_ring-21
+# addressee = GUM_reddit_ring_spk_A
+# s_type = imp
+# speaker = GUM_reddit_ring_spk_C
+# text = Focus on singing whatever it is you want to sing ... not on singing opera!
+1	Focus	focus	VERB	VB	VerbForm=Inf	12	dep	12:dep	Discourse=joint_m:29->26:1
+2	on	on	SCONJ	IN	_	3	mark	3:mark	_
+3	singing	sing	VERB	VBG	VerbForm=Ger	1	advcl	1:advcl:on	_
+4	whatever	whatever	PRON	WDT	PronType=Int	6	obj	6:obj	Entity=(abstract-30-giv:act-3-disc
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(abstract-30-giv:act-1-coref)
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	_
+7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	8:nsubj|10:nsubj:xsubj	Entity=(person-3-giv:act-1-ana)
+8	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	ccomp	6:ccomp	_
+9	to	to	PART	TO	_	10	mark	10:mark	_
+10	sing	sing	VERB	VB	VerbForm=Inf	8	xcomp	8:xcomp	Entity=30)
+11	...	…	PUNCT	:	_	1	punct	1:punct	_
+12	not	not	PART	RB	Polarity=Neg	0	root	0:root	Discourse=antithesis:30->29:0
+13	on	on	SCONJ	IN	_	14	mark	14:mark	_
+14	singing	sing	VERB	VBG	VerbForm=Ger	12	advcl	12:advcl:on	_
+15	opera	opera	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=(abstract-15-giv:inact-1-coref)|SpaceAfter=No
+16	!	!	PUNCT	.	_	12	punct	12:punct	_
+
+# sent_id = GUM_reddit_ring-22
+# addressee = GUM_reddit_ring_spk_C
+# s_type = frag
+# speaker = GUM_reddit_ring_spk_A
+# text = Alright.
+# newpar = sp who:::"GUM_reddit_ring_spk_A" whom:::"GUM_reddit_ring_spk_C" (3 s)
+1	Alright	alright	ADV	RB	Degree=Pos	0	root	0:root	Discourse=evaluation:31->26:3|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GUM_reddit_ring-23
+# addressee = GUM_reddit_ring_spk_C
+# s_type = q
+# speaker = GUM_reddit_ring_spk_A
+# text = Do you notice anything I should work on in particular?
+1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	3:aux	Discourse=question:32->41:3
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	_
+3	notice	notice	VERB	VB	VerbForm=Inf	0	root	0:root	Entity=(event-31-new-1-disc
+4	anything	anything	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(object-32-new-1-sgl
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	Discourse=elaboration:33->32:0|Entity=(person-3-giv:inact-1-ana)
+6	should	should	AUX	MD	VerbForm=Fin	7	aux	7:aux	_
+7	work	work	VERB	VB	VerbForm=Inf	4	acl:relcl	4:acl:relcl	_
+8	on	on	SCONJ	IN	_	10	mark	10:mark	_
+9	in	in	ADP	IN	_	10	case	10:case	_
+10	particular	particular	ADJ	JJ	Degree=Pos	7	advcl	7:advcl:on	Entity=32)31)|SpaceAfter=No
+11	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_ring-24
+# addressee = GUM_reddit_ring_spk_C
+# s_type = q
+# speaker = GUM_reddit_ring_spk_A
+# text = Is it possible from just a recording?
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	Discourse=joint_m:34->32:1
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(event-31-giv:act-1-coref)
+3	possible	possible	ADJ	JJ	Degree=Pos	0	root	0:root	_
+4	from	from	ADP	IN	_	7	case	7:case	_
+5	just	just	ADV	RB	_	7	advmod	7:advmod	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(abstract-33-new-2-coref
+7	recording	recording	NOUN	NN	Number=Sing	3	obl	3:obl:from	Entity=33)|SpaceAfter=No
+8	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_ring-25
+# addressee = GUM_reddit_ring_spk_A
+# s_type = wh
+# speaker = GUM_reddit_ring_spk_C
+# text = How much do you practice? =p.
+# newpar = sp who:::"GUM_reddit_ring_spk_C" whom:::"GUM_reddit_ring_spk_A" (2 s) | p (2 s)
+1	How	how	ADV	WRB	PronType=Int	2	advmod	2:advmod	Discourse=solutionhood:35->37:1
+2	much	much	ADV	RB	Degree=Pos	5	advmod	5:advmod	_
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
+4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-3-giv:inact-1-ana)
+5	practice	practice	VERB	VB	VerbForm=Inf	0	root	0:root	SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	5:punct	_
+7	=p	=p	SYM	SYM	_	5	discourse	5:discourse	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_ring-26
+# addressee = GUM_reddit_ring_spk_A
+# s_type = wh
+# speaker = GUM_reddit_ring_spk_C
+# text = How many days a week and hour many hours?
+1	How	how	ADV	WRB	PronType=Int	2	advmod	2:advmod	Discourse=joint_m:36->35:0|Entity=(time-34-new-3-sgl
+2	many	many	ADJ	JJ	Degree=Pos	3	advmod	3:advmod	_
+3	days	day	NOUN	NNS	Number=Plur	0	root	0:root	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(time-35-new-2-coref
+5	week	week	NOUN	NN	Number=Sing	3	nmod:tmod	3:nmod:tmod	Entity=35)34)
+6	and	and	CCONJ	CC	_	9	cc	9:cc	_
+7	hour	hour	NOUN	NN	Number=Sing|Typo=Yes	9	reparandum	9:reparandum	Entity=(time-36-new-3-sgl|XML=<sic></sic>
+8	many	many	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
+9	hours	hour	NOUN	NNS	Number=Plur	5	conj	3:nmod:tmod|5:conj:and	Entity=36)|SpaceAfter=No
+10	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_ring-27
+# addressee = GUM_reddit_ring_spk_C
+# s_type = other
+# speaker = GUM_reddit_ring_spk_A
+# text = Whenever I have the apartment to myself.
+# newpar = sp who:::"GUM_reddit_ring_spk_A" whom:::"GUM_reddit_ring_spk_C" (3 s) | p (3 s)
+1	Whenever	whenever	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=background:37->41:2
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-3-giv:inact-1-ana)
+3	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Bridge=3<37|Entity=(place-37-acc:inf-2-sgl
+5	apartment	apartment	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=37)
+6	to	to	ADP	IN	_	7	case	7:case	_
+7	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|Poss=Yes|PronType=Prs|Reflex=Yes	3	obl	3:obl:to	Entity=(person-3-giv:act-1-ana)|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_ring-28
+# addressee = GUM_reddit_ring_spk_C
+# s_type = frag
+# speaker = GUM_reddit_ring_spk_A
+# text = Usually twenty - thirty minutes.
+1	Usually	usually	ADV	RB	Degree=Pos	5	advmod	5:advmod	Discourse=elaboration:38->37:0
+2	twenty	twenty	NUM	CD	NumForm=Word|NumType=Card	5	nummod	5:nummod	Entity=(time-38-new-4-sgl
+3	-	-	SYM	SYM	_	4	case	4:case	_
+4	thirty	thirty	NUM	CD	NumForm=Word|NumType=Card	2	nmod	2:nmod:minus	_
+5	minutes	minute	NOUN	NNS	Number=Plur	0	root	0:root	Entity=38)|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_ring-29
+# addressee = GUM_reddit_ring_spk_C
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_A
+# text = Couple times a week I get several sessions that are longer.
+1	Couple	couple	NOUN	NN	Number=Sing	2	compound	2:compound	Discourse=elaboration:39->38:0|Entity=(time-39-new-2-sgl
+2	times	time	NOUN	NNS	Number=Plur	0	root	0:root	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(time-35-giv:inact-2-coref
+4	week	week	NOUN	NN	Number=Sing	2	nmod:tmod	2:nmod:tmod	Entity=35)39)
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-3-giv:inact-1-ana)
+6	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_
+7	several	several	ADJ	JJ	Degree=Pos	8	amod	8:amod	Entity=(event-40-new-2-sgl
+8	sessions	session	NOUN	NNS	Number=Plur	6	obj	6:obj|11:nsubj	_
+9	that	that	PRON	WDT	PronType=Rel	11	nsubj	8:ref	Discourse=elaboration:40->39:0
+10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_
+11	longer	long	ADJ	JJR	Degree=Cmp	8	acl:relcl	8:acl:relcl	Entity=40)|SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_ring-30
+# addressee = GUM_reddit_ring_spk_A
+# s_type = imp
+# speaker = GUM_reddit_ring_spk_C
+# text = Do more practicing.
+# newpar = sp who:::"GUM_reddit_ring_spk_C" whom:::"GUM_reddit_ring_spk_A" (4 s) | p (4 s)
+1	Do	do	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint_m:41->26:4
+2	more	more	ADJ	JJR	Degree=Cmp	3	amod	3:amod	_
+3	practicing	practicing	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=(event-41-new-1-coref)|SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GUM_reddit_ring-31
+# addressee = GUM_reddit_ring_spk_A
+# s_type = other
+# speaker = GUM_reddit_ring_spk_C
+# text = Gotta get over not wanting to practice when people are around =p.
+1-2	Gotta	_	_	_	_	_	_	_	_
+1	Got	get	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	Discourse=concession:42->41:0|XML=<w>
+2	ta	to	PART	TO	_	3	mark	3:mark	XML=</w>
+3	get	get	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
+4	over	over	SCONJ	IN	_	6	mark	6:mark	_
+5	not	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
+6	wanting	want	VERB	VBG	VerbForm=Ger	3	advcl	3:advcl:over	_
+7	to	to	PART	TO	_	8	mark	8:mark	_
+8	practice	practice	VERB	VB	VerbForm=Inf	6	xcomp	6:xcomp	_
+9	when	when	SCONJ	WRB	PronType=Int	12	mark	12:mark	Discourse=circumstance:43->42:0
+10	people	person	NOUN	NNS	Number=Plur	12	nsubj	12:nsubj	Entity=(person-42-new-1-sgl)
+11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
+12	around	around	ADV	RB	Degree=Pos	8	advcl	8:advcl:when	_
+13	=p	=p	SYM	SYM	_	1	discourse	1:discourse	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GUM_reddit_ring-32
+# addressee = GUM_reddit_ring_spk_A
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_C
+# text = That's really the only proven way to get results.
+1-2	That's	_	_	_	_	_	_	_	_
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	7:nsubj	Discourse=motivation:44->46:0|Entity=(event-41-giv:inact-1-ana)
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
+3	really	really	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(event-41-giv:act-4-coref
+5	only	only	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
+6	proven	prove	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	7:amod	_
+7	way	way	NOUN	NN	Number=Sing	0	root	0:root	_
+8	to	to	PART	TO	_	9	mark	9:mark	Discourse=purpose:45->44:0
+9	get	get	VERB	VB	VerbForm=Inf	7	acl	7:acl:to	_
+10	results	result	NOUN	NNS	Number=Plur	9	obj	9:obj	Entity=(abstract-43-new-1-sgl)41)|SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = GUM_reddit_ring-33
+# addressee = GUM_reddit_ring_spk_A
+# s_type = frag
+# speaker = GUM_reddit_ring_spk_C
+# text = Practice.
+1	Practice	practice	NOUN	NN	Number=Sing	0	root	0:root	Discourse=restatement_m:46->41:1|Entity=(event-41-giv:act-1-coref)|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GUM_reddit_ring-34
+# addressee = GUM_reddit_ring_spk_A
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_D
+# text = If you want a ring ... I believe you have to use a strong chest dominant sound.
+# newpar = sp who:::"GUM_reddit_ring_spk_D" whom:::"GUM_reddit_ring_spk_A" (9 s) | p (9 s)
+1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=condition:47->49:1
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-3-giv:inact-1-ana)
+3	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	8:advcl:if	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(abstract-44-new-2-coref
+5	ring	ring	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=44)
+6	...	…	PUNCT	:	_	3	punct	3:punct	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj	Discourse=attribution:48->49:0|Entity=(person-45-new-1-ana)
+8	believe	believe	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+9	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	10:nsubj|12:nsubj:xsubj	Discourse=motivation:49->50:0|Entity=(person-3-giv:act-1-ana)
+10	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	ccomp	8:ccomp	_
+11	to	to	PART	TO	_	12	mark	12:mark	_
+12	use	use	VERB	VB	VerbForm=Inf	10	xcomp	10:xcomp	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(abstract-46-new-5-coref
+14	strong	strong	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
+15	chest	chest	NOUN	NN	Number=Sing	16	compound	16:compound	Entity=(object-47-new-1-sgl)
+16	dominant	dominant	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
+17	sound	sound	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=46)|SpaceAfter=No
+18	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = GUM_reddit_ring-35
+# addressee = GUM_reddit_ring_spk_A
+# s_type = imp
+# speaker = GUM_reddit_ring_spk_D
+# text = Try an EE vowel in the comfortable area of your voice.
+1	Try	try	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint_m:50->26:4
+2	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(abstract-48-new-3-coref
+3	EE	EE	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(abstract-49-new-1-sgl)|XML=<ref target:::"https://www.youtube.com/watch?v:::O1-6wEvXKhY&amp;feature:::youtu.be&amp;t:::2m31s">
+4	vowel	vowel	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=48)|XML=</ref>
+5	in	in	ADP	IN	_	8	case	8:case	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(place-50-new-3-sgl
+7	comfortable	comfortable	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
+8	area	area	NOUN	NN	Number=Sing	1	obl	1:obl:in	_
+9	of	of	ADP	IN	_	11	case	11:case	_
+10	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(abstract-51-new-2-sgl(person-3-giv:act-1-ana)
+11	voice	voice	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=51)50)|SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GUM_reddit_ring-36
+# addressee = GUM_reddit_ring_spk_A
+# s_type = frag
+# speaker = GUM_reddit_ring_spk_D
+# text = Like right here.
+1	Like	like	ADP	IN	_	3	case	3:case	Discourse=elaboration:51->50:1|XML=<ref target:::"https://www.youtube.com/watch?v:::w6P__3ZZnLA&amp;feature:::youtu.be&amp;t:::2m58s">
+2	right	right	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
+3	here	here	ADV	RB	PronType=Dem	0	root	0:root	Entity=(place-52-acc:com-1-sgl)|SpaceAfter=No|XML=</ref>
+4	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_ring-37
+# addressee = GUM_reddit_ring_spk_A
+# s_type = sub
+# speaker = GUM_reddit_ring_spk_D
+# text = You have to do these alternate vowels right here in this ipa chart.
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj|4:nsubj:xsubj	Discourse=restatement_m:52->51:0|Entity=(person-3-giv:inact-1-ana)
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	to	to	PART	TO	_	4	mark	4:mark	_
+4	do	do	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	_
+5	these	this	DET	DT	Number=Plur|PronType=Dem	7	det	7:det	Entity=(abstract-53-new-3-sgl
+6	alternate	alternate	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
+7	vowels	vowel	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=53)
+8	right	right	ADV	RB	Degree=Pos	9	advmod	9:advmod	XML=<ref target:::"http://www.ipachart.com/">
+9	here	here	ADV	RB	PronType=Dem	4	advmod	4:advmod	Entity=(place-54-acc:com-1-sgl)
+10	in	in	ADP	IN	_	13	case	13:case	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	13:det	Entity=(object-55-acc:com-3-sgl
+12	ipa	ipa	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=(abstract-56-new-1-sgl)
+13	chart	chart	NOUN	NN	Number=Sing	4	obl	4:obl:in	Entity=55)|SpaceAfter=No|XML=</ref>
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_ring-38
+# addressee = GUM_reddit_ring_spk_A
+# s_type = sub
+# speaker = GUM_reddit_ring_spk_D
+# text = so instead of 'i' it'd be 'Y' (ee as in sweet = i).
+1	so	so	ADV	RB	_	11	advmod	11:advmod	Discourse=elaboration:53->52:0
+2	instead	instead	ADV	RB	Degree=Pos	5	case	5:case	_
+3	of	of	ADP	IN	_	2	fixed	2:fixed	_
+4	'	'	PUNCT	``	_	5	punct	5:punct	SpaceAfter=No
+5	i	i	NOUN	NN	Number=Sing	11	obl	11:obl:instead_of	Entity=(abstract-57-new-1-coref)|SpaceAfter=No
+6	'	'	PUNCT	''	_	5	punct	5:punct	_
+7-8	it'd	_	_	_	_	_	_	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	Entity=(abstract-48-giv:inact-1-ana)
+8	'd	will	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
+9	be	be	AUX	VB	VerbForm=Inf	11	cop	11:cop	_
+10	'	'	PUNCT	``	_	11	punct	11:punct	SpaceAfter=No
+11	Y	Y	NOUN	NN	Number=Sing	0	root	0:root	Entity=(abstract-48-giv:act-1-pred)|SpaceAfter=No
+12	'	'	PUNCT	''	_	11	punct	11:punct	_
+13	(	(	PUNCT	-LRB-	_	18	punct	18:punct	Discourse=elaboration:54->53:0|SpaceAfter=No
+14	ee	ee	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	Entity=(abstract-48-giv:act-1-coref)
+15	as	as	SCONJ	IN	_	17	mark	17:mark	_
+16	in	in	ADP	IN	_	17	case	17:case	_
+17	sweet	sweet	ADJ	JJ	Degree=Pos	14	acl	14:acl:as	Entity=(abstract-58-new-1-sgl)
+18	=	=	SYM	SYM	_	11	parataxis	11:parataxis	_
+19	i	i	NOUN	NN	Number=Sing	18	xcomp	18:xcomp	Entity=(abstract-48-giv:act-1-coref)|SpaceAfter=No
+20	)	)	PUNCT	-RRB-	_	18	punct	18:punct	SpaceAfter=No
+21	.	.	PUNCT	.	_	11	punct	11:punct	_
+
+# sent_id = GUM_reddit_ring-39
+# addressee = GUM_reddit_ring_spk_A
+# s_type = other
+# speaker = GUM_reddit_ring_spk_D
+# text = a -> ɒ.
+1	a	a	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	Discourse=joint_m:55->53:1|Entity=(abstract-59-new-1-sgl)
+2	->	->	SYM	SYM	_	0	root	0:root	_
+3	ɒ	ɒ	NOUN	NN	Number=Sing	2	xcomp	2:xcomp	Entity=(abstract-60-new-1-sgl)|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_ring-40
+# addressee = GUM_reddit_ring_spk_A
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_D
+# text = If you try to sound like an opera singer, it'll just come to you I guess (if you have the ear).
+1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=condition:56->57:0
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Entity=(person-3-giv:inact-1-ana)
+3	try	try	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	14:advcl:if	_
+4	to	to	PART	TO	_	5	mark	5:mark	_
+5	sound	sound	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
+6	like	like	ADP	IN	_	9	case	9:case	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(person-6-giv:inact-3-coref
+8	opera	opera	NOUN	NN	Number=Sing	9	compound	9:compound	Entity=(abstract-15-giv:inact-1-coref)
+9	singer	singer	NOUN	NN	Number=Sing	5	obl	5:obl:like	Entity=6)|SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	3:punct	_
+11-12	it'll	_	_	_	_	_	_	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Discourse=joint_m:57->50:2|Entity=(abstract-44-giv:inact-1-ana)
+12	'll	will	AUX	MD	VerbForm=Fin	14	aux	14:aux	_
+13	just	just	ADV	RB	_	14	advmod	14:advmod	_
+14	come	come	VERB	VB	VerbForm=Inf	0	root	0:root	_
+15	to	to	ADP	IN	_	16	case	16:case	_
+16	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	14	obl	14:obl:to	Entity=(person-3-giv:act-1-ana)
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	18:nsubj	Discourse=attribution:58->57:1|Entity=(person-45-giv:inact-1-ana)
+18	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	acl:relcl	16:acl:relcl	_
+19	(	(	PUNCT	-LRB-	_	22	punct	22:punct	Discourse=condition:59->57:2|SpaceAfter=No
+20	if	if	SCONJ	IN	_	22	mark	22:mark	_
+21	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	22	nsubj	22:nsubj	Entity=(person-3-giv:act-1-ana)
+22	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	14:advcl:if	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Entity=(abstract-61-new-2-sgl
+24	ear	ear	NOUN	NN	Number=Sing	22	obj	22:obj	Entity=61)|SpaceAfter=No
+25	)	)	PUNCT	-RRB-	_	22	punct	22:punct	SpaceAfter=No
+26	.	.	PUNCT	.	_	14	punct	14:punct	_
+
+# sent_id = GUM_reddit_ring-41
+# addressee = GUM_reddit_ring_spk_A
+# s_type = other
+# speaker = GUM_reddit_ring_spk_D
+# text = Won't really happen if you try to sound like a pop singer unless you're like Josh Groban, which many say he's a popera singer.
+1-2	Won't	_	_	_	_	_	_	_	_
+1	Wo	will	AUX	MD	VerbForm=Fin	4	aux	4:aux	Discourse=contrast_m:60->57:3
+2	n't	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
+3	really	really	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
+4	happen	happen	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+5	if	if	SCONJ	IN	_	7	mark	7:mark	Discourse=condition:61->60:0
+6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	7:nsubj|9:nsubj:xsubj	Entity=(person-3-giv:act-1-ana)
+7	try	try	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	4:advcl:if	_
+8	to	to	PART	TO	_	9	mark	9:mark	_
+9	sound	sound	VERB	VB	VerbForm=Inf	7	xcomp	7:xcomp	_
+10	like	like	ADP	IN	_	13	case	13:case	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(person-6-giv:act-3-coref
+12	pop	pop	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=(abstract-25-giv:inact-1-coref)
+13	singer	singer	NOUN	NN	Number=Sing	9	obl	9:obl:like	Entity=6)
+14	unless	unless	SCONJ	IN	_	18	mark	18:mark	Discourse=condition:62->60:1
+15	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	18:nsubj	Entity=(person-3-giv:act-1-ana)|SpaceAfter=No
+16	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	cop	18:cop	_
+17	like	like	ADP	IN	_	18	case	18:case	_
+18	Josh	Josh	PROPN	NNP	Number=Sing	9	advcl	9:advcl:unless|23:obj	Entity=(person-62-new-1,2-coref-Josh_Groban|XML=<ref>
+19	Groban	Groban	PROPN	NNP	Number=Sing	18	flat	18:flat	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	23:punct	_
+21	which	which	PRON	WDT	PronType=Rel	23	obj	18:ref	Discourse=attribution:63->64:0
+22	many	many	ADJ	JJ	Degree=Pos	23	nsubj	23:nsubj	_
+23	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	18:acl:relcl	_
+24-25	he's	_	_	_	_	_	_	_	_
+24	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	28:nsubj	Discourse=evaluation:64->62:0|Entity=(person-62-giv:act-1-ana-Josh_Groban)
+25	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	28:cop	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	28:det	Entity=(person-62-giv:act-3-pred-Josh_Groban
+27	popera	popera	NOUN	NN	Number=Sing	28	compound	28:compound	Entity=(abstract-63-new-1-sgl)
+28	singer	singer	NOUN	NN	Number=Sing	23	ccomp	23:ccomp	Entity=62)62)|SpaceAfter=No|XML=</ref>
+29	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_ring-42
+# addressee = GUM_reddit_ring_spk_A
+# s_type = intj
+# speaker = GUM_reddit_ring_spk_D
+# text = lol
+1	lol	lol	ADV	RB	Degree=Pos	0	root	0:root	Discourse=evaluation:65->64:1
+
+# sent_id = GUM_reddit_ring-43
+# addressee = GUM_reddit_ring_spk_A
+# s_type = q
+# speaker = GUM_reddit_ring_spk_E
+# text = Is there a particular specific example or explaination your can give on the type of' ring' you are referring to?
+# newpar = sp who:::"GUM_reddit_ring_spk_E" whom:::"GUM_reddit_ring_spk_A" (27 s) | p (2 s)
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	Discourse=question:66->73:0
+2	there	there	ADV	RB	PronType=Dem	6	nsubj	6:nsubj|8:nsubj	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(abstract-64-new-4,6-sgl
+4	particular	particular	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
+5	specific	specific	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
+6	example	example	NOUN	NN	Number=Sing	0	root	0:root	_
+7	or	or	CCONJ	CC	_	8	cc	8:cc	_
+8	explaination	explaination	NOUN	NN	Number=Sing|Typo=Yes	6	conj	6:conj:or	XML=<sic></sic>
+9	your	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|Poss=Yes|PronType=Prs	11	nsubj	11:nsubj	Discourse=elaboration:67->66:0|Entity=(person-3-giv:inact-1-ana)|XML=<sic></sic>
+10	can	can	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
+11	give	give	VERB	VB	VerbForm=Inf	6	acl:relcl	6:acl:relcl	_
+12	on	on	ADP	IN	_	14	case	14:case	Discourse=same-unit_m:68->66:1
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(abstract-65-new-5-sgl
+14	type	type	NOUN	NN	Number=Sing	11	obl	11:obl:on	_
+15	of	of	ADP	IN	_	17	case	17:case	SpaceAfter=No
+16	'	'	PUNCT	''	_	17	punct	17:punct	XML=<q>
+17	ring	ring	NOUN	NN	Number=Sing	11	obl	11:obl:of	Entity=(abstract-44-giv:inact-1-coref)|SpaceAfter=No
+18	'	'	PUNCT	''	_	17	punct	17:punct	XML=</q>
+19	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	21	nsubj	21:nsubj	Discourse=elaboration:69->68:0|Entity=(person-3-giv:act-1-ana)
+20	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	aux	21:aux	_
+21	referring	refer	VERB	VBG	Tense=Pres|VerbForm=Part	17	acl:relcl	17:acl:relcl	_
+22	to	to	ADP	IN	_	21	obl	21:obl	Entity=65)64)|SpaceAfter=No
+23	?	?	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = GUM_reddit_ring-44
+# addressee = GUM_reddit_ring_spk_A
+# s_type = q
+# speaker = GUM_reddit_ring_spk_E
+# text = Are you referring to the slight ping in certain people's voices that give it a clarity or you talking about the slight' oomph' in certain people's voices?
+1	Are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	3:aux	Discourse=joint_m:70->66:2
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-3-giv:act-1-ana)
+3	referring	refer	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
+4	to	to	ADP	IN	_	7	case	7:case	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(abstract-66-new-3-coref
+6	slight	slight	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
+7	ping	ping	NOUN	NN	Number=Sing	3	obl	3:obl:to|14:nsubj	_
+8	in	in	ADP	IN	_	12	case	12:case	_
+9	certain	certain	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(abstract-67-new-4-coref(person-68-new-2-sgl
+10-11	people's	_	_	_	_	_	_	_	_
+10	people	person	NOUN	NNS	Number=Plur	12	nmod:poss	12:nmod:poss	_
+11	's	's	PART	POS	_	10	case	10:case	Entity=68)
+12	voices	voice	NOUN	NNS	Number=Plur	7	nmod	7:nmod:in	Entity=67)
+13	that	that	PRON	WDT	PronType=Rel	14	nsubj	7:ref	Discourse=elaboration:71->70:0
+14	give	give	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	7:acl:relcl	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	iobj	14:iobj	Entity=(abstract-67-giv:act-1-ana)
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(abstract-69-new-2-coref
+17	clarity	clarity	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=69)66)
+18	or	or	CCONJ	CC	_	19	cc	19:cc	Discourse=contrast_m:72->70:1
+19	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	17	conj	14:obj|17:conj:or	Entity=(person-3-giv:act-1-ana)
+20	talking	talk	VERB	VBG	VerbForm=Ger	19	acl	19:acl	_
+21	about	about	ADP	IN	_	25	case	25:case	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(abstract-70-new-10-sgl
+23	slight	slight	ADJ	JJ	Degree=Pos	25	nmod:poss	25:nmod:poss	SpaceAfter=No
+24	'	'	PUNCT	''	_	25	punct	25:punct	XML=<q>
+25	oomph	oomph	NOUN	NN	Number=Sing	20	obl	20:obl:about	SpaceAfter=No
+26	'	'	PUNCT	''	_	25	punct	25:punct	XML=</q>
+27	in	in	ADP	IN	_	31	case	31:case	_
+28	certain	certain	ADJ	JJ	Degree=Pos	29	amod	29:amod	Entity=(abstract-71-new-4-sgl(person-72-new-2-sgl
+29-30	people's	_	_	_	_	_	_	_	_
+29	people	person	NOUN	NNS	Number=Plur	31	nmod:poss	31:nmod:poss	_
+30	's	's	PART	POS	_	29	case	29:case	Entity=72)
+31	voices	voice	NOUN	NNS	Number=Plur	14	obl	14:obl:in	Entity=71)70)|SpaceAfter=No
+32	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_ring-45
+# addressee = GUM_reddit_ring_spk_A
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_E
+# text = Either way, yeah i think it is a pretty decent sounding voice.
+# newpar = p (2 s)
+1	Either	either	DET	DT	_	2	det	2:det	Discourse=joint_m:73->26:4
+2	way	way	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	6:punct	_
+4	yeah	yeah	INTJ	UH	_	6	discourse	6:discourse	_
+5	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Discourse=attribution:74->75:0|Entity=(person-73-acc:com-1-ana)|XML=<sic></sic>
+6	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	Discourse=evaluation:75->73:1|Entity=(abstract-5-giv:inact-1-ana)
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(abstract-5-giv:act-5-pred
+10	pretty	pretty	ADV	RB	_	11	advmod	11:advmod	_
+11	decent	decent	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
+12	sounding	sound	VERB	VBG	VerbForm=Ger	13	amod	13:amod	_
+13	voice	voice	NOUN	NN	Number=Sing	6	ccomp	6:ccomp	Entity=5)|SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_ring-46
+# addressee = GUM_reddit_ring_spk_A
+# s_type = multiple
+# speaker = GUM_reddit_ring_spk_E
+# text = You mentioned that your teacher is asking you to open the throat and i would like to know what he/she said to instruct you to open the throat.
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:76->77:0|Entity=(person-3-giv:inact-1-ana)
+2	mentioned	mention	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	that	that	SCONJ	IN	_	7	mark	7:mark	Discourse=background:77->81:1
+4	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(person-74-acc:com-2-coref
+5	teacher	teacher	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=74)
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
+7	asking	ask	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	2:ccomp	_
+8	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	7	obj	7:obj|10:nsubj:xsubj	Entity=(person-3-giv:act-1-ana)
+9	to	to	PART	TO	_	10	mark	10:mark	_
+10	open	open	VERB	VB	VerbForm=Inf	7	xcomp	7:xcomp	Entity=(event-75-new-1-sgl
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Bridge=3<76|Entity=(object-76-acc:inf-2-coref
+12	throat	throat	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=76)75)
+13	and	and	CCONJ	CC	_	16	cc	16:cc	Discourse=joint_m:78->77:1
+14	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	16:nsubj|18:nsubj:xsubj|23:nsubj:xsubj|25:nsubj:xsubj	Entity=(person-73-giv:act-1-ana)|XML=<sic></sic>
+15	would	would	AUX	MD	VerbForm=Fin	16	aux	16:aux	_
+16	like	like	VERB	VB	VerbForm=Inf	2	conj	2:conj:and	_
+17	to	to	PART	TO	_	18	mark	18:mark	_
+18	know	know	VERB	VB	VerbForm=Inf	16	xcomp	16:xcomp	_
+19	what	what	PRON	WP	PronType=Int	23	obj	23:obj|25:nsubj:xsubj	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	18:obj|23:nsubj:xsubj	Bridge=74<77|Entity=(person-77-acc:inf-1-sgl)|SpaceAfter=No|XML=<w>
+21	/	/	SYM	SYM	_	23	dep	23:dep	SpaceAfter=No
+22	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	18:obj|23:nsubj:xsubj	Bridge=74<78|Entity=(person-78-acc:inf-1-sgl)|XML=</w>
+23	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	xcomp	18:xcomp	_
+24	to	to	PART	TO	_	25	mark	25:mark	Discourse=purpose:79->78:0
+25	instruct	instruct	VERB	VB	VerbForm=Inf	23	xcomp	23:xcomp	_
+26	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	25	obj	25:obj|28:nsubj:xsubj	Entity=(person-3-giv:act-1-ana)
+27	to	to	PART	TO	_	28	mark	28:mark	Entity=(event-79-new-2-disc
+28	open	open	VERB	VB	VerbForm=Inf	25	xcomp	25:xcomp	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(object-76-giv:act-2-coref
+30	throat	throat	NOUN	NN	Number=Sing	28	obj	28:obj	Entity=76)79)|SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_ring-47
+# addressee = GUM_reddit_ring_spk_A
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_E
+# text = What i am noticing is that the vowel is tending towards the 'pushed' and spread side possibly from a slight over emphasis on the opening of the throat.
+# newpar = p (8 s)
+1	What	what	PRON	WP	PronType=Int	4	obj	4:obj	Discourse=attribution:80->81:0
+2	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-73-giv:act-1-ana)|XML=<sic></sic>
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
+4	noticing	notice	VERB	VBG	Tense=Pres|VerbForm=Part	5	csubj	5:csubj	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+6	that	that	SCONJ	IN	_	10	mark	10:mark	Discourse=justify:81->83:2
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(abstract-57-giv:inact-2-coref
+8	vowel	vowel	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=57)
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	10:aux	_
+10	tending	tend	VERB	VBG	Tense=Pres|VerbForm=Part	5	ccomp	5:ccomp	_
+11	towards	towards	ADP	IN	_	18	case	18:case	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(abstract-80-new-7-sgl
+13	'	'	PUNCT	``	_	14	punct	14:punct	SpaceAfter=No|XML=<q>
+14	pushed	push	VERB	VBN	Tense=Past|VerbForm=Part	18	amod	18:amod	SpaceAfter=No
+15	'	'	PUNCT	''	_	14	punct	14:punct	XML=</q>
+16	and	and	CCONJ	CC	_	17	cc	17:cc	_
+17	spread	spread	VERB	VBN	Tense=Past|VerbForm=Part	14	conj	14:conj:and|18:amod	_
+18	side	side	NOUN	NN	Number=Sing	10	obl	10:obl:towards	Entity=80)
+19	possibly	possibly	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
+20	from	from	ADP	IN	_	24	case	24:case	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	24:det	Entity=(abstract-81-new-4-sgl
+22	slight	slight	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
+23	over	over	ADJ	JJ	Degree=Pos	24	amod	24:amod	_
+24	emphasis	emphasis	NOUN	NN	Number=Sing	10	obl	10:obl:from	_
+25	on	on	ADP	IN	_	27	case	27:case	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(event-79-giv:act-2-coref
+27	opening	opening	NOUN	NN	Number=Sing	24	nmod	24:nmod:on	_
+28	of	of	ADP	IN	_	30	case	30:case	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(object-76-giv:act-2-coref
+30	throat	throat	NOUN	NN	Number=Sing	27	nmod	27:nmod:of	Entity=76)79)81)|SpaceAfter=No
+31	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_ring-48
+# addressee = GUM_reddit_ring_spk_A
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_E
+# text = Here is the key, you need to both have an open / relaxed throat with a clear sound.
+1	Here	here	ADV	RB	PronType=Dem	4	nsubj	4:nsubj	Discourse=preparation:82->83:0|Entity=(abstract-82-new-1-coref)
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(abstract-82-giv:act-2-coref
+4	key	key	NOUN	NN	Number=Sing	7	ccomp	7:ccomp|10:csubj:xsubj	Entity=82)|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	4:punct	_
+6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	7:nsubj	Discourse=joint_m:83->73:2|Entity=(abstract-82-giv:act-2-coref(person-3-giv:inact-1-ana)
+7	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+8	to	to	PART	TO	_	10	mark	10:mark	_
+9	both	both	DET	DT	_	10	obl:npmod	10:obl:npmod	_
+10	have	have	VERB	VB	VerbForm=Inf	7	xcomp	7:xcomp	_
+11	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(object-83-new-5-sgl
+12	open	open	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
+13	/	/	SYM	SYM	_	12	dep	12:dep	_
+14	relaxed	relax	VERB	VBN	Tense=Past|VerbForm=Part	15	amod	15:amod	_
+15	throat	throat	NOUN	NN	Number=Sing	10	obj	10:obj	_
+16	with	with	ADP	IN	_	19	case	19:case	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(abstract-46-giv:inact-3-coref
+18	clear	clear	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
+19	sound	sound	NOUN	NN	Number=Sing	15	nmod	15:nmod:with	Entity=46)83)82)|SpaceAfter=No
+20	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = GUM_reddit_ring-49
+# addressee = GUM_reddit_ring_spk_A
+# s_type = other
+# speaker = GUM_reddit_ring_spk_E
+# text = A clear sound being a sound with clarity and focus or some would term to as 'ping'.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	Discourse=elaboration:84->83:1|Entity=(abstract-46-giv:act-3-coref
+2	clear	clear	ADJ	JJ	Degree=Pos	3	amod	3:amod	_
+3	sound	sound	NOUN	NN	Number=Sing	6	nsubj	6:nsubj	Entity=46)
+4	being	be	AUX	VBG	VerbForm=Ger	6	cop	6:cop	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(abstract-46-giv:act-2-pred
+6	sound	sound	NOUN	NN	Number=Sing	0	root	0:root	_
+7	with	with	ADP	IN	_	8	case	8:case	_
+8	clarity	clarity	NOUN	NN	Number=Sing	6	nmod	6:nmod:with	Entity=(abstract-69-giv:inact-1-coref)
+9	and	and	CCONJ	CC	_	10	cc	10:cc	_
+10	focus	focus	NOUN	NN	Number=Sing	8	conj	6:nmod:with|8:conj:and	Entity=(abstract-84-new-1-sgl)46)
+11	or	or	CCONJ	CC	_	14	cc	14:cc	Discourse=joint_m:85->84:0
+12	some	some	DET	DT	_	14	nsubj	14:nsubj	Entity=(person-85-new-1-sgl)
+13	would	would	AUX	MD	VerbForm=Fin	14	aux	14:aux	_
+14	term	term	VERB	VB	VerbForm=Inf	6	conj	6:conj:or	_
+15	to	to	ADP	IN	_	14	obl	14:obl	_
+16	as	as	ADP	IN	_	18	case	18:case	_
+17	'	'	PUNCT	``	_	18	punct	18:punct	SpaceAfter=No|XML=<q>
+18	ping	ping	NOUN	NN	Number=Sing	14	obl	14:obl:as	Entity=(abstract-66-giv:inact-1-coref)|SpaceAfter=No
+19	'	'	PUNCT	''	_	18	punct	18:punct	SpaceAfter=No|XML=</q>
+20	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = GUM_reddit_ring-50
+# addressee = GUM_reddit_ring_spk_A
+# s_type = sub
+# speaker = GUM_reddit_ring_spk_E
+# text = One way you can do it is pretty simple.
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	2:nummod	Discourse=evaluation:86->89:4|Entity=(abstract-86-new-2-sgl
+2	way	way	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_
+3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Discourse=elaboration:87->86:0|Entity=(person-3-giv:inact-1-ana)
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
+5	do	do	VERB	VB	VerbForm=Inf	2	acl:relcl	2:acl:relcl	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	5:obj	Entity=(event-79-giv:inact-1-ana)86)
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	Discourse=same-unit_m:88->86:1
+8	pretty	pretty	ADV	RB	_	9	advmod	9:advmod	_
+9	simple	simple	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = GUM_reddit_ring-51
+# addressee = GUM_reddit_ring_spk_A
+# s_type = imp
+# speaker = GUM_reddit_ring_spk_E
+# text = Simply do 2 sets of scales on the same key.
+1	Simply	simply	ADV	RB	Degree=Pos	2	advmod	2:advmod	Discourse=elaboration:89->83:3
+2	do	do	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+3	2	2	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	Entity=(abstract-87-new-2-sgl
+4	sets	set	NOUN	NNS	Number=Plur	2	obj	2:obj	_
+5	of	of	ADP	IN	_	6	case	6:case	_
+6	scales	scale	NOUN	NNS	Number=Plur	4	nmod	4:nmod:of	Entity=(abstract-88-new-1-sgl
+7	on	on	ADP	IN	_	10	case	10:case	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(abstract-89-new-3-sgl
+9	same	same	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
+10	key	key	NOUN	NN	Number=Sing	6	nmod	6:nmod:on	Entity=89)88)87)|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_ring-52
+# addressee = GUM_reddit_ring_spk_A
+# s_type = frag
+# speaker = GUM_reddit_ring_spk_E
+# text = The do-mi-re-fa-mi-so-fa-re-mi-do-re-ti-do(the one you do on the recording).
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:90->89:0|Entity=(abstract-90-new-2,4,6,8,10,12,14,16,18,20,22,24,26-coref
+2	do	do	X	FW	_	0	root	0:root	SpaceAfter=No|XML=<w>
+3	-	-	PUNCT	HYPH	_	4	punct	4:punct	SpaceAfter=No
+4	mi	mi	X	FW	_	2	flat	2:flat	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	6:punct	SpaceAfter=No
+6	re	re	X	FW	_	2	flat	2:flat	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	8:punct	SpaceAfter=No
+8	fa	fa	X	FW	_	2	flat	2:flat	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	10:punct	SpaceAfter=No
+10	mi	mi	X	FW	_	2	flat	2:flat	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	12:punct	SpaceAfter=No
+12	so	so	X	FW	_	2	flat	2:flat	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	14:punct	SpaceAfter=No
+14	fa	fa	X	FW	_	2	flat	2:flat	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	16:punct	SpaceAfter=No
+16	re	re	X	FW	_	2	flat	2:flat	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	18	punct	18:punct	SpaceAfter=No
+18	mi	mi	X	FW	_	2	flat	2:flat	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	20	punct	20:punct	SpaceAfter=No
+20	do	do	X	FW	_	2	flat	2:flat	SpaceAfter=No
+21	-	-	PUNCT	HYPH	_	22	punct	22:punct	SpaceAfter=No
+22	re	re	X	FW	_	2	flat	2:flat	SpaceAfter=No
+23	-	-	PUNCT	HYPH	_	24	punct	24:punct	SpaceAfter=No
+24	ti	ti	X	FW	_	2	flat	2:flat	SpaceAfter=No
+25	-	-	PUNCT	HYPH	_	26	punct	26:punct	SpaceAfter=No
+26	do	do	X	FW	Typo=Yes	2	flat	2:flat	Entity=90)|SpaceAfter=No|XML=<sic>
+27	(	(	PUNCT	-LRB-	Typo=Yes	29	punct	29:punct	Discourse=elaboration:91->90:0|SpaceAfter=No
+28	the	the	DET	DT	Definite=Def|PronType=Art|Typo=Yes	29	det	29:det	Entity=(abstract-90-giv:act-2-appos|XML=</sic></w>
+29	one	one	NOUN	NN	Number=Sing	2	appos	2:appos	_
+30	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	31	nsubj	31:nsubj	Entity=(person-3-giv:inact-1-ana)
+31	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	29	acl:relcl	29:acl:relcl	_
+32	on	on	ADP	IN	_	34	case	34:case	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	34:det	Entity=(abstract-33-giv:inact-2-coref
+34	recording	recording	NOUN	NN	Number=Sing	31	obl	31:obl:on	Entity=33)90)|SpaceAfter=No
+35	)	)	PUNCT	-RRB-	_	29	punct	29:punct	SpaceAfter=No
+36	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_ring-53
+# addressee = GUM_reddit_ring_spk_A
+# s_type = imp
+# speaker = GUM_reddit_ring_spk_E
+# text = Do it twice.
+1	Do	do	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=restatement_m:92->89:1
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	1:obj	Entity=(abstract-90-giv:act-1-ana)
+3	twice	twice	ADV	RB	NumType=Mult	1	advmod	1:advmod	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GUM_reddit_ring-54
+# addressee = GUM_reddit_ring_spk_A
+# s_type = imp
+# speaker = GUM_reddit_ring_spk_E
+# text = First on a hum/ng sound and then on the second scale open the vowel in either an 'EE' or an 'Ah'.
+1	First	first	ADV	RB	Degree=Pos|NumType=Ord	7	advmod	7:advmod	Discourse=manner:93->92:0
+2	on	on	ADP	IN	_	7	case	7:case	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(abstract-91-new-5-coref(abstract-92-new-2-coref
+4	hum	hum	NOUN	NN	Number=Sing	7	compound	7:compound	Entity=92)|SpaceAfter=No|XML=<w>
+5	/	/	SYM	SYM	_	6	cc	6:cc	SpaceAfter=No
+6	ng	ng	NOUN	NN	Number=Sing	4	conj	4:conj:slash|7:compound	Entity=(abstract-93-new-2-coref|XML=</w>
+7	sound	sound	NOUN	NN	Number=Sing	14	obl	14:obl:on	Entity=93)91)
+8	and	and	CCONJ	CC	_	13	cc	13:cc	Discourse=sequence_m:94->93:0
+9	then	then	ADV	RB	PronType=Dem	13	advmod	13:advmod	_
+10	on	on	ADP	IN	_	13	case	13:case	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Bridge=90<94|Entity=(abstract-94-acc:inf-3-sgl
+12	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	13	amod	13:amod	_
+13	scale	scale	NOUN	NN	Number=Sing	2	conj	2:conj:and|7:case	Entity=94)
+14	open	open	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Bridge=90<95|Entity=(abstract-95-acc:inf-2-sgl
+16	vowel	vowel	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=95)
+17	in	in	ADP	IN	_	21	case	21:case	_
+18	either	either	CCONJ	CC	_	21	cc:preconj	21:cc:preconj	_
+19	an	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Entity=(abstract-96-new-3,8-coref(abstract-97-new-3-sgl
+20	'	'	PUNCT	``	_	21	punct	21:punct	SpaceAfter=No
+21	EE	EE	NOUN	NN	Number=Sing	14	obl	14:obl:in	SpaceAfter=No
+22	'	'	PUNCT	''	_	21	punct	21:punct	Entity=97)
+23	or	or	CCONJ	CC	_	26	cc	26:cc	_
+24	an	a	DET	DT	Definite=Ind|PronType=Art	26	det	26:det	Entity=(abstract-98-new-3-sgl
+25	'	'	PUNCT	``	_	26	punct	26:punct	SpaceAfter=No
+26	Ah	ah	NOUN	NN	Number=Sing	21	conj	14:obl:in|21:conj:or	SpaceAfter=No
+27	'	'	PUNCT	''	_	26	punct	26:punct	Entity=98)96)|SpaceAfter=No
+28	.	.	PUNCT	.	_	14	punct	14:punct	_
+
+# sent_id = GUM_reddit_ring-55
+# addressee = GUM_reddit_ring_spk_A
+# s_type = imp
+# speaker = GUM_reddit_ring_spk_E
+# text = Do either the hum or the 'ng'.
+# newpar = p (7 s)
+1	Do	do	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=elaboration:95->93:1
+2	either	either	CCONJ	CC	_	4	cc:preconj	4:cc:preconj	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(abstract-91-giv:act-2,6-coref(abstract-92-giv:act-2-coref
+4	hum	hum	NOUN	NN	Number=Sing	1	obj	1:obj	Entity=92)
+5	or	or	CCONJ	CC	_	8	cc	8:cc	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(abstract-93-giv:act-3-coref
+7	'	'	PUNCT	``	_	8	punct	8:punct	SpaceAfter=No
+8	ng	ng	NOUN	NN	Number=Sing	4	conj	1:obj|4:conj:or	SpaceAfter=No
+9	'	'	PUNCT	''	_	8	punct	8:punct	Entity=93)91)|SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GUM_reddit_ring-56
+# addressee = GUM_reddit_ring_spk_A
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_E
+# text = Whichever is more comfortable for you.
+1	Whichever	whichever	PRON	WDT	PronType=Int	4	nsubj	4:nsubj	Discourse=elaboration:96->95:0
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
+3	more	more	ADV	RBR	Degree=Cmp	4	advmod	4:advmod	_
+4	comfortable	comfortable	ADJ	JJ	Degree=Pos	0	root	0:root	_
+5	for	for	ADP	IN	_	6	case	6:case	_
+6	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	obl	4:obl:for	Entity=(person-3-giv:inact-1-ana)|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_ring-57
+# addressee = GUM_reddit_ring_spk_A
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_E
+# text = The 'ng' is basically a sustained 'ng' pronunciation as in the word 'sing' or 'ring'.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=elaboration:97->95:1|Entity=(abstract-93-giv:inact-3-coref
+2	'	'	PUNCT	``	_	3	punct	3:punct	SpaceAfter=No
+3	ng	ng	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	SpaceAfter=No
+4	'	'	PUNCT	''	_	3	punct	3:punct	Entity=93)
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	_
+6	basically	basically	ADV	RB	Degree=Pos	12	advmod	12:advmod	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(abstract-93-giv:act-6-pred
+8	sustained	sustain	VERB	VBN	Tense=Past|VerbForm=Part	12	amod	12:amod	_
+9	'	'	PUNCT	``	_	10	punct	10:punct	SpaceAfter=No
+10	ng	ng	NOUN	NN	Number=Sing	12	compound	12:compound	SpaceAfter=No
+11	'	'	PUNCT	''	_	10	punct	10:punct	_
+12	pronunciation	pronunciation	NOUN	NN	Number=Sing	0	root	0:root	Entity=93)
+13	as	as	SCONJ	IN	_	16	mark	16:mark	_
+14	in	in	ADP	IN	_	16	case	16:case	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(abstract-99-new-2-coref
+16	word	word	NOUN	NN	Number=Sing	12	acl	12:acl:as	Entity=99)
+17	'	'	PUNCT	``	_	18	punct	18:punct	Entity=(abstract-99-giv:act-6-coref|SpaceAfter=No
+18	sing	sing	VERB	VB	VerbForm=Inf	16	appos	16:appos	Entity=(abstract-100-new-1-sgl)|SpaceAfter=No
+19	'	'	PUNCT	''	_	18	punct	18:punct	_
+20	or	or	CCONJ	CC	_	22	cc	22:cc	_
+21	'	'	PUNCT	``	_	22	punct	22:punct	SpaceAfter=No
+22	ring	ring	NOUN	NN	Number=Sing	16	conj	12:acl:as|16:conj:or	Entity=(abstract-101-new-1-sgl)|SpaceAfter=No
+23	'	'	PUNCT	''	_	22	punct	22:punct	Entity=99)|SpaceAfter=No
+24	.	.	PUNCT	.	_	12	punct	12:punct	_
+
+# sent_id = GUM_reddit_ring-58
+# addressee = GUM_reddit_ring_spk_A
+# s_type = sub
+# speaker = GUM_reddit_ring_spk_E
+# text = Some also would call this an open hum.
+1	Some	some	DET	DT	_	4	nsubj	4:nsubj	Discourse=background:98->97:0|Entity=(person-102-new-1-sgl)
+2	also	also	ADV	RB	_	4	advmod	4:advmod	_
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
+4	call	call	VERB	VB	VerbForm=Inf	0	root	0:root	_
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	obj	4:obj|8:nsubj:xsubj	Entity=(abstract-93-giv:act-1-ana)
+6	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(abstract-93-giv:act-3-coref
+7	open	open	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
+8	hum	hum	NOUN	NN	Number=Sing	4	xcomp	4:xcomp	Entity=93)|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_ring-59
+# addressee = GUM_reddit_ring_spk_A
+# s_type = imp
+# speaker = GUM_reddit_ring_spk_E
+# text = Then on the hum/ng, try to find a clear buzzing sensation in the front of your face and at the lips if you are doing a hum.
+1	Then	then	ADV	RB	PronType=Dem	8	advmod	8:advmod	Discourse=sequence_m:99->89:2
+2	on	on	ADP	IN	_	4	case	4:case	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(abstract-91-giv:inact-2,4-coref(abstract-92-giv:inact-2-coref
+4	hum	hum	NOUN	NN	Number=Sing	8	obl	8:obl:on	Entity=92)|SpaceAfter=No|XML=<w>
+5	/	/	SYM	SYM	_	6	cc	6:cc	SpaceAfter=No
+6	ng	ng	NOUN	NN	Number=Sing	4	conj	4:conj:slash|8:obl:on	Entity=(abstract-93-giv:act-1-coref)91)|SpaceAfter=No|XML=</w>
+7	,	,	PUNCT	,	_	4	punct	4:punct	_
+8	try	try	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+9	to	to	PART	TO	_	10	mark	10:mark	_
+10	find	find	VERB	VB	VerbForm=Inf	8	xcomp	8:xcomp	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(abstract-103-new-7-coref
+12	clear	clear	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
+13	buzzing	buzz	VERB	VBG	VerbForm=Ger	14	amod	14:amod	_
+14	sensation	sensation	NOUN	NN	Number=Sing	10	obj	10:obj	_
+15	in	in	ADP	IN	_	17	case	17:case	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(object-104-new-2-sgl
+17	front	front	NOUN	NN	Number=Sing	10	obl	10:obl:in	_
+18	of	of	ADP	IN	_	20	case	20:case	_
+19	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	Entity=(object-105-new-2-sgl(person-3-giv:inact-1-ana)
+20	face	face	NOUN	NN	Number=Sing	17	nmod	17:nmod:of	Entity=105)104)103)
+21	and	and	CCONJ	CC	_	24	cc	24:cc	_
+22	at	at	ADP	IN	_	24	case	24:case	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Bridge=3<106|Entity=(object-106-acc:inf-2-sgl
+24	lips	lip	NOUN	NNS	Number=Plur	15	conj	15:conj:and|17:case	Entity=106)
+25	if	if	SCONJ	IN	_	28	mark	28:mark	Discourse=condition:100->99:0
+26	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	28	nsubj	28:nsubj	Entity=(person-3-giv:act-1-ana)
+27	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	28	aux	28:aux	_
+28	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	8:advcl:if	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	30:det	Entity=(abstract-92-giv:act-2-coref
+30	hum	hum	NOUN	NN	Number=Sing	28	obj	28:obj	Entity=92)|SpaceAfter=No
+31	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = GUM_reddit_ring-60
+# addressee = GUM_reddit_ring_spk_A
+# s_type = imp
+# speaker = GUM_reddit_ring_spk_E
+# text = Do not force the sensation, focus on simply humming and the sensation should materialize by itself.
+1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=antithesis:101->102:0
+2	not	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	_
+3	force	force	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(abstract-103-giv:act-2-coref
+5	sensation	sensation	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=103)|SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	7:punct	_
+7	focus	focus	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	3	parataxis	3:parataxis	Discourse=elaboration:102->99:1
+8	on	on	SCONJ	IN	_	10	mark	10:mark	_
+9	simply	simply	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
+10	humming	hum	VERB	VBG	VerbForm=Ger	7	advcl	7:advcl:on	Entity=(event-107-new-1-disc)
+11	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=result:103->102:1
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(abstract-103-giv:act-2-coref
+13	sensation	sensation	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=103)
+14	should	should	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	15	aux	15:aux	_
+15	materialize	materialize	VERB	VB	VerbForm=Inf	3	conj	3:conj:and	_
+16	by	by	ADP	IN	_	17	case	17:case	_
+17	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	15	obl	15:obl:by	Entity=(abstract-103-giv:act-1-ana)|SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_ring-61
+# addressee = GUM_reddit_ring_spk_A
+# s_type = imp
+# speaker = GUM_reddit_ring_spk_E
+# text = Then simply try to keep this same clarity or 'buzz' when you open the mouth into the EE/AH vowel.
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	Discourse=sequence_m:104->89:2
+2	simply	simply	ADV	RB	Degree=Pos	3	advmod	3:advmod	_
+3	try	try	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+4	to	to	PART	TO	_	5	mark	5:mark	_
+5	keep	keep	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	8:det	Entity=(abstract-69-giv:inact-3-coref
+7	same	same	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
+8	clarity	clarity	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=69)
+9	or	or	CCONJ	CC	_	11	cc	11:cc	_
+10	'	'	PUNCT	``	_	11	punct	11:punct	Entity=(abstract-103-giv:act-2-coref|SpaceAfter=No|XML=<q>
+11	buzz	buzz	NOUN	NN	Number=Sing	8	conj	5:obj|8:conj:or	SpaceAfter=No
+12	'	'	PUNCT	''	_	11	punct	11:punct	Entity=103)|XML=</q>
+13	when	when	SCONJ	WRB	PronType=Int	15	mark	15:mark	Discourse=circumstance:105->104:0
+14	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Entity=(person-3-giv:inact-1-ana)
+15	open	open	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	advcl	5:advcl:when	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Bridge=3<108|Entity=(object-108-acc:inf-2-sgl
+17	mouth	mouth	NOUN	NN	Number=Sing	15	obj	15:obj	Entity=108)
+18	into	into	ADP	IN	_	17	nmod	17:nmod	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(abstract-96-giv:inact-5-coref
+20	EE	EE	NOUN	NN	Number=Sing	23	compound	23:compound	SpaceAfter=No|XML=<w>
+21	/	/	SYM	SYM	_	23	dep	23:dep	SpaceAfter=No
+22	AH	AH	NOUN	NN	Number=Sing	23	compound	23:compound	XML=</w>
+23	vowel	vowel	NOUN	NN	Number=Sing	15	dep	15:dep	Entity=96)|SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_ring-62
+# addressee = GUM_reddit_ring_spk_A
+# s_type = sub
+# speaker = GUM_reddit_ring_spk_E
+# text = You may need to record yourself while doing this.
+# newpar = p (5 s)
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	Discourse=concession:106->104:1|Entity=(person-3-giv:act-1-ana)
+2	may	may	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
+3	need	need	VERB	VB	VerbForm=Inf	0	root	0:root	_
+4	to	to	PART	TO	_	5	mark	5:mark	_
+5	record	record	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
+6	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	5	obj	5:obj	Entity=(person-3-giv:act-1-ana)
+7	while	while	SCONJ	IN	_	8	mark	8:mark	Discourse=circumstance:107->106:0
+8	doing	do	VERB	VBG	VerbForm=Ger	5	advcl	5:advcl:while	_
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	8	obj	8:obj	Entity=(event-107-giv:inact-1-coref)|SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_ring-63
+# addressee = GUM_reddit_ring_spk_A
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_E
+# text = Many a times i have notice that people can produce a relatively focused and clean hum/ng.
+1	Many	many	ADJ	JJ	Degree=Pos	3	amod	3:amod	Discourse=attribution:108->109:0|Entity=(time-109-new-3-sgl
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	_
+3	times	time	NOUN	NNS	Number=Plur	18	nsubj	18:nsubj	Entity=109)
+4	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-73-giv:inact-1-ana)|XML=<sic></sic>
+5	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
+6	notice	notice	VERB	VBN	Tense=Past|Typo=Yes|VerbForm=Part	3	acl:relcl	3:acl:relcl	XML=<sic></sic>
+7	that	that	SCONJ	IN	_	10	mark	10:mark	Discourse=motivation:109->115:1
+8	people	person	NOUN	NNS	Number=Plur	10	nsubj	10:nsubj	Entity=(person-110-new-1-coref)
+9	can	can	AUX	MD	Number=Plur|Person=3|VerbForm=Fin	10	aux	10:aux	_
+10	produce	produce	VERB	VB	VerbForm=Inf	6	ccomp	6:ccomp	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	Entity=(abstract-111-new-8-sgl
+12	relatively	relatively	ADV	RB	Degree=Pos	13	advmod	13:advmod	_
+13	focused	focus	VERB	VBN	Tense=Past|VerbForm=Part	16	amod	16:amod	_
+14	and	and	CCONJ	CC	_	15	cc	15:cc	_
+15	clean	clean	ADJ	JJ	Degree=Pos	13	conj	13:conj:and|16:amod	_
+16	hum	hum	NOUN	NN	Number=Sing	18	compound	18:compound	SpaceAfter=No|XML=<w>
+17	/	/	SYM	SYM	_	18	dep	18:dep	SpaceAfter=No
+18	ng	ng	NOUN	NN	Number=Sing	0	root	0:root	Entity=111)|SpaceAfter=No|XML=</w>
+19	.	.	PUNCT	.	_	18	punct	18:punct	_
+
+# sent_id = GUM_reddit_ring-64
+# addressee = GUM_reddit_ring_spk_A
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_E
+# text = But when they open the mouth to produce a vowel, the tone quality drastically changes into something way less focused and clear.
+1	But	but	CCONJ	CC	_	16	cc	16:cc	Discourse=contrast_m:110->109:1
+2	when	when	SCONJ	WRB	PronType=Int	4	mark	4:mark	Discourse=circumstance:111->113:1
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-110-giv:act-1-ana)
+4	open	open	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	16:advcl:when	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Bridge=110<112|Entity=(object-112-acc:inf-2-sgl
+6	mouth	mouth	NOUN	NN	Number=Sing	4	obj	4:obj|8:nsubj:xsubj	Entity=112)
+7	to	to	PART	TO	_	8	mark	8:mark	Discourse=purpose:112->111:0
+8	produce	produce	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(abstract-113-new-2-coref
+10	vowel	vowel	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=113)|SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	4:punct	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Bridge=113<114|Discourse=same-unit_m:113->110:0|Entity=(abstract-114-acc:inf-3-sgl
+13	tone	tone	NOUN	NN	Number=Sing	14	compound	14:compound	Entity=(abstract-115-new-1-coref)
+14	quality	quality	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	Entity=114)
+15	drastically	drastically	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
+16	changes	change	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+17	into	into	ADP	IN	_	18	case	18:case	_
+18	something	something	NOUN	NN	Number=Sing	16	obl	16:obl:into	Entity=(abstract-116-new-1-sgl
+19	way	way	ADV	RB	Degree=Pos	20	advmod	20:advmod	Discourse=elaboration:114->113:0
+20	less	less	ADV	RBR	Degree=Cmp	21	advmod	21:advmod	_
+21	focused	focus	VERB	VBN	Tense=Past|VerbForm=Part	18	amod	18:amod	_
+22	and	and	CCONJ	CC	_	23	cc	23:cc	_
+23	clear	clear	ADJ	JJ	Degree=Pos	21	conj	18:amod|21:conj:and	Entity=116)|SpaceAfter=No
+24	.	.	PUNCT	.	_	16	punct	16:punct	_
+
+# sent_id = GUM_reddit_ring-65
+# addressee = GUM_reddit_ring_spk_A
+# s_type = imp
+# speaker = GUM_reddit_ring_spk_E
+# text = So when you record yourself, see if you can produce the cleanest most 'forward' sound on the hum/ng and see that if you open to the vowel, does the tone quality drastically change.
+1	So	so	ADV	RB	_	7	advmod	7:advmod	Discourse=elaboration:115->89:3
+2	when	when	SCONJ	WRB	PronType=Int	4	mark	4:mark	Discourse=circumstance:116->118:2
+3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-3-giv:inact-1-ana)
+4	record	record	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	advcl	7:advcl:when	_
+5	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	4	obj	4:obj	Entity=(person-3-giv:act-1-ana)|SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	4:punct	_
+7	see	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution:117->118:0
+8	if	if	SCONJ	IN	_	11	mark	11:mark	Discourse=same-unit_m:118->115:0
+9	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	11:nsubj	Entity=(person-3-giv:act-1-ana)
+10	can	can	AUX	MD	VerbForm=Fin	11	aux	11:aux	_
+11	produce	produce	VERB	VB	VerbForm=Inf	7	ccomp	7:ccomp	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(abstract-117-new-7-coref
+13	cleanest	clean	ADJ	JJS	Degree=Sup	18	amod	18:amod	_
+14	most	most	ADV	RBS	Degree=Sup	16	advmod	16:advmod	_
+15	'	'	PUNCT	``	_	16	punct	16:punct	SpaceAfter=No|XML=<q>
+16	forward	forward	ADJ	JJ	Degree=Pos	18	amod	18:amod	SpaceAfter=No
+17	'	'	PUNCT	''	_	16	punct	16:punct	XML=</q>
+18	sound	sound	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=117)
+19	on	on	ADP	IN	_	21	case	21:case	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(abstract-91-giv:inact-2,4-coref(abstract-92-giv:inact-2-coref
+21	hum	hum	NOUN	NN	Number=Sing	11	obl	11:obl:on	Entity=92)|SpaceAfter=No|XML=<w>
+22	/	/	SYM	SYM	_	23	cc	23:cc	SpaceAfter=No
+23	ng	ng	NOUN	NN	Number=Sing	21	conj	11:obl:on|21:conj:slash	Entity=(abstract-93-giv:inact-1-coref)91)|XML=</w>
+24	and	and	CCONJ	CC	_	25	cc	25:cc	Discourse=attribution:119->120:1
+25	see	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	7	conj	7:conj:and	_
+26	that	that	SCONJ	IN	_	39	mark	39:mark	Discourse=joint_m:120->118:1
+27	if	if	SCONJ	IN	_	29	mark	29:mark	Discourse=condition:121->122:0
+28	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	29	nsubj	29:nsubj	Entity=(person-3-giv:act-1-ana)
+29	open	open	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	39	advcl	39:advcl:if	_
+30	to	to	ADP	IN	_	32	case	32:case	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	32:det	Bridge=117<118|Entity=(object-118-acc:inf-2-sgl
+32	vowel	vowel	NOUN	NN	Number=Sing	29	obl	29:obl:to	Entity=118)|SpaceAfter=No
+33	,	,	PUNCT	,	_	29	punct	29:punct	_
+34	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux	39:aux	Discourse=same-unit_m:122->120:0
+35	the	the	DET	DT	Definite=Def|PronType=Art	37	det	37:det	Bridge=117<119|Entity=(abstract-119-acc:inf-3-coref
+36	tone	tone	NOUN	NN	Number=Sing	37	compound	37:compound	Entity=(abstract-115-giv:act-1-coref)
+37	quality	quality	NOUN	NN	Number=Sing	39	nsubj	39:nsubj	Entity=119)
+38	drastically	drastically	ADV	RB	Degree=Pos	39	advmod	39:advmod	_
+39	change	change	VERB	VB	VerbForm=Inf	25	ccomp	25:ccomp	SpaceAfter=No
+40	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = GUM_reddit_ring-66
+# addressee = GUM_reddit_ring_spk_A
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_E
+# text = The goal is to keep the tone quality relatively consistent.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=background:123->115:2|Entity=(abstract-120-new-2-sgl
+2	goal	goal	NOUN	NN	Number=Sing	3	nsubj	3:nsubj|5:nsubj:xsubj|10:nsubj:xsubj	Entity=120)
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+4	to	to	PART	TO	_	5	mark	5:mark	_
+5	keep	keep	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(abstract-119-giv:act-3-coref
+7	tone	tone	NOUN	NN	Number=Sing	8	compound	8:compound	Entity=(abstract-115-giv:act-1-coref)
+8	quality	quality	NOUN	NN	Number=Sing	5	obj	5:obj|10:nsubj:xsubj	Entity=119)
+9	relatively	relatively	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
+10	consistent	consistent	ADJ	JJ	Degree=Pos	5	xcomp	5:xcomp	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_ring-67
+# addressee = GUM_reddit_ring_spk_A
+# s_type = other
+# speaker = GUM_reddit_ring_spk_E
+# text = Remember that you are trying to keep the same clarity and focus, different people sound different when the open the hum depending on the physiology of the vocal tract and cords.
+# newpar = p (3 s)
+1	Remember	remember	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=attribution:124->125:0
+2	that	that	SCONJ	IN	_	5	mark	5:mark	Discourse=elaboration:125->123:0
+3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj|7:nsubj:xsubj	Entity=(person-3-giv:inact-1-ana)
+4	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
+5	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	1	ccomp	1:ccomp	_
+6	to	to	PART	TO	_	7	mark	7:mark	_
+7	keep	keep	VERB	VB	VerbForm=Inf	5	xcomp	5:xcomp	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(abstract-121-new-3,5-sgl
+9	same	same	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
+10	clarity	clarity	NOUN	NN	Number=Sing	7	obj	7:obj	_
+11	and	and	CCONJ	CC	_	12	cc	12:cc	_
+12	focus	focus	NOUN	NN	Number=Sing	10	conj	7:obj|10:conj:and	Entity=121)|SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	16:punct	_
+14	different	different	ADJ	JJ	Degree=Pos	15	amod	15:amod	Discourse=justify:126->129:1|Entity=(person-122-new-2-coref
+15	people	person	NOUN	NNS	Number=Plur	16	nsubj	16:nsubj|17:nsubj:xsubj	Entity=122)
+16	sound	sound	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	1:parataxis	_
+17	different	different	ADJ	JJ	Degree=Pos	16	xcomp	16:xcomp	_
+18	when	when	SCONJ	WRB	PronType=Int	20	mark	20:mark	Discourse=circumstance:127->126:0
+19	the	they	PRON	PRP	Case=Nom	20	nsubj	20:nsubj	Entity=(person-122-giv:act-1-ana)|XML=<sic></sic>
+20	open	open	VERB	VB	VerbForm=Inf	16	advcl	16:advcl:when	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(abstract-92-giv:inact-2-coref
+22	hum	hum	NOUN	NN	Number=Sing	20	obj	20:obj	Entity=92)
+23	depending	depend	VERB	VBG	VerbForm=Ger	26	case	26:case	Discourse=condition:128->126:1
+24	on	on	ADP	IN	_	23	fixed	23:fixed	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(abstract-123-new-2-sgl
+26	physiology	physiology	NOUN	NN	Number=Sing	16	obl	16:obl:depending_on	_
+27	of	of	ADP	IN	_	30	case	30:case	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Bridge=122<124|Entity=(object-124-acc:inf-3,5-sgl
+29	vocal	vocal	ADJ	JJ	Degree=Pos	30	amod	30:amod	_
+30	tract	tract	NOUN	NN	Number=Sing	26	nmod	26:nmod:of	_
+31	and	and	CCONJ	CC	_	32	cc	32:cc	_
+32	cords	cord	NOUN	NNS	Number=Plur	30	conj	26:nmod:of|30:conj:and	Entity=124)123)|SpaceAfter=No
+33	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GUM_reddit_ring-68
+# addressee = GUM_reddit_ring_spk_A
+# s_type = decl
+# speaker = GUM_reddit_ring_spk_E
+# text = So it is more important to focus on the forward clarity so as to not make the sound overly nasal or squeezed.
+1	So	so	ADV	RB	_	5	advmod	5:advmod	Discourse=joint_m:129->125:1
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	5:expl	Entity=(abstract-125-new-1-cata)
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
+4	more	more	ADV	RBR	Degree=Cmp	5	advmod	5:advmod	_
+5	important	important	ADJ	JJ	Degree=Pos	0	root	0:root	_
+6	to	to	PART	TO	_	7	mark	7:mark	Entity=(abstract-125-acc:com-2-coref
+7	focus	focus	VERB	VB	VerbForm=Inf	5	csubj	5:csubj	_
+8	on	on	ADP	IN	_	11	case	11:case	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Bridge=117<126|Entity=(abstract-126-acc:inf-3-sgl
+10	forward	forward	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
+11	clarity	clarity	NOUN	NN	Number=Sing	7	obl	7:obl:on	Entity=126)125)
+12	so	so	SCONJ	IN	_	16	mark	16:mark	Discourse=purpose:130->129:0
+13	as	as	ADP	IN	_	12	fixed	12:fixed	_
+14	to	to	PART	TO	_	16	mark	16:mark	_
+15	not	not	PART	RB	Polarity=Neg	16	advmod	16:advmod	_
+16	make	make	VERB	VB	VerbForm=Inf	7	advcl	7:advcl:so_as_to	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(abstract-117-giv:inact-2-coref
+18	sound	sound	NOUN	NN	Number=Sing	16	obj	16:obj|20:nsubj:xsubj|22:nsubj:xsubj	Entity=117)
+19	overly	overly	ADV	RB	Degree=Pos	20	advmod	20:advmod	_
+20	nasal	nasal	ADJ	JJ	Degree=Pos	16	xcomp	16:xcomp	_
+21	or	or	CCONJ	CC	_	22	cc	22:cc	_
+22	squeezed	squeeze	VERB	VBN	Tense=Past|VerbForm=Part	20	conj	16:xcomp|20:conj:or	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_ring-69
+# addressee = GUM_reddit_ring_spk_A
+# s_type = other
+# speaker = GUM_reddit_ring_spk_E
+# text = Hope this helped!
+1	Hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=evaluation:131->73:3
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Entity=(abstract-127-acc:com-1-sgl)
+3	helped	help	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	ccomp	1:ccomp	SpaceAfter=No
+4	!	!	PUNCT	.	_	1	punct	1:punct	_
+

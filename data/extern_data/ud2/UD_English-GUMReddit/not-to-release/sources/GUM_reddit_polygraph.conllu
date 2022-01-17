@@ -1,0 +1,1393 @@
+# newdoc id = GUM_reddit_polygraph
+# global.Entity = entity-GRP-infstat-MIN-coref_type-identity
+# meta::dateCollected = 2017-09-13
+# meta::dateCreated = 2014-12-23
+# meta::dateModified = 2014-12-23
+# meta::sourceURL = https://www.reddit.com/r/911dispatchers/comments/2q6qnv/the_hiring_process_vol_3_polygraph_and_deception/
+# meta::speakerCount = 1
+# meta::title = The Hiring Process Vol. 3 / Polygraph and Deception Detection Devices
+# sent_id = GUM_reddit_polygraph-1
+# s_type = frag
+# text = The Hiring Process Vol. 3 / Polygraph and Deception Detection Devices
+# newpar = head (1 s)
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=preparation:1->9:6|Entity=(abstract-1-new-3-coref
+2	Hiring	hiring	NOUN	NN	Number=Sing	3	compound	3:compound	_
+3	Process	process	NOUN	NN	Number=Sing	0	root	0:root	Entity=1)
+4	Vol.	vol.	NOUN	NN	Abbr=Yes|Number=Sing	3	parataxis	3:parataxis	Entity=(abstract-2-new-1-coref
+5	3	3	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	Entity=2)
+6	/	/	PUNCT	SYM	_	7	punct	7:punct	_
+7	Polygraph	polygraph	NOUN	NN	Number=Sing	4	appos	4:appos	Entity=(object-3-new-1-coref)
+8	and	and	CCONJ	CC	_	11	cc	11:cc	_
+9	Deception	deception	NOUN	NN	Number=Sing	10	compound	10:compound	Entity=(object-4-new-3-sgl(abstract-5-new-2-coref(abstract-6-new-1-coref)
+10	Detection	detection	NOUN	NN	Number=Sing	11	compound	11:compound	Entity=5)
+11	Devices	device	NOUN	NN	Number=Sing	7	conj	4:appos|7:conj:and	Entity=4)
+
+# sent_id = GUM_reddit_polygraph-2
+# s_type = frag
+# speaker = GUM_reddit_polygraph_spk_A
+# text = Polygraph and other deception detection devices.
+# newpar = sp who:::"GUM_reddit_polygraph_spk_A" (64 s) | head (1 s)
+1	Polygraph	polygraph	NOUN	NN	Number=Sing	0	root	0:root	Discourse=restatement:2->1:0|Entity=(object-3-giv:act-1-coref)
+2	and	and	CCONJ	CC	_	6	cc	6:cc	_
+3	other	other	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(object-7-new-4-sgl
+4	deception	deception	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(abstract-5-giv:act-2-coref(abstract-6-giv:act-1-coref)
+5	detection	detection	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=5)
+6	devices	device	NOUN	NNS	Number=Plur	1	conj	1:conj:and	Entity=7)|SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GUM_reddit_polygraph-3
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = First, this is not me telling you how to beat polygraph (poly.)
+# newpar = p (4 s)
+1	First	first	ADV	RB	Degree=Pos|NumType=Ord	7	advmod	7:advmod	Discourse=attribution:3->4:1|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	7:nsubj	Entity=(abstract-8-acc:com-1-ana)
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
+5	not	not	PART	RB	Polarity=Neg	7	advmod	7:advmod	_
+6	me	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	Entity=(person-9-acc:com-1-ana)
+7	telling	tell	VERB	VBG	VerbForm=Ger	0	root	0:root	_
+8	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	7	iobj	7:iobj	Entity=(person-10-acc:com-1-ana)
+9	how	how	SCONJ	WRB	PronType=Int	7	obj	7:obj	Discourse=preparation:4->9:3
+10	to	to	PART	TO	_	11	mark	11:mark	_
+11	beat	beat	VERB	VB	VerbForm=Inf	9	acl	9:acl:to	_
+12	polygraph	polygraph	NOUN	NN	Number=Sing	11	obj	11:obj	Entity=(abstract-11-new-1-coref)
+13	(	(	PUNCT	-LRB-	_	14	punct	14:punct	Discourse=restatement:5->4:0|SpaceAfter=No
+14	poly	poly	NOUN	NN	Number=Sing	12	appos	12:appos	Entity=(abstract-11-giv:act-1-appos)|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	punct	14:punct	SpaceAfter=No
+16	)	)	PUNCT	-RRB-	_	14	punct	14:punct	_
+
+# sent_id = GUM_reddit_polygraph-4
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = When taking the test, it is common for the examiner to ask if you have researched how to pass the poly deceptively.
+1	When	when	SCONJ	WRB	PronType=Int	2	mark	2:mark	Discourse=circumstance:6->7:0
+2	taking	take	VERB	VBG	VerbForm=Ger	8	advcl	8:advcl:when	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(abstract-11-giv:act-2-coref
+4	test	test	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=11)|SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	2:punct	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	8:expl	Discourse=background:7->9:2|Entity=(event-12-new-1-cata)
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
+8	common	common	ADJ	JJ	Degree=Pos	0	root	0:root	_
+9	for	for	SCONJ	IN	_	13	mark	13:mark	Entity=(event-12-acc:com-5-coref
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(person-13-new-2-sgl
+11	examiner	examiner	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	Entity=13)
+12	to	to	PART	TO	_	13	mark	13:mark	_
+13	ask	ask	VERB	VB	VerbForm=Inf	8	csubj	8:csubj	_
+14	if	if	SCONJ	IN	_	17	mark	17:mark	_
+15	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	17	nsubj	17:nsubj	Entity=(person-10-giv:act-1-ana)
+16	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	aux	17:aux	_
+17	researched	research	VERB	VBN	Tense=Past|VerbForm=Part	13	ccomp	13:ccomp	_
+18	how	how	SCONJ	WRB	PronType=Int	17	obj	17:obj	_
+19	to	to	PART	TO	_	20	mark	20:mark	_
+20	pass	pass	VERB	VB	VerbForm=Inf	18	acl	18:acl:to	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(abstract-11-giv:act-2-coref
+22	poly	poly	NOUN	NN	Number=Sing	20	obj	20:obj	Entity=11)
+23	deceptively	deceptively	ADV	RB	Degree=Pos	20	advmod	20:advmod	Entity=12)|SpaceAfter=No
+24	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = GUM_reddit_polygraph-5
+# s_type = imp
+# speaker = GUM_reddit_polygraph_spk_A
+# text = So, if you read this, understand that I am not going to tell you how to beat the test.
+1	So	so	ADV	RB	_	8	advmod	8:advmod	Discourse=condition:8->9:0|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	if	if	SCONJ	IN	_	5	mark	5:mark	_
+4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-10-giv:act-1-ana)
+5	read	read	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	8:advcl:if	_
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	5	obj	5:obj	Entity=(abstract-8-giv:inact-1-ana)|SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	5:punct	_
+8	understand	understand	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=ROOT:9:0
+9	that	that	SCONJ	IN	_	13	mark	13:mark	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	13:nsubj|15:nsubj:xsubj	Entity=(person-9-giv:inact-1-ana)
+11	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
+12	not	not	PART	RB	Polarity=Neg	13	advmod	13:advmod	_
+13	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	8	ccomp	8:ccomp	_
+14	to	to	PART	TO	_	15	mark	15:mark	Entity=(event-14-new-2-disc
+15	tell	tell	VERB	VB	VerbForm=Inf	13	xcomp	13:xcomp	_
+16	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	15	iobj	15:iobj	Bridge=9<10|Entity=(person-10-acc:inf-1-ana)
+17	how	how	SCONJ	WRB	PronType=Int	15	obj	15:obj	_
+18	to	to	PART	TO	_	19	mark	19:mark	_
+19	beat	beat	VERB	VB	VerbForm=Inf	17	acl	17:acl:to	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Entity=(abstract-11-giv:act-2-coref
+21	test	test	NOUN	NN	Number=Sing	19	obj	19:obj	Entity=11)14)|SpaceAfter=No
+22	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = GUM_reddit_polygraph-6
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = It is also worth mentioning that doing something like that is, generally, a bad idea.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|5:nsubj:xsubj	Discourse=evaluation:10->9:1|Entity=(abstract-15-new-1-cata)
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
+3	also	also	ADV	RB	_	4	advmod	4:advmod	_
+4	worth	worth	ADJ	JJ	Degree=Pos	0	root	0:root	_
+5	mentioning	mention	VERB	VBG	VerbForm=Ger	4	xcomp	4:xcomp	_
+6	that	that	SCONJ	IN	_	17	mark	17:mark	Entity=(abstract-15-acc:com-12-coref
+7	doing	do	VERB	VBG	VerbForm=Ger	17	csubj	17:csubj	Entity=(event-16-new-1-disc
+8	something	something	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=(abstract-17-new-1-sgl
+9	like	like	ADP	IN	_	10	case	10:case	_
+10	that	that	PRON	DT	Number=Sing|PronType=Dem	8	nmod	8:nmod:like	Entity=(event-14-giv:act-1-coref)17)16)
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	11:punct	_
+13	generally	generally	ADV	RB	Degree=Pos	17	advmod	17:advmod	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	13:punct	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(event-16-giv:act-3-coref
+16	bad	bad	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
+17	idea	idea	NOUN	NN	Number=Sing	4	csubj	4:csubj|5:csubj:xsubj	Entity=16)15)|SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_polygraph-7
+# s_type = imp
+# speaker = GUM_reddit_polygraph_spk_A
+# text = Second, let’s just get something out of the way.
+# newpar = p (7 s)
+1	Second	second	ADV	RB	Degree=Pos|NumType=Ord	3	advmod	3:advmod	Discourse=preparation:11->12:3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+4	’s	we	PRON	PRP	Case=Acc	3	obj	3:obj|6:nsubj:xsubj	Bridge=9<18|Entity=(person-18-acc:inf-1-coref)
+5	just	just	ADV	RB	_	6	advmod	6:advmod	_
+6	get	get	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	_
+7	something	something	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=(abstract-19-new-1-coref)
+8	out	out	ADP	IN	_	11	case	11:case	_
+9	of	of	ADP	IN	_	8	fixed	8:fixed	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	_
+11	way	way	NOUN	NN	Number=Sing	6	obl	6:obl:out_of	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_polygraph-8
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = A polygraph is not admissible in criminal court, and for good reason.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	2:det	Discourse=joint_m:12->9:4|Entity=(abstract-19-giv:act-5-coref(abstract-11-giv:inact-2-coref
+2	polygraph	polygraph	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=11)
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
+4	not	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
+5	admissible	admissible	ADJ	JJ	Degree=Pos	0	root	0:root	_
+6	in	in	ADP	IN	_	8	case	8:case	_
+7	criminal	criminal	ADJ	JJ	Degree=Pos	8	amod	8:amod	Entity=(place-20-new-2-sgl
+8	court	court	NOUN	NN	Number=Sing	5	obl	5:obl:in	Entity=20)19)|SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	13:punct	_
+10	and	and	CCONJ	CC	_	13	cc	13:cc	_
+11	for	for	ADP	IN	_	13	case	13:case	_
+12	good	good	ADJ	JJ	Degree=Pos	13	amod	13:amod	Entity=(abstract-21-new-2-sgl
+13	reason	reason	NOUN	NN	Number=Sing	6	conj	6:conj:and|8:case	Entity=21)|SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_polygraph-9
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = It is not going to give us specific information.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj|6:nsubj:xsubj	Discourse=cause:13->12:0|Entity=(abstract-11-giv:act-1-ana)
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
+3	not	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
+5	to	to	PART	TO	_	6	mark	6:mark	_
+6	give	give	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	_
+7	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	iobj	6:iobj	Entity=(person-18-giv:inact-1-ana)
+8	specific	specific	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(abstract-22-new-2-sgl
+9	information	information	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=22)|SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_polygraph-10
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = There have been people who have lied and not shown deception.
+1	There	there	PRON	EX	_	4	expl	4:expl	Discourse=evidence:14->13:0|Entity=(abstract-23-new-4-coref
+2	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	cop	4:cop	_
+4	people	person	NOUN	NNS	Number=Plur	0	root	0:root|7:nsubj	Entity=(person-24-new-1-sgl
+5	who	who	PRON	WP	PronType=Rel	7	nsubj	4:ref	Discourse=elaboration:15->14:0
+6	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	7:aux|10:aux	_
+7	lied	lie	VERB	VBN	Tense=Past|VerbForm=Part	4	acl:relcl	4:acl:relcl	_
+8	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=contrast_m:16->15:0
+9	not	not	PART	RB	Polarity=Neg	10	advmod	10:advmod	_
+10	shown	show	VERB	VBN	Tense=Past|VerbForm=Part	7	conj	4:acl:relcl|7:conj:and	_
+11	deception	deception	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=(abstract-6-giv:inact-1-coref)24)|SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	4:punct	Entity=23)
+
+# sent_id = GUM_reddit_polygraph-11
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = There are some people who showed deception, who were not necessarily lying.
+1	There	there	PRON	EX	_	2	expl	2:expl	Bridge=23<25|Discourse=contrast_m:17->14:1|Entity=(abstract-25-acc:inf-2-sgl
+2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	some	some	DET	DT	_	4	det	4:det	Entity=(person-26-new-2-sgl
+4	people	person	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj|6:nsubj|13:nsubj	_
+5	who	who	PRON	WP	PronType=Rel	6	nsubj	4:ref	Discourse=elaboration:18->17:0
+6	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
+7	deception	deception	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=(abstract-6-giv:act-1-coref)|SpaceAfter=No
+8	,	,	PUNCT	,	_	13	punct	13:punct	_
+9	who	who	PRON	WP	PronType=Rel	13	nsubj	4:ref	Discourse=contrast_m:19->18:0
+10	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	13:aux	_
+11	not	not	PART	RB	Polarity=Neg	12	advmod	12:advmod	_
+12	necessarily	necessarily	ADV	RB	Degree=Pos	13	advmod	13:advmod	_
+13	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part	4	acl:relcl	4:acl:relcl	Entity=26)|SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	Entity=25)
+
+# sent_id = GUM_reddit_polygraph-12
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = Having said that, it is still a great tool for verifying truthfulness, and I’m a big fan of using it in this kind of a process.
+1	Having	have	AUX	VBG	VerbForm=Ger	2	aux	2:aux	Discourse=concession:20->21:1
+2	said	say	VERB	VBN	Tense=Past|VerbForm=Part	10	acl	10:acl	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	obj	2:obj	Bridge=23<27|Entity=(abstract-27-acc:inf-1-coref)|SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	2:punct	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj	Discourse=contrast_m:21->12:1|Entity=(abstract-11-giv:inact-1-ana)
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
+7	still	still	ADV	RB	Degree=Pos	10	advmod	10:advmod	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(abstract-11-giv:act-3-pred
+9	great	great	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
+10	tool	tool	NOUN	NN	Number=Sing	0	root	0:root	_
+11	for	for	SCONJ	IN	_	12	mark	12:mark	_
+12	verifying	verify	VERB	VBG	VerbForm=Ger	10	acl	10:acl:for	_
+13	truthfulness	truthfulness	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=(abstract-28-new-1-sgl)11)|SpaceAfter=No
+14	,	,	PUNCT	,	_	20	punct	20:punct	_
+15	and	and	CCONJ	CC	_	20	cc	20:cc	Discourse=joint_m:22->21:0
+16-17	I’m	_	_	_	_	_	_	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	20:nsubj	Entity=(person-9-giv:inact-1-ana)
+17	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	cop	20:cop	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(person-9-giv:act-3-pred
+19	big	big	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
+20	fan	fan	NOUN	NN	Number=Sing	10	conj	10:conj:and	_
+21	of	of	SCONJ	IN	_	22	mark	22:mark	Discourse=elaboration:23->22:0
+22	using	use	VERB	VBG	VerbForm=Ger	20	acl	20:acl:of	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	22:obj	Entity=(abstract-11-giv:act-1-ana)
+24	in	in	ADP	IN	_	26	case	26:case	_
+25	this	this	DET	DT	Number=Sing|PronType=Dem	26	det	26:det	Entity=(abstract-1-giv:inact-2-coref
+26	kind	kind	NOUN	NN	Number=Sing	22	obl	22:obl:in	_
+27	of	of	ADP	IN	_	29	case	29:case	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	29:det	_
+29	process	process	NOUN	NN	Number=Sing	26	nmod	26:nmod:of	Entity=1)9)|SpaceAfter=No
+30	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = GUM_reddit_polygraph-13
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = Hopefully I can explain to you why that happens here.
+1	Hopefully	hopefully	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=attribution:24->25:0
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-9-giv:act-1-ana)
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
+4	explain	explain	VERB	VB	VerbForm=Inf	0	root	0:root	_
+5	to	to	ADP	IN	_	6	case	6:case	_
+6	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	obl	4:obl:to	Entity=(person-10-giv:inact-1-ana)
+7	why	why	SCONJ	WRB	PronType=Rel	4	obj	4:obj	Discourse=preparation:25->26:3
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	9	nsubj	9:nsubj	Entity=(abstract-27-giv:act-1-ana)
+9	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	7:acl:relcl	_
+10	here	here	ADV	RB	PronType=Dem	9	advmod	9:advmod	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_polygraph-14
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = All of these Deception Detection Devices (DDD) work on a basic principal.
+# newpar = p (9 s)
+1	All	all	DET	DT	_	10	nsubj	10:nsubj	Discourse=joint_m:26->12:2|Entity=(object-29-new-1-ana
+2	of	of	ADP	IN	_	6	case	6:case	_
+3	these	this	DET	DT	Number=Plur|PronType=Dem	6	det	6:det	_
+4	Deception	deception	NOUN	NN	Number=Sing	5	compound	5:compound	Entity=(abstract-5-giv:inact-2-coref(abstract-6-giv:inact-1-coref)
+5	Detection	detection	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=5)
+6	Devices	device	NOUN	NNS	Number=Plur	1	nmod	1:nmod:of	Entity=29)
+7	(	(	PUNCT	-LRB-	_	8	punct	8:punct	Discourse=restatement:27->26:0|SpaceAfter=No
+8	DDD	DDD	NOUN	NNS	Number=Plur	6	appos	6:appos	Entity=(object-29-giv:act-1-coref)|SpaceAfter=No
+9	)	)	PUNCT	-RRB-	_	8	punct	8:punct	_
+10	work	work	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:28->26:1
+11	on	on	ADP	IN	_	14	case	14:case	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	14:det	Entity=(abstract-30-new-3-coref
+13	basic	basic	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
+14	principal	principal	NOUN	NN	Number=Sing	10	obl	10:obl:on	Entity=30)|SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = GUM_reddit_polygraph-15
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = Your body has involuntary and automatic responses to lying.
+1	Your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=elaboration:29->26:2|Entity=(abstract-30-giv:act-3-coref(object-31-new-2-coref(person-10-giv:inact-1-ana)
+2	body	body	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=31)
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+4	involuntary	involuntary	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(abstract-32-new-4-sgl
+5	and	and	CCONJ	CC	_	6	cc	6:cc	_
+6	automatic	automatic	ADJ	JJ	Degree=Pos	4	conj	4:conj:and|7:amod	_
+7	responses	response	NOUN	NNS	Number=Plur	3	obj	3:obj	_
+8	to	to	ADP	IN	_	9	case	9:case	_
+9	lying	lying	NOUN	NN	Number=Sing	7	nmod	7:nmod:to	Entity=32)30)|SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_polygraph-16
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = Basically, you are afraid of getting caught.
+1	Basically	basically	ADV	RB	Degree=Pos	5	advmod	5:advmod	Discourse=elaboration:30->29:0|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(abstract-33-new-3-disc(person-10-giv:act-1-ana)
+4	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
+5	afraid	afraid	ADJ	JJ	Degree=Pos	0	root	0:root	_
+6	of	of	SCONJ	IN	_	7	mark	7:mark	_
+7	getting	get	VERB	VBG	VerbForm=Ger	5	advcl	5:advcl:of	_
+8	caught	catch	VERB	VBN	Tense=Past|VerbForm=Part	7	xcomp	7:xcomp	Entity=33)|SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_polygraph-17
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = No matter how little, there is still a bit of everyone that hopes we don’t get caught.
+1	No	no	DET	DT	Polarity=Neg	2	det	2:det	Discourse=concession:31->32:1
+2	matter	matter	NOUN	NN	Number=Sing	4	obl:npmod	4:obl:npmod	_
+3	how	how	SCONJ	WRB	PronType=Int	4	mark	4:mark	_
+4	little	little	ADV	RB	Degree=Pos	7	advcl	7:advcl:how	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	4:punct	_
+6	there	there	PRON	EX	_	7	expl	7:expl	Discourse=restatement_m:32->30:0
+7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+8	still	still	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(abstract-34-new-2-sgl
+10	bit	bit	NOUN	NN	Number=Sing	7	nsubj	7:nsubj|14:nsubj	_
+11	of	of	ADP	IN	_	12	case	12:case	_
+12	everyone	everyone	NOUN	NN	Number=Sing	10	nmod	10:nmod:of	Entity=(person-35-new-1-sgl)
+13	that	that	PRON	WDT	PronType=Rel	14	nsubj	10:ref	Discourse=attribution:33->34:0
+14	hopes	hope	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	10:acl:relcl	_
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj:pass	19:nsubj:pass	Discourse=elaboration:34->32:0|Entity=(person-18-giv:inact-1-ana)
+16-17	don’t	_	_	_	_	_	_	_	_
+16	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
+17	n’t	not	PART	RB	Polarity=Neg	19	advmod	19:advmod	_
+18	get	get	AUX	VB	VerbForm=Inf	19	aux:pass	19:aux:pass	_
+19	caught	catch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	ccomp	14:ccomp	Entity=34)|SpaceAfter=No
+20	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = GUM_reddit_polygraph-18
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = The fact that you’re hooked up to the machine really tends to amplify this.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=background:35->29:1|Entity=(abstract-36-new-2-sgl
+2	fact	fact	NOUN	NN	Number=Sing	12	nsubj	12:nsubj|14:nsubj:xsubj	_
+3	that	that	SCONJ	IN	_	6	mark	6:mark	Discourse=elaboration:36->35:0
+4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-10-giv:inact-1-ana)|SpaceAfter=No
+5	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
+6	hooked	hook	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	2:acl:that	_
+7	up	up	ADP	RP	_	6	compound:prt	6:compound:prt	_
+8	to	to	ADP	IN	_	10	case	10:case	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=29<37|Entity=(object-37-acc:inf-2-sgl
+10	machine	machine	NOUN	NN	Number=Sing	6	obl	6:obl:to	Entity=37)36)
+11	really	really	ADV	RB	Degree=Pos	12	advmod	12:advmod	Discourse=same-unit_m:37->35:1
+12	tends	tend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+13	to	to	PART	TO	_	14	mark	14:mark	_
+14	amplify	amplify	VERB	VB	VerbForm=Inf	12	xcomp	12:xcomp	_
+15	this	this	PRON	DT	Number=Sing|PronType=Dem	14	obj	14:obj	Entity=(abstract-33-giv:inact-1-coref)|SpaceAfter=No
+16	.	.	PUNCT	.	_	12	punct	12:punct	_
+
+# sent_id = GUM_reddit_polygraph-19
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = These machines are actually fear detectors.
+1	These	this	DET	DT	Number=Plur|PronType=Dem	2	det	2:det	Discourse=joint_m:38->35:2|Entity=(object-29-giv:inact-2-coref
+2	machines	machine	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=29)
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+4	actually	actually	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
+5	fear	fear	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(object-29-giv:act-2-pred(abstract-38-new-1-coref)
+6	detectors	detector	NOUN	NNS	Number=Plur	0	root	0:root	Entity=29)|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = GUM_reddit_polygraph-20
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = They measure your body’s reaction to fear, like your heart rate increasing or changing just to name one.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=restatement_m:39->38:0|Entity=(object-29-giv:act-1-ana)
+2	measure	measure	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(event-39-new-4-sgl(object-31-giv:inact-2-coref(person-10-giv:inact-1-ana)
+4-5	body’s	_	_	_	_	_	_	_	_
+4	body	body	NOUN	NN	Number=Sing	6	nmod:poss	6:nmod:poss	_
+5	’s	's	PART	POS	_	4	case	4:case	Entity=31)
+6	reaction	reaction	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=39)
+7	to	to	ADP	IN	_	8	case	8:case	_
+8	fear	fear	NOUN	NN	Number=Sing	6	nmod	6:nmod:to	Entity=(abstract-38-giv:act-1-coref)|SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	14:punct	_
+10	like	like	SCONJ	IN	_	14	mark	14:mark	Discourse=elaboration:40->38:1
+11	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(event-40-new-4,6-disc(abstract-41-acc:com-3-sgl(person-10-giv:act-1-ana)
+12	heart	heart	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=(object-42-new-1-sgl)
+13	rate	rate	NOUN	NN	Number=Sing	14	nsubj	14:nsubj|16:nsubj	Entity=41)
+14	increasing	increase	VERB	VBG	VerbForm=Ger	6	acl	6:acl:like	_
+15	or	or	CCONJ	CC	_	16	cc	16:cc	Discourse=contrast_m:41->40:0
+16	changing	change	VERB	VBG	VerbForm=Ger	14	conj	6:acl:like|14:conj:or	Entity=40)
+17	just	just	ADV	RB	_	19	advmod	19:advmod	Discourse=concession:42->40:1
+18	to	to	PART	TO	_	19	mark	19:mark	_
+19	name	name	VERB	VB	VerbForm=Inf	14	advcl	14:advcl:to	_
+20	one	one	NUM	CD	NumForm=Word|NumType=Card	19	obj	19:obj	Entity=(event-40-giv:act-1-coref)|SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_polygraph-21
+# s_type = wh
+# speaker = GUM_reddit_polygraph_spk_A
+# text = So how does a truthful person show deception?
+1	So	so	ADV	RB	_	7	advmod	7:advmod	Discourse=question:43->68:3
+2	how	how	ADV	WRB	PronType=Int	7	advmod	7:advmod	_
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(person-43-new-3-sgl
+5	truthful	truthful	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
+6	person	person	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=43)
+7	show	show	VERB	VB	VerbForm=Inf	0	root	0:root	_
+8	deception	deception	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=(abstract-6-giv:inact-1-coref)|SpaceAfter=No
+9	?	?	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = GUM_reddit_polygraph-22
+# s_type = imp
+# speaker = GUM_reddit_polygraph_spk_A
+# text = Let me show you.
+1	Let	let	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:44->68:2
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	1:obj|3:nsubj:xsubj	Entity=(person-9-giv:inact-1-ana)
+3	show	show	VERB	VB	VerbForm=Inf	1	xcomp	1:xcomp	_
+4	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	iobj	3:iobj	Entity=(person-10-giv:inact-1-ana)|SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GUM_reddit_polygraph-23
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = 20 years ago, an applicant … let’s call him Joe … was out with friends at a bar.
+# newpar = p (8 s)
+1	20	20	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	2:nummod	Discourse=background:45->55:4|Entity=(time-44-new-3-coref|XML=<date when:::"1994">
+2	years	year	NOUN	NNS	Number=Plur	3	obl:tmod	3:obl:tmod	_
+3	ago	ago	ADV	RB	Degree=Pos	15	advmod	15:advmod	Entity=44)|SpaceAfter=No|XML=</date>
+4	,	,	PUNCT	,	_	3	punct	3:punct	_
+5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(person-45-new-2-coref
+6	applicant	applicant	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=45)
+7	…	…	PUNCT	:	_	8	punct	8:punct	_
+8	let	let	VERB	VB	Person=2|VerbForm=Inf	6	parataxis	6:parataxis	Discourse=elaboration:46->45:0|SpaceAfter=No
+9	’s	we	PRON	PRP	Case=Acc	8	obj	8:obj|10:nsubj:xsubj	Entity=(person-18-giv:inact-1-ana)
+10	call	call	VERB	VB	VerbForm=Inf	8	xcomp	8:xcomp	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	10:obj|12:nsubj:xsubj	Entity=(person-45-giv:act-1-ana)
+12	Joe	Joe	PROPN	NNP	Number=Sing	10	xcomp	10:xcomp	Entity=(abstract-46-new-1-sgl)
+13	…	…	PUNCT	:	_	6	punct	6:punct	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	15:cop	Discourse=same-unit_m:47->45:1
+15	out	out	ADV	RB	_	0	root	0:root	_
+16	with	with	ADP	IN	_	17	case	17:case	_
+17	friends	friend	NOUN	NNS	Number=Plur	15	nmod	15:nmod:with	Entity=(person-47-new-1-sgl)
+18	at	at	ADP	IN	_	20	case	20:case	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(place-48-new-2-sgl
+20	bar	bar	NOUN	NN	Number=Sing	15	nmod	15:nmod:at	Entity=48)|SpaceAfter=No
+21	.	.	PUNCT	.	_	15	punct	15:punct	_
+
+# sent_id = GUM_reddit_polygraph-24
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = While there he was approached by a prostitute who offered him her services.
+1	While	while	SCONJ	IN	_	5	mark	5:mark	Discourse=circumstance:48->49:1
+2	there	there	ADV	RB	PronType=Dem	5	advmod	5:advmod	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	5:nsubj:pass	Discourse=sequence_m:49->45:2|Entity=(person-45-giv:act-1-ana)
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	5:aux:pass	_
+5	approached	approach	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+6	by	by	ADP	IN	_	8	case	8:case	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(person-49-new-2-coref
+8	prostitute	prostitute	NOUN	NN	Number=Sing	5	obl	5:obl:by|10:nsubj	_
+9	who	who	PRON	WP	PronType=Rel	10	nsubj	8:ref	Discourse=elaboration:50->49:0
+10	offered	offer	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	8:acl:relcl	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	iobj	10:iobj	Entity=(person-45-giv:act-1-ana)
+12	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(abstract-50-new-2-sgl(person-49-giv:act-1-ana)
+13	services	service	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=50)49)|SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_polygraph-25
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = Joe, being the fine and upstanding individual he is, turned her down.
+1	Joe	Joe	PROPN	NNP	Number=Sing	12	nsubj	12:nsubj	Discourse=sequence_m:51->45:2|Entity=(person-45-giv:act-1-coref)|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	being	be	AUX	VBG	VerbForm=Ger	8	cop	8:cop	Discourse=cause:52->53:0
+4	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(person-45-giv:act-5-coref
+5	fine	fine	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
+6	and	and	CCONJ	CC	_	7	cc	7:cc	_
+7	upstanding	upstanding	ADJ	JJ	Degree=Pos	5	conj	5:conj:and|8:amod	_
+8	individual	individual	NOUN	NN	Number=Sing	12	advcl	12:advcl	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj	Entity=(person-45-giv:act-1-ana)
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	8:acl:relcl	Entity=45)|SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	8:punct	_
+12	turned	turn	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:53->51:0
+13	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	12:obj	Entity=(person-49-giv:act-1-ana)
+14	down	down	ADP	RP	_	12	compound:prt	12:compound:prt	SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	12:punct	_
+
+# sent_id = GUM_reddit_polygraph-26
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = On his background paperwork he indicated that he had never paid anyone for sex and he has never sought to pay anyone for sex …
+1	On	on	ADP	IN	_	4	case	4:case	Discourse=attribution:54->55:1
+2	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(object-51-new-3-sgl(person-45-giv:act-1-ana)
+3	background	background	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(abstract-52-new-1-sgl)
+4	paperwork	paperwork	NOUN	NN	Number=Sing	6	obl	6:obl:on	Entity=51)
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-45-giv:act-1-ana)
+6	indicated	indicate	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+7	that	that	SCONJ	IN	_	11	mark	11:mark	Discourse=evidence:55->68:1
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	Entity=(abstract-53-new-12-disc(person-45-giv:act-1-ana)
+9	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	11:aux	_
+10	never	never	ADV	RB	Polarity=Neg	11	advmod	11:advmod	_
+11	paid	pay	VERB	VBN	Tense=Past|VerbForm=Part	6	ccomp	6:ccomp	_
+12	anyone	anyone	NOUN	NN	Number=Sing	11	iobj	11:iobj	Entity=(person-54-new-1-coref)
+13	for	for	ADP	IN	_	14	case	14:case	_
+14	sex	sex	NOUN	NN	Number=Sing	11	obl	11:obl:for	Entity=(event-55-new-1-coref)
+15	and	and	CCONJ	CC	_	19	cc	19:cc	Discourse=joint_m:56->55:0
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	19:nsubj|21:nsubj:xsubj	Entity=(person-45-giv:act-1-ana)
+17	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
+18	never	never	ADV	RB	Polarity=Neg	19	advmod	19:advmod	_
+19	sought	seek	VERB	VBN	Tense=Past|VerbForm=Part	6	conj	6:conj:and	_
+20	to	to	PART	TO	_	21	mark	21:mark	_
+21	pay	pay	VERB	VB	VerbForm=Inf	19	xcomp	19:xcomp	_
+22	anyone	anyone	NOUN	NN	Number=Sing	21	iobj	21:iobj	Entity=(person-54-giv:act-1-coref)
+23	for	for	ADP	IN	_	24	case	24:case	_
+24	sex	sex	NOUN	NN	Number=Sing	21	obl	21:obl:for	Entity=(event-55-giv:act-1-coref)53)
+25	…	…	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = GUM_reddit_polygraph-27
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = both are true.
+1	both	both	DET	DT	_	3	nsubj	3:nsubj	Discourse=evaluation:57->55:2|Entity=(abstract-53-giv:act-1-coref)
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
+3	true	true	ADJ	JJ	Degree=Pos	0	root	0:root	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_polygraph-28
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = However, Joe has a flash of a thought from that night when the examiner asks him if he has paid for sex.
+1	However	however	ADV	RB	_	4	advmod	4:advmod	Discourse=sequence_m:58->55:3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	Joe	Joe	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Entity=(person-45-giv:inact-1-coref)
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(abstract-56-new-2-sgl
+6	flash	flash	NOUN	NN	Number=Sing	4	obj	4:obj	_
+7	of	of	ADP	IN	_	9	case	9:case	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	Entity=(abstract-57-new-2-sgl
+9	thought	thought	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	_
+10	from	from	ADP	IN	_	12	case	12:case	_
+11	that	that	DET	DT	Number=Sing|PronType=Dem	12	det	12:det	Entity=(time-44-giv:inact-2-coref
+12	night	night	NOUN	NN	Number=Sing	9	nmod	9:nmod:from	Entity=44)57)56)
+13	when	when	SCONJ	WRB	PronType=Int	16	mark	16:mark	Discourse=attribution:59->60:0
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(person-58-acc:com-2-coref
+15	examiner	examiner	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	Entity=58)
+16	asks	ask	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	4:advcl:when	_
+17	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	16:obj	Entity=(person-45-giv:act-1-ana)
+18	if	if	SCONJ	IN	_	21	mark	21:mark	Discourse=circumstance:60->58:0
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	21:nsubj	Entity=(person-45-giv:act-1-ana)
+20	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	21:aux	_
+21	paid	pay	VERB	VBN	Tense=Past|VerbForm=Part	16	advcl	16:advcl:if	_
+22	for	for	ADP	IN	_	23	case	23:case	_
+23	sex	sex	NOUN	NN	Number=Sing	21	obl	21:obl:for	Entity=(event-55-giv:inact-1-coref)|SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_polygraph-29
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = His body, automatically, is afraid that he should have said something.
+1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=sequence_m:61->55:3|Entity=(event-59-new-7-disc(object-60-new-2-sgl(person-45-giv:act-1-ana)
+2	body	body	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=60)|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+4	automatically	automatically	ADV	RB	Degree=Pos	7	advmod	7:advmod	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	4:punct	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
+7	afraid	afraid	ADJ	JJ	Degree=Pos	0	root	0:root	_
+8	that	that	SCONJ	IN	_	12	mark	12:mark	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(person-45-giv:act-1-ana)
+10	should	should	AUX	MD	VerbForm=Fin	12	aux	12:aux	_
+11	have	have	AUX	VB	VerbForm=Inf	12	aux	12:aux	_
+12	said	say	VERB	VBN	Tense=Past|VerbForm=Part	7	ccomp	7:ccomp	_
+13	something	something	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=(abstract-61-new-1-sgl)59)|SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = GUM_reddit_polygraph-30
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = The machine will pick that reaction up.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=58<63|Discourse=result:62->55:5|Entity=(event-62-new-4-disc(object-63-acc:inf-2-coref
+2	machine	machine	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=63)
+3	will	will	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	4	aux	4:aux	_
+4	pick	pick	VERB	VB	VerbForm=Inf	0	root	0:root	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	6:det	Entity=(event-59-giv:act-2-coref
+6	reaction	reaction	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=59)
+7	up	up	ADP	RP	_	4	compound:prt	4:compound:prt	Entity=62)|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_polygraph-31
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = The reason this isn't scientific is because just because it shows deception on a particular subject, doesn't mean you’re lying …
+# newpar = p (2 s)
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=antithesis:63->68:0|Entity=(abstract-64-new-2-sgl
+2	reason	reason	NOUN	NN	Number=Sing	21	nsubj	21:nsubj	_
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Discourse=elaboration:64->63:0|Entity=(event-62-giv:act-1-coref)
+4-5	isn't	_	_	_	_	_	_	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_
+5	n't	not	PART	RB	Polarity=Neg	6	advmod	6:advmod	_
+6	scientific	scientific	ADJ	JJ	Degree=Pos	2	acl	2:acl	Entity=64)
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	21:cop	Discourse=same-unit_m:65->63:1
+8	because	because	SCONJ	IN	_	21	mark	21:mark	_
+9	just	just	ADV	RB	_	12	advmod	12:advmod	Discourse=concession:66->67:0
+10	because	because	SCONJ	IN	_	12	mark	12:mark	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Entity=(event-62-giv:act-1-ana)
+12	shows	show	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	21:advcl:because	_
+13	deception	deception	NOUN	NN	Number=Sing	12	obj	12:obj	Entity=(abstract-65-new-5-sgl
+14	on	on	ADP	IN	_	17	case	17:case	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(abstract-66-new-3-sgl
+16	particular	particular	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
+17	subject	subject	NOUN	NN	Number=Sing	12	obl	12:obl:on	Entity=66)65)|SpaceAfter=No
+18	,	,	PUNCT	,	_	12	punct	12:punct	_
+19-20	doesn't	_	_	_	_	_	_	_	_
+19	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	21:aux	Discourse=same-unit_m:67->63:1
+20	n't	not	PART	RB	Polarity=Neg	21	advmod	21:advmod	_
+21	mean	mean	VERB	VB	VerbForm=Inf	0	root	0:root	_
+22	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	24	nsubj	24:nsubj	Entity=(person-10-giv:inact-1-ana)|SpaceAfter=No
+23	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	24	aux	24:aux	_
+24	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part	21	ccomp	21:ccomp	_
+25	…	…	PUNCT	.	_	21	punct	21:punct	_
+
+# sent_id = GUM_reddit_polygraph-32
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = it means that there is usually more to that story.
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint_m:68->12:2|Entity=(event-62-giv:act-1-ana)
+2	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	that	that	SCONJ	IN	_	5	mark	5:mark	_
+4	there	there	PRON	EX	_	5	expl	5:expl	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	_
+6	usually	usually	ADV	RB	Degree=Pos	7	advmod	7:advmod	_
+7	more	more	ADJ	JJR	Degree=Cmp	5	nsubj	5:nsubj	_
+8	to	to	ADP	IN	_	10	case	10:case	_
+9	that	that	DET	DT	Number=Sing|PronType=Dem	10	det	10:det	Bridge=44<67|Entity=(abstract-67-acc:inf-2-sgl
+10	story	story	NOUN	NN	Number=Sing	7	obl	7:obl:to	Entity=67)|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_polygraph-33
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = To combat this, before you take the poly you will talk with the examiner and go over every question that is on the exam.
+# newpar = p (5 s)
+1	To	to	PART	TO	_	2	mark	2:mark	Discourse=purpose:69->71:4
+2	combat	combat	VERB	VB	VerbForm=Inf	12	advcl	12:advcl:to	_
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	obj	2:obj	Entity=(event-62-giv:act-1-ana)|SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	2:punct	_
+5	before	before	SCONJ	IN	_	7	mark	7:mark	Discourse=circumstance:70->71:1|Entity=(event-68-new-8,13-disc
+6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	7:nsubj	Entity=(person-10-giv:inact-1-ana)
+7	take	take	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	advcl	12:advcl:before	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(abstract-69-new-2-coref
+9	poly	poly	NOUN	NN	Number=Sing	7	obj	7:obj	Entity=69)
+10	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	12:nsubj|17:nsubj	Discourse=joint_m:71->12:2|Entity=(person-10-giv:act-1-ana)
+11	will	will	AUX	MD	VerbForm=Fin	12	aux	12:aux|17:aux	_
+12	talk	talk	VERB	VB	VerbForm=Inf	0	root	0:root	_
+13	with	with	ADP	IN	_	15	case	15:case	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Bridge=69<70|Entity=(person-70-acc:inf-2-coref
+15	examiner	examiner	NOUN	NN	Number=Sing	12	obl	12:obl:with	Entity=70)
+16	and	and	CCONJ	CC	_	17	cc	17:cc	Discourse=joint_m:72->71:0
+17	go	go	VERB	VB	VerbForm=Inf	12	conj	12:conj:and	_
+18	over	over	ADP	IN	_	20	case	20:case	_
+19	every	every	DET	DT	_	20	det	20:det	Entity=(abstract-71-new-2-coref
+20	question	question	NOUN	NN	Number=Sing	17	obl	17:obl:over|22:nsubj	Entity=71)
+21	that	that	PRON	WDT	PronType=Rel	22	nsubj	20:ref	Discourse=elaboration:73->72:0
+22	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	20:acl:relcl	_
+23	on	on	ADP	IN	_	25	case	25:case	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(abstract-69-giv:act-2-coref
+25	exam	exam	NOUN	NN	Number=Sing	22	obl	22:obl:on	Entity=69)68)|SpaceAfter=No
+26	.	.	PUNCT	.	_	12	punct	12:punct	_
+
+# sent_id = GUM_reddit_polygraph-34
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = That way you can address any gray areas.
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=result:74->71:2|Entity=(event-68-giv:act-2-coref
+2	way	way	NOUN	NN	Number=Sing	5	obl:npmod	5:obl:npmod	Entity=68)
+3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-10-giv:act-1-ana)
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	5:aux	_
+5	address	address	VERB	VB	VerbForm=Inf	0	root	0:root	_
+6	any	any	DET	DT	_	8	det	8:det	Entity=(abstract-72-new-3-coref
+7	gray	gray	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
+8	areas	area	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=72)|SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_polygraph-35
+# s_type = multiple
+# speaker = GUM_reddit_polygraph_spk_A
+# text = You may have answered a question in your background with a “no” answer, but there is a “comma, but” to it though … if you know what I mean.
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint_m:75->71:3|Entity=(person-10-giv:act-1-ana)
+2	may	may	AUX	MD	VerbForm=Fin	4	aux	4:aux	_
+3	have	have	AUX	VB	VerbForm=Inf	4	aux	4:aux	_
+4	answered	answer	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(abstract-73-new-2-sgl
+6	question	question	NOUN	NN	Number=Sing	4	obj	4:obj	_
+7	in	in	ADP	IN	_	9	case	9:case	_
+8	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(abstract-74-new-2-sgl(person-10-giv:act-1-ana)
+9	background	background	NOUN	NN	Number=Sing	6	nmod	6:nmod:in	Entity=74)73)
+10	with	with	ADP	IN	_	15	case	15:case	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Entity=(abstract-75-new-5-coref
+12	“	''	PUNCT	``	_	13	punct	13:punct	SpaceAfter=No|XML=<q>
+13	no	no	INTJ	UH	Polarity=Neg	15	discourse	15:discourse	SpaceAfter=No
+14	”	''	PUNCT	''	_	13	punct	13:punct	XML=</q>
+15	answer	answer	NOUN	NN	Number=Sing	4	obl	4:obl:with	Entity=75)|SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	19:punct	_
+17	but	but	CCONJ	CC	_	19	cc	19:cc	Discourse=contrast_m:76->75:0
+18	there	there	PRON	EX	_	19	expl	19:expl	_
+19	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj:but	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	22:det	Entity=(abstract-76-new-3-sgl
+21	“	''	PUNCT	``	_	22	punct	22:punct	SpaceAfter=No|XML=<q>
+22	comma	comma	NOUN	NN	Number=Sing	19	nsubj	19:nsubj	SpaceAfter=No
+23	,	,	PUNCT	,	_	24	punct	24:punct	_
+24	but	but	CCONJ	CC	_	22	dep	22:dep	SpaceAfter=No
+25	”	''	PUNCT	''	_	22	punct	22:punct	XML=</q>
+26	to	to	ADP	IN	_	27	case	27:case	_
+27	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nmod	22:nmod:to	Entity=(abstract-75-giv:act-1-ana)76)
+28	though	though	ADV	RB	Degree=Pos	19	advmod	19:advmod	_
+29	…	…	PUNCT	:	_	32	punct	32:punct	_
+30	if	if	SCONJ	IN	_	32	mark	32:mark	Discourse=concession:77->75:1
+31	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	32	nsubj	32:nsubj	Entity=(person-10-giv:act-1-ana)
+32	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	advcl	19:advcl:if	_
+33	what	what	PRON	WP	PronType=Rel	32	obj	32:obj	_
+34	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	35	nsubj	35:nsubj	Entity=(person-9-giv:inact-1-ana)
+35	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	33	acl:relcl	33:acl:relcl	SpaceAfter=No
+36	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_polygraph-36
+# s_type = imp
+# speaker = GUM_reddit_polygraph_spk_A
+# text = Make sure that you address any of these areas with the background investigator and with the polygraph examiner before taking the test.
+1	Make	make	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=joint_m:78->71:3|Entity=(event-77-new-1-disc
+2	sure	sure	ADJ	JJ	Degree=Pos	1	xcomp	1:xcomp	_
+3	that	that	SCONJ	IN	_	5	mark	5:mark	_
+4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-10-giv:act-1-ana)
+5	address	address	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	_
+6	any	any	DET	DT	_	5	obj	5:obj	Entity=(abstract-78-new-1-ana
+7	of	of	ADP	IN	_	9	case	9:case	_
+8	these	this	DET	DT	Number=Plur|PronType=Dem	9	det	9:det	Bridge=72<79|Entity=(abstract-79-acc:inf-2-sgl
+9	areas	area	NOUN	NNS	Number=Plur	6	nmod	6:nmod:of	Entity=79)78)
+10	with	with	ADP	IN	_	13	case	13:case	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(person-70-giv:inact-3-coref
+12	background	background	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=(abstract-80-new-1-coref)
+13	investigator	investigator	NOUN	NN	Number=Sing	5	obl	5:obl:with	Entity=70)
+14	and	and	CCONJ	CC	_	18	cc	18:cc	_
+15	with	with	ADP	IN	_	18	case	18:case	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(person-70-giv:act-3-coref
+17	polygraph	polygraph	NOUN	NN	Number=Sing	18	compound	18:compound	Entity=(object-63-giv:inact-1-coref)
+18	examiner	examiner	NOUN	NN	Number=Sing	10	conj	10:conj:and|13:case	Entity=70)
+19	before	before	SCONJ	IN	_	20	mark	20:mark	Discourse=circumstance:79->78:0
+20	taking	take	VERB	VBG	VerbForm=Ger	5	advcl	5:advcl:before	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(abstract-69-giv:inact-2-coref
+22	test	test	NOUN	NN	Number=Sing	20	obj	20:obj	Entity=69)|SpaceAfter=No
+23	.	.	PUNCT	.	_	1	punct	1:punct	Entity=77)
+
+# sent_id = GUM_reddit_polygraph-37
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = That way, you’ll feel that it’s been addressed and it is much more likely to be a non-issue.
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=attribution:80->81:0|Entity=(event-77-giv:act-2-coref
+2	way	way	NOUN	NN	Number=Sing	6	obl:npmod	6:obl:npmod	Entity=77)|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+4-5	you’ll	_	_	_	_	_	_	_	_
+4	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-10-giv:act-1-ana)
+5	’ll	will	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
+6	feel	feel	VERB	VB	VerbForm=Inf	0	root	0:root	_
+7	that	that	SCONJ	IN	_	11	mark	11:mark	Discourse=result:81->78:1
+8-9	it’s	_	_	_	_	_	_	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj:pass	11:nsubj:pass	Entity=(abstract-78-giv:act-1-ana)
+9	’s	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	aux:pass	11:aux:pass	_
+11	addressed	address	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	ccomp	6:ccomp	_
+12	and	and	CCONJ	CC	_	17	cc	17:cc	Discourse=joint_m:82->81:1
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	17:nsubj|21:nsubj:xsubj	Entity=(abstract-78-giv:act-1-ana)
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	_
+15	much	much	ADV	RB	Degree=Pos	17	advmod	17:advmod	_
+16	more	more	ADV	RBR	Degree=Cmp	17	advmod	17:advmod	_
+17	likely	likely	ADJ	JJ	Degree=Pos	11	conj	6:ccomp|11:conj:and	_
+18	to	to	PART	TO	_	21	mark	21:mark	_
+19	be	be	AUX	VB	VerbForm=Inf	21	cop	21:cop	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Entity=(abstract-78-giv:act-2-coref
+21	non-issue	non-issue	NOUN	NN	Number=Sing|Polarity=Neg	17	xcomp	17:xcomp	Entity=78)|SpaceAfter=No
+22	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = GUM_reddit_polygraph-38
+# s_type = imp
+# speaker = GUM_reddit_polygraph_spk_A
+# text = Third, please know that common sense is still very much on the table.
+# newpar = p (13 s)
+1	Third	third	ADV	RB	Degree=Pos|NumType=Ord	4	advmod	4:advmod	Discourse=attribution:83->84:0|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	please	please	INTJ	UH	_	4	discourse	4:discourse	_
+4	know	know	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+5	that	that	SCONJ	IN	_	11	mark	11:mark	Discourse=joint_m:84->9:4
+6	common	common	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(abstract-81-new-2-sgl
+7	sense	sense	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	Entity=81)
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_
+9	still	still	ADV	RB	Degree=Pos	11	advmod	11:advmod	_
+10	very	very	ADV	RB	_	11	advmod	11:advmod	_
+11	much	much	ADV	RB	Degree=Pos	4	ccomp	4:ccomp	_
+12	on	on	ADP	IN	_	14	case	14:case	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	_
+14	table	table	NOUN	NN	Number=Sing	11	nmod	11:nmod:on	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_polygraph-39
+# s_type = q
+# speaker = GUM_reddit_polygraph_spk_A
+# text = Have you seen the scene from Ocean’s Eleven where the “smart guy” is undergoing a polygraph so he can get the casino job?
+1	Have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	3:aux	Discourse=elaboration:85->84:1
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-10-giv:inact-1-ana)
+3	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(abstract-82-new-2-sgl
+5	scene	scene	NOUN	NN	Number=Sing	3	obj	3:obj	_
+6	from	from	ADP	IN	_	9	case	9:case	_
+7-8	Ocean’s	_	_	_	_	_	_	_	_
+7	Ocean	Ocean	PROPN	NNP	Number=Sing	9	nmod:poss	9:nmod:poss	Entity=(abstract-83-new-3-coref-Ocean's_Eleven(person-84-new-1-sgl
+8	’s	's	PART	POS	_	7	case	7:case	Entity=84)
+9	Eleven	Eleven	PROPN	NNP	Number=Sing	5	nmod	5:nmod:from	Entity=83)
+10	where	where	ADV	WRB	PronType=Rel	17	advmod	17:advmod	Discourse=elaboration:86->85:0
+11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Bridge=83<85|Entity=(person-85-acc:inf-4-coref
+12	“	''	PUNCT	``	_	14	punct	14:punct	SpaceAfter=No|XML=<q>
+13	smart	smart	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
+14	guy	guy	NOUN	NN	Number=Sing	17	nsubj	17:nsubj	SpaceAfter=No
+15	”	''	PUNCT	''	_	14	punct	14:punct	Entity=85)|XML=</q>
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	17:aux	_
+17	undergoing	undergo	VERB	VBG	Tense=Pres|VerbForm=Part	5	acl:relcl	5:acl:relcl	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(abstract-86-new-2-coref
+19	polygraph	polygraph	NOUN	NN	Number=Sing	17	obj	17:obj	Entity=86)
+20	so	so	SCONJ	IN	_	23	mark	23:mark	Discourse=purpose:87->86:0
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	23:nsubj	Entity=(person-85-giv:act-1-ana)
+22	can	can	AUX	MD	VerbForm=Fin	23	aux	23:aux	_
+23	get	get	VERB	VB	VerbForm=Inf	17	advcl	17:advcl:so	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	26:det	Entity=(abstract-87-new-3-sgl
+25	casino	casino	NOUN	NN	Number=Sing	26	compound	26:compound	Entity=(organization-88-new-1-sgl)
+26	job	job	NOUN	NN	Number=Sing	23	obj	23:obj	Entity=87)82)|SpaceAfter=No
+27	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_polygraph-40
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = They put a thumb tack in his shoe so that when he could poke his foot on the truthful answers and not on the lies.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	Bridge=83<90|Discourse=means:88->90:2|Entity=(event-89-new-2-disc(person-90-acc:inf-1-sgl)
+2	put	put	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(object-91-new-3-sgl
+4	thumb	thumb	NOUN	NN	Number=Sing	5	compound	5:compound	_
+5	tack	tack	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=91)
+6	in	in	ADP	IN	_	8	case	8:case	_
+7	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(object-92-new-2-sgl(person-85-giv:act-1-ana)
+8	shoe	shoe	NOUN	NN	Number=Sing	2	obl	2:obl:in	Entity=92)
+9	so	so	SCONJ	IN	_	14	mark	14:mark	Discourse=purpose:89->88:0
+10	that	that	ADP	IN	_	9	fixed	9:fixed	_
+11	when	when	SCONJ	WRB	PronType=Int	14	mark	14:mark	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Entity=(person-85-giv:act-1-ana)
+13	could	could	AUX	MD	VerbForm=Fin	14	aux	14:aux	_
+14	poke	poke	VERB	VB	VerbForm=Inf	2	advcl	2:advcl:so_that_when	_
+15	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	Entity=(object-93-new-2-sgl(person-85-giv:act-1-ana)
+16	foot	foot	NOUN	NN	Number=Sing	14	obj	14:obj	Entity=93)
+17	on	on	ADP	IN	_	20	case	20:case	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Bridge=86<94|Entity=(abstract-94-acc:inf-3-sgl
+19	truthful	truthful	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
+20	answers	answer	NOUN	NNS	Number=Plur	14	obl	14:obl:on	Entity=94)
+21	and	and	CCONJ	CC	_	25	cc	25:cc	_
+22	not	not	PART	RB	Polarity=Neg	25	advmod	25:advmod	_
+23	on	on	ADP	IN	_	25	case	25:case	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Bridge=86<95|Entity=(abstract-95-acc:inf-2-sgl
+25	lies	lie	NOUN	NNS	Number=Plur	17	conj	17:conj:and|20:case	Entity=95)|SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	2:punct	Entity=89)
+
+# sent_id = GUM_reddit_polygraph-41
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = That way he was consistent through the exam.
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=elaboration:90->85:1|Entity=(event-89-giv:act-2-coref
+2	way	way	NOUN	NN	Number=Sing	5	obl:npmod	5:obl:npmod	Entity=89)
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(person-85-giv:act-1-ana)
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
+5	consistent	consistent	ADJ	JJ	Degree=Pos	0	root	0:root	_
+6	through	through	ADP	IN	_	8	case	8:case	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(abstract-86-giv:inact-2-coref
+8	exam	exam	NOUN	NN	Number=Sing	5	obl	5:obl:through	Entity=86)|SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = GUM_reddit_polygraph-42
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = He was always stressed.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	4:nsubj:pass	Discourse=cause:91->90:0|Entity=(person-85-giv:act-1-ana)
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	4:aux:pass	_
+3	always	always	ADV	RB	_	4	advmod	4:advmod	_
+4	stressed	stress	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_polygraph-43
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = The examiner even makes the comment that “man to look at him, I would swear he’s being deceptive.”
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Bridge=86<96|Discourse=attribution:92->93:1|Entity=(person-96-acc:inf-2-coref
+2	examiner	examiner	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=96)
+3	even	even	ADV	RB	_	4	advmod	4:advmod	_
+4	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(abstract-97-new-2-sgl
+6	comment	comment	NOUN	NN	Number=Sing	4	obj	4:obj	_
+7	that	that	SCONJ	IN	_	17	mark	17:mark	Discourse=evidence:93->90:1
+8	“	''	PUNCT	``	_	17	punct	17:punct	SpaceAfter=No|XML=<quote>
+9	man	man	NOUN	NN	Number=Sing	17	discourse	17:discourse	_
+10	to	to	PART	TO	_	11	mark	11:mark	Discourse=circumstance:94->95:0
+11	look	look	VERB	VB	VerbForm=Inf	17	advcl	17:advcl:to	_
+12	at	at	ADP	IN	_	13	case	13:case	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	11:obl:at	Entity=(person-85-giv:act-1-ana)|SpaceAfter=No
+14	,	,	PUNCT	,	_	11	punct	11:punct	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	17:nsubj	Discourse=attribution:95->96:0|Entity=(person-96-giv:act-1-ana)
+16	would	would	AUX	MD	VerbForm=Fin	17	aux	17:aux	_
+17	swear	swear	VERB	VB	VerbForm=Inf	6	acl	6:acl:that	_
+18-19	he’s	_	_	_	_	_	_	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	21:nsubj	Discourse=evaluation:96->93:0|Entity=(person-85-giv:act-1-ana)
+19	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	21:aux	_
+20	being	be	AUX	VBG	VerbForm=Ger	21	cop	21:cop	_
+21	deceptive	deceptive	ADJ	JJ	Degree=Pos	17	ccomp	17:ccomp	SpaceAfter=No
+22	.	.	PUNCT	.	_	17	punct	17:punct	SpaceAfter=No
+23	”	''	PUNCT	''	_	17	punct	17:punct	Entity=97)|XML=</quote>
+
+# sent_id = GUM_reddit_polygraph-44
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = Well, first … the thumb tack trick doesn't work …
+1	Well	well	INTJ	UH	_	11	discourse	11:discourse	Discourse=motivation:97->98:0|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	first	first	ADV	RB	Degree=Pos|NumType=Ord	11	advmod	11:advmod	_
+4	…	…	PUNCT	:	_	3	punct	3:punct	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(abstract-98-new-4-coref
+6	thumb	thumb	NOUN	NN	Number=Sing	7	compound	7:compound	Entity=(object-99-new-2-sgl
+7	tack	tack	NOUN	NN	Number=Sing	8	compound	8:compound	Entity=99)
+8	trick	trick	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	Entity=98)
+9-10	doesn't	_	_	_	_	_	_	_	_
+9	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
+10	n't	not	PART	RB	Polarity=Neg	11	advmod	11:advmod	_
+11	work	work	VERB	VB	VerbForm=Inf	0	root	0:root	_
+12	…	…	PUNCT	.	_	11	punct	11:punct	_
+
+# sent_id = GUM_reddit_polygraph-45
+# s_type = imp
+# speaker = GUM_reddit_polygraph_spk_A
+# text = don’t try it.
+1-2	don’t	_	_	_	_	_	_	_	_
+1	do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=evaluation:98->85:2
+2	n’t	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	_
+3	try	try	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	3:obj	Entity=(abstract-98-giv:act-1-ana)|SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_polygraph-46
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = You’ll end up with a hurt foot, and deception everywhere.
+1-2	You’ll	_	_	_	_	_	_	_	_
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=motivation:99->98:1|Entity=(person-10-giv:inact-1-ana)
+2	’ll	will	AUX	MD	VerbForm=Fin	3	aux	3:aux	_
+3	end	end	VERB	VB	VerbForm=Inf	0	root	0:root	_
+4	up	up	ADP	RP	_	3	compound:prt	3:compound:prt	_
+5	with	with	ADP	IN	_	8	case	8:case	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(object-100-new-3-sgl
+7	hurt	hurt	VERB	VBN	Tense=Past|VerbForm=Part	8	amod	8:amod	_
+8	foot	foot	NOUN	NN	Number=Sing	3	obl	3:obl:with	Entity=100)|SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	11:punct	_
+10	and	and	CCONJ	CC	_	11	cc	11:cc	_
+11	deception	deception	NOUN	NN	Number=Sing	5	conj	5:conj:and|8:case	Entity=(abstract-6-giv:inact-1-coref)
+12	everywhere	everywhere	ADV	RB	Degree=Pos	11	advmod	11:advmod	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_polygraph-47
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = Second, the human element will be sure to include any potential signs of deception.
+1	Second	second	ADV	RB	Degree=Pos|NumType=Ord	8	advmod	8:advmod	Discourse=background:100->103:3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(abstract-101-new-3-sgl
+4	human	human	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
+5	element	element	NOUN	NN	Number=Sing	8	nsubj	8:nsubj|10:nsubj:xsubj	Entity=101)
+6	will	will	AUX	MD	VerbForm=Fin	8	aux	8:aux	_
+7	be	be	AUX	VB	VerbForm=Inf	8	cop	8:cop	_
+8	sure	sure	ADJ	JJ	Degree=Pos	0	root	0:root	_
+9	to	to	PART	TO	_	10	mark	10:mark	_
+10	include	include	VERB	VB	VerbForm=Inf	8	xcomp	8:xcomp	_
+11	any	any	DET	DT	_	13	det	13:det	Entity=(abstract-102-new-3-sgl
+12	potential	potential	ADJ	JJ	Degree=Pos	13	amod	13:amod	_
+13	signs	sign	NOUN	NNS	Number=Plur	10	obj	10:obj	_
+14	of	of	ADP	IN	_	15	case	15:case	_
+15	deception	deception	NOUN	NN	Number=Sing	13	nmod	13:nmod:of	Entity=(abstract-6-giv:act-1-coref)102)|SpaceAfter=No
+16	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = GUM_reddit_polygraph-48
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = Again, it is generally a bad idea to try and determine how to beat this test.
+1	Again	again	ADV	RB	Degree=Pos	8	advmod	8:advmod	Discourse=motivation:101->103:2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	8:expl	Entity=(event-103-new-1-cata)
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	_
+5	generally	generally	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(event-103-acc:com-3-coref
+7	bad	bad	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
+8	idea	idea	NOUN	NN	Number=Sing	0	root	0:root	Entity=103)
+9	to	to	PART	TO	_	10	mark	10:mark	Entity=(event-103-giv:act-2,4-disc
+10	try	try	VERB	VB	VerbForm=Inf	8	csubj	8:csubj	_
+11	and	and	CCONJ	CC	_	12	cc	12:cc	_
+12	determine	determine	VERB	VB	VerbForm=Inf	10	conj	8:csubj|10:conj:and	_
+13	how	how	SCONJ	WRB	PronType=Int	12	obj	12:obj	_
+14	to	to	PART	TO	_	15	mark	15:mark	_
+15	beat	beat	VERB	VB	VerbForm=Inf	13	acl	13:acl:to	_
+16	this	this	DET	DT	Number=Sing|PronType=Dem	17	det	17:det	Entity=(abstract-69-giv:inact-2-coref
+17	test	test	NOUN	NN	Number=Sing	15	obj	15:obj	Entity=69)103)|SpaceAfter=No
+18	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = GUM_reddit_polygraph-49
+# s_type = imp
+# speaker = GUM_reddit_polygraph_spk_A
+# text = Don’t do it, just be honest through the process.
+1-2	Don’t	_	_	_	_	_	_	_	_
+1	Do	do	AUX	VB	VerbForm=Inf	3	aux	3:aux	Discourse=restatement:102->103:0
+2	n’t	not	PART	RB	Polarity=Neg	3	advmod	3:advmod	_
+3	do	do	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	3:obj	Entity=(event-103-giv:act-1-coref)|SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	8:punct	_
+6	just	just	ADV	RB	_	8	advmod	8:advmod	Discourse=joint_m:103->98:2
+7	be	be	AUX	VB	VerbForm=Inf	8	cop	8:cop	_
+8	honest	honest	ADJ	JJ	Degree=Pos	3	parataxis	3:parataxis	_
+9	through	through	ADP	IN	_	11	case	11:case	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(abstract-1-giv:inact-2-coref
+11	process	process	NOUN	NN	Number=Sing	8	obl	8:obl:through	Entity=1)|SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_polygraph-50
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = Each step is there for a reason.
+1	Each	each	DET	DT	_	2	det	2:det	Bridge=1<104|Discourse=justify:104->103:1|Entity=(event-104-acc:inf-2-sgl
+2	step	step	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=104)
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
+4	there	there	ADV	RB	PronType=Dem	0	root	0:root	_
+5	for	for	ADP	IN	_	7	case	7:case	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(abstract-105-new-2-sgl
+7	reason	reason	NOUN	NN	Number=Sing	4	nmod	4:nmod:for	Entity=105)|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_polygraph-51
+# s_type = sub
+# speaker = GUM_reddit_polygraph_spk_A
+# text = Finally, and most importantly, you should know that everyone is intimidated by this step in the process.
+# newpar = p (6 s)
+1	Finally	finally	ADV	RB	Degree=Pos	9	advmod	9:advmod	Discourse=attribution:105->106:0|SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	5:punct	_
+3	and	and	CCONJ	CC	_	5	cc	5:cc	_
+4	most	most	ADV	RBS	Degree=Sup	5	advmod	5:advmod	_
+5	importantly	importantly	ADV	RB	Degree=Pos	1	conj	1:conj:and|9:advmod	SpaceAfter=No
+6	,	,	PUNCT	,	_	1	punct	1:punct	_
+7	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Entity=(person-10-giv:inact-1-ana)
+8	should	should	AUX	MD	VerbForm=Fin	9	aux	9:aux	_
+9	know	know	VERB	VB	VerbForm=Inf	0	root	0:root	_
+10	that	that	SCONJ	IN	_	13	mark	13:mark	Discourse=joint_m:106->9:4
+11	everyone	everyone	NOUN	NN	Number=Sing	13	nsubj:pass	13:nsubj:pass	Entity=(person-106-new-1-coref)
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	13:aux:pass	_
+13	intimidated	intimidate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	ccomp	9:ccomp	_
+14	by	by	ADP	IN	_	16	case	16:case	_
+15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	16:det	Entity=(abstract-69-giv:inact-5-coref
+16	step	step	NOUN	NN	Number=Sing	13	obl	13:obl:by	_
+17	in	in	ADP	IN	_	19	case	19:case	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(abstract-1-giv:inact-2-coref
+19	process	process	NOUN	NN	Number=Sing	13	obl	13:obl:in	Entity=1)69)|SpaceAfter=No
+20	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = GUM_reddit_polygraph-52
+# s_type = sub
+# speaker = GUM_reddit_polygraph_spk_A
+# text = You don’t need to worry about nervousness tripping the machine or giving you a false indication of deception.
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj|6:nsubj:xsubj	Discourse=elaboration:107->106:1|Entity=(person-10-giv:act-1-ana)
+2-3	don’t	_	_	_	_	_	_	_	_
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
+3	n’t	not	PART	RB	Polarity=Neg	4	advmod	4:advmod	_
+4	need	need	VERB	VB	VerbForm=Inf	0	root	0:root	_
+5	to	to	PART	TO	_	6	mark	6:mark	_
+6	worry	worry	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	_
+7	about	about	SCONJ	IN	_	9	mark	9:mark	_
+8	nervousness	nervousness	NOUN	NN	Number=Sing	9	nsubj	9:nsubj|13:nsubj	Entity=(abstract-107-new-2,6-disc(abstract-108-new-1-sgl)
+9	tripping	trip	VERB	VBG	VerbForm=Ger	6	advcl	6:advcl:about	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(object-63-giv:inact-2-coref
+11	machine	machine	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=63)
+12	or	or	CCONJ	CC	_	13	cc	13:cc	_
+13	giving	give	VERB	VBG	VerbForm=Ger	9	conj	6:advcl:about|9:conj:or	_
+14	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	13	iobj	13:iobj	Entity=(person-10-giv:act-1-ana)
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(abstract-109-new-3-sgl
+16	false	false	ADJ	JJ	Degree=Pos	17	amod	17:amod	_
+17	indication	indication	NOUN	NN	Number=Sing	13	obj	13:obj	_
+18	of	of	ADP	IN	_	19	case	19:case	_
+19	deception	deception	NOUN	NN	Number=Sing	17	nmod	17:nmod:of	Entity=(abstract-6-giv:inact-1-coref)109)107)|SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_polygraph-53
+# s_type = sub
+# speaker = GUM_reddit_polygraph_spk_A
+# text = If it did that just because people were nervous, then no one would ever pass these tests.
+1	If	if	SCONJ	IN	_	3	mark	3:mark	Discourse=condition:108->110:0
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Entity=(object-63-giv:act-1-ana)
+3	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	advcl	16:advcl:if	_
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obj	3:obj	Entity=(abstract-107-giv:act-1-coref)
+5	just	just	ADV	RB	_	9	advmod	9:advmod	Discourse=cause:109->108:0
+6	because	because	SCONJ	IN	_	9	mark	9:mark	_
+7	people	person	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj	Entity=(person-110-new-1-sgl)
+8	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	cop	9:cop	_
+9	nervous	nervous	ADJ	JJ	Degree=Pos	3	advcl	3:advcl:because	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	3:punct	_
+11	then	then	ADV	RB	PronType=Dem	13	advmod	13:advmod	Discourse=evidence:110->107:0
+12	no	no	DET	DT	Polarity=Neg	13	det	13:det	Entity=(person-111-new-2-sgl
+13	one	one	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	Entity=111)
+14	would	would	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	16	aux	16:aux	_
+15	ever	ever	ADV	RB	Degree=Pos	16	advmod	16:advmod	_
+16	pass	pass	VERB	VB	VerbForm=Inf	0	root	0:root	_
+17	these	this	DET	DT	Number=Plur|PronType=Dem	18	det	18:det	Bridge=69<112|Entity=(abstract-112-acc:inf-2-sgl
+18	tests	test	NOUN	NNS	Number=Plur	16	obj	16:obj	Entity=112)|SpaceAfter=No
+19	.	.	PUNCT	.	_	16	punct	16:punct	_
+
+# sent_id = GUM_reddit_polygraph-54
+# s_type = multiple
+# speaker = GUM_reddit_polygraph_spk_A
+# text = The poly tends to be the part of the process that everyone dreads … and that really shouldn't be the case.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=antithesis:111->113:0|Entity=(abstract-113-new-3-disc(abstract-69-giv:inact-2-coref
+2	poly	poly	NOUN	NN	Number=Sing	3	nsubj	3:nsubj|7:nsubj:xsubj	Entity=69)
+3	tends	tend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+4	to	to	PART	TO	_	7	mark	7:mark	_
+5	be	be	AUX	VB	VerbForm=Inf	7	cop	7:cop	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	_
+7	part	part	NOUN	NN	Number=Sing	3	xcomp	3:xcomp|13:obj	_
+8	of	of	ADP	IN	_	10	case	10:case	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(abstract-1-giv:inact-2-coref
+10	process	process	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=1)
+11	that	that	PRON	WDT	PronType=Rel	13	obj	7:ref	Discourse=elaboration:112->111:0
+12	everyone	everyone	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	Entity=(person-106-giv:inact-1-coref)
+13	dreads	dread	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	7:acl:relcl	Entity=113)
+14	…	…	PUNCT	:	_	22	punct	22:punct	_
+15	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=elaboration:113->107:1
+16	that	that	PRON	DT	Number=Sing|PronType=Dem	22	nsubj	22:nsubj	Entity=(abstract-113-giv:act-1-coref)
+17	really	really	ADV	RB	Degree=Pos	22	advmod	22:advmod	_
+18-19	shouldn't	_	_	_	_	_	_	_	_
+18	should	should	AUX	MD	VerbForm=Fin	22	aux	22:aux	_
+19	n't	not	PART	RB	Polarity=Neg	22	advmod	22:advmod	_
+20	be	be	AUX	VB	VerbForm=Inf	22	cop	22:cop	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(abstract-113-giv:act-2-coref
+22	case	case	NOUN	NN	Number=Sing	3	conj	3:conj:and	Entity=113)|SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_polygraph-55
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = You have already answered every question during your background investigation that they are going to ask you on the polygraph.
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Discourse=justify:114->113:1|Entity=(person-10-giv:inact-1-ana)
+2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
+3	already	already	ADV	RB	_	4	advmod	4:advmod	_
+4	answered	answer	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
+5	every	every	DET	DT	_	6	det	6:det	Entity=(abstract-71-giv:inact-6-coref
+6	question	question	NOUN	NN	Number=Sing	4	obj	4:obj	_
+7	during	during	ADP	IN	_	10	case	10:case	_
+8	your	your	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(abstract-114-new-3-sgl(person-10-giv:act-1-ana)
+9	background	background	NOUN	NN	Number=Sing	10	compound	10:compound	Entity=(abstract-80-giv:inact-1-coref)
+10	investigation	investigation	NOUN	NN	Number=Sing	4	obl	4:obl:during	Entity=114)
+11	that	that	PRON	WDT	_	16	obj	16:obj	Discourse=elaboration:115->114:0
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	14:nsubj|16:nsubj:xsubj	Entity=(person-70-giv:inact-1-ana)
+13	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	14:aux	_
+14	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	6	acl:relcl	6:acl:relcl	_
+15	to	to	PART	TO	_	16	mark	16:mark	_
+16	ask	ask	VERB	VB	VerbForm=Inf	14	xcomp	14:xcomp	_
+17	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	16	iobj	16:iobj	Entity=(person-10-giv:act-1-ana)
+18	on	on	ADP	IN	_	20	case	20:case	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(abstract-69-giv:act-2-coref
+20	polygraph	polygraph	NOUN	NN	Number=Sing	16	obl	16:obl:on	Entity=69)71)|SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_polygraph-56
+# s_type = multiple
+# speaker = GUM_reddit_polygraph_spk_A
+# text = Be honest and thorough during that portion of the process and you’ll be fine.
+1	Be	be	AUX	VB	VerbForm=Inf	2	cop	2:cop	Discourse=cause:116->113:2
+2	honest	honest	ADJ	JJ	Degree=Pos	0	root	0:root	_
+3	and	and	CCONJ	CC	_	4	cc	4:cc	_
+4	thorough	thorough	ADJ	JJ	Degree=Pos	2	conj	2:conj:and	_
+5	during	during	ADP	IN	_	7	case	7:case	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	7:det	Entity=(abstract-69-giv:act-2-coref
+7	portion	portion	NOUN	NN	Number=Sing	2	obl	2:obl:during	_
+8	of	of	ADP	IN	_	10	case	10:case	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(abstract-1-giv:inact-2-coref
+10	process	process	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	Entity=1)69)
+11	and	and	CCONJ	CC	_	15	cc	15:cc	Discourse=result:117->116:0
+12-13	you’ll	_	_	_	_	_	_	_	_
+12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	15:nsubj	Entity=(person-10-giv:act-1-ana)
+13	’ll	will	AUX	MD	VerbForm=Fin	15	aux	15:aux	_
+14	be	be	AUX	VB	VerbForm=Inf	15	cop	15:cop	_
+15	fine	fine	ADJ	JJ	Degree=Pos	2	conj	2:conj:and	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_polygraph-57
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = I hope this has illuminated the polygraph a bit.
+# newpar = p (9 s)
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution:118->119:0|Entity=(person-9-giv:inact-1-ana)
+2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Discourse=preparation:119->122:2|Entity=(abstract-115-acc:com-1-ana)
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
+5	illuminated	illuminate	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	2:ccomp	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(abstract-69-giv:act-2-coref
+7	polygraph	polygraph	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=69)
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	_
+9	bit	bit	NOUN	NN	Number=Sing	5	obl:npmod	5:obl:npmod	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = GUM_reddit_polygraph-58
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = It’s one of the more intimidating portions of the process, I understand this.
+1-2	It’s	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=concession:120->122:1|Entity=(abstract-116-new-3-disc(abstract-69-giv:act-1-ana)
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	Entity=(abstract-69-giv:act-1-coref
+4	of	of	ADP	IN	_	8	case	8:case	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Bridge=69<117|Entity=(abstract-117-acc:inf-4-sgl
+6	more	more	ADV	RBR	Degree=Cmp	7	advmod	7:advmod	_
+7	intimidating	intimidating	ADJ	JJ	Degree=Pos	8	amod	8:amod	_
+8	portions	portion	NOUN	NNS	Number=Plur	3	nmod	3:nmod:of	Entity=117)
+9	of	of	ADP	IN	_	11	case	11:case	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(abstract-1-giv:inact-2-coref
+11	process	process	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=1)69)116)|SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	14:punct	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	14:nsubj	Discourse=attribution:121->120:0|Entity=(person-9-giv:act-1-ana)
+14	understand	understand	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	3:parataxis	_
+15	this	this	PRON	DT	Number=Sing|PronType=Dem	14	obj	14:obj	Entity=(abstract-116-giv:act-1-coref)|SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_polygraph-59
+# s_type = sub
+# speaker = GUM_reddit_polygraph_spk_A
+# text = It should be the easiest part though.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	Discourse=joint_m:122->9:5|Entity=(abstract-69-giv:act-1-ana)
+2	should	should	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
+3	be	be	AUX	VB	VerbForm=Inf	6	cop	6:cop	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(abstract-69-giv:act-3-coref
+5	easiest	easy	ADJ	JJS	Degree=Sup	6	amod	6:amod	_
+6	part	part	NOUN	NN	Number=Sing	0	root	0:root	Entity=69)
+7	though	though	ADV	RB	Degree=Pos	6	advmod	6:advmod	SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = GUM_reddit_polygraph-60
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = You've already answered these questions, some of them several times.
+1-2	You've	_	_	_	_	_	_	_	_
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Discourse=justify:123->122:0|Entity=(person-10-giv:inact-1-ana)
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
+3	already	already	ADV	RB	_	4	advmod	4:advmod	_
+4	answered	answer	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
+5	these	this	DET	DT	Number=Plur|PronType=Dem	6	det	6:det	Entity=(abstract-71-giv:inact-2-coref
+6	questions	question	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=71)|SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	8:punct	_
+8	some	some	DET	DT	_	4	parataxis	4:parataxis	Entity=(abstract-118-new-1-sgl
+9	of	of	ADP	IN	_	10	case	10:case	_
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	nmod	8:nmod:of	Entity=(abstract-71-giv:act-1-ana)118)
+11	several	several	ADJ	JJ	Degree=Pos	12	amod	12:amod	Entity=(event-119-new-2-sgl
+12	times	time	NOUN	NNS	Number=Plur	8	nmod:tmod	8:nmod:tmod	Entity=119)|SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_polygraph-61
+# s_type = sub
+# speaker = GUM_reddit_polygraph_spk_A
+# text = This should just be about verifying what we already know.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	6:nsubj	Discourse=elaboration:124->123:0|Entity=(abstract-116-giv:inact-1-ana)
+2	should	should	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
+3	just	just	ADV	RB	_	6	advmod	6:advmod	_
+4	be	be	AUX	VB	VerbForm=Inf	6	cop	6:cop	_
+5	about	about	SCONJ	IN	_	6	mark	6:mark	_
+6	verifying	verify	VERB	VBG	VerbForm=Ger	0	root	0:root	_
+7	what	what	PRON	WP	PronType=Rel	6	obj	6:obj	_
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	10:nsubj	Entity=(person-120-acc:com-1-sgl)
+9	already	already	ADV	RB	_	10	advmod	10:advmod	_
+10	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	acl:relcl	7:acl:relcl	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = GUM_reddit_polygraph-62
+# s_type = other
+# speaker = GUM_reddit_polygraph_spk_A
+# text = Thank you for taking the time to read this, should you have any questions feel free to PM me.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=joint_m:125->122:3
+2	you	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	1	obj	1:obj	Entity=(person-10-giv:inact-1-ana)
+3	for	for	SCONJ	IN	_	4	mark	4:mark	_
+4	taking	take	VERB	VBG	VerbForm=Ger	1	advcl	1:advcl:for	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(time-121-acc:com-2-sgl
+6	time	time	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=121)
+7	to	to	PART	TO	_	8	mark	8:mark	Discourse=purpose:126->125:0
+8	read	read	VERB	VB	VerbForm=Inf	6	acl	6:acl:to	_
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	8	obj	8:obj	Entity=(abstract-115-giv:inact-1-ana)|SpaceAfter=No
+10	,	,	PUNCT	,	_	16	punct	16:punct	_
+11	should	should	AUX	MD	VerbForm=Fin	13	aux	13:aux	Discourse=condition:127->128:0
+12	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	13:nsubj	Entity=(person-10-giv:act-1-ana)
+13	have	have	VERB	VB	VerbForm=Inf	16	advcl	16:advcl	_
+14	any	any	DET	DT	_	15	det	15:det	Entity=(abstract-122-new-2-sgl
+15	questions	question	NOUN	NNS	Number=Plur	13	obj	13:obj	Entity=122)
+16	feel	feel	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	parataxis	1:parataxis	Discourse=joint_m:128->122:3
+17	free	free	ADJ	JJ	Degree=Pos	16	xcomp	16:xcomp	_
+18	to	to	PART	TO	_	19	mark	19:mark	_
+19	PM	PM	VERB	VB	VerbForm=Inf	17	xcomp	17:xcomp	_
+20	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	obj	19:obj	Entity=(person-9-giv:inact-1-ana)|SpaceAfter=No
+21	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = GUM_reddit_polygraph-63
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = I’m also taking requests for the next edition in this series.
+1-2	I’m	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint_m:129->122:3|Entity=(person-9-giv:act-1-ana)
+2	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
+3	also	also	ADV	RB	_	4	advmod	4:advmod	_
+4	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
+5	requests	request	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=(abstract-123-new-1-sgl
+6	for	for	ADP	IN	_	9	case	9:case	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(abstract-124-new-3-sgl
+8	next	next	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
+9	edition	edition	NOUN	NN	Number=Sing	5	nmod	5:nmod:for	_
+10	in	in	ADP	IN	_	12	case	12:case	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	12:det	Bridge=2<125|Entity=(abstract-125-acc:inf-2-sgl
+12	series	series	NOUN	NN	Number=Sing	9	nmod	9:nmod:in	Entity=125)124)123)|SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = GUM_reddit_polygraph-64
+# s_type = multiple
+# speaker = GUM_reddit_polygraph_spk_A
+# text = I was leaning towards interviews, but that may require some separation as there are several formats you’ll see in this kind of a process.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Discourse=background:130->129:0|Entity=(person-9-giv:act-1-ana)
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	3:aux	_
+3	leaning	lean	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_
+4	towards	towards	ADP	IN	_	5	case	5:case	_
+5	interviews	interview	NOUN	NNS	Number=Plur	3	obl	3:obl:towards	Entity=(event-126-new-1-coref)|SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	10:punct	_
+7	but	but	CCONJ	CC	_	10	cc	10:cc	Discourse=concession:131->130:0
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	10:nsubj	Entity=(event-126-giv:act-1-ana)
+9	may	may	AUX	MD	VerbForm=Fin	10	aux	10:aux	_
+10	require	require	VERB	VB	VerbForm=Inf	3	conj	3:conj:but	_
+11	some	some	DET	DT	_	12	det	12:det	Entity=(abstract-127-new-2-sgl
+12	separation	separation	NOUN	NN	Number=Sing	10	obj	10:obj	Entity=127)
+13	as	as	SCONJ	IN	_	15	mark	15:mark	Discourse=cause:132->131:0
+14	there	there	PRON	EX	_	15	expl	15:expl	_
+15	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	10:advcl:as	_
+16	several	several	ADJ	JJ	Degree=Pos	17	amod	17:amod	Entity=(abstract-128-new-2-sgl
+17	formats	format	NOUN	NNS	Number=Plur	15	nsubj	15:nsubj	Entity=128)
+18-19	you’ll	_	_	_	_	_	_	_	_
+18	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	20:nsubj	Discourse=elaboration:133->132:0|Entity=(person-10-giv:inact-1-ana)
+19	’ll	will	AUX	MD	VerbForm=Fin	20	aux	20:aux	_
+20	see	see	VERB	VB	VerbForm=Inf	17	acl:relcl	17:acl:relcl	_
+21	in	in	ADP	IN	_	23	case	23:case	_
+22	this	this	DET	DT	Number=Sing|PronType=Dem	23	det	23:det	Entity=(abstract-1-giv:inact-2-coref
+23	kind	kind	NOUN	NN	Number=Sing	20	obl	20:obl:in	_
+24	of	of	ADP	IN	_	26	case	26:case	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	26:det	_
+26	process	process	NOUN	NN	Number=Sing	23	nmod	23:nmod:of	Entity=1)|SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = GUM_reddit_polygraph-65
+# s_type = decl
+# speaker = GUM_reddit_polygraph_spk_A
+# text = I've also seen questions about the psychological evals before too.
+1-2	I've	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint_m:134->130:1|Entity=(person-9-giv:act-1-ana)
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
+3	also	also	ADV	RB	_	4	advmod	4:advmod	_
+4	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	_
+5	questions	question	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=(abstract-129-new-1-sgl
+6	about	about	ADP	IN	_	9	case	9:case	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(event-130-new-3-sgl
+8	psychological	psychological	ADJ	JJ	Degree=Pos	9	amod	9:amod	_
+9	evals	eval	NOUN	NNS	Number=Plur	5	nmod	5:nmod:about	Entity=130)129)
+10	before	before	ADV	RB	Degree=Pos	4	advmod	4:advmod	_
+11	too	too	ADV	RB	Degree=Pos	4	advmod	4:advmod	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	4:punct	_
+
