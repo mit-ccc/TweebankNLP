@@ -1,5 +1,5 @@
 # TweebankNLP
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 This repo contains the new `Tweebank-NER` [dataset](./Tweebank-NER-v1.0) and `Twitter-Stanza` pipeline for state-of-the-art Tweet NLP. `Tweebank-NER V1.0` is the annotated NER dataset based on Tweebank V2, the main UD treebank for English Twitter NLP tasks. The `Twitter-Stanza` pipeline provides pre-trained Tweet NLP models (NER, tokenization, lemmatization, POS tagging, dependency parsing) with state-of-the-art or competitive performance. The models are fully compatible with Stanza and provide both Python and command-line interfaces for users.  
 
