@@ -1,5 +1,5 @@
 # TweebankNLP
-[![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repo contains the new `Tweebank-NER` dataset and `Twitter-Stanza` pipeline for Tweet NLP.
 
@@ -14,6 +14,29 @@ pip install -e .
 
 # download glove and pre-trained models
 sh download_twitter_resources.sh
+```
+
+## Python Interface
+
+```python
+import stanza
+
+# config for the `en_tweet` pipeline (trained only on Tweebank)
+config = {
+          'processors': 'tokenize,lemma,pos,depparse,ner',
+          'lang': 'en',
+          'tokenize_pretokenized': True, # disable tokenization
+          'tokenize_model_path': './saved_models/tokenize/en_tweet_tokenizer.pt',
+          'lemma_model_path': './saved_models/lemma/en_tweet_lemmatizer.pt',
+          "pos_model_path": './saved_models/pos/en_tweet_tagger.pt',
+          "depparse_model_path": './saved_models/depparse/en_tweet_parser.pt',
+          "ner_model_path": './saved_models/ner/en_tweet_nertagger.pt'
+}
+
+# Initialize the pipeline using a configuration dict
+nlp = stanza.Pipeline(**config)
+doc = nlp("Oh ikr like Messi better than Ronaldo but we all like Ronaldo more")
+print(doc) # Look at the result
 ```
 
 ## Running Twitter-Stanza
@@ -99,3 +122,7 @@ If you use this repository in your research, please kindly cite our paper as wel
 ## Acknowledgement
 
 The Twitter-Stanza pipeline is a friendly fork from the [Stanza](https://github.com/stanfordnlp/stanza) libaray with a few modifications to adapt to tweets. The repository is fully compatible with Stanza. This research project is funded by MIT Center for Constructive Communication (CCC).
+
+## LICENSE
+
+Stanza is released under the Apache License, Version 2.0. See the [LICENSE](./LICENSE) file for more details.
