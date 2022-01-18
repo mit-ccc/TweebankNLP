@@ -16,7 +16,7 @@ pip install -e .
 sh download_twitter_resources.sh
 ```
 
-## Python Interface
+## Python Interface for Twitter-Stanza
 
 ```python
 import stanza
@@ -39,7 +39,7 @@ doc = nlp("Oh ikr like Messi better than Ronaldo but we all like Ronaldo more")
 print(doc) # Look at the result
 ```
 
-## Running Twitter-Stanza
+## Running Twitter-Stanza (Command Line Interface)
 
 ### NER
 
