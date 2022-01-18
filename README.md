@@ -120,7 +120,3 @@ If you use this repository in your research, please kindly cite our paper as wel
 ## Acknowledgement
 
 The Twitter-Stanza pipeline is a friendly fork from the [Stanza](https://github.com/stanfordnlp/stanza) libaray with a few modifications to adapt to tweets. The repository is fully compatible with Stanza. This research project is funded by MIT Center for Constructive Communication (CCC).
-
-## LICENSE
-
-Stanza is released under the Apache License, Version 2.0. See the [LICENSE](./LICENSE) file for more details.
