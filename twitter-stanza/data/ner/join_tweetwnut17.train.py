@@ -16,5 +16,5 @@ combined_train.extend(tweet)
 
 print(len(combined_train))
 
-with open("en_tweenut17.train.json", "w") as file:
+with open("en_tweetwnut17.train.json", "w") as file:
     json.dump(combined_train,file,indent=4)
