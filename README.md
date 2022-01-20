@@ -48,6 +48,16 @@ We provide two pre-trained Stanza NER models:
 - `en_tweetwnut17`: trained on `TB2+WNUT17`
 - `en_tweet`: trained on `TB2`
 
+NER performance comparison among spaCy, FLAIR, and Twitter-Stanza:
+| Models 	| Training data 	|  NER  	|
+|:------:	|:-------------:	|:-----:	|
+|**spaCy**|      TB2      	| 52.20 	|
+|        	|   TB2+WNUT17  	| 53.89 	|
+|**FLAIR**|      TB2      	| 62.12 	|
+|        	|   TB2+WNUT17  	| 59.08 	|
+|**Stanza**|      TB2      	| 60.14 	|
+|        	|   TB2+WNUT17  	|**62.53**| 	|
+
 ```
 source twitter-stanza/scripts/config.sh
 cd twitter-stanza
@@ -68,6 +78,16 @@ python stanza/utils/training/run_ner.py ${shorthand} \
 We provide two pre-trained models for each NLP task, please specify the following shorthand:
 - `en_tweetewt`: the model trained on `TB2+UD-English-EWT`
 - `en_tweet`: the model trained on `TB2`
+
+Syntactic NLP performance comparison among spaCy, FLAIR, and Twitter-Stanza:
+| Models 	| Training data 	| Tokens 	| Lemmas 	|  UPOS 	|  UAS  	|  LAS  	|
+|:------:	|:-------------:	|:------:	|:------:	|:-----:	|:-----:	|:-----:	|
+|**spaCy**|      TB2      	|  98.57 	|   ---  	| 86.72 	| 66.93 	| 58.79 	|
+|        	|    TB2+EWT    	|  95.57 	|   ---  	| 88.84 	| 72.06 	| 63.84 	|
+|**FLAIR**|      TB2      	|   ---  	|  96.18 	| 87.85 	|  ---  	|  ---  	|
+|        	|    TB2+EWT    	|   ---  	|  84.54 	| 88.19 	|  ---  	|  ---  	|
+|**Stanza**|      TB2      	|**98.64**|**98.25**| 93.20 	| 79.28 	| 74.34 	|
+|        	|    TB2+EWT    	|  98.59 	|  85.45 	|**93.53**|**82.10**|**77.60**|
 
 #### 1. Tokenization
 ```
