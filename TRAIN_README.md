@@ -41,6 +41,7 @@ python -m stanza.utils.datasets.prepare_lemma_treebank ${shorthand}
 python stanza/utils/training/run_lemma.py ${shorthand} 
 ```
 #### 3. POS Tagging
+Note that for POS and depparse, if there are a pretrained word2vec files in the target folders, Stanza will prioritize using them even if you give the --wordvec_file argument. To avoid accidentally using a wrong word2vec, remember to add --no_pretrain.
 ```
 ## assign the shorthand name
 shorthand=en_tweetewt
