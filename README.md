@@ -18,6 +18,7 @@ sh download_twitter_resources.sh
 ```
 
 ## Python Interface for Twitter-Stanza
+Note that Stanza allows both BIO- and BIOES-schemed annotations for training/dev/test data, but for decoding the predictions, only BIOES is used. In the evaluation process, tags are merged and thus schemes do not affect the performance scores.
 
 ```python
 import stanza
@@ -32,7 +33,6 @@ config = {
           "pos_model_path": './twitter-stanza/saved_models/pos/en_tweet_tagger.pt',
           "depparse_model_path": './twitter-stanza/saved_models/depparse/en_tweet_parser.pt',
           "ner_model_path": './twitter-stanza/saved_models/ner/en_tweet_nertagger.pt',
-          "scheme": "bio"
 }
 
 # Initialize the pipeline using a configuration dict
@@ -51,7 +51,7 @@ We provide two pre-trained Stanza NER models:
 - `en_tweet`: trained on `TB2`
 
 NER performance comparison among spaCy, FLAIR, and Twitter-Stanza:
-| Models 	| Training data 	|  NER  	|
+| Models 	| Training data 	|  NER  (F-micro)	|
 |:------:	|:-------------:	|:-----:	|
 |**spaCy**|      TB2      	| 52.20 	|
 |        	|   TB2+WNUT17  	| 53.89 	|
