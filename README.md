@@ -142,7 +142,7 @@ Please refer to the [TRAIN_README.md](./TRAIN_README.md) for training the Twitte
 
 ## References
 
-If you use this repository in your research, please kindly cite our paper as well as the [Stanza papers](https://github.com/stanfordnlp/stanza). 
+If you use this repository in your research, please kindly cite [our paper](https://arxiv.org/pdf/2201.07281.pdf) as well as the [Stanza papers](https://github.com/stanfordnlp/stanza). 
 
 ```bibtex
 @article{jiang2022tweebank,
