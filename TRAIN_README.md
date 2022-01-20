@@ -50,6 +50,7 @@ python -m stanza.utils.datasets.prepare_pos_treebank ${shorthand}
 
 ## Train
 python stanza/utils/training/run_pos.py ${shorthand} --wordvec_file ../data/wordvec/English/en.twitter100d.xz --no_pretrain
+## We didn't use a pretrained wordvec file in our training process. To specify one, use --wordvec_pretrain_file.
 ```
 
 #### 4. Dependency Parser
@@ -59,11 +60,12 @@ python stanza/utils/training/run_pos.py ${shorthand} --wordvec_file ../data/word
 shorthand=en_tweet
 
 ## Data Preparation
-## --gold would give you gold data. But according to conventions we did not use gold data for our depparse model
-python -m stanza.utils.datasets.prepare_depparse_treebank ${shorthand} 
+## --gold would give you gold data. But according to conventions we did not use gold data for our depparse model.
+python -m stanza.utils.training.prepare_depparse_treebank ${shorthand} 
 
 ## Train
-python stanza/utils/training/run_depparse.py ${shorthand} --wordvec_file ../data/wordvec/English/en.twitter100d.xz --no_pretrain
+python stanza/utils/training/run_depparse.py ${shorthand} --wordvec_file ../data/wordvec/English/en.twitter100d.xz --no_pretrain 
+## We didn't use pretrained word2vec file in our parser training, but the pretrain.pt generated in training the pos_tagger can be re-used here.
 ```
 
 ## Summary 
