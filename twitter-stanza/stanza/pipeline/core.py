@@ -104,6 +104,7 @@ class Pipeline:
             and MWT not in processors):
             add_mwt(processors, resources, lang)
         self.load_list = maintain_processor_list(resources, lang, package, processors) if lang in resources else []
+        print(self.load_list)
         self.load_list = add_dependencies(resources, lang, self.load_list) if lang in resources else []
         self.load_list = self.update_kwargs(kwargs, self.load_list)
         if len(self.load_list) == 0:

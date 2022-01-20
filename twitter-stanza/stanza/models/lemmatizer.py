@@ -110,7 +110,7 @@ def train(args):
     dev_doc = CoNLL.conll2doc(input_file=args['eval_file'])
     dev_batch = DataLoader(dev_doc, args['batch_size'], args, vocab=vocab, evaluation=True)
 
-    model_file = os.path.join(args["save_dir"], "tweet_ewt_lemmatizer.pt")
+    model_file = os.path.join(args["save_dir"],"{}_lemmatizer.pt".format(args["lang"]))
 
 
     # pred and gold path
@@ -209,7 +209,7 @@ def evaluate(args):
     # file paths
     system_pred_file = args['output_file']
     gold_file = args['gold_file']
-    model_file = os.path.join(args["save_dir"], "en_tweet_lemmatizer.pt")
+    model_file = os.path.join(args["save_dir"],"{}_lemmatizer.pt".format(args["lang"]))
     # model_file = "../../stanza_resources/en/lemma/combined.pt"
     # load model
     use_cuda = args['cuda'] and not args['cpu']

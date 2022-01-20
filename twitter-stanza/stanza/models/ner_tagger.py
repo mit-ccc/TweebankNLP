@@ -285,7 +285,8 @@ def evaluate(args):
 
 def write_preds(preds):
     preds = "\n".join(["\t".join(s) for s in preds])
-    with open("ner_predicts", "w") as file:
+    os.makedev("../error_analysis/", exist_ok=True)
+    with open("../error_analysis/ner_predicts", "w") as file:
         file.write(preds)
 
 
