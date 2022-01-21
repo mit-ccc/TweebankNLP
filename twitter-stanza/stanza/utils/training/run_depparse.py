@@ -83,9 +83,6 @@ def run_treebank(mode, paths, treebank, short_name,
         parser.main(test_args)
 
         results = common.run_eval_script_depparse(test_gold_file, test_pred_file)
-        metrics = " ".join(["UAS", "LAS", "CLAS", "MLAS", "BLEX"])
-        logger.info("Finished running test set on\n{}\n{}\n{}".format(treebank,metrics, results))
-
 
 def main():
     common.main(run_treebank, "depparse", "parser")
