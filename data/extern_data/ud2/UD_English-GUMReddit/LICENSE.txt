@@ -1,6 +1,0 @@
-Annotations are licensed under the Creative Commons License Attribution 4.0 International.
-
-The complete license text is available at:
-http://creativecommons.org/licenses/by/4.0/legalcode
-
-For the underlying texts from Reddit, see the documentation on the main GUM website https://corpling.uis.georgetown.edu/gum/
