@@ -158,4 +158,4 @@ Please refer to the [TRAIN_README.md](./TRAIN_README.md) for training the Twitte
 
 ## Acknowledgement
 
-The Twitter-Stanza pipeline is a friendly fork from the [Stanza](https://github.com/stanfordnlp/stanza) libaray with a few modifications to adapt to tweets. The repository is fully compatible with Stanza. This research project is funded by MIT Center for Constructive Communication (CCC).
+The Twitter-Stanza pipeline is a friendly fork from the [Stanza](https://github.com/stanfordnlp/stanza) libaray with a few modifications to adapt to tweets. The repository is fully compatible with Stanza. This research project is funded by MIT Center for Constructive Communication (CCC). This repository is mainly contributed by [Yining Hua](https://ningkko.wordpress.com/about-me/) (@ningkko) and [Hang Jiang](https://www.mit.edu/~hjian42/) (@hjian42). 
