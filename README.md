@@ -1,5 +1,6 @@
 # TweebankNLP
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![arXiv](https://img.shields.io/badge/arXiv-2201.07281-b31b1b.svg)](https://arxiv.org/abs/2201.07281)
 
 This repo contains the new `Tweebank-NER` [dataset](./Tweebank-NER-v1.0) and off-the-shelf `Twitter-Stanza` pipeline for state-of-the-art Tweet NLP, as described in **[Annotating the Tweebank Corpus on Named Entity Recognition and Building NLP Models for Social Media Analysis](https://arxiv.org/abs/2201.07281)**:
 
