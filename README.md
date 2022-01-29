@@ -87,6 +87,12 @@ NER performance comparison among spaCy, FLAIR, and Twitter-Stanza:
 source twitter-stanza/scripts/config.sh
 cd twitter-stanza
 
+# prepare ner data
+cd ./data/ner
+python prepare_ner_data.py
+cd ../..
+
+# run the NER model
 shorthand=en_tweetwnut17
 python stanza/utils/training/run_ner.py ${shorthand} \
 --mode predict \
@@ -116,7 +122,8 @@ Syntactic NLP performance comparison among spaCy, FLAIR, and Twitter-Stanza:
 
 #### 1. Tokenization
 ```
-shorthand=en_tweet 
+shorthand=en_tweet
+python -m stanza.utils.datasets.prepare_tokenizer_treebank ${shorthand}
 python stanza/utils/training/run_tokenizer.py ${shorthand} \
 --mode predict \
 --score_test \
@@ -128,6 +135,7 @@ python stanza/utils/training/run_tokenizer.py ${shorthand} \
 #### 2. Lemmatization
 ```
 shorthand=en_tweet
+python -m stanza.utils.datasets.prepare_lemma_treebank ${shorthand} 
 python stanza/utils/training/run_lemma.py ${shorthand} \
 --mode predict \
 --score_test \
@@ -138,6 +146,7 @@ python stanza/utils/training/run_lemma.py ${shorthand} \
 #### 3. POS Tagging
 ```
 shorthand=en_tweetewt
+python -m stanza.utils.datasets.prepare_pos_treebank ${shorthand} 
 python stanza/utils/training/run_pos.py ${shorthand} \
 --mode predict \
 --score_test \
@@ -151,6 +160,7 @@ python stanza/utils/training/run_pos.py ${shorthand} \
 
 ``` 
 shorthand=en_tweetewt
+python -m stanza.utils.datasets.prepare_depparse_treebank ${shorthand} 
 python stanza/utils/training/run_depparse.py ${shorthand} \
 --mode predict \
 --score_test \
