@@ -91,8 +91,8 @@ shorthand=en_tweetwnut17
 python stanza/utils/training/run_ner.py ${shorthand} \
 --mode predict \
 --score_test \
---wordvec_file ../data/wordvec/English/en.twitter100d.xz \
---eval_file data/ner/en_tweet.test.json \
+--wordvec_file ./data/wordvec/English/en.twitter100d.xz \
+--eval_file ./data/ner/en_tweet.test.json \
 --save_dir ./saved_models/ner \
 --save_name ${shorthand}_nertagger.pt \
 --scheme bio
