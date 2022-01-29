@@ -1070,7 +1070,7 @@ def process_treebank(treebank, paths, args):
         convert_th_best.main(paths["EXTERN_DIR"], tokenizer_dir)
     elif short_name.startswith("ko_combined"):
         build_combined_korean(udbase_dir, tokenizer_dir, short_name)
-    elif short_name.startswith("tweet_ewt"):
+    elif short_name.startswith("en_tweetewt"):
         build_combined_tweet(udbase_dir, tokenizer_dir, short_name)
     elif short_name in ("it_combined", "en_combined", "es_combined"):
         build_combined_dataset(udbase_dir, tokenizer_dir, handparsed_dir, short_name, args.augment)

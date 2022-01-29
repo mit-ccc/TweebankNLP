@@ -9,7 +9,7 @@ You can specify two data setttings:
 ```
 shorthand=en_tweetwnut17
 python stanza/utils/training/run_ner.py ${shorthand} \
---wordvec_file ../data/wordvec/English/en.twitter100d.xz \
+--wordvec_file ./data/wordvec/English/en.twitter100d.xz \
 --eval_file data/ner/en_tweet.dev.json
 ```
 
@@ -24,7 +24,7 @@ You can specify two data settings:
 shorthand=en_tweet
 
 ## Data Preparation
-python -m stanza.utils.datasets.prepare_tokenizer_treebank ${shorthand} --no_use_mwt
+python -m stanza.utils.datasets.prepare_tokenizer_treebank ${shorthand}
 
 ## Train
 python stanza/utils/training/run_tokenizer.py ${shorthand} --no_use_mwt
@@ -58,11 +58,11 @@ python stanza/utils/training/run_pos.py ${shorthand} --wordvec_file ../data/word
 
 ```
 ## assign the shorthand name
-shorthand=en_tweet
+shorthand=en_tweetewt
 
 ## Data Preparation
 ## --gold would give you gold data. But according to conventions we did not use gold data for our depparse model.
-python -m stanza.utils.training.prepare_depparse_treebank ${shorthand} 
+python -m stanza.utils.datasets.prepare_depparse_treebank ${shorthand} 
 
 ## Train
 python stanza/utils/training/run_depparse.py ${shorthand} --wordvec_file ../data/wordvec/English/en.twitter100d.xz --no_pretrain 
