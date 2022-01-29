@@ -120,8 +120,8 @@ shorthand=en_tweet
 python stanza/utils/training/run_tokenizer.py ${shorthand} \
 --mode predict \
 --score_test \
---txt_file data/tokenize/en_tweet.test.txt \
---label_file  data/tokenize/en_tweet-ud-test.toklabels \
+--txt_file ./data/tokenize/en_tweet.test.txt \
+--label_file  ./data/tokenize/en_tweet-ud-test.toklabels \
 --no_use_mwt 
 ```
 
@@ -131,8 +131,8 @@ shorthand=en_tweet
 python stanza/utils/training/run_lemma.py ${shorthand} \
 --mode predict \
 --score_test \
---gold_file data/lemma/en_tweet.test.gold.conllu \
---eval_file data/lemma/en_tweet.test.in.conllu 
+--gold_file ./data/lemma/en_tweet.test.gold.conllu \
+--eval_file ./data/lemma/en_tweet.test.in.conllu 
 ```
 
 #### 3. POS Tagging
@@ -141,9 +141,9 @@ shorthand=en_tweetewt
 python stanza/utils/training/run_pos.py ${shorthand} \
 --mode predict \
 --score_test \
---eval_file data/pos/en_tweet.test.in.conllu \
---gold_file data/pos/en_tweet.test.gold.conllu \
---wordvec_file ../data/wordvec/English/en.twitter100d.xz \
+--eval_file ./data/pos/en_tweet.test.in.conllu \
+--gold_file ./data/pos/en_tweet.test.gold.conllu \
+--wordvec_file ./data/wordvec/English/en.twitter100d.xz \
 --load_name ./saved_models/pos/${shorthand}_tagger.pt
 ```
 
@@ -154,9 +154,9 @@ shorthand=en_tweetewt
 python stanza/utils/training/run_depparse.py ${shorthand} \
 --mode predict \
 --score_test \
---wordvec_file ../data/wordvec/English/en.twitter100d.xz \
---eval_file data/depparse/en_tweet.test.in.conllu \
---gold_file data/depparse/en_tweet.test.gold.conllu 
+--wordvec_file ./data/wordvec/English/en.twitter100d.xz \
+--eval_file ./data/depparse/en_tweet.test.in.conllu \
+--gold_file ./data/depparse/en_tweet.test.gold.conllu 
 ```
 
 ## Training Twitter-Stanza
