@@ -1,64 +1,6 @@
 [
  [
   {
-   "text": "@USER1812",
-   "ner": "O"
-  },
-  {
-   "text": "No",
-   "ner": "O"
-  },
-  {
-   "text": ",",
-   "ner": "O"
-  },
-  {
-   "text": "I",
-   "ner": "O"
-  },
-  {
-   "text": "'m",
-   "ner": "O"
-  },
-  {
-   "text": "not",
-   "ner": "O"
-  },
-  {
-   "text": ".",
-   "ner": "O"
-  },
-  {
-   "text": "It",
-   "ner": "O"
-  },
-  {
-   "text": "'s",
-   "ner": "O"
-  },
-  {
-   "text": "definitely",
-   "ner": "O"
-  },
-  {
-   "text": "not",
-   "ner": "O"
-  },
-  {
-   "text": "a",
-   "ner": "O"
-  },
-  {
-   "text": "rapper",
-   "ner": "O"
-  },
-  {
-   "text": ".",
-   "ner": "O"
-  }
- ],
- [
-  {
    "text": "new",
    "ner": "O"
   },
