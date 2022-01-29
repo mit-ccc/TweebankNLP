@@ -7,6 +7,12 @@ You can specify two data setttings:
 - `en_tweet`: trained on `TB2`
 
 ```
+# prepare NER data
+cd ./twitter-stanza/data/ner
+python prepare_ner_data.py
+cd ../..
+
+# train the NER model
 shorthand=en_tweetwnut17
 python stanza/utils/training/run_ner.py ${shorthand} \
 --wordvec_file ./data/wordvec/English/en.twitter100d.xz \
