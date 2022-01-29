@@ -5,7 +5,7 @@
 # Set UDBASE to the location of UD data folder
 # The data should be CoNLL-U format
 # For details, see http://universaldependencies.org/conll18/data.html (CoNLL-18 UD data)
-export UDBASE=../data/udbase
+export UDBASE=./data/UD
 
 # Set NERBASE to the location of NER data folder
 # The data should be BIO format
@@ -24,4 +24,4 @@ export NER_DATA_DIR=$DATA_ROOT/ner
 export CHARLM_DATA_DIR=$DATA_ROOT/charlm
 
 # Set directories to store external word vector data
-export WORDVEC_DIR=../data/wordvec
+export WORDVEC_DIR=./data/wordvec
