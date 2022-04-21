@@ -15,7 +15,7 @@ If you use this repository in your research, please kindly cite [our paper](http
 @article{jiang2022tweetnlp,
     title={Annotating the Tweebank Corpus on Named Entity Recognition and Building NLP Models for Social Media Analysis},
     author={Jiang, Hang and Hua, Yining and Beeferman, Doug and Roy, Deb},
-    journal={arXiv preprint arXiv:2201.07281},
+    journal={In Proceedings of the 13th Language Resources and Evaluation Conference (LREC)},
     year={2022}
 }
 
