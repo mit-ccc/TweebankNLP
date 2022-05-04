@@ -4,8 +4,9 @@
 
 This repo contains the new `Tweebank-NER` [dataset](./Tweebank-NER-v1.0) and off-the-shelf `Twitter-Stanza` pipeline for state-of-the-art Tweet NLP, as described in **[Annotating the Tweebank Corpus on Named Entity Recognition and Building NLP Models for Social Media Analysis](https://arxiv.org/abs/2201.07281)**:
 
-- `Tweebank-NER V1.0` is the annotated NER dataset based on Tweebank V2, the main UD treebank for English Twitter NLP tasks
-- the `Twitter-Stanza` pipeline provides pre-trained Tweet NLP models (NER, tokenization, lemmatization, POS tagging, dependency parsing) with state-of-the-art or competitive performance. The models are fully compatible with Stanza and provide both Python and command-line interfaces for users.  
+- **new benchmark**: `Tweebank-NER V1.0` is the annotated NER dataset based on Tweebank V2, the main UD treebank for English Twitter NLP tasks
+- **pre-trained non-transformer models**: `Twitter-Stanza` provides pre-trained Tweet NLP models with state-of-the-art on tokenization and lemmatization and competitive performance on NER, POS tagging, dependency parsing. The models are fully compatible with Stanza and provide both Python and command-line interfaces for users.  
+- **pre-trained transformer models**:the state-of-the-art Twitter NER and POS tagging models are available on Hugging Face Hub: https://huggingface.co/TweebankNLP
 
 ## References
 
