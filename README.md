@@ -13,11 +13,17 @@ This repo contains the new `Tweebank-NER` [dataset](./Tweebank-NER-v1.0) and off
 If you use this repository in your research, please kindly cite [our paper](https://arxiv.org/pdf/2201.07281.pdf) as well as the [Stanza paper](https://github.com/stanfordnlp/stanza). 
 
 ```bibtex
-@article{jiang2022tweetnlp,
-    title={Annotating the Tweebank Corpus on Named Entity Recognition and Building NLP Models for Social Media Analysis},
-    author={Jiang, Hang and Hua, Yining and Beeferman, Doug and Roy, Deb},
-    journal={In Proceedings of the 13th Language Resources and Evaluation Conference (LREC)},
-    year={2022}
+@InProceedings{jiang-EtAl:2022:LREC2,
+  author    = {Jiang, Hang  and  Hua, Yining  and  Beeferman, Doug  and  Roy, Deb},
+  title     = {Annotating the Tweebank Corpus on Named Entity Recognition and Building NLP Models for Social Media Analysis},
+  booktitle      = {Proceedings of the Language Resources and Evaluation Conference},
+  month          = {June},
+  year           = {2022},
+  address        = {Marseille, France},
+  publisher      = {European Language Resources Association},
+  pages     = {7199--7208},
+  abstract  = {Social media data such as Twitter messages ("tweets") pose a particular challenge to NLP systems because of their short, noisy, and colloquial nature. Tasks such as Named Entity Recognition (NER) and syntactic parsing require highly domain-matched training data for good performance. To date, there is no complete training corpus for both NER and syntactic analysis (e.g., part of speech tagging, dependency parsing) of tweets. While there are some publicly available annotated NLP datasets of tweets, they are only designed for individual tasks. In this study, we aim to create Tweebank-NER, an English NER corpus based on Tweebank V2 (TB2), train state-of-the-art (SOTA) Tweet NLP models on TB2, and release an NLP pipeline called Twitter-Stanza. We annotate named entities in TB2 using Amazon Mechanical Turk and measure the quality of our annotations. We train the Stanza pipeline on TB2 and compare with alternative NLP frameworks (e.g., FLAIR, spaCy) and transformer-based models. The Stanza tokenizer and lemmatizer achieve SOTA performance on TB2, while the Stanza NER tagger, part-of-speech (POS) tagger, and dependency parser achieve competitive performance against non-transformer models. The transformer-based models establish a strong baseline in Tweebank-NER and achieve the new SOTA performance in POS tagging and dependency parsing on TB2. We release the dataset and make both the Stanza pipeline and BERTweet-based models available "off-the-shelf" for use in future Tweet NLP research. Our source code, data, and pre-trained models are available at: \url{https://github.com/social-machines/TweebankNLP}.},
+  url       = {https://aclanthology.org/2022.lrec-1.780}
 }
 
 @inproceedings{qi2020stanza,
